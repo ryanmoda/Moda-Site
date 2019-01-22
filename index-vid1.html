@@ -1,0 +1,61 @@
+<style>
+	.video-contain {
+position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+	}
+.video-contain > video {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+	height: calc(100vh);
+  z-index: 0;
+}
+	
+	.text {
+	background: rgba(0,0,0,0);
+	position: absolute;
+	top: -400px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 24px;
+	color: white !important;
+	z-index: 3 !important;
+	}
+	html,body {
+		overflow-x: hidden;
+/*		overflow-y: hidden; */
+	}
+	
+	.butt {
+		height: 40px;
+		width: 160px;
+		background-color: #747575;  
+		border: none;
+		color: white;
+		font-size: 14px;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+
+</style>	
+
+<div class="video-contain">
+
+	<video autoplay muted loop id="back-vid">
+  <source src="videos/index-vid.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video><div class="text">
+	<div class="row"><button  class="butt col-lg-6">NEWS</button>
+	<button class="butt col-lg-6">ALL PRODUCTS</button></div>
+	</div>
+</div>

@@ -1,0 +1,7 @@
+.flex-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.flex-container div {
+	padding: 0 7px;
+}

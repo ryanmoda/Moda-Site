@@ -1,0 +1,588 @@
+<link href="css/reps.css" rel="stylesheet" type="text/css">
+<link href="css/new-navbar.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<!--<link href="css/select.css" rel="stylesheet" type="text/css">-->
+<script>
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>
+<div style="padding-top: 100px;"></div>
+  <div id="form-ui">
+<div class="row midContent" style="border-bottom: 1px solid black;">
+<p>
+	<div class="col-lg-7">
+	<h1 id="local-header">ALL REPS</h1></div>
+	<div class="col-lg-2 col-sm-12">
+  <select class="js-cont">
+    <option value="">–Continent–</option>
+    <option value=".US">US</option>
+    <option value=".CAN">Canada</option>
+    <option value=".INT">International</option>
+  </select>
+	</div>
+	<div class="col-lg-3 col-sm-12">
+<select class="js-states" id="states" name="state">
+    <option value="">-State-</option>
+    <option value=".AL">Alabama</option>
+	<option value=".AK">Alaska</option>
+	<option value=".AZ">Arizona</option>
+	<option value=".AR">Arkansas</option>
+	<option value=".CA">California</option>
+	<option value=".CO">Colorado</option>
+	<option value=".CT">Connecticut</option>
+	<option value=".DE">Delaware</option>
+	<option value=".FL">Florida</option>
+	<option value=".GA">Georgia</option>
+	<option value=".HI">Hawaii</option>
+	<option value=".ID">Idaho</option>
+	<option value=".IL">Illinois</option>
+	<option value=".IN">Indiana</option>
+	<option value=".IA">Iowa</option>
+	<option value=".KS">Kansas</option>
+	<option value=".KY">Kentucky</option>
+	<option value=".LA">Louisiana</option>
+	<option value=".ME">Maine</option>
+	<option value=".MD">Maryland</option>
+	<option value=".MA">Massachusetts</option>
+	<option value=".MI">Michigan</option>
+	<option value=".MN">Minnesota</option>
+	<option value=".MS">Mississippi</option>
+	<option value=".MO">Missouri</option>
+	<option value=".MT">Montana</option>
+	<option value=".NE">Nebraska</option>
+	<option value=".NV">Nevada</option>
+	<option value=".NH">New Hampshire</option>
+	<option value=".NJ">New Jersey</option>
+	<option value=".NM">New Mexico</option>
+	<option value=".NY">New York</option>
+	<option value=".NC">North Carolina</option>
+	<option value=".ND">North Dakota</option>
+	<option value=".OH">Ohio</option>
+	<option value=".OK">Oklahoma</option>
+	<option value=".OR">Oregon</option>
+	<option value=".PA">Pennsylvania</option>
+	<option value=".RI">Rhode Island</option>
+	<option value=".SC">South Carolina</option>
+	<option value=".SD">South Dakota</option>
+	<option value=".TN">Tennessee</option>
+	<option value=".TX">Texas</option>
+	<option value=".UT">Utah</option>
+	<option value=".VT">Vermont</option>
+	<option value=".VA">Virginia</option>
+	<option value=".WA">Washington</option>
+	<option value=".WV">West Virginia</option>
+	<option value=".WI">Wisconsin</option>
+	<option value=".WY">Wyoming</option>
+  </select>
+<select class="js-provs" id="provs">
+    <option value="">-Province-</option>
+	<option value=".AB">Alberta</option>
+	<option value=".BC">British Columbia</option>
+	<option value=".MB">Manitoba</option>
+	<option value=".NB">New Brunswick</option>
+	<option value=".NL">Newfoundland</option>
+	<option value=".NS">Nova Scotia</option>
+	<option value=".ON">Ontario</option>
+	<option value=".QC">Quebec</option>
+	<option value=".SK">Saskatchewan</option>
+</select>
+<select class="js-test" id="test">
+    <option value="">-Select Location-</option>
+	<option value=".ARA">Arab Emirates</option>
+	<option value=".ASTR">Australia</option>
+	<option value=".CAR">Caribbean</option>
+	<option value=".CEN">Central America</option>
+	<option value=".CHI">China</option>
+	<option value=".ENG">England</option>
+	<option value=".GER">Germany</option>
+	<option value=".HON">Hong Kong</option>
+	<option value=".IND">India</option>
+	<option value=".INDO">Indonesia</option>
+	<option value=".MAC">Macau</option>
+	<option value=".MAL">Malaysia</option>
+	<option value=".MEX">Mexico</option>
+	<option value=".PHI">Philippines</option>
+	<option value=".QAT">Qatar</option>
+	<option value=".SCO">Scotland</option>
+	<option value=".SIN">Singapore</option>
+	<option value=".SOA">South America</option>
+	<option value=".SOK">South Korea</option>
+	<option value=".SRI">Sri Lanka</option>
+	<option value=".THA">Thailand</option>
+</select>
+	</div>
+		
+  </p>
+</div>
+<!--
+<p>
+  <label><input type="checkbox" value=".red" /> red</label>
+  <label><input type="checkbox" value=".green" /> green</label>
+  <label><input type="checkbox" value=".blue" /> blue</label>
+  <label><input type="checkbox" value=".orange" /> orange</label>
+</p>
+-->
+<button id="resetStates" onClick="mapFilter(this.id)">Reset US</button>
+<button id="resetProvs" onClick="mapFilter(this.id)">Reset CAN</button>
+<button id="resetTest" onClick="mapFilter(this.id)">Reset INT</button>
+
+
+<!--  <p id="output">--</p>-->
+  
+</div>
+
+
+
+<div id="container" class="midContent">
+<div class="item AL CT DE FL GA ME MA MS NH NJ NY PA RI VT NB NL NS ON US CAN">
+<p class="name">Michael Day</p><p>Regional Sales Manager</p><br><p>Cell: (702) 902 0989</p><p>Tel: (702) 407 7775</p><p>Fax: (702) 407 7773</p><p class="foot-link">michael@modalight.com</p>
+	</div>
+<div class="item AL US">
+<p class="name">AMA Lighting</p><p>Northern Division</p><br><p>402 Office Park Drive</p><p>Suite G50</p><p>Mountain Brook, AL 35223</p><br><p>Tel: (205) 278 8140</p><p>Fax: (205) 278 8199</p><p class="foot-link">www.amalighting.net</p>
+	</div>	
+<div class="item AL FL GA MS US">
+<p class="name">AMA Lighting</p><p>Southern Division</p><br><p>813 Downtowner Boulevard</p><p>Suite A</p><p>Mobile, AL 36609</p><br><p>Tel: (251) 343 7693</p><p>Fax: (251) 343 7748</p><p class="foot-link">www.amalighting.net</p>
+	</div>
+<div class="item AK AZ AR CA CO HI ID LA MT NV OK OR TX UT WY AB BC MB ARA ASTR CAR CEN CHI ENG GER HON IND INDO MAC MAL MEX PHI QAT SCO SIN SOA SOK SRI THA CAN CHI INT US">
+	<p class="name">Jacob Shirk</p><p>Regional Sales Manager</p><br><p>Cell: (702) 713 2154</p><p>Fax: (702) 407 7773</p><p class="foot-link">jacob@modalight.com</p>
+	</div>
+
+<div class="item AK US">
+	<p class="name">Alaska Pro-Sell</p><p>Anchorage</p><br><p>14800 Golden View Drive</p><p>Anchorage, AK 99516</p><br><p>Tel: (907) 677 7555</p><p>Fax: (907) 677 7509</p><p class="foot-link">www.alaskaprosell.com</p>
+	</div>	
+<div class="item AK US">
+<p class="name">Seatac Lighting</p><p>Seattle</p><br><p>4439 S. 134th Place Bld. E,</p><p>Tukwila, WA 98168</p><br><p>Tel: (206) 575 6865</p><p>Fax: (206) 575 8013</p><p class="foot-link">www.alaskaprosell.com</p>
+	</div>
+<div class="item AZ US">
+<p class="name">RC Lurie CO. INC.</p><p>Phoenix</p><br><p>1122 N. 7th St.</p><p>Phoenix, AZ 85006</p><br><p>Tel: (602) 258 2400</p><p>Fax: (602) 252 5018</p><p class="foot-link">www.rclurie.com</p>	
+	</div>
+<div class="item AZ US">
+<p class="name">RC Lurie CO. INC.</p><p>Tucson</p><br><p>1024 South Plumber</p><p>Tucson, AZ 85719</p><br><p>Tel: (520) 647 2700</p><p>Fax: (520) 623 0702</p><p class="foot-link">www.rclurie.com</p>	
+	</div>
+<div class="item AR US">
+<p class="name">Malmstrom White</p><p>Little Rock</p><br><p>11617 Kanis Road</p><p>Little Rock, AR 72211</p><br><p>Tel: (501) 224 2775</p><p>Fax: (501) 224 4000</p><p class="foot-link">www.malstromwhite.com</p>
+	</div>
+<div class="item AR US">
+	<p class="name">Malmstrom White</p><p>Fayetteville</p><br><p>2804 Main Drive, Suite B</p><p>Fayetteville, AR 72704</p><br><p>Tel: (479) 301 2158</p><p>Fax: (501) 224 4000</p><p class="foot-link">www.malstromwhite.com</p>
+	</div>
+<div class="item CA US">
+<p class="name">Performance Lighting</p><p>Irvine</p><br><p>5 Jenner, Suite 130</p><p>Irvine, CA 92618</p><br><p>Tel: (949) 878 9000</p><p>Fax: (949) 878 9001</p><p class="foot-link">www.performanceltg.com</p>
+	</div>
+<div class="item CA US">
+<p class="name">The Lighting Element</p><p>San Diego</p><br><p>16885 West Bernardo Dr., Suite 380</p><p>San Deigo, CA 92127</p><br><p>Tel: (858) 322 6000</p><p class="foot-link">www.thelightingelement.com</p>
+	</div>
+<div class="item CA US">
+<p class="name">CJS Lighting</p><p>Roseville</p><br><p>290 Derek Pl,</p><p>Roseville, CA 95678</p><br><p>Tel: (916) 774 6888</p><p class="foot-link">www.cjslighting.com</p>	
+	</div>
+<div class="item CA US">
+<p class="name">Mar Vista Sales Inc.</p><p>Ventura</p><br><p>1650 Palma Drive, Suite 108</p><p>Ventura, CA 93003</p><br><p>Tel: (805) 642 0953</p><p>Fax: (805) 642 0953</p><p class="foot-link">www.marvistasales.com</p>
+	</div>
+<div class="item CA US">
+<p class="name">Archetype Lighting Sales</p><p>San Francisco</p><br><p>375 Potrero Avenue, Suite 4</p><p>San Francisco, CA 94103</p><br><p>Tel: (415) 355 9030</p><p>Fax: (415) 355 9029</p><p class="foot-link">www.archetypelighting.com</p>
+	</div>
+<div class="item CO US" >
+<p class="name">The Lighting Agency</p><p>Denver</p><br><p>2661 17th Street</p><p>Denver, CO 80211</p><br><p>Tel: (303) 455 1012</p><p>Fax: (303) 458 8247</p><p class="foot-link">www.thelightingagency.com</p>	
+	</div>
+<div class="item CO US">
+<p class="name">The Lighting Agency</p><p>Colorado Springs</p><br><p>2270 Hancock Expressway</p><p>Colorado Springs, CO 80910</p><br><p>Tel: (719) 227 9997</p><p>Fax: (719) 227 9990</p><p class="foot-link">www.thelightingagency.com</p>
+	</div>
+<div class="item CT US">
+<p class="name">Apex Lighting Solutions</p><p>Wethersfield</p><br><p>20-30 Beaver Road</p><p>Wethersfield, CT 06109</p><br> <p>Tel: (860) 632 8766</p><p>Fax: (860) 632 8236</p><p class="foot-link">www.apexlightingsolutions.com</p>	
+	</div>
+<div class="item DE US">
+<p class="name">Diversified Lighting</p><p>Wilmington</p><br><p>5466 Fairmont Drive</p><p>(Linden Green Center)</p><p>Wilmington, DE 19808</p><br><p>Tel: (302) 286 6370</p><p>Fax: (302) 286 6379</p><p class="foot-link">www.dlafirst.com</p>	
+	</div>
+<div class="item FL US">
+<p class="name">Power & Lighting Systems Inc.</p><p>Miami</p><br><p>3832 Shipping Avenue</p><p>Miami , FL 33146</p><br><p>Tel: (305) 444 8520</p><p>Fax: (305) 445 1948</p><p class="foot-link">www.p-ls.com</p>	
+	</div>
+<div class="item FL US">
+<p class="name">Power & Lighting Systems Inc.</p><p>Deerfield Beach</p><br><p>392 SW 12th Avenue</p><p>Deerfield Beach, FL 33442</p><br><p>Tel: (954) 360 7608</p><p>Fax: (305) 445 1948</p><p class="foot-link">www.p-ls.com</p>
+	</div>
+<div class="item FL US">
+<p class="name">Architechtural Sales & Illuminations Inc. (Main Office)</p><br><p>1815 University Boulevard North</p><p>Jacksonville, FL 32211</p><br><p>Tel: (904) 744 7000</p><p>Fax: (940) 744 3444</p><p class="foot-link">www.asilighting.com</p>
+	</div>
+<div class="item FL US">
+<p class="name">Envision Lighting Systems</p><p>Lehigh Acres</p><br><p>201 Waldo Avenue Suite A</p><p>Lehigh Acres, FL 33971</p><br><p>Tel: (239) 303 5120</p><p>Fax: (239) 303 5130</p><p class="foot-link">www.envisionlightingsystems.com</p>
+	</div>
+<div class="item FL US">
+<p class="name">Envision Lighting Systems</p><p>St. Petersburg</p><br><p>8855 Dr. Martin Luther King Jr. St. N.</p><p>St. Petersburg, FL 33702</p><br><p>Tel: (727) 576 8488</p><p>Fax: (727) 577 4419</p><p class="foot-link">www.envisionlightingsystems.com</p>
+	</div>
+<div class="item FL US">
+<p class="name">Architechtural Sales & Illuminations Inc.</p><p>Tallahassee</p><br><p>250 John Knox Road Suite 3</p><p>Tallahassee, FL 32303</p><br><p>Tel: (850) 562 5332</p><p>Fax: (850) 562 5347</p><p class="foot-link">www.asilighting.com</p>
+	</div>
+<div class="item FL US">
+<p class="name">Western Florida Lighting</p><p>Orlando</p><br><p>346 Freeman Street</p><p>Longwood, FL 32750</p><br><p>Tel: (407) 740 6973</p><p class="foot-link">www.wflorlando.com</p>
+	</div>
+<div class="item GA US">
+<p class="name">Architechtural Sales & Illuminations Inc.</p><p>Savannah</p><br><p>138 Canal St., Suite 105</p><p>Pooler, GA 31322</p><br><p>Tel: (912) 330 9910</p><p>Fax: (912) 330 6859</p><p class="foot-link">www.asilighting.com</p>
+	</div>
+<div class="item GA US">
+<p class="name">Lighting Associates Inc.</p><p>Suwanee</p><br><p>3600 Swiftwater Park Drive</p><p>Suwanee, GA 30024</p><br><p>Tel: (770) 448 9250</p><p>Fax: (912) 330 6859</p><p class="foot-link">www.lightingassociates.com</p>
+	</div>
+<div class="item HI US">
+<p class="name">Solid State Lighting</p><p>Honolulu</p><br><p>321 Mokauea St.</p><p>Honolulu, HI 96819</p><br><p>Tel: (808) 439 6450</p><p class="foot-link">www.solidstatehawaii.com</p>
+	</div>
+<div class="item IL IN IA KS MI MN MO ND PA SD WV WI US">
+<p class="name">Mary Pate</p><p>Regional Sales Manager</p><br><p>Cell: (312) 404 7600</p><p>Fax: (702) 407 7773</p><p class="foot-link">mary@modalight.com</p>	
+	</div>
+<div class="item IL US">
+<p class="name">Archibald & Meek</p><p>Elmhurst</p><br><p>537 W. Wrightwood Avenue</p><p>Elmhurst, IL 60126</p><br><p>Tel: (630) 833 7377</p><p class="foot-link">www.amirep.com</p>
+	</div>
+<div class="item IL US">
+<p class="name">KSA Lighting & Controls</p><p>Toluca</p><br><p>108 N. Main Street</p><p>Toluca, IL 61369</p><br><p>Tel: (815) 452 2337</p><p>Fax: (815) 452 2444</p><p class="foot-link">www.ksalighting.com</p>
+	</div>
+<div class="item IN US">
+<p class="name">ESL Spectrum Lighting</p><p>Fort Wayne</p><br><p>721 Airport North Office Park Suite 715</p><p>Fort Wayne, IN 46825</p><br><p>Tel: (260) 486 4117</p><p>Fax: (260) 486 2027</p><p class="foot-link">www.esl-spectrum.com</p>
+	</div>
+<div class="item IN US">
+<p class="name">ESL Spectrum Lighting</p><p>Evansville</p><br><p>2201 Morgan Avenue</p><p>Evansville, IN 47711</p><br><p>Tel: (812) 424 1043</p><p>Fax: (812) 464 8249</p><p class="foot-link">www.esl-spectrum.com</p>
+	</div>
+<div class="item IN US">
+<p class="name">ESL Spectrum Lighting</p><p>Indianapolis</p><br><p>1591 North Harding Street</p><p>Indianapolis, IN 46202</p><br><p>Tel: (317) 951 2300</p><p>Fax: (317) 951 2310</p><p class="foot-link">www.esl-spectrum.com</p>
+	</div>
+<div class="item IN US">
+<p class="name">ESL Spectrum Lighting</p><p>South Bend</p><br><p>115 South Main Street Suite 204</p><p>Mishawaka, IN 46544</p><br><p>Tel: (574) 255 2151</p><p>Fax: (574) 255 5919</p><p class="foot-link">www.esl-spectrum.com</p>
+	</div>
+<div class="item IA US">
+<p class="name">JTH Lighting</p><p>Des Moines</p><br><p>319 SW 5th Street Suite 202</p><p>Des Moines, IA 50309</p><br><p>Tel: (515) 650 8122</p><p>Fax: (952) 432 5752</p><p class="foot-link">www.jthlighting.com</p>
+	</div>
+<div class="item IA US">
+<p class="name">JTH Lighting</p><p>Cedar Rapids</p><br><p>1930 Saint Andrews Court NE, Suite A</p><p>Cedar Rapids, IA 52402</p><br><p>Tel: (515) 650 8122</p><p>Fax: (515) 282 2023</p><p class="foot-link">www.jthlighting.com</p>
+	</div>
+<div class="item IA US">
+<p class="name">Lighting Specialist Inc.</p><p>Omaha</p><br><p>4727 Center Street</p><p>Omaha, NE 68106</p><br><p>Tel: (402) 558 4812</p><p>Fax: (402) 558 5926</p><p class="foot-link">www.lightingspecialistinc.com</p>
+	</div>
+<div class="item KS MO US">
+<p class="name">Convergence Partners Inc.</p><p>North Kansas City</p><br><p>103 East 18th Avenue</p><p>North Kansas City, MO 64116</p><br><p>Tel: (816) 581 6300</p><p>Fax: (816) 581 6301</p><p class="foot-link">www.convergerep.com</p>
+	</div>
+<div class="item KY MD NC OH SC TN VA US">
+<p class="name">Hanna Durham</p><p>Regional Sales Manager</p><br> <p>Cell: (615) 554 7733</p><p>Fax: (702) 407 7773</p><p class="foot-link">hanna@modalight.com</p>
+	</div>
+<div class="item KY US">
+<p class="name">LHI</p><p>Louisville (Main Office)</p><p>3943 Central Avenue</p><p>Louisville, KY 40218</p><br><p>Tel: (502) 964 9661</p><p>Fax: (502) 964 7155</p><p class="foot-link">www.lhilightingsales.com</p>
+</div>
+<div class="item LA US">
+<p class="name">Architectural Lighting Alliance</p><p>Shreveport</p><br><p>201 Milam Street Suite C</p><p>Shreveport, LA 71101</p><br><p>Tel: (318) 674 2713</p><p>Fax: (318) 674 2741</p><p class="foot-link">www.alatx.com</p>	
+	</div>
+<div class="item LA US">
+<p class="name">Archlume</p><p>Elmwood</p><br><p>1109 N. Al Davis Rd. Suite B</p><p>Elmwood, LA 70123</p><br><p>Tel: (504) 734 0370</p><p>Fax: (504) 734 0290</p><p class="foot-link">www.archlume.com</p>	
+	</div>
+<div class="item ME US">
+<p class="name">Apex Lighting Solutions</p><p>Freeport</p><br><p>1185 U.S. Route 1</p><p>Freeport, ME 04032</p><br><p>Tel: (877) 886 2843</p><p>Fax: (877) 886 2844</p><p class="foot-link">www.apexlightingsolutions.com</p>	
+	</div>
+<div class="item MD WV US">
+<p class="name">Commercial Lighting Sales Inc.</p><p>Elkridge</p><br><p>6797 Dorsey Road, Suite 3</p><p>Elkridge, MD 21075</p><br><p>Tel: (410) 796 1033</p><p>Fax: (410) 796 7660</p><p class="foot-link">www.commerciallightingsales.com</p>	
+	</div>
+
+<div class="item MA US">
+<p class="name">Apex Lighting Solutions</p><p>Boston</p><br><p>55 Franklin Street, 4th Floor</p><p>Boston, MA 02110</p><br><p>Tel: (877) 886 2843</p><p>Fax: (877) 886 2844</p><p class="foot-link">www.apexlightingsolutions.com</p>	
+	</div>
+<div class="item MI US">
+<p class="name">Clarus Lighting & Control</p><p>Madison Heights</p><br><p>30775 Barrington Street</p><p>Madison Heights, MI 48071</p><br><p>Tel: (248) 677 0850</p><p>Fax: (248) 677 0512</p><p class="foot-link">www.clarus-lighting.com</p>
+	</div>
+<div class="item MI US">
+<p class="name">Crites, Tidey & Associates Inc.</p><p>Traverse City</p><br><p>1371 Trade Centre, Dr.</p><p>Traverse City, MI 49696</p><br><p>Tel: (231) 941 8686</p><p>Fax: (616) 647 9322</p><p class="foot-link">www.critestidey.com</p>
+	</div>
+<div class="item MI US">
+<p class="name">Crites, Tidey & Associates Inc.</p><p>Lansing</p><br><p>4700 Ardmore Ave Ste 102</p><p>Okemos, MI 48864</p><br><p>Tel: (517) 349 1040</p><p>Fax: (616) 647 9322</p><p class="foot-link">www.critestidey.com</p>
+	</div>
+<div class="item MI US">
+<p class="name">Crites, Tidey & Associates Inc.</p><p>Grand Rapids (Main Office)</p><br><p>908C West River Center Drive</p><p>Comstock Park, MI 49321</p><br><p>Tel: (616) 647 2400</p><p>Fax: (616) 647 9322</p><p class="foot-link">www.critestidey.com</p>
+	</div>
+<div class="item MI US">
+<p class="name">Crites, Tidey & Associates Inc.</p><p>Saginaw</p><br><p>908C West River Center Drive</p><p>Comstock Park, MI 49321</p><br><p>Tel: (616) 647 2400</p><p>Fax: (616) 647 9322</p><p class="foot-link">www.critestidey.com</p>
+	</div>
+<div class="item MN SD WI US">
+<p class="name">JTH Lighting Alliance</p><p>Apple Valley</p><br><p>6885 146th Street West</p><p>Apple Valley, MN 55124</p><br><p>Tel: (952) 223 6300</p><p>Fax: (952) 432 5752</p><p class="foot-link">www.jthlighting.com</p>
+	</div>
+<div class="item MS US">
+<p class="name">Hartwell Cook & Associates</p><p>Jackson</p><br><p>1267 Vine Street</p><p>Jackson, MS 39202</p><br><p>Tel: (601) 355 6485</p><p>Fax: (601) 354 1731</p><p class="foot-link">www.hartwellcook.com</p>
+	</div>
+<div class="item MO US">
+<p class="name">Lighting Associates</p><p>Webster Groves</p><br> <p>3216 South Brentwood Boulevard</p><p>Webster Groves, MO 63119</p><br><p>Tel: (314) 531 3500</p><p>Fax: (314) 531 3737</p><p class="foot-link">www.laiweb.com</p>
+	</div>
+<div class="item MT WY US">
+	<p class="name">Lumen FX</p><p>Billings</p><br><p>219 N. Broadway Ste. A</p><p>Billings, MT 59101</p><br><p>Tel: (406) 245 7116</p><p class="foot-link">www.lumenfx.com</p>
+	</div>
+<div class="item NE US">
+	<p class="name">Lighting Specialist Inc.</p><p>Omaha</p><br><p>4727 Center Street</p><p>Omaha, NE 68106</p><br><p>Tel: (402) 558 4812</p><p>Fax: (402) 558 5926</p>
+	</div>
+<div class="item NV US">
+<p class="name">Nevada Sales Agency</p><p>Las Vegas</p><br><p>3581 Birtcher Drive</p><p>Las Vegas, NV 89118</p><br><p>Tel: (702) 270 4181</p><p>Fax: (702) 270 4196</p><p class="foot-link">www.nevadasalesagency.com</p>	
+	</div>
+<div class="item NH US">
+<p class="name">Apex Lighting Solutions</p><p>Manchester</p><br><p>177 E. Industrial Park Dr.</p><p>Manchester, NH 03109</p><br><p>Tel: (877) 886 2843</p><p>Fax: (877) 866 2844</p><p class="foot-link">www.apexlightingsolutions.com</p>	
+	</div>
+<div class="item NJ US">
+<p class="name">Liberty Lighting Group</p><p>Chatham</p><br><p>100 Passaic Avenue</p><p>Chatam, NJ 07928</p><br><p>Tel: (973) 701 0600</p><p>Fax: (973) 701 0067</p><p class="foot-link">www.llgnjinc.com</p>	
+	</div>
+<div class="item NM US">
+<p class="name">RKL Sales</p><p>Corrales</p><br><p>4417 Corrales Road Suite A</p><p>Corrales, NM 87049</p><br><p>Tel: (505) 837 2262</p><p>Fax: (505) 837 2231</p><p class="foot-link">www.rklsales.com</p>	
+	</div>
+<div class="item NY US">
+<p class="name">Specification Lighting Sales</p><p>New York City</p><br><p>350 West 43rd Street PHA</p><p>New York, NY 10036</p><br><p>Tel: (212) 736 3700</p><p>Fax: (212) 736 3701</p><p class="foot-link">www.sls-lighting.net</p>	
+	</div>
+<div class="item NY US">
+<p class="name">Lightspec, LLC</p><p>Buffalo</p><br><p>385 Cleveland Drive Suite 101</p><p>Cheektowaga</p><br><p>Tel: (716) 836 0707</p><p class="foot-link">www.lightspec.com</p>	
+	</div>
+<div class="item NY US">
+<p class="name">Lightspec, LLC</p><p>Rochester</p><br><p>1501 Monroe Avenue</p><p>Rochester, NY 14618</p><br><p>Tel: (585) 242 8888</p><p class="foot-link">www.lightspec.com</p>	
+	</div>
+<div class="item NY US">
+<p class="name">Lightspec, LLC</p><p>Syracuse</p><br><p>1000 7th North Street Suite B110</p><p>Liverpool, NY 13088</p><br><p>Tel: (315) 451 8884</p><p class="foot-link">www.lightspec.com</p>	
+	</div>
+<div class="item NC SC US">
+<p class="name">EGI Associates Inc.</p><p>Charlotte</p><br><p>417 A Minuet Lane</p><p>Charlotte, NC</p><br><p>Tel: (704) 561 3337</p><p>Fax: (704) 561 3380</p><p class="foot-link">www.egi-nc.com</p>	
+	</div>
+<div class="item NC US">
+<p class="name">K.B. Stephens</p><p>Wilmington</p><br><p>6300 Brantley Court</p><p>Wilmington, NC 28412</p><br><p>Tel: (910) 233 4750</p><p>Fax: (919) 569 6701</p><p class="foot-link">www.kbstephens.com</p>	
+	</div>
+<div class="item NC US">
+<p class="name">K.B. Stephens</p><p>Raleigh</p><br><p>203 Capcom Avenue Suite 112</p><p>Wake Forest, NC 27587</p><br><p>Tel: (919) 569 2190</p><p>Fax: (919) 569 6701</p><p class="foot-link">www.kbstephens.com</p>	
+	</div>
+<div class="item NC US">
+<p class="name">K.B. Stephens</p><p>Kinston</p><br><p>2880 Churchill Drive</p><p>Kinston, NC 28501</p><br><p>Tel: (252) 526 1347</p><p>Fax: (919) 569 6701</p><p class="foot-link">www.kbstephens.com</p>	
+	</div>
+<div class="item NC US">
+<p class="name">R.L. Vanstory Company</p><p>Greensboro</p><br><p>4807 Kroger Boulevard Suite E</p><p>Greensboro, NC 27407</p><br><p>Tel: (336) 294 8645</p><p>Fax: (336) 420 3513</p><p class="foot-link">www.rlvanstory.com</p>	
+	</div>
+<div class="item ND US">
+<p class="name">JTH Lighting Alliance</p><p>Apple Valley</p><br><p>6885 146th Street West</p><p>Apple Valley, MN 55124</p><br><p>Tel: (505) 837 2262</p><p>Fax: (505) 837 2231</p><p class="foot-link">www.jthlighting.com</p>
+	</div>
+<div class="item OH US">
+<p class="name">K2SA Controls + Lighting</p><p>Cincinnati</p><br><p>3033 Riverside Drive</p><p>Cincinnati, OH</p><br><p>Tel: (513) 855 3559</p><p class="foot-link">www.k2salight.com</p>
+	</div>
+<div class="item OH US">
+<p class="name">Lighting & Controls, Inc.</p><p>Cleveland</p><br><p>4503 Brookpark Road</p><p>Cleveland, OH 44134</p><br><p>Tel: (216) 741 4545</p><p>Fax: (216) 741 7555</p><p class="foot-link">www.e-lightingcontrols.com</p>
+	</div>
+<div class="item OH US">
+<p class="name">Spectrum Lighting, Inc.</p><p>Columbus</p><br><p>700 Taylor Avenue</p><p>Columbus, OH 43219</p><br><p>Tel: (614) 486 5354</p><p class="foot-link">www.spectrumohio.com</p>
+	</div>
+<div class="item OK US">
+<p class="name">Triple C Companies</p><p>Oklahoma City (Main Office)</p><br><p>1212 West Main Street</p><p>Oklahoma City, OK 73106</p><br><p>Tel: (405) 235 5456</p><p>Fax: (405) 235 5445</p><p class="foot-link">www.tripleclighting.com</p>
+	</div>
+<div class="item OK US">
+<p class="name">Triple C Companies</p><p>Tulsa</p><br><p>1015 E. 2nd Street</p><p>Tulsa, OK 74120</p><br><p>Tel: (918) 664 2100</p><p>Fax: (918) 664 2144</p><p class="foot-link">www.tripleclighting.com</p>
+	</div>
+<div class="item OR US">
+<p class="name">Solus Inc.</p><p>Portland</p><br><p>1820 NE Glisan St. Suite 150</p><p>Portland, OR 97232</p><br><p>Tel: (503) 768 9999</p><p>Fax: (503) 768 9990</p><p class="foot-link">www.solusinc.org</p>
+	</div>
+<div class="item PA US">
+<p class="name">Diversified Lighting</p><p>Philadelphia (Main Office)</p><br><p>825 Mearns Road</p><p>Warminster, PA 18974</p><br><p>Tel: (215) 442 0700</p><p>Fax: (215) 442 5790</p><p class="foot-link">www.dlafirst.com</p>
+	</div>
+<div class="item PA US">
+<p class="name">Diversified Lighting</p><p>Philadelphia</p><br><p>825 Mearns Road</p><p>Warminster, PA 18974</p><br><p>Tel: (215) 442 0700</p><p class="foot-link">www.dlafirst.com</p>
+	</div>
+<div class="item PA US">
+<p class="name">Diversified Lighting</p><p>Lancaster</p><br><p>166 Farmington Lane</p><p>Lancaster, PA 71601</p><br><p>Tel: (717) 569 7347</p><p>Fax: (717) 560 9345</p><p class="foot-link">www.dlafirst.com</p>
+	</div>
+<div class="item PA US">
+<p class="name">Diversified Lighting</p><p>Allentown</p><br><p>1259 Cedar Crest Boulevard, Suite 120</p><p>Allentown, PA 18103</p><br><p>Tel: (610) 434 4733</p><p>Fax: (610) 434 3224</p><p class="foot-link">www.dlafirst.com</p>
+	</div>
+<div class="item PA US">
+<p class="name">Repco II Inc.</p><p>Pittsburgh</p><br><p>1201 Chappel Avenue</p><p>Pittsburgh, PA 15216</p><br><p>Tel: (412) 563 6220</p><p>Fax: (412) 563 6227</p><p class="foot-link">www.repcoii.com</p>
+	</div>
+<div class="item RI US">
+<p class="name">Apex Lighting Solutions</p><p>East Providence</p><br><p>328 Taunton Avenue</p><p>East Providence, RI 02914</p><br><p>Tel: (401) 808 6855</p><p>Fax: (401) 808 6854</p><p class="foot-link">www.apexlightingsolutions.com</p>
+	</div>
+<div class="item SC US">
+<p class="name">The Schneider Company</p><p>Greenville (Main Office)</p><br><p>39 Pellham Davis Circle</p><p>Greenville, SC 29615</p><br><p>Tel: (864) 675 9250</p><p>Fax: (800) 662 4303</p><p class="foot-link">www.theschneidercompany.com</p>
+	</div>
+<div class="item SC US">
+<p class="name">The Schneider Company</p><p>North Charleston</p><br><p>3300-A West Montague Ave., Suite 114</p><p>North Charleston, SC 29418</p><br><p>Tel: (843) 566 0732</p><p>Fax: (843) 566 0733</p><p class="foot-link">www.theschneidercompany.com</p></div>
+<div class="item SC US">
+<p class="name">The Schneider Company</p><p>Lexington</p><br><p>328 Riverchase Way, Suite C</p><p>Lexington, SC 29072</p><br><p>Tel: (803) 731 5483</p><p>Fax: (803) 731 5413</p><p class="foot-link">www.theschneidercompany.com</p>
+	</div>
+<div class="item SD US">
+<p class="name">JTH Lighting Alliance</p><p>Yankton</p><br><p>1508 Capital St</p><p>Yankton, SD 57078</p><br><p>Tel: (952) 223 6300</p><p>Fax: (952) 432 5752</p><p class="foot-link">www.jthlighting.com</p>
+	</div>
+<div class="item TN US">
+<p class="name">Curtis Stout</p><p>Memphis</p><br><p>3478 Winhoma Drive</p><p>Memphis, TN 38118</p><br><p>Tel: (901) 362 1616</p><p>Fax: (901) 360 0035</p><p class="foot-link">www.chstout.com.com</p>
+	</div>
+<div class="item TN US">
+<p class="name">Tennessee Lighting Sales</p><p>Chattanooga</p><br><p>1437 Vance Road</p><p>Chattanooga, TN 37421</p><br><p>Tel: (423) 713 7950</p><p class="foot-link">www.tnltg.com</p>
+	</div>
+<div class="item TN US">
+<p class="name">Tennessee Lighting Sales</p><p>Nashville</p><br><p>2730 Larmon Avenue</p><p>Nashville, TN 37204</p><br><p>Tel: (615) 385 5566</p><p>Fax: (615) 383 2239</p><p class="foot-link">www.tnltg.com</p>
+	</div>
+<div class="item TN US">
+<p class="name">Tennessee Lighting Sales</p><p>Knoxville</p><br><p>600 N. Broadway</p><p>Knoxville, TN 37917</p><br><p>Tel: (865) 851 8599</p><p class="foot-link">www.tnltg.com</p>
+	</div>
+<div class="item TX US">
+<p class="name">Putterman, Scharck & Associates Inc.</p><p>Houston</p><br><p>10855 Tanner Road</p><p>Houston, TX 77041</p><br><p>Tel: (713) 664 7111</p><p>Fax: (713) 664 2319</p><p class="foot-link">www.psalighting.com</p>
+	</div>
+<div class="item TX US">
+<p class="name">Architectural Lighting Alliance</p><p>Dallas</p><br><p>101 Turtle Creek Boulevard</p><p>Dallas, TX 75207</p><br><p>Tel: (214) 658 9000</p><p>Fax: (214) 658 9002</p><p class="foot-link">www.alatx.com</p>
+	</div>
+<div class="item TX US">
+<p class="name">Architectural Lighting Alliance</p><p>Lubbock</p><br><p>3403 73rd Street Suite 1</p><p>Lubbock, TX 79423</p><br><p>Tel: (806) 796 1322</p><p>Fax: (806) 796 1323</p><p class="foot-link">www.alatx.com</p>
+	</div>
+<div class="item TX US">
+<p class="name">Legacy Lighting</p><p>Austin</p><br><p>612 Winflo Dr.</p><p>Austin, TX 78703</p><br><p>Tel: (512) 481 9971</p><p>Fax: (512) 481 9980</p><p class="foot-link">www.legacyltg.com</p>
+	</div>
+<div class="item TX US">
+<p class="name">2M Lighting Inc.</p><p>San Antonio</p><br><p>4602 Perrin Creek Suite 1280</p><p>San Antonio, TX 78217</p><br><p>Tel: (210) 599 4040</p><p>Fax: (210) 599 4142</p><p class="foot-link">www.2meli.com</p>
+	</div>
+<div class="item UT US">
+<p class="name">Quantum Lighting Group Inc.</p><p>Murray</p><br><p>4074 South 300 West</p><p>Salt Lake City, Utah 84107</p><br><p>Tel: (801) 270 0010</p><p>Fax: (801) 264 0060</p><p class="foot-link">www.quantumltg.com</p>
+	</div>
+<div class="item VT US">
+<p class="name">Apex Lighting Solutions</p><p>Burlington</p><br><p>106 Main St., Suite 6E</p><p>Burlington, VT 05401</p><br><p>Tel: (877) 886 2843</p><p>Fax: (877) 866 2844</p><p class="foot-link">www.apexlightingsolutions.com</p>
+	</div>
+<div class="item VA US">
+<p class="name">Thomas Harris & Co. Inc.</p><p>Mechanicsville (Main Office)</p><br><p>8505 Bell Creek Round Suite B</p><p>Mechanicsville, VA 23116</p><br><p>Tel: (804) 730 3003</p><p>Fax: (804) 730 3001</p><p class="foot-link">www.light-up-va.com</p>
+	</div>
+<div class="item VA US">
+<p class="name">Thomas Harris & Co. Inc.</p><p>Roanoke</p><br><p>3023A Peters Creek Road</p><p>Roanoke, VA 24019</p><br><p>Tel: (540) 562 5162</p><p>Fax: (540) 562 5159</p><p class="foot-link">www.light-up-va.com</p>
+	</div>
+<div class="item VA US">
+<p class="name">Thomas Harris & Co. Inc.</p><p>Chesapeake</p><br><p>129 Hanbury Road West, Suite 202</p><p>Chesapeake, VA 23322</p><br><p>Tel: (757) 340 1621</p><p>Fax: (757) 340 1764</p><p class="foot-link">www.light-up-va.com</p>
+	</div>
+<div class="item WA US">
+<p class="name">Seatac Lighting</p><p>Seattle</p><br><p>4439 S. 134th Place Bld. E,</p><p>Tukwila, WA 98168</p><br><p>Tel: (206) 575 6865</p><p>Fax: (206) 575 8013</p><p class="foot-link">www.seataclighting.com</p>
+	</div>
+<div class="item WA US">
+<p class="name">Ambient Lighting & Controls, LLC</p><p>Spokane</p><br><p>2610 N Van Marter Rd, Suite #3</p><p>Spokane, WA 99206</p><br><p>Tel: (509) 922 5011</p><p>Fax: (509) 922 5017</p><p class="foot-link">www.ambientltg.com</p>
+	</div>
+<div class="item WV US">
+<p class="name">Repco II Inc.</p><p>Hurricane</p><br><p>3744 Teays Valley Road, Ste. 201</p><p>Hurrican, WV 25526</p><br><p>Tel: (681) 235 7278</p><p>Fax: (412) 563 6227</p><p class="foot-link">www.repcoii.com</p>
+	</div>
+<div class="item WI US">
+<p class="name">Enterprise Lighting</p><p>Waukesha (Main Office)</p><br><p>2007 Pewaukee Road</p><p>Wauksha, WI 53188</p><br><p>Tel: (262) 953 2700</p><p>Fax: (262) 953 2710</p><p class="foot-link">www.enterpriselighting.com</p>
+	</div>
+<div class="item WI US">
+<p class="name">Enterprise Lighting</p><p>Green Bay</p><br><p>2115 Mahogany Court</p><p>De Pere, WI 54115</p><br><p>Tel: (262) 953 6827</p><p>Fax: (262) 953 6771</p><p class="foot-link">www.enterpriselighting.com</p>
+	</div>
+<div class="item WI US">
+<p class="name">Enterprise Lighting</p><p>Eau Claire</p><br><p>1647 40th Street</p><p>Elk Mound, WI 54739</p><br><p>Tel: (262) 953 6826</p><p>Fax: (262) 953 6776</p><p class="foot-link">www.enterpriselighting.com</p>
+	</div>
+<div class="item WI US">
+<p class="name">Enterprise Lighting</p><p>Praire Du Sac</p><br><p>445 Park Avenue</p><p>Praire Du Sac, WI 53578</p><br><p>Tel: (262) 953 6815</p><p>Fax: (262) 953 6780</p><p class="foot-link">www.enterpriselighting.com</p>
+	</div>
+<div class="item AB CAN">
+<p class="name">Wow Lighting</p><p>Calgary</p><br><p>1224 - 9th Avenue Southeast</p><p>Calgary, AB T2G OT1</p><br><p>Tel: (403) 266 6249</p><p>Fax: (403) 266 </p><p class="foot-link">www.wowlighting.com</p>
+	</div>
+<div class="item AB CAN">
+<p class="name">Wow Lighting</p><p>Edmonton</p><br><p>11104 - 107th Avenue</p><p>Edmonton, AB T5H 0XB</p><br><p>Tel: (780) 468 2759</p><p>Fax: (780) 469 5787</p><p class="foot-link">www.wowlighting.com</p>
+	</div>
+<div class="item BC CAN">
+<p class="name">Inter Light Sales</p><p>Coquitlam (Main Office)</p><br><p>101B - 81 Golden Drive</p><p>Coquitlam, BC V3K 6R2</p><br><p>Tel: (604) 942 2232</p><p>Fax: (604) 942 2294</p><p class="foot-link">www.inter-lite.com</p>
+	</div>
+<div class="item BC CAN">
+<p class="name">Inter Light Sales</p><p>Victoria</p><br><p>301 - 1321 Blanshard Street</p><p>Victoria, BC V8W 0B6</p><br><p>Tel: (778) 410 5177</p><p>Fax: (778) 410 5001</p><p class="foot-link">www.inter-lite.com</p>
+	</div>
+<div class="item MB CAN">
+<p class="name">Edge Electrical Marketing Inc.</p><p>Winnipeg (Main Office)</p><br><p>1432 Erin Street</p><p>Winnipeg, MB R3E 2S8</p><br><p>Tel: (204) 774 0268</p><p>Fax: (204) 779 5047</p><p class="foot-link">www.edgeelec.ca</p>
+	</div>
+<div class="item MB CAN">
+<p class="name">Integra Agencies Ltd</p><p>Winnipeg</p><br><p>Unit E - 301 Weston Street</p><p>Winnipeg, MB R3E 3H4</p><br><p>Tel: (204) 694 1339</p><p>Fax: (204) 694 8299</p><p class="foot-link">www.integraagencyltd.mb.ca</p>
+	</div>
+<div class="item NB CAN">
+<p class="name">CSA Enterprises Ltd.</p><p>West</p><br><p>99 Mataya Drive</p><p>Richibucto Road, NB E3A 9Z1</p><br><p>Tel: (506) 470 8889</p><p>Fax: (506) 460 8114</p><p class="foot-link">www.csaenterprises.ca/</p>
+	</div>
+<div class="item NB CAN">
+<p class="name">CSA Enterprises Ltd.</p><p>East & PEI</p><br><p>331 Elmwood Drive, Suite 4 - 248</p><p>Moncton, NB E1A 1X6</p><br><p>Tel: (506) 874 1738</p><p>Fax: (506) 855 8016</p><p class="foot-link">www.csaenterprises.ca/</p>
+	</div>
+<div class="item NL CAN">
+<p class="name">CSA Enterprises Ltd.</p><p>Newfoundland</p><br><p>Unit 50 Hamlyn Road Plaza</p><p>PO Box 432</p><p>St John's Newfoundland, A1E 5X7</p><br><p>Tel: (709) 685 8779</p><p>Fax: (709) 754 7220</p><p class="foot-link">www.csaenterprises.ca</p>
+	</div>
+<div class="item NS CAN">
+<p class="name">CSA Enterprises Ltd.</p><p>Nova Scotia</p><br><p>111 Chain Lake Drive</p><p>Halifax, NS B3S 1B3</p><br><p>Tel: (902) 450 5118</p><p>Fax: (902) 450 5097</p><p class="foot-link">www.csaenterprises.ca</p>
+	</div>
+<div class="item ON CAN">
+<p class="name">ECI Lighting Companies</p><p>Cambridge</p><br><p>115 Pheasant Avenue</p><p>Cambridge, ON N3H 2L8</p><br><p>Tel: (519) 650 5168</p><p>Fax: (519) 650 0942</p>
+	</div>
+<div class="item ON CAN">
+<p class="name">WSA</p><p>Ottawa</p><br><p>101 - 5420 Canotek Road</p><p>Ottawa, ON K1J 1E9</p><br><p>Tel: (613) 745 0001</p><p>Fax: (613) 745 0002</p>
+	</div>
+<div class="item ON CAN">
+<p class="name">Salex Inc.</p><p>Scarborough</p><br><p>435 Finchdene Square</p><p>Scarborough, ON M1X 1B7</p><br><p>Tel: (416) 293 2290</p><p>Fax: (416) 293 0638</p><p class="foot-link">www.salex.ca</p>
+	</div>
+<div class="item QC CAN">
+<p class="name">WSA</p><p>Ottawa</p><br><p>101 - 5420 Canotek Road</p><p>Ottawa, ON K1J 1E9</p><br><p>Tel: (613) 745 0001</p><p>Fax: (613) 745 0002</p><p class="foot-link">www.wsa.ca</p>
+	</div>
+<div class="item SK CAN">
+<p class="name">Electra Sales</p><p>Regina</p><br><p>1810 East Turvey Road</p><p>Regina, SK S4N 2G7</p><br><p>Tel: (306) 791 0266</p><p>Fax: (306) 791 0268</p><p class="foot-link">www.electrasalesltd.ca</p>
+	</div>
+<div class="item ARA INT">
+<p class="name">Tectronics</p><p>Abu Dhabi</p><br><p>P. O. Box: 852,</p><p>Abu Dhabi, United Arab Emirates</p><br><p>Tel: +971 2 551 6681</p><p>Fax: +971 2 551 6682</p><p class="foot-link">www.tectronicsme.com</p>
+	</div>
+<div class="item ARA INT">
+<p class="name">Tectronics</p><p>Dubai</p><br><p>P. O. Box: 35507,</p><p>Dubai, United Arab Emirates</p><br><p>Tel: +971 4 332 7655</p><p>Fax: +971 4 331 4033</p><p class="foot-link">www.tectronicsme.com</p>
+	</div>
+<div class="item ARA INT">
+<p class="name">Tectronics</p><p>Sharjah</p><br><p>P. O. Box: 6139,</p><p>Sharjah, United Arab Emirates</p><br><p>Tel: +971 6 593 6444</p><p>Fax: +971 6 593 6445</p><p class="foot-link">www.tectronicsme.com</p>
+	</div>
+<div class="item ASTR INT">
+<p class="name">Xenian PTY Ltd.</p><p>New South Wales</p><br><p>Ingleside House</p><p>42 Manor Road</p><p>Ingleside, NSW 2101</p><br><p>Tel: +61 2 9970 8133</p><p>Fax: +61 2 9970 8166</p><p class="foot-link">www.xenian.com.au</p>
+	</div>
+<div class="item CAR CEN MEX SOA INT">
+<p class="name">Alumbra Lighting</p><p>Anthony Sauce</p><br><p>5100 NW 72nd Ave</p><p>Miami, FL 33166</p><p>United States</p><br><p>Cell: +1 305 607 6522</p><p>asuace@alumbralighting.com</p><p class="foot-link">www.alumbralighting.com</p>
+	</div>
+<div class="item CHI INT">
+<p class="name">Creative Lighting Asia</p><p>Shanghai</p><br><p>Room 2108, Jin Yuan Centre</p><p>1111 Qi Xin Rd. Min Hang District</p><p>Shanghai, 201199, China</p><br><p>Tel: +86 21 5258 8833</p><p>Fax: +86 21 5258 8813</p><br><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item CHI INT">
+<p class="name">Creative Lighting Asia</p><p>Guangzhou</p><br><p>1804 Jiang Nan Avenue</p><p>Fuli Center, Haizhu District</p><p>Guangzhou, China</p><br><p>Tel: +86 20 34 278 6188</p><br><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item ENG INT">
+<p class="name">A.C. Special Projects</p><p>Centauri House</p><br><p>Hillbottom Road</p><p>High Wycombe, Buckinghamshire</p><p>HP12 4HQ. UK</p><br><p>Tel: +44 (0) 1494 838392</p><p>Fax: +44 (0) 1494 461024</p><br><p class="foot-link">www.acspecialprojects.com</p>
+	</div>
+<div class="item GER INT">
+<p class="name">SLT Michael Manthey</p><br><p>Seestrasse 40</p><p>15755 Schwerin</p><p>Deutschland</p><br><p>Tel: +49 33766 63 333</p><p>Fax: +49 33766 63 334</p><br><p class="foot-link">www.lichttechnik.de</p>
+	</div>
+<div class="item HON INT">
+<p class="name">Creative Lighting Asia</p><br><p>8/F, International Trade Centre,</p><p>11-19 Sha Tsui Rd.</p><p>Tsuen Wan, New Territories</p><p>Hong Kong</p><br><p>Tel: +852 2815 9168</p><p>Fax: +852 2817 2285</p><br><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item IND INT">
+<p class="name">Lumiere Project Lighting</p><p>Mumbai</p><br><p>21 Kaliandas Udyog Bhavan,</p><p>Century Bazar Lane, Prabhadevi,</p><p>Mumbai - 400 025. (INDIA)</p><br><p>Tel: +91 22 24332 120/21/22</p><p>Fax: +91 22 24332123</p><br><p class="foot-link">www.lpl.net.in</p>
+	</div>
+<div class="item IND INT">
+<p class="name">BDCL Lighting + Illumination Technologies - New Delhi</p><br><p>First Floor, 1831 Bhagirath Palace,</p><p>New Delhi, 110006</p><p>India</p><br><p>Tel: +91 11 2386 2548</p><p>Fax: +91 22 24332123</p><br><p class="foot-link">www.facebook.com/blitindia</p>
+	</div>
+<div class="item IND INT">
+<p class="name">Creative Lighting Asia</p><p>New Delhi</p><br><p>1st Floor, 1831 Bhagirath Palace,</p><p>New Delhi, 110016</p><br><p>Tel: +91 11 2386 2548</p><p>Fax: +91 11 2386 4104</p><br><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item INDO INT">
+<p class="name">Creative Lighting Asia</p><p>Jakarta</p><br><p>Kompleks Perkantoran Business Park</p><p>Kebon Jeruk Blok D1 no.2 Jl.</p><p>Raya Meruya Ilir No. 88</p><p>Kebon Jeruk Jakarta Barat, 11620</p><p>Indonesia</p><p>Tel: +62 21 3006 7989</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item MAC INT">
+<p class="name">Creative Lighting Asia</p><br><p>C8, China Plaza</p><p>Avenida da Praia Grande Nos. 762-804</p><p>Macau</p><br><p>Tel: +853 2851 0909</p><p>Fax: +853 2852 2848</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item MAL INT">
+<p class="name">Creative Lighting Asia</p><p>Penang</p><p>Unit 5, 9th Floor Hexagon Tech Park</p><p>105 Jalan Gurdwara, 10300</p><p>Penang, Malaysia</p><br><p>Tel: +60 15 4873 3668</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item MAL INT">
+<p class="name">Creative Lighting Asia</p><p>Kuala Lumpur</p><br><p>Unit 8, 15/F Binjai 8 Premium Soho</p><p>No. 2 Lorong Binjai, 50450</p><p>Kuala Lumpur, Malaysia</p><br><p>Tel: +60 3 2714 5431</p><p>Fax: +60 3 2714 5132</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item PHI INT">
+<p class="name">Creative Lighting Asia</p><p>Cebu</p><br><p>12th Floor, Unit 1207</p><p>Ayala Life FGU Centre</p><p>Mindanao Avenue Cebu Business Park,</p><p>Cebu City 6000, Philippines</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item PHI INT">
+<p class="name">Creative Lighting Asia</p><p>Manila</p><br><p>One Global Place</p><p>Level 10-1 5th Avenue & 25th Street</p><p>Bonifacio Global City, Taguig 1632</p><p>Philippines</p><p>Tel: +63 2 917 0258</p><p>Fax: +63 2 917 0259</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item QAT INT">
+<p class="name">Tectronics</p><p>Doha, Qatar</p><br><p>Tel: +974 435 8150</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+974 442 5644</p><p>Fax: +974 4 442 1783</p><br><p class="foot-link">www.tectronicsme.com</p>
+	</div>
+<div class="item SCO INT">
+<p class="name">Solus Lighting Solutions</p><p>Unit 25e</p><p>Anniesland Business Park</p><p>Netherton Road, Anniesland</p><p>Glasgow</p><p>G13 1EU</p><br><p>Tel: +44(0)141 954 2771</p><p>Fax: +44(0)141 954 2772</p><p class="foot-link">www.solusrgb.com</p>
+	</div>
+<div class="item SIN INT">
+<p class="name">Creative Lighting Asia</p><p>Singapore</p><br><p>11 Woodlands Close #05-35/36/37</p><p>Woodlands 11 Singapore 737853</p><br><p>Tel: +65 6483 3968</p><p>Fax: +65 6483 3963</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item SOK INT">
+<p class="name">Kunyang Trading Co., Ltd</p><p>Kangnam-Gu</p><br><p>#419 Eonju-Ro</p><p>Kangnam-Gu, Seoul 06222</p><p>Korea</p><br><p>Tel: +822 561 1891</p><p>Fax: +822 561 1895</p>
+	</div>
+<div class="item SRI INT">
+<p class="name">Creative Lighting Asia</p><br><p>No. 5, 8/2 Milagiriya Avenue</p><p>Colombo, 04 Sri Lanka</p><br><p>Tel: +94 112 502 105</p><p class="foot-link">www.cla.asia</p>
+	</div>
+<div class="item THA INT">
+<p class="name">Creative Lighting Asia</p><p>Bangkok</p><br><p>29/1 Piya Place Langsuan Bldg.</p><p>Unit 5E 5th Floor, Lumpini, Pathumwan</p><p>Bangkok 10330, Thailand</p><br><p>Tel: +66 90 941 8096</p><p class="foot-link">www.cla.asia</p>
+	</div>
+  <!-- items added with JS -->
+</div>
+<div style="padding-top: 730px;"></div>
+	<script src="js/isotope.js"></script>	
+<script src="js/select.js"></script>
+<script src="js/logo.js"></script>

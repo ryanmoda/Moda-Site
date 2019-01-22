@@ -1,0 +1,104 @@
+	#nav-tech {
+		font-weight: var(--active-header) !important;
+		color: var(--3rd-color) !important;
+	}
+	.medals {
+		width: 20vw;
+		max-width: 250px;
+	}
+	#finger {
+			max-width: 550px !important;
+			width: 43vw;
+		}
+	.fixture {
+		max-width: 714px;
+		width: 95vw;
+	}
+	.techLogo {
+		margin-bottom: 15px;
+	}
+	.techBlock {
+		padding-top: 80px;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.image2 {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+}
+	.buttonBlock {
+		margin-top: 10px;
+		max-width: 640px;
+		float: right;
+	}
+	.gradient {
+	max-width: 496px;
+	width: 95vw;
+    height: 40px;
+	}	
+	
+#dynamicCool {	
+  	z-index: 158;
+		background: linear-gradient(to right,#FFFCD5 10%,#FFFFFF );
+    border-width: 1px;
+    border-color: #77787B;
+    border-radius: 5px;
+    position: relative;
+}
+
+	#dynamicWarm {
+		background: linear-gradient(to right,#FFE099 10%,#FFFFFF );
+		border-width: 0px;
+    border-color: transparent;
+    border-radius: 5px;
+    position: relative;
+	}
+	
+#dynamicWhite1 {
+max-width: 239px;
+width: 50vw;
+height: 41px;
+background: linear-gradient(to right,#FFE099 10%,#FFFFFF );
+border-width: 0px;
+border-color: transparent;
+border-radius: 5px;
+position: relative;
+}
+	
+#dynamicWhite2 {
+max-width: 239px;
+width: 40vw;
+height: 41px;
+background: linear-gradient(to right,#FFFFFF 10%,#D0DFFF );
+border-width: 0px;
+border-color: transparent;
+border-radius: 5px;
+position: relative;	
+}
+	
+	}
+	@media only screen and (max-width: 768px) {
+		.medals {
+			max-width: 100px;
+		}
+		#daliLogo {
+		margin-bottom: 0px !important;
+		margin-top: 15px !important;
+		}
+	}
+.pia-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.pia-container div {
+	padding: 0 7px;
+}

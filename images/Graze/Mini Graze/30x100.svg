@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 150.002 150">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        font-family: FuturaPT-Light, Futura PT;
+        font-weight: 300;
+        letter-spacing: 0.05em;
+      }
+
+      .cls-2 {
+        fill: rgba(204,204,204,0.2);
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        opacity: 0.75;
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-5 {
+        stroke: #000;
+        stroke-width: 0.25px;
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffdd74"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffec9f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_835" data-name="Group 835" transform="translate(-220 -1787)">
+    <text id="_30_x_100_" data-name="30° x 100°" class="cls-1" transform="translate(294.999 1843)"><tspan x="-49.44" y="0">30° x 100°</tspan></text>
+    <rect id="BG" class="cls-2" width="150" height="150" transform="translate(220 1787)"/>
+    <path id="Intersection_6" data-name="Intersection 6" class="cls-3" d="M22092.775,7769.275l-66.363-11.947v-137.8h149.752v137.667l-66.5,12.084Z" transform="translate(-21806.289 -5832.401)"/>
+    <path id="Intersection_7" data-name="Intersection 7" class="cls-4" d="M21346.238,7773.828l-67-117.57v-32.427h150v33.908l-66.422,116.089Z" transform="translate(-21059.234 -5836.829)"/>
+    <text id="_30_x_100_2" data-name="30° x 100°" class="cls-1" transform="translate(294.999 1832)"><tspan x="-49.44" y="0">30° x 100°</tspan></text>
+    <g id="Border" class="cls-5" transform="translate(220 1787)">
+      <rect class="cls-6" width="150" height="150"/>
+      <rect class="cls-7" x="0.125" y="0.125" width="149.75" height="149.75"/>
+    </g>
+  </g>
+</svg>

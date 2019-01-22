@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 438.031 673.419">
+  <title>Asset 2</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="Layer_1-2" data-name="Layer 1">
+      <rect x="10.032" y="497.912" width="421.463" height="168.971" rx="36.493" ry="36.493" fill="#7f7f7f"/>
+      <g>
+        <g>
+          <polygon points="131.198 149.309 82.632 432.64 144.489 453.28 172.768 354.221 349.181 453.417 371.48 417.091 252.288 282.056 294.166 273.054 299.228 223.455 221.792 105.531 131.198 149.309" fill="#363636"/>
+          <polygon points="131.198 149.562 204.838 182.46 221.792 105.531 131.198 149.562" fill="#8c8c8c"/>
+          <polygon points="221.792 105.531 204.838 182.46 237.229 198.149 235.097 125.791 221.792 105.531" fill="#7f7f7f"/>
+          <polygon points="235.097 125.791 237.229 198.149 299.228 223.455 235.097 125.791" fill="#727272"/>
+          <polygon points="131.198 149.309 196.487 224.973 204.838 182.46 131.198 149.309" fill="#727272"/>
+          <polygon points="204.838 182.46 195.222 223.455 252.159 282.164 237.229 198.149 204.838 182.46" fill="#999"/>
+          <polygon points="237.229 198.149 299.228 223.455 294.166 273.054 252.159 282.164 237.229 198.149" fill="#8c8c8c"/>
+          <polygon points="131.198 149.309 111.226 265.828 180.797 298.475 195.222 223.455 131.198 149.309" fill="#7f7f7f"/>
+          <polygon points="180.122 298.545 252.288 282.056 195.222 223.455 180.122 298.545" fill="#595959"/>
+          <polygon points="111.226 265.828 180.797 298.475 102.668 315.752 111.226 265.828" fill="#727272"/>
+          <polygon points="180.797 298.475 252.288 282.056 371.48 417.091 349.181 453.417 172.768 354.221 180.797 298.475" fill="#7f7f7f"/>
+          <polygon points="102.668 315.752 180.797 298.475 149.578 347.621 102.668 315.752" fill="#8c8c8c"/>
+          <polygon points="149.578 347.621 173.11 354.542 180.797 298.475 149.578 347.621" fill="#595959"/>
+          <polygon points="82.632 432.64 144.489 453.28 173.11 354.542 149.578 347.621 82.632 432.64" fill="#8c8c8c"/>
+        </g>
+        <polygon points="102.668 315.752 149.578 347.621 82.632 432.64 102.668 315.752" fill="#7f7f7f"/>
+      </g>
+      <g>
+        <path d="M97.718,525.656c13.822,0,22.7,1.707,30.032,6.655,12.457,8.361,13.48,21.842,13.48,26.79,0,16.382-10.067,28.326-25.254,31.739l35.492,48.632H130.481L97.889,592.888H94.818v46.584H77.413V525.656Zm-2.9,52.216h5.46c4.778,0,24.23-.512,24.23-18.6,0-16.04-15.187-17.576-23.719-17.576H94.818Z" fill="#fff"/>
+        <path d="M242.586,542.038H203v28.838H241.22v16.381H203v52.216H185.592V525.656h56.993Z" fill="#fff"/>
+        <path d="M341.9,612H293.264l-12.456,27.473H262.038L318.69,519l53.922,120.471H353.841Zm-7-16.382-16.894-38.564-17.576,38.564Z" fill="#fff"/>
+      </g>
+      <g id="Layer_2-2" data-name="Layer 2">
+        <g id="Layer_1-2-2" data-name="Layer 1-2">
+          <g id="SPEC">
+            <path d="M60.338,6.536a54.18,54.18,0,0,0-53.8,53.8V613.08c0,29.634,24.169,53.593,53.8,53.8H377.692c29.634,0,53.593-24.169,53.8-53.8V100.9L337.13,6.536Z" fill="none" stroke="#7f7f7f" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M389.672,103.633h41.4L335.028,6.746V48.359A55.074,55.074,0,0,0,389.672,103.633Z" fill="none" stroke="#7f7f7f" stroke-linejoin="round" stroke-width="13.071"/>
+            <path d="M335.448,242.764" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M100.06,242.764" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M335.448,290.472" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M100.06,290.472" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M335.448,336.289" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M100.06,336.289" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M335.448,383.787" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M100.06,383.787" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M335.448,427.922" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M100.06,427.922" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M405.63,612.977" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+            <path d="M41.2,612.977" fill="none" stroke="#7f7f7f" stroke-linecap="round" stroke-miterlimit="10" stroke-width="13.071"/>
+          </g>
+        </g>
+      </g>
+      <rect x="394.943" y="497.912" width="36.552" height="68" fill="#7f7f7f"/>
+      <rect x="10.032" y="497.912" width="49.56" height="68" fill="#7f7f7f"/>
+    </g>
+  </g>
+</svg>

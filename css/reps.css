@@ -1,0 +1,97 @@
+* {  box-sizing: border-box; }
+
+input:focus {outline:none !important;}
+
+#resetStates {
+	display: none;
+}
+
+#resetProvs {
+display: none;
+}
+#resetCont {
+display: none;
+}
+#resetTest {
+display: none;
+}
+.rep-filter {
+  border: none;
+  border-bottom: 1px solid black;
+	position: relative;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+	background-color: white;
+	top: 14px;
+}
+.item {
+	position: relative;
+  width: 331px;
+  height: 300px;
+  float: left;
+  background-color: #fafafa;
+  margin: 5px;
+  padding: 15px;
+}
+
+.item p {
+	font-weight: 100;
+  margin: 0;
+font-size: 20px;
+}
+
+
+select, label, input { font-size: 20px; }
+
+label { margin-right: 10px; }
+
+.name {
+	font-weight: 500 !important;
+}
+
+.foot-link {
+	position: absolute;
+	bottom: 22px;
+}
+
+.select2 {
+	font-size: 20px;
+}
+/*
+.select2-container {
+	top: 14px;
+}
+*/
+
+.select2-container--default .select2-selection--single {
+	position: relative;
+	border: none;
+	border-radius: 0px;
+}
+
+select[style*="display: none"] + .select2 { display: none; }
+
+.gridContent {
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.title {
+	height: 700px;
+}
+
+@media (max-width: 1199px) {
+	.midContent {
+		padding-bottom: 15px;
+	}
+	.select2-container {
+		width: 100% !important;
+	}
+}
+
+@media (max-width: 425px) {
+	.item {
+		width: 100%;
+	}
+}

@@ -1,0 +1,135 @@
+/* CSS reset */
+#footy {
+	padding-top: 39px !important;
+}
+	.sidenav {
+		background-color: var(--side-nav-1) !important;
+	}
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+		background-color: var(--sec-color) !important;
+}
+	.burg-links {
+		color: var(--main-text-color) !important;
+	}
+	.tab-content p {
+		color: var(--sec-color) !important;
+	}
+/*
+h5 {
+	color: var(--main-text-color) !important;
+}
+*/
+.index-but {
+	position: relative;
+	font-size: 16px;
+	font-weight: 300;
+	opacity: 1 !important;
+	height: 40px;
+	width: 200px;
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	border: 1px solid var(--main-text-color);
+	margin: 3px 10px;
+}
+	#footy {
+	position: absolute;
+	background-color: var(--main-bg-color);
+	z-index: 5;
+	max-height: 100%;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 20px;
+		bottom: 0px;
+}
+
+/* General Demo Style */
+body{
+	background: #000;
+	font-weight: 300;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+.container{
+	width: 100%;
+	top: 80%;
+	position: absolute;
+	text-align: center;
+}
+
+
+.slideshow li span {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: -40;
+	-webkit-backface-visibility: hidden;
+    animation: imageAnimation 18s infinite 0s;
+}
+
+.slideshow li:nth-child(1) span { background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
+animation-delay: 0s;
+}
+.slideshow li:nth-child(2) span {
+    background-image: url("../images/Projects/Talde/talde-2.jpeg");
+    animation-delay: 6s;
+}
+.slideshow li:nth-child(3) span {
+    background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
+    animation-delay: 12s;
+}
+
+
+/*
+.slideshow li:nth-child(2) div {
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -o-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+}
+.slideshow li:nth-child(3) div {
+    -webkit-animation-delay: 12s;
+    -moz-animation-delay: 12s;
+    -o-animation-delay: 12s;
+    -ms-animation-delay: 12s;
+    animation-delay: 12s;
+}
+*/
+@keyframes imageAnimation { 		 
+  0%   { opacity: 0;}	
+  11.11%   { opacity: 1; }		
+  33.33%  { opacity: 1; }	
+  44.44%  { opacity: 0; }	
+  100% { opacity: 0;}	
+}
+@keyframes gifAnimation { 		 
+  0%   { opacity: 0;}	
+  11.11%   { opacity: 1; }	
+  90.11%   { opacity: 1; }		
+  99.44%  { opacity: 0; }	
+  100% { opacity: 0;}	
+}
+
+@media (max-width: 425px) {
+	.container { 
+		top: 70%;
+	}
+
+}
+
+/*
+@media (max-width: 320px) {
+	.container {
+		top: 70%;
+	}
+}
+*/

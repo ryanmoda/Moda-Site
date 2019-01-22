@@ -1,0 +1,177 @@
+body {
+	padding: 0 !important;
+}
+
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
+
+a {
+	color: black;
+}
+a p {
+	color: black;
+}
+a:hover p{
+	opacity: .7;
+}
+#footy {
+	margin-top: 0px !important;
+}
+
+	.modal-backdrop {
+		z-index: -1;
+	}
+
+	.modal-dialog {
+		color: black;
+		position: relative;
+		max-width: 680px;
+		width: 90%;
+		top: 20%;
+		z-index: 1100 !important;
+	}
+
+
+h1 {
+	font-size: 35px;
+	font-weight: 200;
+}
+
+
+h3 {
+	font-size: 20px;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 500;
+	color: black;
+	margin: 0 0 5px 0;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: 200;
+	color: white;
+	margin: 0;
+}
+
+p {
+	letter-spacing: 0.05em;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+span {
+	font-weight: 300;
+}
+
+.midContent {
+	display: block;
+	width: 90%;
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.readContent {
+	max-width: 902px;
+}
+
+.maxContent {
+	max-width: 1200px;
+}
+
+.iconContent {
+	max-width: 240px;
+}
+	.thin {
+/*		font-weight: 100 !important;*/
+	}
+	.h1 {
+		font-size: 30px;
+		font-weight: 300;
+	}
+	.p1 {
+		font-size: 18px;
+	}
+	.p2 {
+		font-size: 16px;
+	}
+	.p3 {
+		font-size: 12px;
+		color: white; 
+		padding-top: 15px;
+	}
+
+.square {
+	height: 50px;
+	width: 50px;
+	border: .031em solid #77787B;
+	
+}
+
+.dim {
+	height: 50px;
+	width: 50px;
+	background-color: #77787B;
+}
+
+.row.no-gutters {
+  margin: 3px !important;
+
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+ padding: 3px;
+}
+
+.row.no-gutters-accs > [class^="col-"],
+.row.no-gutters-accs > [class*=" col-"] {
+ padding: 30px 3px;
+}
+
+.row.gutterless {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+.row.gutterless > [class^="col-"],
+.row.gutterless > [class*=" col-"] {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.swatch {
+	width: 100px;
+}
+
+.modal {
+	margin:  0 !important;
+}
+	.modal-backdrop {
+		z-index: -1;
+	}
+	.modal-dialog {
+		color: black;
+		position: relative;
+		max-width: 680px;
+		width: 90%;
+		top: 45%;
+		z-index: 1100 !important;
+	}
+
+
+.mobile-br {
+	display: none;
+}
+
+@media (max-width: 900px) {
+	.mobile-br {
+		display: block;
+	}
+}

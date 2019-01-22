@@ -1,0 +1,40 @@
+<link href="css/new-navbar.css" rel="stylesheet" type="text/css">
+<link href="css/products.css" rel="stylesheet" type="text/css">
+<link href="css/flex.css" rel="stylesheet" type="text/css">
+
+<!--
+<div class="cove-section">
+	<center>
+	<figure class="cove-li"><img class="prod-btn" src="svgs/COVE-WHITE.svg"><figcaption>MINI COVE</figcaption></figure>
+	<figure class="cove-li"><img class="prod-btn" src="svgs/MODA-COVE-WHITE.svg"><figcaption>COVE</figcaption></figure>
+	
+	</center>
+	</div>
+-->
+
+	<div id="box">
+<div class="row">
+		<div class="col-lg-6 col-md-12 gal" id="int-flex"><center>
+<div class="figcap">Text</div></center></div>
+		<div class="col-lg-6 col-md-12 gal" id="ext-flex"><center>
+<div class="figcap">Text</div></center></div>
+		</div>
+	</div>
+
+<script>
+var baz = document.getElementById("int-flex");
+baz.addEventListener("click", function() {
+	alert("sup");
+baz.classList.toggle("animate-flex");
+});
+</script>
+
+<!--
+	<script>
+window.onload = function() {		
+	alert("sup");
+document.getElementById("navbar").classList.add();
+}
+</script>
+-->
+

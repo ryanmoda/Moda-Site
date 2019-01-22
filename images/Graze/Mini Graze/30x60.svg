@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:url(#Intersection_11_1_);}
+	.st2{opacity:0.75;fill:url(#Intersection_1_1_);enable-background:new    ;}
+	.st3{fill:none;}
+	.st4{fill:none;stroke:#000000;stroke-width:0.25;}
+	.st5{font-family:'Lato-Light';}
+	.st6{font-size:20px;}
+	.st7{letter-spacing:1;}
+</style>
+<g id="_30x60" transform="translate(-220 -2093)">
+	<g id="EA9A2o_1_">
+		
+			<image style="overflow:visible;" width="150" height="150" id="EA9A2o" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAYAAAAYn8l5AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAStJREFUeNrs0kERACAMA8GCpfqX
+EE8MHqCv3UcEZK4KPll3krQreG27AHEhLhAX4kJcIC7EhbhAXIgLcYG4EBfiAnEhLsQF4kJciAvE
+hbgQF4gLcSEuEBfiAnEhLsQF4kJciAvEhbgQF4gLcSEuEBfiQlwgLsSFuEBciAtxgbgQF+ICcSEu
+xAXiQlwgLsSFuEBciAtxgbgQF+ICcSEuxAXiQlyIC8SFuBAXiAtxIS4QF+JCXCAuxIW4QFyIC8SF
+uBAXiAtxIS4QF+JCXCAuxIW4QFyIC3GBuBAX4gJxIS7EBeJCXIgLxIW4EBeIC3GBuBAX4gJxIS7E
+BeJCXIgLxIW4EBeIC3EhLhAX4kJcIC7EhbhAXIgLcYG4EBfiAnEhLhAX4kJcIC5mHAEGAIi+A8Z8
+4Tu2AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 219.9995 2093)">
+		</image>
+	</g>
+	<g id="Group_832" transform="translate(0.002 306)">
+		<rect id="Border" x="220" y="1787" class="st0" width="150" height="150"/>
+		
+			<linearGradient id="Intersection_11_1_" gradientUnits="userSpaceOnUse" x1="-7.9661" y1="2256.863" x2="-7.9661" y2="2255.863" gradientTransform="matrix(149.7539 0 0 -149.752 1487.9558 339756.7812)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFDD74"/>
+		</linearGradient>
+		<path id="Intersection_11" class="st1" d="M285.7,1936.9l-65.6-38v-111.8h149.8v111l-67.1,38.8H285.7z"/>
+		
+			<linearGradient id="Intersection_1_1_" gradientUnits="userSpaceOnUse" x1="-7.9687" y1="2256.8667" x2="-7.9687" y2="2255.8667" gradientTransform="matrix(150 0 0 -149.9971 1490.302 340310.375)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFEC9F"/>
+		</linearGradient>
+		<path id="Intersection_1" class="st2" d="M287,1937l-67-117.6V1787h150v33.9L303.6,1937L287,1937z"/>
+		<g id="Border-2" transform="translate(220 1787)">
+			<rect x="0" class="st3" width="150" height="150"/>
+			<rect x="0.1" y="0.1" class="st4" width="149.8" height="149.8"/>
+		</g>
+	</g>
+	<text transform="matrix(1 0 0 1 251.474 2138)" class="st5 st6 st7">30° x 60°</text>
+</g>
+</svg>

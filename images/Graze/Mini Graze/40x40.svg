@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{fill:url(#Intersection_5_1_);}
+	.st2{fill:none;}
+	.st3{fill:none;stroke:#000000;stroke-width:0.25;}
+	.st4{font-family:'Lato-Light';}
+	.st5{font-size:20px;}
+	.st6{letter-spacing:1;}
+</style>
+<g id="EA9A2o_1_">
+	
+		<image style="overflow:visible;" width="150" height="150" id="EA9A2o" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAACXCAYAAAAYn8l5AAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAASdJREFUeNrs0kENADAMxLBulMYf
+wnHqQPRTyYYQ5dSX5BUMuxJgLswF5sJcmAvMhbkwF5gLc2EuMBfmwlxgLsyFucBcmAtzgbkwF+YC
+c2EuzAXmwlxgLsyFucBcmAtzgbkwF+YCc2EuzAXmwlyYC8yFuTAXmAtzYS4wF+bCXGAuzIW5wFyY
+C8yFuTAXmAtzYS4wF+bCXGAuzIW5wFyYC3OBuTAX5gJzYS7MBebCXJgLzIW5MBeYC3OBuTAX5gJz
+YS7MBebCXJgLzIW5MBeYC3NhLjAX5sJcYC7MhbnAXJgLc4G5MBfmAnNhLjAX5sJcYC7MhbnAXJgL
+c4G5MBfmAnNhLswF5sJcmAvMhbkwF5gLc2EuMBfmwlxgLswF5sJcmAvMBSzXAgwAcdYDxmYWhc0A
+AAAASUVORK5CYII=" transform="matrix(1 0 0 1 -7.636255e-03 1.669422e-02)">
+	</image>
+</g>
+<g id="_40x40" transform="translate(-373 -1940)">
+	<g id="Group_839">
+		<rect id="BG" x="373" y="1940" class="st0" width="150" height="150"/>
+		
+			<linearGradient id="Intersection_5_1_" gradientUnits="userSpaceOnUse" x1="145.0359" y1="2409.863" x2="145.0359" y2="2408.863" gradientTransform="matrix(149.748 0 0 -149.75 -21270.9707 362817.125)">
+			<stop  offset="0" style="stop-color:#FFFFFF"/>
+			<stop  offset="1" style="stop-color:#FFDD74"/>
+		</linearGradient>
+		<path id="Intersection_5" class="st1" d="M439.6,2089.9l-66.6-79.7v-70.1h149.7v69.9l-66.7,79.8L439.6,2089.9z"/>
+		<g id="Border" transform="translate(373 1940)">
+			<rect class="st2" width="150" height="150"/>
+			<rect x="0.1" y="0.1" class="st3" width="149.8" height="149.8"/>
+		</g>
+		<text transform="matrix(1 0 0 1 404.475 1985)" class="st4 st5 st6">40° x 40°</text>
+	</g>
+</g>
+</svg>

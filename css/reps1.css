@@ -1,0 +1,31 @@
+* {  box-sizing: border-box; }
+
+
+#states {
+  border: none;
+  border-bottom: 1px solid black;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.item {
+  width: 200px;
+  height: 200px;
+  float: left;
+  background-color: grey;
+  margin: 5px;
+  padding: 5px;
+}
+
+.item p {
+  margin: 0;
+}
+
+.red { background: #F33; }
+.blue { background: #88F; }
+.green { background: #3A3; }
+.orange { background: orange;}
+
+select, label, input { font-size: 20px; }
+
+label { margin-right: 10px; }

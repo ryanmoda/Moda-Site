@@ -1,0 +1,242 @@
+body {
+	position: relative;
+}
+p {
+	padding: 0;
+	margin: 0;
+}
+.fixed-bar {
+	position: fixed;
+	width: 100%;
+	padding-bottom: 0px;
+	background-color: white;
+	z-index: 4;
+}
+#inner-bar1 {
+	padding: 10px 0 20px;
+	width: 100%;
+	max-width: 1024px;
+}
+
+.dots {
+	list-style: none;
+	margin-top: -70px;
+	
+}
+
+.modal-header {
+	padding-bottom: 45px;
+}
+
+.modal-backdrop
+{
+    opacity:0 !important;
+}
+
+
+[data-toggle^="modal"]:hover {
+	cursor: pointer;
+}
+
+button.accordion {
+	font-family: 'Lato', sans-serif;
+    color: #444;
+	background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+	border: none;
+    border-bottom: 1px solid #ededed;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+	.chev {
+	position: relative;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	content: '';
+	display: block;
+	height: 10px;
+	width: 10px;
+	top: -15px;
+	left: 95%;
+	transform: rotate(135deg);
+	vertical-align: top;
+	text-align: center;
+	transition: all .15s;
+}
+	.rotate {
+	transform: rotate(-45deg);
+	}
+
+div.panel {
+    padding: 8px 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block !important;
+}
+
+#prod-name1 {
+	font-size: 16px;
+	margin-left: 8px;
+	font-weight: 300;
+}
+
+.prod-links1 {
+	font-weight: 300;
+	font-size: 16px;
+/*	padding:  0 10px 0 0px;*/
+	color: black;
+}
+
+.prod-links1:hover {
+	text-decoration: none;
+}
+
+.bar-links1 {
+	padding-top: 0px;
+	padding-left: 0px;
+	margin-right: 8px;
+}
+.bar-links1 li {
+	list-style: none;
+	float: right;
+	margin-top: 0px;
+	padding-top: 0px;
+	padding-left: 15px;
+}
+
+hr {
+	border-top: 1px solid #cccccc;
+	border-bottom: 0px;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+
+/* Acordeon styles */
+.tab1 {
+  position: relative;
+  margin-bottom: 1px;
+	border-bottom: 1px solid #ededed;
+  width: 100%;
+  color: white !important;
+  overflow: hidden;
+}
+
+.accordian1 input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+
+
+.accordian1 label {
+  position: relative;
+  display: block;
+	margin: 0;
+  padding: 20px 0 0 1em;
+	border-bottom: 1px solid #ededed;
+	height: 50px;
+  font-weight: bold;
+  line-height: 3;
+  cursor: pointer;
+}
+
+
+.tab-content1 {
+  max-height: 0;
+  overflow: hidden;
+  background: black;
+	opacity: .93;
+  -webkit-transition: max-height .35s;
+  -o-transition: max-height .35s;
+  transition: max-height .35s;
+}
+.blue1 .tab-content1 {
+  background: white;
+}
+.tab-content1 p {
+  margin: 1em;
+	color: black !important;
+}
+
+.tab-grid {
+	height: 80px;
+	padding: 10px 0 0 5px;
+}
+
+/* :checked */
+input[name="re-input"]:checked ~ .tab-content1 {
+  max-height: 600px;
+}
+/* Icon */
+.accordian1 label::after {
+	border-color: black;
+	position: absolute;
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	height: 10px;
+	width: 10px;
+	right: 10px;
+	top: 20px;
+	transform: rotate(135deg);
+	vertical-align: top;
+  text-align: center;
+  transition: all .35s;
+}
+input[type=checkbox]:checked + label::after {
+  transform: rotate(-45deg);
+}
+
+
+button.accordion {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+	border: none;
+    border-bottom: 1px solid #ededed;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+	.chev {
+	position: relative;
+	border-style: solid;
+	border-width: 1px 1px 0 0;
+	content: '';
+	display: block;
+	height: 10px;
+	width: 10px;
+	top: -15px;
+	left: 95%;
+	transform: rotate(135deg);
+	vertical-align: top;
+	text-align: center;
+	transition: all .15s;
+}
+	.rotate {
+	transform: rotate(-45deg);
+	}
+
+div.panel {
+    padding: 8px 18px;
+    display: none;
+    background-color: white;
+}
+
+div.panel.show {
+    display: block !important;
+}

@@ -1,0 +1,14 @@
+.navbar {
+	background-color: var(--sec-color) !important;
+}
+#navlist li a {
+	color: var(--nav-text);
+}
+
+.nav li ul {
+ background-color: white !important;	
+}
+
+nav li ul li a {
+	color: black !important;
+}

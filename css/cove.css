@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Sticky footer styles
+-------------------------------------------------- */
+.navbar {
+	background-color: #ffffff !important;
+}
+
+.navbar-nav>li>a {
+	padding-top: 20px;
+	color: black !important;
+}
+
+.navbar-toggle {
+	border-color: transparent !important;
+	background-color: transparent !important;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #EE202E !important;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* no-gutters Class Rules */
+.container1 {
+	padding-left: 5vw; 
+	padding-right: 5vw;
+}
+
+
+html,
+body {
+  height: 100%;
+	font-family: FutuLt;
+}
+
+a { 
+color:black;
+}
+a:hover {
+	color:#EE202E;
+}
+
+h1 {
+	font-size: 20px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+.img-fluid {
+	margin-bottom: 12px !important;
+}
+
+.img-thumbnail {
+	border: 1px solid #efefef;
+}
+
+.cntr {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+.bottom-center{
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+
+@media (max-width: 768px) {
+.page-header {
+	padding-left: 5vw;
+	padding-right: 5vw;
+	}
+.container1 {
+	padding-left: 1px;
+	padding-right: 1px;
+	}
+.img-fluid {
+	margin-bottom: 0px !important;
+	border-radius: 0px;
+	margin-top: -1px;
+}
+	
+	.row.no-gutters {
+   margin-right: 0;
+   margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+   padding-right: 0;
+   padding-left: 0;
+}
+}
+
+
+@media (max-width: 470px) { /*iphone 6+*/
+	.small-text{
+		font-size: 12px;
+		top:70% !important;
+	}
+	
+	.dyn-white {
+		font-size: 11px;
+		top:70% !important;
+	}
+}
+
+@media (max-width: 320px) { /*iphone 5-*/
+	.iphone5-text{
+		font-size: 12px;
+		top:70% !important;
+	}
+	.dyn-white {
+		font-size: 10px;
+		top:70% !important;
+	}
+}

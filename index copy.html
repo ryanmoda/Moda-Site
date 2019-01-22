@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app='sampleApp'>
+
+<head>
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/hamburger.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://use.typekit.net/lvn2xwm.css">
+<link href="css/new-navbar-trans.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+
+
+<!--    <link data-require="bootstrap-css" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />-->
+    <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular.js" data-semver="1.4.9"></script>
+    <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular-route.js" data-semver="1.4.9"></script>
+    <script src="js/script.js"></script>
+    <script src="js/headerController.js"></script>
+
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-default" id="navbar" ng-controller="HeaderController">
+	<button class="hamburger hamburger--squeeze" id="burg" type="button" onClick="drop()">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button> 
+      <a ng-class="{ active: isActive('/')}" href="#/"><img id="logo" src="svgs/modalogoWHITE.svg" width="200" alt="Moda Light"></a>
+ <div class="nav navbar-nav" id="navlist">
+          <ul>
+<li id="cove1"><a>COVE</a>
+	 		<ul id="cove-bar">
+			  <li><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="hideBar(this.id);">MINI COVE</a></li>
+	 			  <li><a href="#/cove" id="a-sub-cove" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove')}">COVE</a></li>
+			  </ul>
+	 </li>
+		  <li ng-class="{ active: isActive('/graze')}"><a href="#/graze">GRAZE</a></li>
+		  <li ng-class="{ active: isActive('/flex')}"><a href="#/flex">FLEX</a></li>
+		  <li ng-class="{ active: isActive('/power')}"><a href="#/power">POWER</a></li>
+		  <li ng-class="{ active: isActive('/controls')}"><a href="#/controls">CONTROLS</a></li>
+</ul>
+
+
+  </div>
+
+	 
+   <div class="sidenav" id="sidenav-mob">
+		     
+	<a href="#/graze" ng-class="{ active: isActive('/graze')}" onclick="closeSide();" id="graze" class="burg-links">GRAZE</a> 
+	<a class="burg-links">FLEX </a> 
+	<a class="burg-links">POWER </a> 
+	<a class="burg-links">CONTROLS</a> 
+<a class="burg-links">ABOUT US </a> 
+	<a class="burg-links">RESOURCES </a> 
+	<a class="burg-links">TECHNOLOGY </a> 
+	<a class="burg-links">CONTACT </a> 
+</div>
+
+
+
+ <div class="sidenav" id="sidenav-d" >
+ 	<a href="/" class="burg-links">ABOUT US</a> 
+	<a href="/" class="burg-links">TECHNOLOGY</a> 
+	<a href="/" class="burg-links">RESOURCES</a> 
+	<a href="/" class="burg-links">CONTACT US</a> 
+</div>
+	
+
+
+    </nav>
+  </header>
+	    <div id="over"></div>
+  <ng-view></ng-view>
+		<footer><center><a>CONTACT</a><span>|</span><a>ABOUT US</a><span>|</span><a>TECHNOLOGY</a><span>|</span><a>RESOURCES</a></center></footer>
+
+<script>
+function closeSide() {
+	
+document.getElementById("over").classList.remove("overlay");
+	document.getElementById("over").style.height = "0px";	
+	document.getElementById("sidenav-mob").style.width = "0px";
+		document.getElementById("burg").classList.remove("is-active");
+} 
+	
+function hideBar(foo) {
+	var re = RegExp(/^a-\S*/); /*a- followed by text*/
+	if (re.test(foo)) {
+		document.getElementById("cove-bar").classList.toggle("hide");
+		setTimeout(function(){ document.getElementById("cove-bar").classList.toggle("hide"); }, 500);
+
+	}
+
+}	
+</script>
+
+<script src="js/navbar.js"></script>
+
+	
+</body>
+</html>

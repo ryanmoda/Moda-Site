@@ -1,0 +1,82 @@
+<link href="css/reps.css" rel="stylesheet" type="text/css">
+<link href="css/reps1.css" rel="stylesheet" type="text/css">
+<div style="padding-top: 100px;"></div>
+<center>
+<div class="row content">
+<div class="col-lg-6"><h1>UNITED STATES</h1></div>
+<div class="col-lg-3">
+<select class="js-select2-multi">
+	<option></option>	
+  <option>Canada</option>
+  <option>International</option>
+</select>	
+	</div>
+<div class="col-lg-3" id="drop1">
+<ul class="select">
+		<li>
+			<input class="select_close" type="radio" name="awesomeness" id="awesomeness-close" value=""/>
+			<span class="select_label select_label-placeholder">Awesomeness Level</span>
+		</li>
+		
+		<li class="select_items">
+			<input class="select_expand" type="radio" name="awesomeness" id="awesomeness-opener"/>
+			<label class="select_closeLabel" for="awesomeness-close"></label>
+			
+			<ul class="select_options">
+				<li class="select_option">
+					<input class="select_input" type="radio" name="awesomeness" id="awesomeness-ridiculous"/>
+					<label class="select_label" for="awesomeness-ridiculous">ridiculous</label>
+				</li>
+
+				<li class="select_option">
+					<input class="select_input" type="radio" name="awesomeness" id="awesomeness-reasonable"/>
+					<label class="select_label" for="awesomeness-reasonable">reasonable</label>
+				</li>
+
+				<li class="select_option">
+					<input class="select_input" type="radio" name="awesomeness" id="awesomeness-lacking"/>
+					<label class="select_label" for="awesomeness-lacking">lacking</label>
+				</li>
+
+				<li class="select_option">
+					<input class="select_input" type="radio" name="awesomeness" id="awesomeness-awesomeless"/>
+					<label class="select_label" for="awesomeness-awesomeless">awesomeless</label>
+				</li>
+			</ul>
+			
+			<label class="select_expandLabel" for="awesomeness-opener"></label>
+		</li>
+	</ul>	
+	</div>
+	<div id="underline"></div>
+</div>
+</center>
+<div style="padding-top: 900px;"></div>
+<script> </script>
+<script>
+$(document).ready(function() {
+  $(".js-select2-state").select2({
+	  placeholder: "States",
+	  allowClear: true,
+  });
+  $(".js-select2-multi").select2({
+	  placeholder: "Location",
+    allowClear: true
+  });
+var target = $(".js-js-select2-state").select2();
+	target.data('select2').$dropdown.addClass("stateFix");
+//$(".js-select-state").select2({ containerCssClass : "stateFix" });
+//$($('.js-select-state').data('select2').$container).addClass('stateFix');
+
+//	var el = document.getElementsByClassName("select2-selection");
+//	el[0].style.border = "none"; el[0].style.borderBottom = "1px solid black"; el[0].style.borderRadius = "0px";
+//	el[1].style.border = "none"; el[1].style.borderBottom = "1px solid black"; el[1].style.borderRadius = "0px";
+});
+
+//$(document).bind('click', function(e) {
+//  if(!$(e.target).is('span[data-select2-id="2"]')) {
+//    // do something
+//	document.getElementById("chev1").classList.remove("rotated");
+//  }
+//});
+</script>

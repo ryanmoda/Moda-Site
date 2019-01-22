@@ -1,0 +1,113 @@
+html {
+overflow-y: hidden;
+	overflow-x: hidden;	
+}
+body {
+	margin: 0;
+
+}
+.head1 {
+	padding: 25px 0 25px 0;
+	font-size: 30px;
+	font-weight: lighter;
+	color: black;
+	text-align: left;
+}
+.curtain {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+.curtain__wrapper {
+  width: 100%;
+  height: 100%;
+}
+.curtain__wrapper input[type=checkbox] {
+  position: absolute;
+  cursor: pointer;
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.curtain__wrapper ~ div.curtain__panel--left {
+          transform: translateX(0);
+}
+.curtain__wrapper ~ div.curtain__panel--right {
+          transform: translateX(0);
+}
+.curtain__panel {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  float: left;
+  position: relative;
+  width: 50%;
+  height: 100vh;
+  transition: .1s filter linear;
+	transition: transform .4s;
+  z-index: 2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+	display: inline-block;
+	overflow: hidden;
+}
+
+.figcap {
+	display: none;
+	font-size: 50px;
+	color: white;
+	position: absolute;
+	z-index: 5;
+	top: 50vh;
+}
+
+.figcap__left{left: 25%; margin-left: -117px; margin-top: -30px;}
+.figcap__right{right: 25%; margin-right: -117px; margin-top: -30px;}
+
+.curtain__panel:hover {
+	filter: brightness(30%);
+	padding-top: 0px;
+}
+
+.curtain__panel--left:hover .figcap{
+	display: block;
+}
+
+.curtain__panel--right:hover .figcap {
+	display: block;
+	opacity: 1;
+}
+
+.curtain__panel--left {
+	background-image: url("../images/Projects/Fremont/fremont-1.png");
+  justify-content: flex-end;
+          transform: translateX(0%);
+}
+.curtain__panel--right {
+	background-image: url("../images/Projects/Venetian/Venetian-1.png");
+  justify-content: flex-start;
+          transform: translateX(0%);
+}
+
+.animate-int-flex {
+  transform: translateX(-100%);
+}
+.animate-ext-flex {
+  transform: translateX(100%);
+}
+.curtain__content {
+  background: white;
+  color: #fff;
+  padding: 1rem 0;
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  width: 100%;
+}
+.curtain__content img {
+  width: 20%;
+}

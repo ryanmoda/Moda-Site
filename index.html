@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html ng-app='modaApp'>
+
+<head>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="css/materialize.css" rel="stylesheet" type="text/css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link href="css/hamburger.css" rel="stylesheet" type="text/css">
+<!--  <link rel="stylesheet" href="https://use.typekit.net/lvn2xwm.css">-->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400" rel="stylesheet">
+<!--<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">-->
+  <link href="css/new-navbar-trans.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+
+
+
+<!--
+<SCRIPT>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Please Enter Your Password','');
+while (tes  tV < 3) {
+if (!pass1) {
+history.go(-1);
+}
+if (pass1.toLowerCase() == "moda") {
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied - Password Incorrect, Please Try Again.',' ');
+}
+if (pass1.toLowerCase()!="" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+passWord();
+</SCRIPT>
+-->
+
+
+
+
+  <header>
+    <nav class="navbar navbar-default" id="navbar" ng-controller="HeaderController">
+      <button class="hamburger hamburger--squeeze" id="burg" type="button" onClick="drop()">
+  <span class="hamburger-box">
+	  <span class="hamburger-inner"></span>
+  </span>
+</button>
+      <a onClick="closeSide()" href="#/"><img id="logo" src="svgs/modalogoWHITE.svg" alt="Moda Light"></a>
+      <div class="nav navbar-nav" id="navlist">
+        <ul>
+          <li onClick="navDrop('cove-bar');" class="nav-links"><a class="nav-links-a" id="nav-cove">COVE</a>
+            <ul class="sub-bar" id="cove-bar">
+              <li style="margin-left: 21px;"><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
+              <li><a href="#/cove" id="a-sub-cove" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove')}">COVE</a></li>
+              <li><a href="#/cove-ext" id="a-cove-ext" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove-ext')}">COVE EXTERIOR</a></li>
+            </ul>
+          </li>
+          <li onClick="navDrop('graze-bar');" class="nav-links"><a class="nav-links-a" id="nav-graze">GRAZE</a>
+            <ul class="sub-bar" id="graze-bar">
+              <li style="margin-left: 21px;"><a href="#/mini-graze" id="b-mini-graze" ng-class="{ active: isActive('/mini-graze')}" onclick="hideBar(this.id);">MINI GRAZE</a></li>
+              <li><a href="#/graze" id="b-graze" onclick="hideBar(this.id);" ng-class="{ active: isActive('/graze')}">GRAZE</a></li>
+              <li><a href="#/graze-ext" id="b-graze-ext" onclick="hideBar(this.id);" ng-class="{ active: isActive('/graze-ext')}">GRAZE EXTERIOR</a></li>
+            </ul>
+          </li>
+          <li onClick="navDrop('flex-bar');" class="nav-links"><a class="nav-links-a" href="" id="nav-flex">FLEX</a>
+            <ul class="sub-bar" id="flex-bar">
+              <li style="margin-left: 23px;"><a href="#/int-flex" id="c-int-flex" onclick="hideBar(this.id);">INTERIOR</a></li>
+              <li><a href="#/ext-flex" id="c-ext-flex" onclick="hideBar(this.id);">EXTERIOR</a></li>
+			<li><a href="#/super-neon" id="c-super-neon" onclick="hideBar(this.id);">SUPER NEON</a></li>
+            </ul>
+          </li>
+		<li onClick="closeAll();" class="nav-links"><a href="#/xtrusion" class="nav-links-a" id="nav-xtrusion">XTRUSION</a>
+          </li>
+			<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
+          </li>          
+			<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
+            <ul class="sub-bar" id="cntrl-bar">
+              <li style="margin-left: -26px;"><a href="#/controls" id="d-dmx-ctrl" onclick="hideBar(this.id);">DMX CONTROLLERS</a></li>
+              <li><a href="#/accessories" id="d-dmx-acc" onclick="hideBar(this.id);">DMX ACCESSORIES</a></li>
+              <li><a href="#/converters" id="d-conv" onclick="hideBar(this.id);">CONVERTERS</a></li>
+            </ul>
+          </li>   
+	          <li onClick="closeAll();"><a class="nav-links-a" id="nav-tech" href="#/technology">TECHNOLOGY</a></li>
+        </ul>
+
+      </div>
+
+      <div class="sidenav" id="sidenav-mob">
+
+		 <div class="accordian tab blue">
+      <input id="tab-four" type="radio" name="tabs2">
+      <label for="tab-four"><h5 class="burg-links">COVE</h5></label>
+      <div class="tab-content">
+       	<a onClick="closeSide()" href="#/mini-cove"><p>MINI COVE</p></a>
+		<a onClick="closeSide()" href="#/cove"><p>COVE</p></a>
+		<a onClick="closeSide()" href="#/cove-ext"><p>COVE EXTERIOR</p></a>
+      </div>
+    </div>
+    <div class="accordian tab blue">
+      <input id="tab-five" type="radio" name="tabs2">
+      <label for="tab-five"><h5 class="burg-links">GRAZE</h5></label>
+      <div class="tab-content">
+        <a onClick="closeSide()" href="#/mini-graze"><p>MINI GRAZE</p></a>
+		<a onClick="closeSide()" href="#/graze"><p>GRAZE</p></a>
+		<a onClick="closeSide()" href="#/graze-ext"><p>GRAZE EXTERIOR</p></a>
+      </div>
+    </div>
+    <div class="accordian tab blue">
+      <input id="tab-six" type="radio" name="tabs2">
+      <label for="tab-six"><h5 class="burg-links">FLEX</h5></label>
+      <div class="tab-content">
+        <a onClick="closeSide()" href="#/int-flex"><p>INTERIOR</p></a>
+		<a onClick="closeSide()" href="#/ext-flex"><p>EXTERIOR</p></a>
+		<a onClick="closeSide()" href="#/super-neon"><p>SUPER NEON</p></a>
+      </div>
+    </div>	
+    <div class="accordian tab blue">
+      <input id="tab-7" type="radio" name="tabs2">
+        <label><a onClick="closeSide()" href="#/xtrusion"><h5 class="burg-links">XTRUSION</h5></a></label>
+    </div>	
+    <div class="accordian tab blue">
+      <input id="tab-8" type="radio" name="tabs2">
+      <label><a onClick="closeSide()" href="#/power"><h5 class="burg-links">POWER</h5></a></label>
+    </div>	
+	<div class="accordian tab blue">
+      <input id="tab-9" type="radio" name="tabs2">
+		<label for="tab-9"><h5 class="burg-links">CONTROLS</h5></label>
+      <div class="tab-content">
+		<a onClick="closeSide()" href="#/controls"><p>DMX CONTROLLERS</p></a>
+		<a onClick="closeSide()" href="#/accessories"><p>DMX ACCESSORIES</p></a>
+        <a onClick="closeSide()" href="#/converters"><p>CONVERTERS</p></a>
+      </div>
+    </div>	
+    <div class="accordian blue">
+      <input id="tab-10" type="radio" name="tabs2">
+        <label><a onClick="closeSide()" href="#/technology"><h5 class="burg-links">TECHNOLOGY</h5></a></label>
+    </div>	
+	<br>
+		 <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h5 class="burg-links">ABOUT</h5></a></label></div>
+		 <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h5 class="burg-links">ALL PRODUCTS</h5></a></label></div>
+			 <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h5 class="burg-links">PROJECTS</h5></a></label></div>
+		 <div class="accordian tab"> <label><a href="#/news" onClick="closeSide()" class="burg-links"><h5 class="burg-links">NEWS</h5></a></label></div>
+<!--		 <div class="accordian tab"> <label><a href="#/videos" onClick="closeSide()" class="burg-links"><h5>VIDEOS</h5></a></label></div>-->
+		 <div class="accordian tab"> <label><a href="#/resources" onClick="closeSide()" class="burg-links"><h5 class="burg-links">RESOURCES</h5></a></label></div>
+<!--		 <div class="accordian tab"> <label><a href="#/legacy" onClick="closeSide()" class="burg-links"><h5>LEGACY</h5></a></label></div>-->
+		 <div class="accordian"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h5 class="burg-links">HOW TO BUY</h5></a></label></div>
+<!--		 <div class="accordian" style="margin-bottom: 30px !important;"> <label><a href="#/contact" onClick="closeSide()" class="burg-links"><h5>CONTACT US</h5></a></label></div>-->
+		  <br>
+      </div>
+
+		
+<!--		DESKTOP SIDEBAR-->
+      <div class="sidenav" id="sidenav-d">
+        <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h5 class="burg-links">ABOUT</h5></a></label></div>
+		 <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h5 class="burg-links">ALL PRODUCTS</h5></a></label></div>
+			 <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h5 class="burg-links">PROJECTS</h5></a></label></div>
+
+		 <div class="accordian tab"> <label><a href="#/news" onClick="closeSide()" class="burg-links"><h5 class="burg-links">NEWS</h5></a></label></div>
+<!--		 <div class="accordian tab"> <label><a href="#/videos" onClick="closeSide()" class="burg-links"><h5>VIDEOS</h5></a></label></div>-->
+		 <div class="accordian tab"> <label><a href="#/resources" onClick="closeSide()" class="burg-links"><h5 class="burg-links">RESOURCES</h5></a></label></div>
+<!--		 <div class="accordian tab"> <label><a href="#/legacy" onClick="closeSide()" class="burg-links"><h5>LEGACY</h5></a></label></div>-->
+
+		 <div class="accordian"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h5 class="burg-links">HOW TO BUY</h5></a></label></div>
+<!--		 <div class="accordian" > <label><a href="#/contact" onClick="closeSide()" class="burg-links"><h5>CONTACT US</h5></a></label></div>-->
+      </div> 
+
+    </nav>
+  </header>
+  <div id="over" class="notSide"></div>
+  <ng-view></ng-view>
+  <div moda-footer></div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular.js" data-semver="1.4.9"></script>
+<script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular-route.js" data-semver="1.4.9"></script>
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/headerController.js"></script>
+  <script src="js/global.js"></script>
+  <script src="js/flex.js"></script>
+<script src="js/scrollSpy.js"></script>
+
+</body>
+
+</html>

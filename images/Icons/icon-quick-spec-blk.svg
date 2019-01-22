@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 19.39 30">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: none;
+        stroke-width: 0.5px;
+      }
+
+      .cls-2 {
+        stroke: #f7f7f8;
+      }
+
+      .cls-2, .cls-3, .cls-5 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-5 {
+        stroke-linecap: round;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1301" data-name="Rectangle 1301" width="19.39" height="30"/>
+    </clipPath>
+  </defs>
+  <g id="icon-quick-spec-blk" transform="translate(26.2 46.199)">
+    <g id="Layer_1-2" transform="translate(-26 -46)">
+      <g id="Group_2718" data-name="Group 2718" transform="translate(-0.2 -0.2)">
+        <g id="Group_2717" data-name="Group 2717" class="cls-1">
+          <path id="Path_564" data-name="Path 564" class="cls-2" d="M2.609.2A2.411,2.411,0,0,0,.2,2.6h0V27.32a2.411,2.411,0,0,0,2.409,2.4H16.7a2.411,2.411,0,0,0,2.409-2.4V4.46L14.893.26Z" transform="translate(0.041 0.04)"/>
+          <path id="Path_565" data-name="Path 565" class="cls-3" d="M2.609.2A2.411,2.411,0,0,0,.2,2.6h0V27.32a2.411,2.411,0,0,0,2.409,2.4H16.7a2.411,2.411,0,0,0,2.409-2.4V4.46L14.893.26Z" transform="translate(0.041 0.04)"/>
+          <path id="Path_566" data-name="Path 566" class="cls-4" d="M27.148,4.54h1.746L24.8.4V2.14A2.4,2.4,0,0,0,27.148,4.54Z" transform="translate(-9.746 -0.04)"/>
+        </g>
+      </g>
+      <path id="Path_567" data-name="Path 567" class="cls-5" d="M7.3,28.18H17.537M7.3,26.14H17.537M7.3,24.22H17.537M7.3,22.12H17.537M7.3,20.14H17.537M7.3,18.1H17.537" transform="translate(-2.984 -7.32)"/>
+    </g>
+  </g>
+</svg>
