@@ -6,7 +6,8 @@ function drop() {
 	var w = window.innerWidth;
 	var h = String(document.documentElement.scrollHeight - 18) + 'px'
 	var open = "345px";
-	var openMob = "50vw"
+	var openTab = "50vw";
+	var openMob = "75vw";
 	
 	if (document.getElementById("sidenav-d").style.width == open) {
 		document.getElementById("sidenav-d").style.width = "0px";
@@ -15,7 +16,7 @@ function drop() {
 		document.getElementById("over").style.height = "0px";
 		return;
 	}
-	if (document.getElementById("sidenav-mob").style.width != "0px") {
+	if (document.getElementById("sidenav-mob").style.width == openTab || document.getElementById("sidenav-mob").style.width == openMob) {
 		document.getElementById("sidenav-mob").style.width = "0px";
 		document.getElementById("burg").classList.remove("is-active");
 		document.getElementById("over").classList.toggle("overlay");
@@ -32,7 +33,10 @@ function drop() {
 	document.getElementById("sidenav-d").style.width = open;
 
 	}
-	else {
+	if (w <= 1200 && w > 425) {
+	document.getElementById("sidenav-mob").style.width = openTab;	
+	}
+	if (w <= 425) {
 	document.getElementById("sidenav-mob").style.width = openMob;
 	}
 }
