@@ -350,6 +350,13 @@ input[name="tabs2"]:checked ~ .tab-content {
   width: 0px;
 }
 
+
+/*
+.footLink {
+	color: #fafafa !important;
+}
+*/
+
 .dropdown-menu {
 	background-color: black;
 }
