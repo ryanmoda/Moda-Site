@@ -170,6 +170,10 @@ span {
 	display: none;
 }
 
+.burg-links {
+	font-weight: 300;
+}
+
 @media (max-width: 900px) {
 	.mobile-br {
 		display: block;
