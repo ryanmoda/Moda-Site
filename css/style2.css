@@ -9,7 +9,7 @@
 		background-color: var(--sec-color) !important;
 }
 	.burg-links {
-		color: var(--main-text-color) !important;
+		color: var(--sec-color) !important;
 	}
 	.tab-content p {
 		color: var(--sec-color) !important;
@@ -122,6 +122,9 @@ animation-delay: 0s;
 @media (max-width: 425px) {
 	.container { 
 		top: 70%;
+	}
+	.burg-links {
+		font-weight: 300;
 	}
 
 }
