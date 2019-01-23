@@ -15,7 +15,7 @@ function drop() {
 		document.getElementById("over").style.height = "0px";
 		return;
 	}
-	if (document.getElementById("sidenav-mob").style.width == openMob) {
+	if (document.getElementById("sidenav-mob").style.width != "0px") {
 		document.getElementById("sidenav-mob").style.width = "0px";
 		document.getElementById("burg").classList.remove("is-active");
 		document.getElementById("over").classList.toggle("overlay");
