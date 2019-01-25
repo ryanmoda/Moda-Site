@@ -1,7 +1,13 @@
+//$(window).load(function(){
+//    // All images, css style sheets and external resources are loaded!
+//    alert('All resources have loaded');
+//});
 $(document).ready(function() {
-console.log("if this works...."); 
 $('.js-provs').css('display','none');
-$('.js-test').css('display','none');
+$('.js-test').css('display','none')
+	$("#container").isotope({
+            filter: '*'
+        });
 	$("#container").isotope({
             filter: '*'
         });

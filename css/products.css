@@ -9,13 +9,19 @@ body {
 	font-weight: 200;
 }
 
+
+/*
 a {
 	text-decoration: none !important;
 }
+*/
 
+
+/*
 a:hover {
 opacity: 0.5;
 }
+*/
 
 /* Container */
 .container-full {
@@ -143,26 +149,13 @@ span.icon-grid-caption {
 }
 
 
-.welcomeText {
-	padding-top: 200px;
-	text-align: center;
-	color: #000000;
-	font-family: FutuLt;
-}
-
 .block {
 	min-height: 440px;
 	width: 100%;
 	color: black;
 }
 
-#block1 {
-	background-color: #fafafa;
-}
 
-#block2{
-	background-color: #F1F2F2;
-}
 .title-text {
 	font-size: 20px;
 	font-weight: 300;

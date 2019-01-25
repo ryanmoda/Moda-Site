@@ -17,17 +17,17 @@
 	  }
   }
 
-  window.addEventListener('wheel', function(e) {
-    currYPos = supportOffset ? window.pageYOffset : document.body.scrollTop;
-    scrollDir = lastKnownPos > currYPos ? 'up' : 'down';
-    lastKnownPos = currYPos;
-
-    if (!ticking) {
-      window.requestAnimationFrame(function() {
-        doSomething(lastKnownPos, scrollDir);
-        ticking = false;
-      });
-    }
-    ticking = true;
-  });
+//  window.addEventListener('wheel', function(e) {
+//    currYPos = supportOffset ? window.pageYOffset : document.body.scrollTop;
+//    scrollDir = lastKnownPos > currYPos ? 'up' : 'down';
+//    lastKnownPos = currYPos;
+//
+//    if (!ticking) {
+//      window.requestAnimationFrame(function() {
+//        doSomething(lastKnownPos, scrollDir);
+//        ticking = false;
+//      });
+//    }
+//    ticking = true;
+//  });
 })();

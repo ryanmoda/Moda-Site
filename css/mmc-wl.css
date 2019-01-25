@@ -207,6 +207,7 @@ hr {
 	background-color: #fafafa !important;
  }
 
+/*
 #block3{
 	padding: 50px 0;
 	height: 775px;
@@ -255,9 +256,11 @@ font-size: 20px;
 	padding-top: 100px;
 	padding-bottom: 200px;
 }
+*/
 #block8 {
 	padding-top: 60px;
 }
+
 #block9 {
 	background-color: white;
 	padding-top: 100px;
@@ -694,6 +697,19 @@ background: linear-gradient(90deg, rgba(255,236,159,1) 0%, rgba(254,195,90,1) 10
 	}
 
 .imgMob {display: none;}
+
+#scrollSpy a {
+	text-decoration: none !important;
+}
+
+#scrollSpy a:hover {
+opacity: 0.5;
+}
+
+
+.coveBlock {
+		padding: 100px 0;
+	}
 
 @media (min-width: 1200px) {
 .info5 .col-lg-2 {
