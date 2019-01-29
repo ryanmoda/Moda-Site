@@ -161,7 +161,7 @@ for (var i = 0; i < navArr.length; i++) {
 return false;
 }
 
-$(".sub-bar li a").click(function() {
+$(".sub-bar li a").click(function(event) {
 var obj = parseInt(event.target.id[0], 36) - 10;
 closeAct(obj);
 document.getElementById("navbar").removeAttribute("style");
