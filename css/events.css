@@ -37,9 +37,13 @@
 }
 */
 
+.slick-slide {
+    outline: none !important;
+}
+
 .slick-active a {
 	color: black;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .slider {

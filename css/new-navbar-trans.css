@@ -86,6 +86,10 @@ nav li {
 	color: var(--main-text-color);
 }
 
+.sub-bar li a {
+	font-size: 14px !important;
+}
+
 #navlist li a:hover {
 	opacity: .7;
 }
