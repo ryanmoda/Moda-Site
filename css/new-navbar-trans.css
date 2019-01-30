@@ -7,6 +7,7 @@
 	--nav-text: rgba(0,0,0,.7);
 	--side-nav-1: rgba(0,0,0,.93);
 	--side-nav-2: rgba(255,255,255,.93);
+	--moda-grey: #808284;
 	--grey: #999;
 	--active-header: 400;
 	--mobile-width: 425px;
@@ -81,7 +82,7 @@ nav li {
 
 #navlist li a {
 	font-size: 16px;
-	font-weight: 300;
+/*	font-weight: 300;*/
 	text-decoration: none;
 	color: var(--main-text-color);
 }
@@ -134,7 +135,8 @@ nav li ul li a {
 
 .sub-bar {
 	left: 0px;
-	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);
+/*	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.3);*/
+/*	border-bottom: 1px solid black;*/
 	transition: .3s;
 
 }
