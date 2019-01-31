@@ -107,20 +107,20 @@ $(document).ready(function(){
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-gry.svg">
 	<span class="icon-grid-caption">Specification</span>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Installs/Graze/Moda Graze Exterior/DMX/Moda_Graze_Exterior_DMX_Install.pdf" target="_blank"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Installs/Graze/Moda Graze Exterior/Static/Moda_Graze_Exterior_ELV_Install.pdf" target="_blank"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
 	<span class="icon-grid-caption">Installs</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
 	<span class="icon-grid-caption">Brochure</span>
 	</div>
 	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-ies-gry.svg">
-	<span class="icon-grid-caption">IES</span>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-dw-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
 	<span class="icon-grid-caption">Revit</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-dw-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
 	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
@@ -172,7 +172,7 @@ Small in physical size, yet powerful with up to 1200 lm/ft. Wall wash any applic
 				<div class="col-lg-2 col-md-4 col-xs-6"><p class="p1 thin">940 lm/ft</p><p class="thin">Standard Output</p></div>
 				<div class="col-lg-2 col-md-4 col-xs-6"><p class="p1 thin">1407 lm/ft</p><p class="thin">High Output</p></div>
 				<div class="col-lg-2 col-md-4 col-xs-6"><p class="p1 thin">94 - 98</p><p class="thin">High Color Rendering Index</p></div>
-				<div class="col-lg-2 col-md-4 col-xs-6"><p class="p1 thin">2 3/10in Tall</p><p class="thin">60mm</p></div>
+				<div class="col-lg-2 col-md-4 col-xs-6" id="coveSize"></div>
 				<div class="col-lg-2 col-md-4 col-xs-6"><p class="p1 thin">180ft</p><p class="thin">Max Run Length</p></div>
 			</div>
 		</div>
@@ -358,6 +358,7 @@ Small in physical size, yet powerful with up to 1200 lm/ft. Wall wash any applic
       </div>
     </div>
 </div>
+<script src="js/coveSize.js"></script>
 <script src="js/accordian.js"></script>
 <script src="js/productPage.js"></script>
 <script src="js/readMore.js"></script>
