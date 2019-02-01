@@ -187,6 +187,7 @@ passWord();
 // Add active class to the current button (highlight it)
 var header = document.getElementById("navlist");
 var btns = header.getElementsByClassName("nav-links-a");
+	alert(btns[6].style.fontWeight);
 for (var i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function() {
 for (var j = 0; j < btns.length; j++) {	  
