@@ -190,6 +190,14 @@ for (var i = 0; i < navArr.length; i++) {
 }	
 }
 
+function removeActive() {
+//	var header = document.getElementById("navlist");
+//	var btns = header.getElementsByClassName("nav-links-a");
+//	el.className = el.className.replace(" activeTab" , "");
+var current = document.getElementsByClassName("activeTab");
+current[0].className = current[0].className.replace(" activeTab", "");
+}
+
 
 $(document).click(function(event) {
 var el = test();
@@ -199,7 +207,8 @@ if (!target.is("nav li a")) {
          if($('#' + el).is(":visible")) {
 			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
             $('#' + el).hide();
-		 	$('#' + el).style.visibility = "hidden";
+//		 	$('#' + el).style.visibility = "hidden";
+			 			 removeActive();
         }
     }  
 }
