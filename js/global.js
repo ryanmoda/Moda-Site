@@ -191,11 +191,15 @@ for (var i = 0; i < navArr.length; i++) {
 }
 
 function removeActive() {
-//	var header = document.getElementById("navlist");
-//	var btns = header.getElementsByClassName("nav-links-a");
-//	el.className = el.className.replace(" activeTab" , "");
 var current = document.getElementsByClassName("activeTab");
 current[0].className = current[0].className.replace(" activeTab", "");
+}
+
+function checkCurrent() {
+	var el = document.getElementsByClassName("nav-links-a");
+	for (var i = 0; i < el.length; i++) {
+		if (el[i].classList.contains("currentTab")) {el[i].className += " activeTab"}
+	}
 }
 
 
@@ -209,6 +213,7 @@ if (!target.is("nav li a")) {
             $('#' + el).hide();
 //		 	$('#' + el).style.visibility = "hidden";
 			 			 removeActive();
+			 			checkCurrent();
         }
     }  
 }

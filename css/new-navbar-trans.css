@@ -14,6 +14,10 @@
 	
 }
 
+.activeTab {
+	font-weight: var(--active-header) !important;
+}
+
 * {
 /*	font-family: "futura-pt";*/
 font-family: 'Lato', sans-serif;
