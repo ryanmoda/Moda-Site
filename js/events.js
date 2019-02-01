@@ -23,7 +23,7 @@ var ctArr = ["1800K", "2200K", "2700K", "3000K", "3500K", "4000K", "6500K"];
 var dwArr = ["1800K", "2200K", "2700K", "3000K", "3500K", "6500K"];
 var gdArr = ["1800K", "2200K", "2700K", "3500K"];
 var grazeGDArr = ["1800K", "2200K"];
-var converters = ["0-10V", "DALI", "DMX"];
+var converters = ["0-10V", "DMX"];
 $(".slider").slick({
     autoplay: false,
     variableWidth: true,		 	
