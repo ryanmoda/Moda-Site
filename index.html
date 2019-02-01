@@ -15,7 +15,11 @@
   <link href="css/new-navbar-trans.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+<style>
+	.activeTab {
+		font-weight: var(--active-header) !important;
+	}
+	</style>
 
 
 
@@ -81,7 +85,7 @@ passWord();
           </li>
 			<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
           </li>          
-			<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
+			<li onClick="navDrop('cntrl-bar');" class="nav-links"><a href="" class="nav-links-a" id="nav-controls">CONTROLS</a>
             <ul class="sub-bar" id="cntrl-bar">
               <li style="margin-left: -26px;"><a href="#/controls" id="d-dmx-ctrl" onclick="hideBar(this.id);">DMX CONTROLLERS</a></li>
               <li><a href="#/accessories" id="d-dmx-acc" onclick="hideBar(this.id);">DMX ACCESSORIES</a></li>
@@ -179,7 +183,19 @@ passWord();
   <div moda-footer></div>
 
 
-
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navlist");
+var btns = header.getElementsByClassName("nav-links-a");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+for (var j = 0; j < btns.length; j++) {	  
+  btns[j].className = btns[j].className.replace(" activeTab", "");
+}
+  this.className += " activeTab";
+  });
+}
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
