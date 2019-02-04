@@ -42,6 +42,10 @@ p {
 	background-color: #fff;
 }
 
+.svgWidth {
+	max-width: 732px;
+}
+
 .accs img {
 	width: 100%;
 /*	max-width: 1024px;*/
@@ -69,7 +73,7 @@ min-height: auto;
 		height: 50px;
 		border: 1px solid #77787B;
 		background: rgb(255,236,159);
-background: linear-gradient(90deg, rgba(255,236,159,1) 50%, rgba(254,195,90,1) 100%);
+background: linear-gradient(90deg, rgba(253, 233, 149, 1) 50%, rgba(255, 178, 54, 1) 100%);
 	}
 .gd-gradient2 {
 	background: rgba(255, 250, 229, 1);
@@ -85,9 +89,9 @@ background: linear-gradient(90deg, rgba(255,221,116,1) 25%, rgba(255,222,120,1) 
 background: linear-gradient(90deg, rgba(254,195,90,1) 50%, rgba(255,249,174,1) 100%);
 }
 
-.dw-gradient3 {
-	background: rgb(255,252,213);
-background: linear-gradient(90deg, rgba(255,252,213,1) 50%, rgba(255,255,255,1) 100%);
+.dw-gradient3 { 
+background: rgb(253,237,148);
+background: linear-gradient(90deg, rgba(253,237,148,1) 0%, rgba(255,255,255,1) 43%, rgba(242,253,255,1) 100%);
 }
 
 .fixed-bar {
