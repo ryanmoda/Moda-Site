@@ -212,8 +212,8 @@ if (!target.is("nav li a")) {
 			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
             $('#' + el).hide();
 //		 	$('#' + el).style.visibility = "hidden";
-			 			 removeActive();
-			 			checkCurrent();
+//			 			 removeActive();
+//			 			checkCurrent();
         }
     }  
 }
