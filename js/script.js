@@ -448,6 +448,39 @@
 			.when('/legacy',{
                 templateUrl:'legacy.html'
             })
+				.when('/leg-ecove-wl',{
+				templateUrl:'leg-ecove-wl.html'
+				})
+				.when('/leg-ecove-dw',{
+				templateUrl:'leg-ecove-dw.html'
+				})
+				.when('/leg-ecove-sc',{
+				templateUrl:'leg-ecove-sc.html'
+				})
+				.when('/leg-ecove-cc',{
+				templateUrl:'leg-ecove-cc.html'
+				})
+				.when('/leg-cove-rs',{
+				templateUrl:'leg-cove-rs.html'
+				})
+				.when('/leg-zilva',{
+				templateUrl:'leg-zilva.html'
+				})
+				.when('/leg-mini-zilva',{
+				templateUrl:'leg-mini-zilva.html'
+				})
+				.when('/leg-zilva-cc',{
+				templateUrl:'leg-zilva-cc.html'
+				})
+				.when('/leg-egraze',{
+				templateUrl:'leg-graze.html'
+				})
+				.when('/leg-egraze-cc',{
+				templateUrl:'leg-egraze-cc.html'
+				})
+				.when('/leg-egraze-rs',{
+				templateUrl:'leg-egraze-rs.html'
+				})
 			.when('/reps',{
                 templateUrl:'reps.html'
             })
