@@ -473,10 +473,10 @@
 				templateUrl:'leg-zilva-cc.html'
 				})
 				.when('/leg-egraze',{
-				templateUrl:'leg-graze.html'
+				templateUrl:'leg-egraze.html'
 				})
-				.when('/leg-egraze-cc',{
-				templateUrl:'leg-egraze-cc.html'
+				.when('/leg-egraze-sc',{
+				templateUrl:'leg-egraze-sc.html'
 				})
 				.when('/leg-egraze-rs',{
 				templateUrl:'leg-egraze-rs.html'
