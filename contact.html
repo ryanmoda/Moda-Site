@@ -62,16 +62,21 @@
       <option value="2">Option 2</option>
       <option value="3">Option 3</option>
     </select>
-    <label>Materialize Select</label>
+<!--    <label>Materialize Select</label>-->
   </div>
 	</div>
       <div class="row">
         <div class="input-field col-lg-12">
-          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <form action="php/mail.php" method="POST" id="body">
+<textarea  id="body-text" name="body" type="body" class="materialize-textarea"></textarea>
+</form>
           <label for="textarea1">Textarea</label>
         </div>
       </div>
+		<center><a href="php/mail.php" onClick="return checkForm()" class="btn index-but">SUBMIT</a></center>
+	
 </div></div>
 <div class="spacer"></div>
+<script src="js/index.js"></script>
 <script src="js/spacer.js"></script>
 <script src="js/logo.js"></script>
