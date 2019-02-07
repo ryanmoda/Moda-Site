@@ -167,7 +167,13 @@ a.spy-links {
 	font-size: 14px;
 	margin-bottom: 0px;
 }
-
+	#leg-name {
+	margin-top: 0px;
+	white-space: nowrap;
+	font-weight: 300;
+	font-size: 14px;
+	margin-bottom: 0px;
+}
 .prod-links {
 	white-space: nowrap;
 	padding-left: 25px;
