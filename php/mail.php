@@ -2,9 +2,9 @@
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-$body = $_POST['email'];
-
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$body = $_POST['body'];
+$name = $_POST['name'];
+$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
@@ -26,7 +26,7 @@ $mail->addBCC('bcc@example.com'); */
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Here is my contact info';
-$mail->Body    = $body + ' end of body';
+$mail->Body    = $_POST['name'];
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
