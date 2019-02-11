@@ -4,6 +4,7 @@ require 'PHPMailerAutoload.php';
 $mail = new PHPMailer;
 $body = $_POST['body'];
 $name = $_POST['name'];
+$newpass = "test_string";
 $mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
@@ -26,7 +27,7 @@ $mail->addBCC('bcc@example.com'); */
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = 'Here is my contact info';
-$mail->Body    = $_POST['name'];
+$mail->Body    =  "The new password is {$newpass}.";
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
