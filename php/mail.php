@@ -2,10 +2,11 @@
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-$body = $_POST['body'];
 $name = $_POST['name'];
-$newpass = "test_string";
-$mail->SMTPDebug = 3;                               // Enable verbose debug output
+$email = $_POST['email'];
+$company = $_POST['company'];
+$message = $_POST['message'];
+//$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
@@ -26,9 +27,28 @@ $mail->addBCC('bcc@example.com'); */
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name */
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = 'Here is my contact info';
-$mail->Body    =  "The new password is {$newpass}.";
-$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+$mail->Subject = "Contact Form Submission";
+$mail->Body    =  
+"<h2>New Form Submission</h2>
+<table>
+  <tr>
+    <td><strong>Name:</strong></td>
+    <td>{$name}</td>
+ </tr>
+  <tr>
+    <td><strong>Email:</strong></td>
+    <td>{$email}</td>
+  </tr>
+   <tr>
+    <td><strong>Company:</strong></td>
+    <td>{$company}</td>
+  </tr>
+   <tr>
+    <td><strong>Message:</strong></td>
+    <td>{$message}</td>
+  </tr>
+</table>";
+//$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
 if(!$mail->send()) {
     echo 'Message could not be sent.';
