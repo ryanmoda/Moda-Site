@@ -478,8 +478,8 @@
 				.when('/leg-egraze-sc',{
 				templateUrl:'leg-egraze-sc.html'
 				})
-				.when('/leg-egraze-rs',{
-				templateUrl:'leg-egraze-rs.html'
+				.when('/leg-graze-rs',{
+				templateUrl:'leg-graze-rs.html'
 				})
 			.when('/reps',{
                 templateUrl:'reps.html'
