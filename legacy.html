@@ -10,15 +10,13 @@
 		padding-top: 25px;
 		padding-bottom: 50px;
 	}
-	.icon-grid {
-		margin-top: 60px;
-	}
 </style>
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
 </script>
+<div legacy-modal></div>
 <div class="coveBlock" style="padding-top: 70px;">
 		<center><h1 class="title-text">E-Cove White Light</h1></center>
 		<center><a href="#/leg-ecove-wl"><img class="block-img" src="images/Legacy/Ecove no shadow3.png"></a></center>
@@ -26,32 +24,19 @@ $(document).ready(function(){
 				<center><a href="#/leg-ecove-wl" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
 
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-cove-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -67,32 +52,19 @@ $(document).ready(function(){
 </center>
 	<center><a href="#/leg-ecove-dw" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -108,32 +80,19 @@ $(document).ready(function(){
 </center>
 	<center><a href="#/leg-ecove-sc" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-cove-sc-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
+	</div>	
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-cove-sc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -146,32 +105,19 @@ $(document).ready(function(){
 		<center><a href="#/leg-ecove-cc"><img class="block-img" src="images/Legacy/Legacy Moda ECove RGB.png"></a></center>
 	<center><a href="#/leg-ecove-cc" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
+	</div>	
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -183,32 +129,19 @@ $(document).ready(function(){
 		<center><a href="#/leg-cove-rs"><img class="block-img" src="images/Legacy/Legacy Cove RS.png"></a></center>
 	<center><a href="#/leg-cove-rs" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#cove-rs-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-sm-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -220,32 +153,16 @@ $(document).ready(function(){
 		<center><a href="#/leg-zilva"><img style="max-width: 547px; width: 80%;" src="images/Legacy/zilva_reverse no shadow.png"></a></center>
 	<center><a href="#/leg-zilva" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#zilva-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
 		</div>
 	</div>
@@ -257,32 +174,16 @@ $(document).ready(function(){
 		<center><a href="#/leg-mini-zilva"><img class="block-img" style="max-width: 495px; width: 80%;" src="images/Legacy/mini_zilva no shadow.png"></a></center>
 	<center><a href="#/leg-mini-zilva" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#mini-zilva-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
 		</div>
 	</div>
@@ -294,32 +195,16 @@ $(document).ready(function(){
 		<center><a href="#/leg-zilva-cc"><img class="block-img" style="max-width: 391px; width: 80%;" src="images/Legacy/Legacy RGB ZILVA.png"></a></center>
 	<center><a href="#/leg-zilva-cc" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
 		</div>
 	</div>
@@ -331,32 +216,19 @@ $(document).ready(function(){
 		<center><a href="#/leg-egraze"><img class="block-img" src="images/Legacy/Legacy E - Graze2.png"></a></center>
 	<center><a href="#/leg-egraze" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-graze-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -368,32 +240,19 @@ $(document).ready(function(){
 		<center><a href="#/leg-egraze-sc"><img class="block-img" src="images/Legacy/Legacy E Graze Color.png"></a></center>
 	<center><a href="#/leg-egraze-sc" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-graze-sc-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a data-toggle="modal" data-target="#e-graze-sc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
+	<div class="col-lg-3 col-xs-6 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 		</div>
 	</div>
@@ -405,33 +264,14 @@ $(document).ready(function(){
 		<center><a href="#/leg-graze-rs"><img class="block-img" src="images/Legacy/Legacy Cove RS.png"></a></center>
 	<center><a href="#/leg-graze-rs" class="but">Learn More ></a></center>
 <center>
-<div class="icon-grid">
+<div class="leg-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-rs-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-brochure-blk.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span>
-	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span>
-	</div>
+	<div class="col-lg-4 col-xs-4 hovButtons"><a><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
+	</div>	
 		</div>
 	</div>
 </center>

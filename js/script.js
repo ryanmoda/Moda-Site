@@ -699,6 +699,12 @@
       templateUrl: 'controls-modal.html'
     };
   });
+// LEGACY ===================================
+ app.directive('legacyModal', function() {
+    return {
+      templateUrl: 'legacy-modal.html'
+    };
+  });
 })();
 
 
