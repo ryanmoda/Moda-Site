@@ -14,6 +14,19 @@
 	.icon-margin {
 		margin-top: 8px;
 	}
+	.iconRow {
+		margin: 20px 0;
+	}
+	.message {
+		border: 1px solid black !important;
+		padding: 5px 10px 0px !important;
+		width: 452px;
+		height: 300px !important;
+	  	overflow-y: auto;
+	}
+	.input-field {
+		margin: 2rem 0px !important;
+	}
 </style>
 <script>
   $(document).ready(function(){
@@ -26,38 +39,32 @@
 </center>
 <div class="midContent" style="margin-top: 44px;">
 <div class="row">
-	<div class="col-lg-3">
-	<div class="row"><div class="col-lg-2"><img width="14" class="icon-margin" src="images/Icons/icon-address-blk.svg"></div>
-	<div class="col-lg-10"><p>3280 W. Sunset Road Las Vegas, NV 89118</p></div></div>
-	</div>
-	<div class="col-lg-3 icon-margin">
-	<div class="row"><div class="col-lg-2"><img width="20" class="col1" src="images/Icons/icon-phone-blk.svg"></div>
-	<div class="col-lg-10"><p>702 407 7775</p></div></div>
-	</div>
-	<div class="col-lg-3 icon-margin">
-	<div class="row"><div class="col-lg-2"><img width="14" class="col1" src="images/Icons/icon-printer-blk.svg"></div>
-	<div class="col-lg-10"><p>702 407 7773</p></div></div>
-	</div>
-	<div class="col-lg-3 icon-margin">
-	<div class="row"><div class="col-lg-2"><img width="28" class="col1" src="images/Icons/icon-email-blk.svg"></div>
-	<div class="col-lg-10"><p>info@modalight.com</p></div></div>
-	</div>
-	</div>
-
+<div class="col-lg-6" style="padding-right: 134px;">
 	<form action="php/mail.php" method="post">
 		
-<div class="row"><div class="input-field col-lg-6"><input id="name" type="text" name="name"><label for="name">Full Name</label></div>
-	<div class="input-field col-lg-6">
+<div class="row"><div class="input-field col-lg-12"><input id="name" type="text" name="name"><label for="name">Full Name</label></div>
+	<div class="input-field col-lg-12">
 		<input id="email" name="email" type="email" class="validate">
           <label for="email">Email</label></div>
-<div class="input-field col-lg-6">
+<div class="input-field col-lg-12">
 		<input id="company" name="company" type="text" class="validate">
           <label for="company">Company</label></div>
-<div class="input-field col-lg-12"><textarea  id="message" name="message" class="materialize-textarea"></textarea><label for="message">Comments</label></div>
+<div class="input-field col-lg-12" style="margin-top: 36px !important;"><textarea  id="message" name="message" class="materialize-textarea message"></textarea><label style="margin-left: 5px;" for="message">Enter Your Message</label></div>
 </div>
 		
-</form>
-
+</form></div>	
+	
+	<div class="col-lg-6"><div class="row">
+	<div class="row iconRow"><div class="col-xs-2 text-center"><img height="25" class="" src="images/Icons/icon-address-blk.svg"></div>
+	<div class="col-xs-10"><p>3280 W. Sunset Road Las Vegas, NV 89118</p></div></div>
+	<div class="row iconRow"><div class="col-xs-2 text-center"><img height="25" class="col1" src="images/Icons/icon-phone-blk.svg"></div>
+	<div class="col-xs-10"><p>702 407 7775</p></div></div>
+	<div class="row iconRow"><div class="col-xs-2 text-center"><img height="25" class="col1" src="images/Icons/icon-printer-blk.svg"></div>
+	<div class="col-xs-10"><p>702 407 7773</p></div></div>
+	<div class="row iconRow"><div class="col-xs-2 text-center"><img width="26" class="col1" src="images/Icons/icon-email-blk.svg"></div>
+	<div class="col-xs-10"><p>info@modalight.com</p></div></div>
+	</div></div>
+</div>
 	<center><a href="php/mail.php" onClick="return checkForm()" class="btn index-but">SUBMIT</a></center>
 	
 	
