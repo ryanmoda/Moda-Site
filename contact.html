@@ -38,6 +38,14 @@
 		background-color: #231f20;
 		color: white;
 	}
+
+.toast {
+	position: absolute;
+	top: 40% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%);
+	width: 300px;
+}
 </style>
 <script>
   $(document).ready(function(){
@@ -78,6 +86,7 @@
 	<div class="col-xs-10"><p>info@modalight.com</p></div></div>
 	</div></div>
 </div>
+ <a onclick="M.toast({html: '<center>Message Sent</center>'})" class="btn">Message Sent</a>
 <!--	<center><a href="php/mail.php" onClick="return checkForm()" class="btn index-but">SUBMIT</a></center>-->
 	
 	
