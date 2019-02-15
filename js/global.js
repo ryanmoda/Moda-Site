@@ -91,13 +91,13 @@ var re4 = RegExp(/^e-\S*/);
 	setTimeout(function() {
 	  document.getElementById("cove-bar").classList.toggle("hide");
 	}, 500);
+	  
   }
 	else if (re1.test(foo)) {
 	 document.getElementById("graze-bar").classList.toggle("hide");
 	setTimeout(function() {
 	  document.getElementById("graze-bar").classList.toggle("hide");
 	}, 500);
-
 	}
 	else if (re2.test(foo)) {
 	 document.getElementById("flex-bar").classList.toggle("hide");
@@ -183,7 +183,7 @@ for (var i = 0; i < navArr.length; i++) {
 function closeAll() {
 for (var i = 0; i < navArr.length; i++) {
 	if (document.getElementById(navArr[i]).style.display == "block") {
-//		alert("close " + navArr[i]);
+//	alert("close " + navArr[i]);
 		document.getElementById(navArr[i]).style.display = "none";
 		document.getElementById(navArr[i]).style.visibility = "hidden";
 	}
@@ -195,12 +195,12 @@ var current = document.getElementsByClassName("activeTab");
 current[0].className = current[0].className.replace(" activeTab", "");
 }
 
-function checkCurrent() {
-	var el = document.getElementsByClassName("nav-links-a");
-	for (var i = 0; i < el.length; i++) {
-		if (el[i].classList.contains("currentTab")) {el[i].className += " activeTab"}
-	}
-}
+//function checkCurrent() {
+//	var el = document.getElementsByClassName("nav-links-a");
+//	for (var i = 0; i < el.length; i++) {
+//		if (el[i].classList.contains("currentTab")) {el[i].className += " activeTab"}
+//	}
+//}
 
 
 $(document).click(function(event) {
@@ -210,9 +210,10 @@ if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
          if($('#' + el).is(":visible")) {
 			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
+
             $('#' + el).hide();
 //		 	$('#' + el).style.visibility = "hidden";
-//			 			 removeActive();
+			 			 removeActive();
 //			 			checkCurrent();
         }
     }  
