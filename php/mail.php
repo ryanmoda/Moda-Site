@@ -28,7 +28,7 @@ $mail->addBCC('bcc@example.com'); */
 $mail->isHTML(true);                                  // Set email format to HTML
 
 $mail->Subject = "Contact Form Submission";
-$mail->Body    =  
+$mail->Body    =
 "<h2>New Form Submission</h2>
 <table>
   <tr>
@@ -54,7 +54,8 @@ if(!$mail->send()) {
     echo 'Message could not be sent.';
     echo 'Mailer Error: ' . $mail->ErrorInfo;
 } else {
-    echo 'Message has been sent';
-//	header('Location: /#/contact');
+	header('Refresh: 2; URL=http://modalight.com/#/contact');
+    echo "<html><head><link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'></head>
+<center style='margin-top:70px; font-family: 'Lato', sans-serif;'>Message has been sent</center></html>";
 }
 ?>
