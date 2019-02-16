@@ -49,6 +49,7 @@ body{
 	font-size: 15px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	color: white;
 }
 
 .container{
@@ -60,8 +61,8 @@ body{
 
 
 .slideshow li span {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -87,23 +88,6 @@ animation-delay: 0s;
     animation-delay: 12s;
 }
 
-
-/*
-.slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-.slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-*/
 @keyframes imageAnimation { 		 
   0%   { opacity: 0;}	
   11.11%   { opacity: 1; }		
@@ -123,14 +107,4 @@ animation-delay: 0s;
 	.container { 
 		top: 70%;
 	}
-
-
 }
-
-/*
-@media (max-width: 320px) {
-	.container {
-		top: 70%;
-	}
-}
-*/
