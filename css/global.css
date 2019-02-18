@@ -1,6 +1,15 @@
-body {
-	padding: 0 !important;
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0 !important;
+	color: white;
 }
+.k18 {color: #FFB236;}
+.k22 {color: #FFDD75;}
+.k27 {color: #FDE894;}
+.k30 {color: #FDED94;}
+.k35 {color: #FDED94;}
+.k65 {color: white;}
 
 .modal {
  overflow-y: auto;
