@@ -39,9 +39,9 @@
 	}
 	.foot {
 /*		padding-bottom: 15px;*/
-/*		  position: absolute;*/
+		  position: absolute;
 		  right: 0;
-		  bottom: 0;
+/*		  bottom: 0;*/
   		left: 0;
 		overflow: hidden;
 	white-space: nowrap;
@@ -71,12 +71,25 @@
 		border: none;
 		margin-bottom: 48px;
 	}
-
+	.contacts li {
+		margin-bottom: 10px;
+	}
+	.contacts li img {
+		display: inline;
+		margin-right: 15px;
+	}
+	.contacts li p {
+		display: inline;
+		font-size: 12px;
+	}
+	.rowFoot div {
+		margin: 0 60px 30px;
+		max-width: 200px;		
+	}
 </style>
-<div id="footy">
+<!--<div id="footy">
 
 <center>
-<!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -113,8 +126,7 @@
   </div>
 </div>	
 	</center>
-
-<center>
+</div>-->
 <!--
 <div class="row foot-row no-gutters">
 	<div class="col-lg-3 col-xs-4 col-lg-offset-1"><a target="_blank" href="https://www.google.com/" class="footLink">© 2018 MODA LIGHT. All Rights Reserved.</a></div>
@@ -125,12 +137,30 @@
 	<div class="col-lg-1 col-xs-4"><a class="footLink">Resources</a></div>
 	</div>
 -->
-<!--
+
 <div class="foot">
-	<a class="footLink">© 2019 MODA LIGHT.&nbsp;&nbsp;&nbsp;&nbsp;All Rights Reserved.</a><br class="mobile-br">
-	<a href="resources/moda_light_terms_and_conditions.pdf" target="_blank" class="footLink">Terms & Conditions</a>
-	</div>	
--->
+<div class="row midContent rowFoot" style="max-width: 1400px;">
 	
-</center>
-</div>
+<div class="col-lg-3 col-sm-6"><center><img style="max-width: 200px;" src="images/modalogoWHITE.svg"></center>
+<br><br>
+		<p>Contacts</p>
+		<ul class="contacts">
+		<li><img src="images/Icons/icon-phone-wh.svg"><p>(702) 407 7775</p></li>
+		<li><img src="images/Icons/icon-fax-wh.svg"><p>(702) 407 7773</p></li>
+		<li><img src="images/Icons/icon-email-wh.svg"><p>info@modalight.com</p></li>
+		</ul><br><br>
+		<p>Location</p>
+		<p style="margin: 0;">3280 W. Sunset Road</p><p>Las Vegas, NV 89118</p>
+		</div>
+	<div class="col-lg-3 col-sm-6"><p style="margin-bottom: 10px;"><strong>Products</strong></p><p>Nano</p><p>Mini Cove</p><p>Mini Graze</p><p>Cove Interior</p></div>
+	<div class="col-lg-3 col-sm-6"><p style="margin-bottom: 10px;"><strong>Company</strong></p><p>About Us</p><p>News & Events</p><p>Terms & Conditions</p></div>
+	<div class="col-lg-3 col-sm-6"><p class="margin1"><strong>Follow Us</strong></p>
+	<ul class="contacts">
+	<li><img src="images/Icons/FB.svg"><img src="images/Icons/ig.svg"><img src="images/Icons/twitter.svg"><img src="images/Icons/linedkin.svg"></li>
+		</ul>
+	</div>
+	</div>
+	
+	</div>	
+
+	
