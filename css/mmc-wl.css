@@ -50,10 +50,10 @@ p {
 .accs img {
 	width: 100%;
 /*	max-width: 1024px;*/
-
-	
 }
+
 .resource-bar {
+	top: 0;
 	padding-top: 70px;
 }
 
