@@ -53,6 +53,9 @@ p {
 
 	
 }
+.resource-bar {
+	padding-top: 70px;
+}
 
 .accs:hover {	
 	z-index: 1;
