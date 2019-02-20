@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.625" height="16.769" viewBox="0 0 23.625 16.769">
+  <g id="icon-email-blk" transform="translate(0.48 0.5)">
+    <g id="Layer_1" data-name="Layer 1" transform="translate(0 0)">
+      <g id="Layer_2" data-name="Layer 2">
+        <g id="Layer_1-2" data-name="Layer 1-2">
+          <rect id="Rectangle_730" data-name="Rectangle 730" width="22.625" height="15.768" transform="translate(0.02)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <path id="Path_400" data-name="Path 400" d="M.5.5l9.617,8.388a2.591,2.591,0,0,0,3.414,0L23.125.5" transform="translate(-0.48 -0.5)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_59" data-name="Line 59" x1="8.946" y1="7.742" transform="translate(13.699 8.027)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+          <line id="Line_60" data-name="Line 60" y1="7.742" x2="8.944" transform="translate(0 8.027)" stroke="#fff" stroke-miterlimit="10" stroke-width="1"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
