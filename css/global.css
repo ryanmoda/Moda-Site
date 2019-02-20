@@ -24,6 +24,7 @@ a {
 }
 a p {
 	color: black;
+	margin-bottom: 10px;
 }
 a:hover p{
 	opacity: .7;

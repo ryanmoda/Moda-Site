@@ -389,11 +389,6 @@ input[name="tabs2"]:checked ~ .tab-content {
 }
 
 
-.foot {
-	padding-bottom: 20px;
-	position: absolute;
-}
-
 @media (max-width: 1200px) {
  #navlist {
     display: none;
