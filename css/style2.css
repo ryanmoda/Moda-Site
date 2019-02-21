@@ -159,9 +159,11 @@ animation-delay: 0s;
 	.container { 
 		top: 70%;
 	}
+/*
 	.ctText {
 		font-size: 18px !important;
 	}
+*/
 	.ctSVG {
 		margin-top: 0px !important;
 	}
