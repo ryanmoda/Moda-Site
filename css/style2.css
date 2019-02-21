@@ -136,7 +136,7 @@ animation-delay: 0s;
     background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
     animation-delay: 12s;
 }
-
+#ledText {margin-top: -130px;}
 #awardText {margin-top: 40px; display: flex;justify-content: flex-end;}
 #nanoText {height: 363px;}
 
@@ -165,7 +165,17 @@ animation-delay: 0s;
 	.ctSVG {
 		margin-top: 0px !important;
 	}
+	#ledText {
+		margin-top: -50px;
+	}
 }
+
+@media (max-width: 1024px) {
+	#scrollChev {
+		bottom: 50px;
+	}
+}
+
 @media (max-width: 1200px) {
 	#nanoText {height: 620px;}
 }
