@@ -274,14 +274,7 @@ background-color: var(--3rd-color);
 }
 
 .burg-links {
-	color: var(--3rd-color);
-/*
-	width: 100%;
-	  margin-top: 0px;
-	padding-top: 30px;
-  padding-bottom: 30px;
-	border-bottom: 1px solid #ADADAD;
-*/
+	color: black !important;
 }
 
 

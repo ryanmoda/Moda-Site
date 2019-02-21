@@ -45,31 +45,22 @@ a:hover p{
 		top: 20%;
 		z-index: 1100 !important;
 	}
-
-
-h1 {
-	font-size: 35px;
-	font-weight: 200;
-}
-
-
-h3 {
-	font-size: 20px;
+h1,h2,h3,h4,h5 {
 	font-weight: 300;
 }
 
-h4 {
-	font-size: 16px;
-	font-weight: 500;
-	color: black;
-	margin: 0 0 5px 0;
+h1 {
+	font-size: 1.953em; /*31.25px*/
+	
 }
+h2 {font-size: 1.563em; /*25px*/}
 
-h5 {
-	font-size: 16px;
-	font-weight: 200;
-	color: white;
-	margin: 0;
+h3 {font-size: 1.25em;/*20px*/}
+
+h4 {font-size: 1em; /*16px*/}
+
+h5 {font-size: .8em; /*12px*/}
+
 }
 
 p {
@@ -182,6 +173,8 @@ span {
 
 .burg-links {
 	font-weight: 300;
+	color: white;
+	margin: 0;
 }
 
 input:focus,
