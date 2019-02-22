@@ -7,7 +7,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'index-slide-1.html'
+                templateUrl:'index-slide-2.html'
              //   templateUrl:'slide-test-1.html'
 
             })
@@ -168,6 +168,9 @@
 					})
 					.when('/int-superflex',{
 						templateUrl:'int-superflex.html'
+					})
+					.when('/int-superflex-ho',{
+						templateUrl:'int-superflex-ho.html'
 					})
 					.when('/int-x-flex',{
 						templateUrl:'int-x-flex.html'
@@ -706,5 +709,11 @@
     };
   });
 })();
+// SCROLL TO TOP
+ app.directive('scrollTop', function() {
+    return {
+      templateUrl: 'scroll-top.html'
+    };
+  });
 
 

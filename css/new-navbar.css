@@ -12,4 +12,6 @@
 nav li ul li a {
 	color: black !important;
 }
-
+body,html {
+	color: black !important;
+}

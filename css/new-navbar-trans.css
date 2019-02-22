@@ -8,6 +8,7 @@
 	--side-nav-1: rgba(0,0,0,.93);
 	--side-nav-2: rgba(255,255,255,.93);
 	--moda-grey: #808284;
+	--moda-red: #ee202e;
 	--grey: #999;
 	--active-header: 400;
 	--mobile-width: 425px;
@@ -32,6 +33,7 @@ h1 {
 }
 
 .overlay {
+	top: 0;
 	position: absolute;
       width: calc(100vw - 15px);
       background: rgba(0,0,0,0.1);
@@ -54,7 +56,7 @@ header {
 	height: 60px;
 	position: fixed;
 	z-index: 11;
-	background-color: var(--main-bg-color-1);
+	background-color: black;
 	transition: .5s;
 }
 
@@ -272,14 +274,7 @@ background-color: var(--3rd-color);
 }
 
 .burg-links {
-	color: var(--3rd-color);
-/*
-	width: 100%;
-	  margin-top: 0px;
-	padding-top: 30px;
-  padding-bottom: 30px;
-	border-bottom: 1px solid #ADADAD;
-*/
+	color: black !important;
 }
 
 
@@ -386,11 +381,6 @@ input[name="tabs2"]:checked ~ .tab-content {
     width: 150px;
 }
 
-
-.foot {
-	padding-bottom: 20px;
-	position: absolute;
-}
 
 @media (max-width: 1200px) {
  #navlist {

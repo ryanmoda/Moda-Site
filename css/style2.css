@@ -14,6 +14,11 @@
 	.tab-content p {
 		color: var(--sec-color) !important;
 	}
+
+.foot, .foot a p {
+    color: white;
+}
+
 /*
 h5 {
 	color: var(--main-text-color) !important;
@@ -31,6 +36,10 @@ h5 {
 	border: 1px solid var(--main-text-color);
 	margin: 3px 10px;
 }
+.index-but:hover {
+	color: #999;
+	border: 1px solid #999;
+}
 	#footy {
 	position: absolute;
 	background-color: var(--main-bg-color);
@@ -42,13 +51,43 @@ h5 {
 		bottom: 0px;
 }
 
+#scrollChev {
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
 /* General Demo Style */
 body{
+	  height: 100%;
 	background: #000;
 	font-weight: 300;
 	font-size: 15px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	color: white;
 }
 
 .container{
@@ -57,11 +96,22 @@ body{
 	position: absolute;
 	text-align: center;
 }
+.bg {
+  /* The image used */
+/*  background-image: url("images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");*/
 
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .slideshow li span {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -86,24 +136,10 @@ animation-delay: 0s;
     background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
     animation-delay: 12s;
 }
+#ledText {margin-top: -130px;}
+#awardText {margin-top: 40px; display: flex;justify-content: flex-end;}
+#nanoText {height: 363px;}
 
-
-/*
-.slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
-}
-.slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-*/
 @keyframes imageAnimation { 		 
   0%   { opacity: 0;}	
   11.11%   { opacity: 1; }		
@@ -123,14 +159,28 @@ animation-delay: 0s;
 	.container { 
 		top: 70%;
 	}
-
-
-}
-
 /*
-@media (max-width: 320px) {
-	.container {
-		top: 70%;
+	.ctText {
+		font-size: 18px !important;
+	}
+*/
+	.ctSVG {
+		margin-top: 0px !important;
+	}
+	#ledText {
+		margin-top: -50px;
 	}
 }
-*/
+
+@media (max-width: 1024px) {
+	#scrollChev {
+		bottom: 50px;
+	}
+}
+
+@media (max-width: 1200px) {
+	#nanoText {height: 620px;}
+}
+@media (max-width: 1499px) {
+	#awardText { justify-content: center;}
+}

@@ -1,0 +1,90 @@
+images/Icons/icon-phone-blk.svgimages/Icons/icon-phone-blk.svg
+html {
+		position: relative;
+		min-height: 100%;
+	}
+	#footy {
+		height: 80px;
+		padding-top: 29px;
+/*
+	position: absolute;
+	background-color: var(--main-bg-color);
+	z-index: 5;
+	max-height: 100%;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 20px;
+		bottom: 0px;
+*/
+/*
+	background-color: var(--main-bg-color);
+	z-index: 5;
+	max-height: 80px;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 32px;
+	margin-top: -80px !important; 		
+*/
+
+	
+	}
+	.foot a:hover {
+		opacity: .7;
+	}
+
+	.footLink {
+		color: #7B7B7B;
+		cursor: pointer;
+	}
+	.foot {
+		border-top: 1px solid #999;
+		padding-top: 50px;
+		margin-top: 50px;
+		padding-bottom: 15px;
+		  position: absolute;
+		  right: 0;
+/*		  bottom: 0;*/
+  		left: 0;
+		overflow: hidden;
+	white-space: nowrap;
+	}
+	.foot a {
+		color: #77787B;
+		font-weight: 300;
+	text-decoration: none;
+	}
+	
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+	.nl-but {
+		font-family: "futura-pt";
+		width: 90px;
+		height: 40px;
+		color: white;
+		background-color: #000;
+		border: none;
+		margin-bottom: 48px;
+	}
+	.contacts li {
+		margin-bottom: 10px;
+	}
+	.contacts li img {
+		display: inline;
+		margin-right: 15px;
+	}
+	.contacts li p {
+		display: inline;
+		font-size: 12px;
+		font-weight: 300;
+	}
+	.rowFoot div {
+		margin: 0 60px 30px;
+		max-width: 200px;		
+	}

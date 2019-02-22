@@ -2,8 +2,11 @@ body {
 	position: relative;
 }
 p {
+	font-weight: 300;
 	padding: 0;
 	margin: 0;
+	letter-spacing: 0.05em !important;
+	color: black;
 }
 
 .blockPad {
@@ -49,8 +52,11 @@ p {
 .accs img {
 	width: 100%;
 /*	max-width: 1024px;*/
+}
 
-	
+.resource-bar {
+	top: 0;
+	padding-top: 70px;
 }
 
 .accs:hover {	
@@ -480,7 +486,7 @@ span.icon-grid-caption {
 	white-space: nowrap;
   margin-top: 0.7em;
 	font-weight: 100;
-	
+	color: black;
 }
 
 
