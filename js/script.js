@@ -169,6 +169,9 @@
 					.when('/int-superflex',{
 						templateUrl:'int-superflex.html'
 					})
+					.when('/int-superflex-ho',{
+						templateUrl:'int-superflex-ho.html'
+					})
 					.when('/int-x-flex',{
 						templateUrl:'int-x-flex.html'
 					})
@@ -706,5 +709,11 @@
     };
   });
 })();
+// SCROLL TO TOP
+ app.directive('scrollTop', function() {
+    return {
+      templateUrl: 'scroll-top.html'
+    };
+  });
 
 

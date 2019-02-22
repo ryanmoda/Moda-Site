@@ -39,6 +39,7 @@ html {
 	.foot {
 		border-top: 1px solid #999;
 		padding-top: 50px;
+		margin-top: 50px;
 		padding-bottom: 15px;
 		  position: absolute;
 		  right: 0;
@@ -81,6 +82,7 @@ html {
 	.contacts li p {
 		display: inline;
 		font-size: 12px;
+		font-weight: 300;
 	}
 	.rowFoot div {
 		margin: 0 60px 30px;

@@ -1,15 +1,7 @@
 body {
 	position: relative;
 }
-p {
-	padding: 0;
-	margin: 0 auto;
-	font-weight: 100;
-}
 
-.row p {
-	margin-top: -55px; 
-}
 .fixed-bar {
 	position: fixed;
 	width: 100%;
@@ -23,14 +15,7 @@ p {
 	max-width: 1000px;
 }
 
-.dots {
-	width: 44px;
-	margin-top: -70px;
-	transition: .5s;
-}
-.dots:hover {
-	filter: brightness(60%);
-}
+
 #prod-name {
 	font-size: 20px;
 	margin-bottom: 0px;
@@ -69,112 +54,4 @@ hr {
 }
 
 
-/* Acordeon styles */
-.tab1 {
-  position: relative;
-  margin-bottom: 1px;
-	border-bottom: 1px solid #ededed;
-  width: 100%;
-  color: white !important;
-  overflow: hidden;
-}
 
-.accordian1 input {
-  position: absolute;
-  opacity: 0;
-  z-index: -1;
-}
-
-
-.accordian1 label {
-  position: relative;
-  display: block;
-	margin: 0;
-  padding: 20px 0 0 1em;
-	border-bottom: 1px solid #ededed;
-	height: 50px;
-  font-weight: bold;
-  line-height: 3;
-  cursor: pointer;
-}
-
-
-.tab-content1 {
-  max-height: 0;
-  overflow: hidden;
-  background: black;
-	opacity: .93;
-  -webkit-transition: max-height .35s;
-  -o-transition: max-height .35s;
-  transition: max-height .35s;
-}
-.blue1 .tab-content1 {
-  background: white;
-}
-.tab-content1 p {
-  margin: 1em;
-	color: black !important;
-}
-
-.tab-grid {
-	height: 80px;
-	padding: 10px 0 0 5px;
-}
-
-/* :checked */
-input[name="re-input"]:checked ~ .tab-content1 {
-  max-height: 600px;
-}
-/* Icon */
-.accordian1 label::after {
-	border-color: black;
-	position: absolute;
-	border-style: solid;
-	border-width: 0.25em 0.25em 0 0;
-	content: '';
-	display: inline-block;
-	height: 10px;
-	width: 10px;
-	right: 10px;
-	top: 20px;
-	transform: rotate(135deg);
-	vertical-align: top;
-  text-align: center;
-  transition: all .35s;
-}
-input[type=checkbox]:checked + label::after {
-  transform: rotate(-45deg);
-}
-
-
-
-.row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-   padding-right: 0;
-   padding-left: 0;
-}
-
-@media (max-width: 991px) and (min-width: 768px) {
-	#shield-inner {
-		font-size: 16px !important;
-	}
-	.shield {
-		padding-bottom: 42px;
-	}
-}
-
-@media (max-width: 632px) {
-	#block3-header {
-		right: 20px;
-		max-width: 150px;
-	}
-	#block3-header h1 {
-	font-size: 34px;
-		text-align: left;
-	}
-
-}
