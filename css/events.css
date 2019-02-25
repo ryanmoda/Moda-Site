@@ -55,7 +55,7 @@
 .slick-slider { display: table; table-layout: fixed; width: 100%; }
 .slick-slide {
   color: white;
-  font-size: 30px;
+/*  font-size: 30px;*/
   width: 1000px;
 	bottom: 0px;
   text-align: center;
