@@ -54,6 +54,11 @@ p {
 /*	max-width: 1024px;*/
 }
 
+.ctSect p { margin-top: 1px; font-weight: 400; text-align: center;}
+.ctSect .col-xs-1 {
+		padding: 0 !important;
+	}
+.ctSect img {max-width: 100%;}
 .resource-bar {
 	top: 0;
 	padding-top: 70px;
