@@ -710,10 +710,10 @@
   });
 })();
 // SCROLL TO TOP
- app.directive('scrollTop', function() {
-    return {
-      templateUrl: 'scroll-top.html'
-    };
-  });
+// app.directive('scrollTop', function() {
+//    return {
+//      templateUrl: 'scroll-top.html'
+//    };
+//  });
 
 
