@@ -157,8 +157,21 @@
   <div moda-footer></div>
 
 
-<script src="js/googleAnalytics.js"></script>	
-<script async src="js/autotrack.js"></script>	
+<!--<script src="js/googleAnalytics.js"></script>-->
+<script>
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-53767212-1', 'auto');
+
+// Replace the following lines with the plugins you want to use.
+ga('require', 'eventTracker');
+ga('require', 'outboundLinkTracker');
+ga('require', 'urlChangeTracker');
+// ...
+
+ga('send', 'pageview');
+</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="js/autotrack.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>

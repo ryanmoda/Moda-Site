@@ -5,8 +5,8 @@
 
   ga('create', 'UA-53767212-1', 'auto');
 
-ga('require', 'eventTracker');
-ga('require', 'outboundLinkTracker');
-ga('require', 'urlChangeTracker');
+//ga('require', 'eventTracker');
+//ga('require', 'outboundLinkTracker');
+//ga('require', 'urlChangeTracker');
 
   ga('send', 'pageview');
