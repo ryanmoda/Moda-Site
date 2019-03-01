@@ -54,7 +54,7 @@ p {
 /*	max-width: 1024px;*/
 }
 
-.ctSect p { margin-top: 1px; font-weight: 400; text-align: center;}
+.ctSect p { margin-top: 1px; font-weight: 300; text-align: center;}
 .ctSect .col-xs-1 {
 		padding: 0 !important;
 	}
@@ -75,14 +75,14 @@ min-height: auto;
 	}
 
 .gradient {
-	height: 50px;
+	height: 20px;
 	width: 100%;
-	border: 1px solid #77787B;
+	border: none;
 }
 
 .gd-gradient {
-		height: 50px;
-		border: 1px solid #77787B;
+		height: 20px;
+/*		border: 1px solid #77787B;*/
 		background: rgb(255,236,159);
 background: linear-gradient(90deg, rgba(253, 233, 149, 1) 50%, rgba(255, 178, 54, 1) 100%);
 	}
@@ -618,9 +618,9 @@ background: linear-gradient(90deg, rgba(255,236,159,1) 0%, rgba(254,195,90,1) 10
 }
 
 #colorChanging {
-	height: 50px;
+	height: 20px;
 	max-width: 734px;
-	border: 1px solid #77787B;
+/*	border: 1px solid #77787B;*/
 	background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 2%, rgba(245,255,0,1) 34%, rgba(59,255,0,1) 51%, rgba(0,78,255,1) 68%, rgba(123,7,208,1) 85%, rgba(245,0,2555,1) 100%);
 	
