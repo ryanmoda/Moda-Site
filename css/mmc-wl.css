@@ -62,7 +62,7 @@ p {
 .ctSect .col-xs-1 {
 		padding: 0 !important;
 	}
-.ctSect img {max-width: 100%;}
+.ctSect img {max-width: 100%; outline: 1px solid;}
 .resource-bar {
 	top: 0;
 	padding-top: 70px;
