@@ -62,7 +62,7 @@ p {
 .ctSect .col-xs-1 {
 		padding: 0 !important;
 	}
-.ctSect img {max-width: 100%; outline: 1px solid;}
+.ctSect img {max-width: 100%; outline: 1px solid #cecece;}
 .resource-bar {
 	top: 0;
 	padding-top: 70px;
@@ -79,6 +79,7 @@ min-height: auto;
 	}
 
 .gradient {
+	outline: 1px solid #cecece;
 	height: 20px;
 	width: 100%;
 	border: none;
@@ -86,7 +87,7 @@ min-height: auto;
 
 .gd-gradient {
 		height: 20px;
-/*		border: 1px solid #77787B;*/
+		border: 1px solid #cecece !important;
 		background: rgb(255,236,159);
 background: linear-gradient(90deg, rgba(253, 233, 149, 1) 50%, rgba(255, 178, 54, 1) 100%);
 	}
@@ -615,7 +616,7 @@ margin-left: 3px;
 #dim2warm {
 	height: 50px;
 	max-width: 734px;
-	border: 1px solid #77787B;
+	border: 1px solid #cecece;
 	background: rgb(255,236,159);
 background: linear-gradient(90deg, rgba(255,236,159,1) 0%, rgba(254,195,90,1) 100%);
 
@@ -624,7 +625,7 @@ background: linear-gradient(90deg, rgba(255,236,159,1) 0%, rgba(254,195,90,1) 10
 #colorChanging {
 	height: 20px;
 	max-width: 734px;
-/*	border: 1px solid #77787B;*/
+	border: 1px solid #cecece !important;
 	background: rgb(255,0,0);
     background: linear-gradient(90deg, rgba(255,0,0,1) 2%, rgba(245,255,0,1) 34%, rgba(59,255,0,1) 51%, rgba(0,78,255,1) 68%, rgba(123,7,208,1) 85%, rgba(245,0,2555,1) 100%);
 	
