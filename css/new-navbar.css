@@ -1,7 +1,9 @@
 .navbar {
+	background-color: white;
 	background-color: var(--sec-color) !important;
 }
 #navlist li a {
+	color: rgba(0,0,0,.7);
 	color: var(--nav-text);
 }
 
