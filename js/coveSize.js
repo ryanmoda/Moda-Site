@@ -1,3 +1,3 @@
 document.getElementById("logo").src="svgs/modalogo.svg";
-document.getElementById("coveSize").innerHTML = "<p class='p1'>60mm H</p><p>2 3/10 inches</p>";
+document.getElementById("coveSize").innerHTML = "<p class='p1'>2 3/10 inches H</p><p>60mm</p>";
 
