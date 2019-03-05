@@ -3,6 +3,7 @@
 	padding-top: 39px !important;
 }
 	.sidenav {
+		background-color: rgba(0,0,0,.93) !important;
 		background-color: var(--side-nav-1) !important;
 	}
 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
@@ -48,6 +49,7 @@ h5 {
 }
 	#footy {
 	position: absolute;
+	background-color: rgba(225,225,225,0);
 	background-color: var(--main-bg-color);
 	z-index: 5;
 	max-height: 100%;
