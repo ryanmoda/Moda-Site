@@ -6,12 +6,15 @@
 		background-color: var(--side-nav-1) !important;
 	}
 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+		background-color: white !important;
 		background-color: var(--sec-color) !important;
 }
 	.burg-links {
+		color: white !important;
 		color: var(--sec-color) !important;
 	}
 	.tab-content p {
+		color: white !important;
 		color: var(--sec-color) !important;
 	}
 
@@ -31,6 +34,9 @@ h5 {
 	opacity: 1 !important;
 	height: 40px;
 	width: 200px;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	border: 1px solid white;
 	background-color: var(--main-bg-color);
 	color: var(--main-text-color);
 	border: 1px solid var(--main-text-color);
