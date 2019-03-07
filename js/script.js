@@ -487,9 +487,6 @@
 			.when('/reps',{
                 templateUrl:'reps.html'
             })
-			.when('/cove-mob',{
-                templateUrl:'cove.html'
-            })
 			.when('/news',{
                 templateUrl:'news.html'
             })
