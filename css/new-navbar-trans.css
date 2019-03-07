@@ -234,6 +234,7 @@ figcaption {
 }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+background-color: black;
 background-color: var(--3rd-color);	
 }
 
@@ -243,6 +244,7 @@ background-color: var(--3rd-color);
   z-index: 50;
   top: 0;
   right: 0;
+  background-color: rgba(255,255,255,.93);
   background-color: var(--side-nav-2);	
   overflow-x: hidden;
   transition: 0.5s;
@@ -327,6 +329,7 @@ background-color: var(--3rd-color);
 
 .tab-content p {
   margin: 1em 0;
+	color: black;
 	color: var(--3rd-color);
 }
 
