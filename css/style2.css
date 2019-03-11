@@ -180,11 +180,19 @@ animation-delay: 0s;
 	}
 }
 
+@media (max-height: 860px) {
+	#scrollChev {
+		bottom: 25px;
+	}
+}
+
+/*
 @media (max-width: 1024px) {
 	#scrollChev {
 		bottom: 50px;
 	}
 }
+*/
 
 @media (max-width: 1200px) {
 	#nanoText {height: 620px;}
