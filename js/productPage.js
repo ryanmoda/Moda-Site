@@ -7,3 +7,9 @@ function productPage(el) {
 		else {blocks[i].style.backgroundColor = odd;} //odd
 	}
 }
+function modalClick(el) {
+	ga('send', 'event', 'modal', 'click', el);
+}
+function linkClick(el) {
+		ga('send', 'event', 'resource', 'click', el);
+}
