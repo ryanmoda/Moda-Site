@@ -13,6 +13,13 @@ p {
 	padding: 50px 0;
 }
 
+	.ctSect .col-xs-2 {
+		padding: 0 !important;
+	}
+	.ctSect .col-xs-8 {
+		padding: 0 !important;
+	}
+
 #k18 {
 	background-color: #FEC35A;
 }
