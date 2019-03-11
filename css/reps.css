@@ -52,6 +52,7 @@ label { margin-right: 10px; }
 .foot-link {
 	position: absolute;
 	bottom: 22px;
+	text-decoration: underline;
 }
 
 .select2 {
