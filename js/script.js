@@ -15,7 +15,7 @@
                 templateUrl:'mini-cove.html'
             })
 			.when('/cove',{
-                templateUrl:'cove.html'
+                templateUrl:'moda-cove.html'
             })
 					.when('/cove-wl',{
 						templateUrl:'cove-wl.html',
