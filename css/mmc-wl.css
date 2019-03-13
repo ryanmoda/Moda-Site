@@ -9,6 +9,10 @@ p {
 	color: black;
 }
 
+.win .p {
+	font-weight: 400;
+}
+
 .blockPad {
 	padding: 50px 0;
 }
