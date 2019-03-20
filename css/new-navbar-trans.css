@@ -12,7 +12,7 @@
 	--grey: #999;
 	--active-header: 400;
 	--mobile-width: 425px;
-	
+
 }
 
 * {
@@ -234,8 +234,8 @@ figcaption {
 }
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-background-color: black;	
-background-color: var(--3rd-color);	
+background-color: black;
+background-color: var(--3rd-color);
 }
 
 .sidenav {
@@ -245,7 +245,7 @@ background-color: var(--3rd-color);
   top: 0;
   right: 0;
   background-color: rgba(255,255,255,.93);
-  background-color: var(--side-nav-2);	
+  background-color: var(--side-nav-2);
   overflow-x: hidden;
   transition: 0.5s;
   margin-top: 0px !important;
@@ -284,7 +284,7 @@ background-color: var(--3rd-color);
 .panel {
 	display: none;
 	transition: .5s;
-	z-index: 0 !important;	
+	z-index: 0 !important;
 }
 
 .tab {

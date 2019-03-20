@@ -20,6 +20,8 @@
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
+ga('set', 'page', '/mini-cove.html');
+ga('send', 'pageview');
 </script>
 <div mmcwl-modal></div>
 <div mmcsc-modal></div>
@@ -35,35 +37,7 @@ $(document).ready(function(){
   <center><a href="#/mmc-wl" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
 
   <center>
-    <div class="icon-grid">
-      <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Compatability List/Mini Cove/whitelight/mmcgi-whitelight-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-		<span class="icon-grid-caption">Compatibility</span></a>
-        </div>
-      </div>
-    </div>
+      <div mmcwl-resource></div>
   </center>
 </div>
 
@@ -80,35 +54,7 @@ $(document).ready(function(){
   </center>
   <center><a href="#/mmc-sc" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
   <center>
-    <div class="icon-grid">
-      <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#sc-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Compatability List/Mini Cove/static color/mmcgi-colors-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-		<span class="icon-grid-caption">Compatibility</span></a>
-        </div>
-      </div>
-    </div>
+	  <div mmcsc-resource></div>
   </center>
 </div>
 <div class="coveBlock">
@@ -124,37 +70,7 @@ $(document).ready(function(){
   </center>
   <center><a href="#/mmc-gd" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
   <center>
-    <div class="icon-grid">
-      <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Product Guide/Cove/Moda Mini Cove Interior/Glowdim/Moda_Mini_Cove_Interior_Glowdim_010V_Product_Guide.pdf"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Specification/Cove/Moda Mini Cove Interior/Glowdim/Moda_Mini_Cove_Interior_Glowdim_010V_Specification.pdf"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Installs/Cove/Moda Mini Cove Interior/Glowdim/Moda_Mini_Cove_Interior_Glowdim_010V_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#gd-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#gd-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#gd-cad-modal" data-dismiss="modal"><img class="icon-grid-icon-dis"src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Compatability List/Mini Cove/glowdim/mmcgi-glowdim-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-		<span class="icon-grid-caption">Compatibility</span></a>
-        </div>
-      </div>
-    </div>
+	  <div mmcgd-resource></div>
   </center>
 </div>
 <div class="coveBlock">
@@ -176,37 +92,7 @@ $(document).ready(function(){
   </center>
   <center><a href="#/mmc-cc" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
   <center>
-    <div class="icon-grid">
-      <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#cc-cad-modal" data-dismiss="modal"><img class="icon-grid-icon-dis" src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
-		<span class="icon-grid-caption">Compatibility</span>
-        </div>
-      </div>
-    </div>
+	  <div mmccc-resource></div>
   </center>
 </div>
 
@@ -220,39 +106,10 @@ $(document).ready(function(){
   <center><a href="#/mmc-dw"><img class="block-img" src="images/Cove/Mini Cove DW/MMCGI V2 Dynamic White With Shadow.png"></a></center>
   <center><a href="#/mmc-dw" class="but">Learn More ></a></center>
   <center>
-    <div class="icon-grid">
-      <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#dw-cad-modal" data-dismiss="modal"><img class="icon-grid-icon-dis" src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
-		<span class="icon-grid-caption">Compatibility</span>
-        </div>
-      </div>
-    </div>
+  <div mmcdw-resource></div>
   </center>
 </div>
+<script src="js/analytics.js"></script>
 <script src="js/accordian.js"></script>
 <script src="js/productPage.js"></script>
 <script>

@@ -1,5 +1,5 @@
 .navbar {
-	background-color: white !important;
+	background-color: white;
 	background-color: var(--sec-color) !important;
 }
 #navlist li a {
@@ -8,7 +8,7 @@
 }
 
 .nav li ul {
- background-color: white !important;	
+ background-color: white !important;
 }
 
 nav li ul li a {

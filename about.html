@@ -31,7 +31,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+		background-color: black !important;		
+		background-color: var(--3rd-color) !important;
+}
+ .hamburger--squeeze.is-active .hamburger-inner::after {
+	background-color: white !important;
+	background-color: var(--sec-color) !important;
+	}
+ .hamburger--squeeze.is-active .hamburger-inner {
+	background-color: white !important;
+	background-color: var(--sec-color) !important;
+	}
 </style>
+<script>ga('set', 'page', '/about.html');
+ga('send', 'pageview');</script>
 <!--
 <img width="100%" src="images/About/moda-hq-1.jpeg">
 <div class="midContent" style="max-width: 1000px;">
