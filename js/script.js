@@ -508,6 +508,9 @@
 			.when('/all-products',{
                 templateUrl:'all-products.html'
             })
+			.when('/product-configurator',{
+                templateUrl:'product-configurator.html'
+            })
 		
     });	
  app.directive('modaFooter', function() {

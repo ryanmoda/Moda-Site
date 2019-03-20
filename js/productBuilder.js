@@ -11,8 +11,22 @@ $(document).ready(function(){
 	var cc = $("input[id='colorChanging']");
 	var dw = $("input[id='dynamicWhite']");	
 	
+	var product = $("input[name='productRadio']");
+	var location = $("input[name='locationRadio']");
+	var prodLength = $("input[name='lengthRadio']");
+	var light = $("input[name='lightRadio']");
+	var wlRadio = $("input[name='wlRadio']");
+	var scRadio = $("input[name='scRadio']");
+	var gdRadio = $("input[name='gdRadio']");
+	var ccRadio = $("input[name='ccRadio']");
+	var dwRadio = $("input[name='dwRadio']");
+	var opticRadio = $("input[name='opticRadio']");
+	var dimming = $("input[name='dimmingRadio']");
+	var output = $("input[name='outputRadio']");
+	
 hideSources();
 $('input[type=radio][name=productRadio]').change(function() {
+hideValidation(0);
 productSelect();
 dimmingSelect();
 outputSelect();
@@ -20,26 +34,63 @@ opticSelect();
 
 });
 $('input[type=radio][name=locationRadio]').change(function() {
+hideValidation(1);
 outputSelect();
-
+});
+	
+$('input[type=radio][name=lengthRadio]').change(function() {
+hideValidation(2);
 });
 	
 $('input[type=radio][name=lightRadio]').change(function() {
 dimmingSelect();
 outputSelect();
 opticSelect();
+hideValidation(3);
 if ($("input[name='lightRadio']").is(":checked")) {
-var radioValue = $("input[name='lightRadio']:checked").val();
+var radioValue = $("input[name='lightRadio']:checked").attr('id');
 deselectGroup(radioValue);
 }
 });
 
+$('input[type=radio][name=wlRadio]').change(function() {
+hideValidation(4);
+});
+$('input[type=radio][name=scRadio]').change(function() {
+hideValidation(5);
+});
+$('input[type=radio][name=gdRadio]').change(function() {
+hideValidation(6);
+});
+$('input[type=radio][name=ccRadio]').change(function() {
+hideValidation(7);
+});
+$('input[type=radio][name=dwRadio]').change(function() {
+hideValidation(8);
+});
 
+$('input[type=radio][name=dimmingRadio]').change(function() {
+hideValidation(9);
+});
+$('input[type=radio][name=outputRadio]').change(function() {
+hideValidation(10);
+});
+$('input[type=radio][name=opticRadio]').change(function() {
+hideValidation(11);
+});
+	
 function hideSources() {
 var divNames = ["wlType", "scType", "gdType", "ccType", "dwType", "opticsType"];
+var required = "validationText";
+
+for ( var j = 0; j < $('.validationText').length; j++ ) {	
+$("." + required + ":eq(" + j + ")").hide();	
+}
+	
 for (var i = 0; i < divNames.length; i++) {
 	$("#" + divNames[i] + "").hide();
 }
+
 }	
 	
 function productSelect() {
@@ -155,22 +206,23 @@ function deselectGroup(el) {
 	var current;
 	var div;
 	switch (el) {
-		case "whitelight":
-			current = "wlRadio"; div = "wlType";
+		case "whiteLight":
+			current = "wlRadio"; div = "wlType"; 
 			break;
-		case "staticcolor":
+		case "staticColor":
 			current = "scRadio"; div = "scType";
 			break;
-		case "glowdim":
+		case "glowDim":
 			current = "gdRadio"; div = "gdType";
 			break;
-		case "colorchanging":
+		case "colorChanging":
 			current = "ccRadio"; div = "ccType";
 			break;
-		case "dynamicwhite":
+		case "dynamicWhite":
 			current = "dwRadio"; div = "dwType";
 			break;
 	}
+
 for (var i = 0; i < radioNames.length; i++) {
 if (current != radioNames[i]) {	
 $("input[type='radio'][name=" + radioNames[i] + "]").prop('checked', false);
@@ -178,7 +230,105 @@ $("#" + divNames[i] + "").hide();
 $("#" + div).show();
 }
 }
+}
+	
+$("#skuButton").click(function () {
+//	var radios = [ wlRadio, scRadio, gdRadio, ccRadio, dwRadio];
+//	for (var i = 0; i < radios.length; i++) {
+//		if ( radios[i].filter(":checked").val() == null ) {
+//			radios[i].filter(":checked").val() = "";
+//		}
+//	}
+	
+	if (isValidated()) {
+		
+	
+	
+	var oldSKU = "";
+	oldSKU += product.filter(":checked").val();
+	oldSKU += location.filter(":checked").val();
+	oldSKU += "-";
+	oldSKU += output.filter(":checked").val();
+	oldSKU += "-S1-S-";
+	
+	oldSKU += wlRadio.filter(":checked").val();
+	oldSKU += scRadio.filter(":checked").val();
+	oldSKU += gdRadio.filter(":checked").val();
+	oldSKU += ccRadio.filter(":checked").val();
+	oldSKU += dwRadio.filter(":checked").val();
+	
+	
+	
+	oldSKU += "-";
+	oldSKU += prodLength.filter(":checked").val();
+	
+	if ( opticRadio.filter(":checked").val() != null ) {
+	oldSKU += "-";
+	oldSKU += opticRadio.filter(":checked").val();
+	}
+	
+	oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", "");oldSKU.replace("undefined", "");
+	alert(oldSKU);
+	}
+	
+	});
+	
+function isValidated() {
+	var allSelected = true;
+	if (typeof product.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(0)").show();
+		allSelected = false;
+	}
+	if (typeof location.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(1)").show();
+		allSelected = false;
+	}
+	if (typeof prodLength.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(2)").show();
+		allSelected = false;
+	}
+	if (typeof light.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(3)").show();
+		allSelected = false;
+	}
+	if ((wl.is(":checked")) && (typeof wlRadio.filter(":checked").val() === "undefined")) {
+		$(".validationText:eq(4)").show();
+		allSelected = false;	
+	}
+	if ((sc.is(":checked")) && (typeof scRadio.filter(":checked").val() === "undefined")) {
+		$(".validationText:eq(5)").show();
+		allSelected = false;	
+	}
+	if ((gd.is(":checked")) && (typeof gdRadio.filter(":checked").val() === "undefined")) {
+		$(".validationText:eq(6)").show();
+		allSelected = false;	
+	}
+	if ((cc.is(":checked")) && (typeof ccRadio.filter(":checked").val() === "undefined")) {		
+		$(".validationText:eq(7)").show();
+		allSelected = false;	
+	}
+	if ((dw.is(":checked")) && (typeof dwRadio.filter(":checked").val() === "undefined")) {
+		$(".validationText:eq(8)").show();
+		allSelected = false;	
+	}
+	if (typeof dimming.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(9)").show();
+		allSelected = false;
+	}
+	if (typeof output.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(10)").show();
+		allSelected = false;
+	}
+	if ((minigraze.is(":checked") || graze.is(":checked")) && typeof opticRadio.filter(":checked").val() === "undefined") {
+		$(".validationText:eq(11)").show();
+		allSelected = false;
+	}
+	return allSelected;
 }	
+
+function hideValidation(val) {
+	$(".validationText:eq(" + val + ")").hide();
+}
 	
 })
 
