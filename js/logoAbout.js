@@ -2,7 +2,7 @@ var logos = document.getElementsByClassName("logo");
  
 	logos[1].src="svgs/modalogoWHITE.svg";
 
-//document.getElementById("logo").src="svgs/modalogoWHITE.svg";
+document.getElementById("logo").src="svgs/modalogo.svg";
 document.getElementById("phone").src="images/Icons/icon-phone-wh.svg";
 document.getElementById("fax").src="images/Icons/icon-fax-wh.svg";
 document.getElementById("mail").src="images/Icons/icon-email-wh.svg";
