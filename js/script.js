@@ -603,31 +603,6 @@
       templateUrl: 'mmgdw-modal.html'
     };
   });	
- app.directive('mmgwlResource', function() {
-    return {
-      templateUrl: 'Templates/mmg-wl-resources.html'
-    };
-  });
- app.directive('mmgscResource', function() {
-    return {
-      templateUrl: 'Templates/mmg-sc-resources.html'
-    };
-  });
- app.directive('mmggdResource', function() {
-    return {
-      templateUrl: 'Templates/mmg-gd-resources.html'
-    };
-  });
- app.directive('mmgccResource', function() {
-    return {
-      templateUrl: 'Templates/mmg-cc-resources.html'
-    };
-  });
- app.directive('mmgdwResource', function() {
-    return {
-      templateUrl: 'Templates/mmg-dw-resources.html'
-    };
-  });
 //GRAZE INT =====================================
  app.directive('grazewlModal', function() {
     return {
