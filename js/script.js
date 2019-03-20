@@ -561,31 +561,6 @@
       templateUrl: 'mmcdw-modal.html'
     };
   });
- app.directive('mmcwlResource', function() {
-    return {
-      templateUrl: 'Templates/mmc-wl-resources.html'
-    };
-  });
- app.directive('mmcscResource', function() {
-    return {
-      templateUrl: 'Templates/mmc-sc-resources.html'
-    };
-  });
- app.directive('mmcgdResource', function() {
-    return {
-      templateUrl: 'Templates/mmc-gd-resources.html'
-    };
-  });
- app.directive('mmcccResource', function() {
-    return {
-      templateUrl: 'Templates/mmc-cc-resources.html'
-    };
-  });
- app.directive('mmcdwResource', function() {
-    return {
-      templateUrl: 'Templates/mmc-dw-resources.html'
-    };
-  });
 //COVE EXTERIOR ================================
  app.directive('coveextwlModal', function() {
     return {
@@ -674,26 +649,6 @@
       templateUrl: 'grazedw-modal.html'
     };
   });
- app.directive('grazewlResource', function() {
-    return {
-      templateUrl: 'Templates/graze-wl-resources.html'
-    };
-  });
- app.directive('grazescResource', function() {
-    return {
-      templateUrl: 'Templates/graze-sc-resources.html'
-    };
-  });
- app.directive('grazeccResource', function() {
-    return {
-      templateUrl: 'Templates/graze-cc-resources.html'
-    };
-  });
- app.directive('grazedwResource', function() {
-    return {
-      templateUrl: 'Templates/graze-dw-resources.html'
-    };
-  });
 //GRAZE EXT =====================================
  app.directive('grazeextwlModal', function() {
     return {
@@ -713,26 +668,6 @@
  app.directive('grazeextdwModal', function() {
     return {
       templateUrl: 'grazeextdw-modal.html'
-    };
-  });
- app.directive('grazeextwlResource', function() {
-    return {
-      templateUrl: 'Templates/grazeext-wl-resources.html'
-    };
-  });
- app.directive('grazeextscResource', function() {
-    return {
-      templateUrl: 'Templates/grazeext-sc-resources.html'
-    };
-  });
- app.directive('grazeextccResource', function() {
-    return {
-      templateUrl: 'Templates/grazeext-cc-resources.html'
-    };
-  });
- app.directive('grazeextdwResource', function() {
-    return {
-      templateUrl: 'Templates/grazeext-dw-resources.html'
     };
   });
 //INT FLEX ================================
