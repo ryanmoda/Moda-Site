@@ -445,7 +445,7 @@ h3 {
     display:none; 
 }
 
-#skuButton {
+.skuButton {
   background-color: #fff457; 
   border: none;
   color: black;

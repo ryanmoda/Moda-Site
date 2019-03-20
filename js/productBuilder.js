@@ -232,13 +232,7 @@ $("#" + div).show();
 }
 }
 	
-$("#skuButton").click(function () {
-//	var radios = [ wlRadio, scRadio, gdRadio, ccRadio, dwRadio];
-//	for (var i = 0; i < radios.length; i++) {
-//		if ( radios[i].filter(":checked").val() == null ) {
-//			radios[i].filter(":checked").val() = "";
-//		}
-//	}
+$("#sku").click(function () {
 	
 	if (isValidated()) {
 		
@@ -272,6 +266,36 @@ $("#skuButton").click(function () {
 	}
 	
 	});
+
+$("#clear").click(function () {
+		var optic = ["6x", "10x", "25x", "40x", "1040x", "3060x", "365x", "310x"];
+		var output = ["lo", "so", "sop", "ho", "hop"];
+		var dimOptions = ["elv", "010v", "dmx"];
+		var lightOptions = ["whiteLight", "staticColor", "glowDim", "colorChanging", "dynamicWhite"];
+		var lengthOptions = ["6in", "1ft", "4ft"];
+
+
+		var radioNames = ["productRadio", "locationRadio", "lengthRadio", "lightRadio", "wlRadio", "scRadio", "gdRadio", "ccRadio", "dwRadio", "dimmingRadio", "outputRadio", "opticRadio"];
+	for (var i = 0; i < radioNames.length; i++) {
+		$("input[type='radio'][name=" + radioNames[i] + "]").prop('checked', false);
+	}
+		for (var j = 0; j < optic.length; j++) {
+		$("input[id=" + optic[j] + "]").prop('disabled', false);
+	}
+	for (var k = 0; k < output.length; k++) {
+		$("input[id=" + output[k] + "]").prop('disabled', false);
+	}
+	for (var l = 0; l < dimOptions.length; l++) {
+		$("input[id=" + dimOptions[l] + "]").prop('disabled', false);
+	}
+	for (var m = 0; m < lightOptions.length; m++) {
+		$("input[id=" + lightOptions[m] + "]").prop('disabled', false);
+	}
+	for (var n = 0; n < lengthOptions.length; n++) {
+		$("input[id=" + lengthOptions[n] + "]").prop('disabled', false);
+	}
+$("#opticsType").hide();
+});
 	
 function isValidated() {
 	var allSelected = true;
@@ -319,7 +343,7 @@ function isValidated() {
 		$(".validationText:eq(10)").show();
 		allSelected = false;
 	}
-	if ((minigraze.is(":checked") || graze.is(":checked")) && typeof opticRadio.filter(":checked").val() === "undefined") {
+	if ((minigraze.is(":checked") || graze.is(":checked")) &&  (typeof opticRadio.filter(":checked").val() === "undefined")) {
 		$(".validationText:eq(11)").show();
 		allSelected = false;
 	}
