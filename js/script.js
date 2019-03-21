@@ -602,7 +602,12 @@
     return {
       templateUrl: 'mmgdw-modal.html'
     };
-  });	
+  });
+ app.directive('mmgwlResource', function() {
+    return {
+      templateUrl: 'Templates/mmg-wl-resources.html'
+    };
+  });
 //GRAZE INT =====================================
  app.directive('grazewlModal', function() {
     return {
