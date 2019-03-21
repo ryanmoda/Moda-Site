@@ -3,7 +3,7 @@
 (function () {
 
     var app = angular.module('modaApp',['ngRoute']);
-    
+
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
@@ -44,7 +44,7 @@
 					.when('/cove-dw-ext',{
 						templateUrl:'cove-dw-ext.html'
 					})
-				
+
 					.when('/mmc-wl',{
 						templateUrl:'mmc-wl.html',
 					})
@@ -309,7 +309,7 @@
             })
 					.when('/bonfire',{
                 templateUrl:'bonfire.html'
-				})	
+				})
 				.when('/jaburritos',{
                 templateUrl:'jaburritos.html'
 				})
@@ -372,7 +372,7 @@
             	})
 				.when('/bu-il',{
                 templateUrl:'benedictine-university.html'
-            	})	
+            	})
 				.when('/bm-tx',{
                 templateUrl:'baybrook-mall.html'
             	})
@@ -508,8 +508,8 @@
 			.when('/all-products',{
                 templateUrl:'all-products.html'
             })
-		
-    });	
+
+    });
  app.directive('modaFooter', function() {
     return {
       templateUrl: 'footer.html'
@@ -524,7 +524,7 @@
     return {
       templateUrl: 'covesc-modal.html'
     };
-  });	
+  });
  app.directive('coveccModal', function() {
     return {
       templateUrl: 'covecc-modal.html'
@@ -612,17 +612,17 @@
     return {
       templateUrl: 'mmgwl-modal.html'
     };
-  });	
+  });
  app.directive('mmgscModal', function() {
     return {
       templateUrl: 'mmgsc-modal.html'
     };
-  });	
+  });
  app.directive('mmggdModal', function() {
     return {
       templateUrl: 'mmggd-modal.html'
     };
-  });	
+  });
  app.directive('mmgdwModal', function() {
     return {
       templateUrl: 'mmgdw-modal.html'
@@ -720,7 +720,7 @@
     return {
       templateUrl: 'intflexwl-modal.html'
     };
-  });	
+  });
  app.directive('intflexscModal', function() {
     return {
       templateUrl: 'intflexsc-modal.html'
@@ -736,12 +736,12 @@
     return {
       templateUrl: 'extflexwl-modal.html'
     };
-  });	
+  });
  app.directive('extflexscModal', function() {
     return {
       templateUrl: 'extflexsc-modal.html'
     };
-  });	
+  });
  app.directive('extflexccModal', function() {
     return {
       templateUrl: 'extflexcc-modal.html'
@@ -782,5 +782,3 @@
 //      templateUrl: 'scroll-top.html'
 //    };
 //  });
-
-
