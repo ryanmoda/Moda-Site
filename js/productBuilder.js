@@ -95,6 +95,7 @@ for (var i = 0; i < divNames.length; i++) {
 	
 function productSelect() {
 	if ($("input[id='cove']").is(":checked") || $("input[id='graze']").is(":checked")) {
+		$("input[id='exterior']").prop('disabled', false);
 		$("input[id='6in']").prop('disabled', true);
 		$("input[id='6in']").prop('checked', false);
 		$("input[id='glowDim']").prop('disabled', true);
@@ -108,6 +109,8 @@ function productSelect() {
 		$("input[id='colorChanging']").prop('disabled', false);
 	}
 	if ($("input[id='minicove']").is(":checked") || $("input[id='minigraze']").is(":checked")) {
+		$("input[id='exterior']").prop('disabled', true); $("input[id='exterior']").prop('checked', false);
+
 		$("input[id='6in']").prop('disabled', false);
 		$("input[id='glowDim']").prop('disabled', false);
 	}
@@ -233,36 +236,57 @@ $("#" + div).show();
 }
 	
 $("#sku").click(function () {
+var prodVal = product.filter(":checked").val();
+var locVal = location.filter(":checked").val();
+var outVal = output.filter(":checked").val();
+var wlVal = wlRadio.filter(":checked").val();
+var scVal = scRadio.filter(":checked").val();
+var gdVal = gdRadio.filter(":checked").val();
+var ccVal = ccRadio.filter(":checked").val();
+var dwVal = dwRadio.filter(":checked").val();
+var lightVal = light.filter(":checked").val();
+var typeRe = /^(?:[^-]*\-){4}([^-]*)/g;
+var sourceVal;
+var lengthVal = prodLength.filter(":checked").val();
+var dimVal = dimming.filter(":checked").val();	
+var opticVal = opticRadio.filter(":checked").val();
+
 	
 	if (isValidated()) {
 		
 	
 	
 	var oldSKU = "";
-	oldSKU += product.filter(":checked").val();
-	oldSKU += location.filter(":checked").val();
+	oldSKU += prodVal;
+	oldSKU += locVal;
 	oldSKU += "-";
-	oldSKU += output.filter(":checked").val();
+	oldSKU += outVal;
 	oldSKU += "-S1-S-";
 	
-	oldSKU += wlRadio.filter(":checked").val();
-	oldSKU += scRadio.filter(":checked").val();
-	oldSKU += gdRadio.filter(":checked").val();
-	oldSKU += ccRadio.filter(":checked").val();
-	oldSKU += dwRadio.filter(":checked").val();
+	oldSKU += wlVal;
+	oldSKU += scVal;
+	oldSKU += gdVal;
+	oldSKU += ccVal;
+	oldSKU += dwVal;
 	
 	
 	
 	oldSKU += "-";
-	oldSKU += prodLength.filter(":checked").val();
+	oldSKU += lengthVal;
 	
-	if ( opticRadio.filter(":checked").val() != null ) {
 	oldSKU += "-";
-	oldSKU += opticRadio.filter(":checked").val();
+	oldSKU += dimVal;	
+		
+	if ( opticVal != null ) {
+	oldSKU += "-";
+	oldSKU += opticVal;
 	}
 	
 	oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", ""); oldSKU = oldSKU.replace("undefined", "");oldSKU.replace("undefined", "");
-	alert(oldSKU);
+	sourceVal = typeRe.exec(oldSKU);
+	skuConverter(prodVal, locVal, lengthVal, lightVal, sourceVal[1], dimVal, outVal);
+//	alert(lightVal + " " + sourceVal[1]);
+	
 	}
 	
 	});
@@ -353,6 +377,328 @@ function isValidated() {
 function hideValidation(val) {
 	$(".validationText:eq(" + val + ")").hide();
 }
+	
+function skuConverter(pr, loc, le, li, src, dim, out) {
+var newSKU;
+	var skuArray = {
+		"MMC": {
+			"I": {
+				"WL": {
+					"E": {
+						"SO": {
+							"6": {
+								"18K": "090-0001",
+								"22K": "090-0003",
+								"27K": "090-0005",
+								"30K": "090-0006",
+								"35K": "090-0008",
+								"40K": "090-0009",
+								"65K": "090-0014",
+							},
+							"1": {
+								"18K": "090-1001",
+								"22K": "090-1003",
+								"27K": "090-1005",
+								"30K": "090-1006",
+								"35K": "090-1008",
+								"40K": "090-1009",
+								"65K": "090-1014",
+							},
+							"4": {
+								"18K": "090-3001",
+								"22K": "090-3003",
+								"27K": "090-3005",
+								"30K": "090-3006",
+								"35K": "090-3008",
+								"40K": "090-3009",
+								"65K": "090-3014",
+							}
+						},
+						"HO": {
+							"1": {
+								"18K": "090-1201",
+								"22K": "090-1203",
+								"27K": "090-1205",
+								"30K": "090-1206",
+								"35K": "090-1208",
+								"40K": "090-1209",
+								"65K": "090-1214",
+							},
+							"4": {
+								"18K": "090-3201",
+								"22K": "090-3203",
+								"27K": "090-3205",
+								"30K": "090-3206",
+								"35K": "090-3208",
+								"40K": "090-3209",
+								"65K": "090-3214",
+							}
+						}
+						
+					},
+					"0": {
+						"SO": {
+							"1": {
+								"18K": "095-1001",
+								"22K": "095-1003",
+								"27K": "095-1005",
+								"30K": "095-1006",
+								"35K": "095-1008",
+								"40K": "095-1009",
+								"65K": "095-1014",
+							},
+							"4": {
+								"18K": "095-3001",
+								"22K": "095-3003",
+								"27K": "095-3005",
+								"30K": "095-3006",
+								"35K": "095-3008",
+								"40K": "095-3009",
+								"65K": "095-3014",
+							}
+						},
+						"HO": {
+							"1": {
+								"18K": "095-1201",
+								"22K": "095-1203",
+								"27K": "095-1205",
+								"30K": "095-1206",
+								"35K": "095-1208",
+								"40K": "095-1209",
+								"65K": "095-1214",
+							},
+							"4": {
+								"18K": "095-3201",
+								"22K": "095-3203",
+								"27K": "095-3205",
+								"30K": "095-3206",
+								"35K": "095-3208",
+								"40K": "095-3209",
+								"65K": "095-3214",
+							}
+							
+						}
+						
+					}
+				},
+				"SC": {
+					"E": {
+						"SO": {
+							"6": {
+								"R": "091-0000",
+								"G": "091-0001",
+								"B": "091-0002",
+								"A": "091-0003",
+								"Y": "091-0004",
+								"P": "091-0005",
+								"C": "091-0006",
+								"V": "091-0007",
+								"T": "091-0008",
+								"IB": "091-0009",
+								"LG": "091-0010",
+								"GY": "091-0011",
+								"DB": "091-0012",
+								"DO": "091-0013"
+							},
+							"1": {
+								"R": "091-1000",
+								"G": "091-1001",
+								"B": "091-1002",
+								"A": "091-1003",
+								"Y": "091-1004",
+								"P": "091-1005",
+								"C": "091-1006",
+								"V": "091-1007",
+								"T": "091-1008",
+								"IB": "091-1009",
+								"LG": "091-1010",
+								"GY": "091-1011",
+								"DB": "091-1012",
+								"DO": "091-1013"	
+							},
+							"4": {
+								"R": "091-3000",
+								"G": "091-3001",
+								"B": "091-3002",
+								"A": "091-3003",
+								"Y": "091-3004",
+								"P": "091-3005",
+								"C": "091-3006",
+								"V": "091-3007",
+								"T": "091-3008",
+								"IB": "091-3009",
+								"LG": "091-3010",
+								"GY": "091-3011",
+								"DB": "091-3012",
+								"DO": "091-3013"
+							}
+						},
+						"HO": {
+							"1": {
+								"R": "091-1200",
+								"G": "091-1201",
+								"B": "091-1202",
+								"A": "091-1203",
+								"Y": "091-1204",
+								"P": "091-1205",
+								"C": "091-1206",
+								"V": "091-1207",
+								"T": "091-1208",
+								"IB": "091-1209",
+								"LG": "091-1210",
+								"GY": "091-1211",
+								"DB": "091-1212",
+								"DO": "091-1213"
+							},
+							"4": {
+								"R": "091-3200",
+								"G": "091-3201",
+								"B": "091-3202",
+								"A": "091-3203",
+								"Y": "091-3204",
+								"P": "091-3205",
+								"C": "091-3206",
+								"V": "091-3207",
+								"T": "091-3208",
+								"IB": "091-3209",
+								"LG": "091-3210",
+								"GY": "091-3211",
+								"DB": "091-3212",
+								"DO": "091-3213"
+							}
+						}
+					},
+					"0": {
+						"SO": {
+							"1": {
+								"R": "096-1000",
+								"G": "096-1001",
+								"B": "096-1002",
+								"A": "096-1003",
+								"Y": "096-1004",
+								"P": "096-1005",
+								"C": "096-1006",
+								"V": "096-1007",
+								"T": "096-1008",
+								"IB": "096-1009",
+								"LG": "096-1010",
+								"GY": "096-1011",
+								"DB": "096-1012",
+								"DO": "096-1013"
+							},
+							"4": {
+								"R": "096-3000",
+								"G": "096-3001",
+								"B": "096-3002",
+								"A": "096-3003",
+								"Y": "096-3004",
+								"P": "096-3005",
+								"C": "096-3006",
+								"V": "096-3007",
+								"T": "096-3008",
+								"IB": "096-3009",
+								"LG": "096-3010",
+								"GY": "096-3011",
+								"DB": "096-3012",
+								"DO": "096-3013"
+							}
+						},
+						"HO": {
+							"1": {
+								"R": "096-1200",
+								"G": "096-1201",
+								"B": "096-1202",
+								"A": "096-1203",
+								"Y": "096-1204",
+								"P": "096-1205",
+								"C": "096-1206",
+								"V": "096-1207",
+								"T": "096-1208",
+								"IB": "096-1209",
+								"LG": "096-1210",
+								"GY": "096-1211",
+								"DB": "096-1212",
+								"DO": "096-1213"
+							},
+							"4": {
+								"R": "096-3200",
+								"G": "096-3201",
+								"B": "096-3202",
+								"A": "096-3203",
+								"Y": "096-3204",
+								"P": "096-3205",
+								"C": "096-3206",
+								"V": "096-3207",
+								"T": "096-3208",
+								"IB": "096-3209",
+								"LG": "096-3210",
+								"GY": "096-3211",
+								"DB": "096-3212",
+								"DO": "096-3213"
+							}
+						}
+					}
+				},
+				"GD": {
+					"0": {
+						"SO": {
+							"1": {
+								"GD2718": "097-1002",
+								"GD3522": "097-1025"
+							},
+							"4": {
+								"GD2718": "097-3002",
+								"GD3522": "097-3025"
+							}
+						}
+					}
+				},
+				"CC": {
+					"D": {
+						"SO": {
+							"1": {
+								"RGB": "105-1000",
+								"RGB27": "105-1205",
+								"RGB30": "105-1206",
+								"RGB35": "105-1208",
+								"RGB40": "105-1209",
+								"RGBA": "105-1603"
+							},
+							"4": {
+								"RGB": "105-3000",
+								"RGB27": "105-3205",
+								"RGB30": "105-3206",
+								"RGB35": "105-3208",
+								"RGB40": "105-3209",
+								"RGBA": "105-3603"	
+							}
+						}
+					}
+				},
+				"DW": {
+					"D": {
+						"SO": {
+							"1": {
+								"DW": "106-1003",
+								"DWW": "106-1201",
+								"DC": "106-1401"
+							},
+							"4": {
+								"DW": "106-3003",
+								"DWW": "106-3201",
+								"DC": "106-3401"
+							}
+						}
+					}
+				},
+			}
+		},
+		"MMG" : {}	
+	}
+newSKU = skuArray[pr][loc][li][dim][out][le][src];
+//alert(pr + " " + loc + " " + li + " " + dim + " " + out + " " + le + " " + src);
+alert("Part number: " + newSKU);
+}	
 	
 })
 
