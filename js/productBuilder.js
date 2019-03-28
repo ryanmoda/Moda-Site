@@ -701,12 +701,20 @@ newSKU = skuArray[pr][loc][li][dim][out][le][src];
 //alert(pr + " " + loc + " " + li + " " + dim + " " + out + " " + le + " " + src);
 alert("Part number: " + newSKU);
 createCookie("sku", newSKU, "2");	
+$.ajax({
+    type: "POST",
+    url: '/php/productSku.php',
+    dataType: 'json',
+    data: { sku: newSKU },
+	success: function() {
+		alert("successful ajax request");
+	}
+});
 }	
 	
 })
 
 function createCookie(name, value, days) {
-	alert("making cookie");
   var expires;
   if (days) {
     var date = new Date();
