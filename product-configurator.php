@@ -545,7 +545,7 @@ $username = "phelanj";
 $password = "Terminu$94";
 $dbname = "ModaProducts";
 
-echo $_COOKIE["sku"];
+//echo $_COOKIE["sku"];
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
