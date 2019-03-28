@@ -509,7 +509,7 @@
                 templateUrl:'all-products.html'
             })
 			.when('/product-configurator',{
-                templateUrl:'product-configurator.html'
+                templateUrl:'product-configurator.php'
             })
 
     });

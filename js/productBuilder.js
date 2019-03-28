@@ -24,6 +24,9 @@ $(document).ready(function(){
 	var dimming = $("input[name='dimmingRadio']");
 	var output = $("input[name='outputRadio']");
 	
+	var newSKU;
+
+	
 hideSources();
 $('input[type=radio][name=productRadio]').change(function() {
 hideValidation(0);
@@ -379,7 +382,6 @@ function hideValidation(val) {
 }
 	
 function skuConverter(pr, loc, le, li, src, dim, out) {
-var newSKU;
 	var skuArray = {
 		"MMC": {
 			"I": {
