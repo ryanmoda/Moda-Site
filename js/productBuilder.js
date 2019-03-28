@@ -703,11 +703,11 @@ alert("Part number: " + newSKU);
 createCookie("sku", newSKU, "2");	
 $.ajax({
     type: "POST",
-    url: '/php/productSku.php',
-    dataType: 'json',
+    url: 'php/productSku.php',
+    dataType: 'text',
     data: { sku: newSKU },
-	success: function() {
-		alert("successful ajax request");
+	success: function(data) {
+		alert("successful ajax request " + data);
 	}
 });
 }	
