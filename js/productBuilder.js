@@ -706,6 +706,7 @@ createCookie("sku", newSKU, "2");
 })
 
 function createCookie(name, value, days) {
+	alert("making cookie");
   var expires;
   if (days) {
     var date = new Date();
