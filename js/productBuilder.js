@@ -707,7 +707,7 @@ $.ajax({
     dataType: 'text',
     data: { sku: newSKU },
 	success: function(data) {
-		alert("successful ajax request " + data);
+		alert("SKU: " + newSKU + "\nProduct Name: " + data);
 	}
 });
 }	
