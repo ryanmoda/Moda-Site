@@ -701,7 +701,7 @@ function skuConverter(pr, loc, le, li, src, dim, out) {
 	}
 newSKU = skuArray[pr][loc][li][dim][out][le][src];
 //alert(pr + " " + loc + " " + li + " " + dim + " " + out + " " + le + " " + src);
-alert("Part number: " + newSKU);
+//alert("Part number: " + newSKU);
 	
 $.ajax({
     type: "POST",
@@ -709,11 +709,10 @@ $.ajax({
     dataType: 'text',
     data: { sku: newSKU },
 	success: function(data) {
-		alert("SKU: " + newSKU + "\nProduct Name: " + data);
+//		alert("SKU: " + newSKU + "\nProduct Name: " + data);
 //		let products = [];
 		products = JSON.parse(localStorage.getItem('product_data'));
 		if (products === null) { //no data stored in localStorage
-			alert("working");
 			products = [];
 		}
 		cookieArr = {"sku": newSKU, "product": data, "quantity": 1};
