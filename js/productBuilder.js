@@ -25,6 +25,8 @@ $(document).ready(function(){
 	var output = $("input[name='outputRadio']");
 	
 	var newSKU;
+	var cookieArr;
+	var products;
 
 	
 hideSources();
@@ -700,7 +702,7 @@ function skuConverter(pr, loc, le, li, src, dim, out) {
 newSKU = skuArray[pr][loc][li][dim][out][le][src];
 //alert(pr + " " + loc + " " + li + " " + dim + " " + out + " " + le + " " + src);
 alert("Part number: " + newSKU);
-createCookie("sku", newSKU, "2");	
+	
 $.ajax({
     type: "POST",
     url: 'php/productSku.php',
@@ -708,8 +710,24 @@ $.ajax({
     data: { sku: newSKU },
 	success: function(data) {
 		alert("SKU: " + newSKU + "\nProduct Name: " + data);
+//		let products = [];
+		products = JSON.parse(localStorage.getItem('product_data'));
+		if (products === null) { //no data stored in localStorage
+			alert("working");
+			products = [];
+		}
+		cookieArr = {"sku": newSKU, "product": data, "quantity": 1};
+//		alert(typeof products);
+//		alert(JSON.stringify(cookieArr));
+		products.push(cookieArr);
+		
+//		alert("products arr: " + products[0].sku);
+		localStorage.setItem('product_data', JSON.stringify(products));
+//		createCookie("sku", JSON.stringify(products), "2");
+		window.location.href = "#/place-order";
 	}
 });
+
 }	
 	
 })

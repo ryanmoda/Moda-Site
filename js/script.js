@@ -511,6 +511,9 @@
 			.when('/product-configurator',{
                 templateUrl:'product-configurator.php'
             })
+			.when('/place-order',{
+                templateUrl:'place-order.html'
+            })
 
     });
  app.directive('modaFooter', function() {
