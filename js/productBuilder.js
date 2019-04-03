@@ -700,8 +700,7 @@ function skuConverter(pr, loc, le, li, src, dim, out) {
 		"MMG" : {}	
 	}
 newSKU = skuArray[pr][loc][li][dim][out][le][src];
-//alert(pr + " " + loc + " " + li + " " + dim + " " + out + " " + le + " " + src);
-//alert("Part number: " + newSKU);
+
 	
 $.ajax({
     type: "POST",
@@ -709,20 +708,19 @@ $.ajax({
     dataType: 'text',
     data: { sku: newSKU },
 	success: function(data) {
-//		alert("SKU: " + newSKU + "\nProduct Name: " + data);
-//		let products = [];
+		var index = data.indexOf(" images");
+		var prodName = data.substr(0, index);
+		var imgUrl = data.substr(index+1);
 		products = JSON.parse(localStorage.getItem('product_data'));
 		if (products === null) { //no data stored in localStorage
 			products = [];
 		}
-		cookieArr = {"sku": newSKU, "product": data, "quantity": 1};
-//		alert(typeof products);
-//		alert(JSON.stringify(cookieArr));
+		alert("prodName: " + prodName + "\nimg url: " + imgUrl);
+		cookieArr = {"sku": newSKU, "product": prodName, "img": imgUrl, "quantity": 1};
+
 		products.push(cookieArr);
 		
-//		alert("products arr: " + products[0].sku);
 		localStorage.setItem('product_data', JSON.stringify(products));
-//		createCookie("sku", JSON.stringify(products), "2");
 		window.location.href = "#/place-order";
 	}
 });
