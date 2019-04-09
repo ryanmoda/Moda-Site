@@ -42,23 +42,34 @@ alert(skuItems[0]);*/
 var products = JSON.parse(localStorage.getItem('product_data'));
 var testDiv = document.getElementById("test");
 for (var i = 0; i < products.length; i++) {
-	testDiv.innerHTML += ("PRODUCT: " + products[i].product + "<br>PART NUMBER: " + products[i].sku + "<br>QUANTITY: " + products[i].quantity + "<br><br>");
+	testDiv.innerHTML += ("<div class='col-lg-8'><div style='display:inline-block;'><img style='width:200px;' src='" + products[i].img + "'></div><div style='display:inline-block;max-width:350px;'><h4>"+ products[i].product +"</h4><p>"+ products[i].sku +"</p></div></div><div class='col-lg-4'><input style='max-width:30px;' type='number' name='quantity' min='1' max='160' value='"+ products[i].quantity +"'><br><button class='trash' value='"+ i +"'>Trash</button></div>");
 }
 </script>
-<div style="padding-top: 110px;">
+<div style="padding-top: 110px;" class="row">
 <div id="test" class="midContent"></div>
+<!--
 <div class="midContent">
 	<div class="row">
 	<div class="col-lg-8">
-		<div style="display:inline-block;vertical-align:top;"><img style="width: 200px;" src="images/all-products/mini cove/MMCGI V2 white light.jpg"></div><div style="display: inline-block; max-width: 350px; margin-top: 15px;"> <h4>Moda Mini Cove Interior Standard Output Silver 100-277V ELV Dimming 1800K HCRI 1FT</h4><p>090-0001</p></div>
+		<div style="display:inline-block;"><img style="width: 200px;" src="images/all-products/MMCGI V2 white light.png"></div><div style="display: inline-block; max-width: 350px; margin-top: 0px;"> <h4>Moda Mini Cove Interior Standard Output Silver 100-277V ELV Dimming 1800K HCRI 1FT</h4><p>090-0001</p></div>
 		</div>
-		<div class="col-lg-4"><h2>stuff</h2></div>
+		<div class="col-lg-4"><input style="margin-top: 25px; max-width: 30px;" type="number" name="quantity" min="1" max="160" value="1"><p>Trash</p></div>
+	<div class="col-lg-8">
+		<div style="display:inline-block;vertical-align:top;"><img style="width: 200px;" src="images/all-products/MMCGI V2 white light.png"></div><div style="display: inline-block; max-width: 350px; margin-top: 0px;"> <h4>Moda Mini Cove Interior Standard Output Silver 100-277V ELV Dimming 1800K HCRI 1FT</h4><p>090-0001</p></div>
+		</div>
+		<div class="col-lg-4"><input style="margin-top: 25px; max-width: 30px;" type="number" name="quantity" min="1" max="160" value="1"><p>Trash</p></div>
 	</div>
 	</div>
+-->
 </div>
 <div id="container"></div>
 
-<script src="js/fancygrid.js"></script>
-
+<script>
+$(document).ready(function(){
+$(".trash").click(function () {
+alert($(this).val());});
+	
+});
+</script>
 <script src="js/logo.js"></script>
 
