@@ -509,7 +509,7 @@
                 templateUrl:'all-products.html'
             })
 			.when('/product-configurator',{
-                templateUrl:'product-configurator.php'
+                templateUrl:'product-configurator.html'
             })
 			.when('/place-order',{
                 templateUrl:'place-order.html'
