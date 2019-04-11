@@ -10,7 +10,6 @@ $(document).ready(function(){
 	var gd = $("input[id='glowDim']");
 	var cc = $("input[id='colorChanging']");
 	var dw = $("input[id='dynamicWhite']");	
-	
 	var product = $("input[name='productRadio']");
 	var location = $("input[name='locationRadio']");
 	var prodLength = $("input[name='lengthRadio']");
@@ -708,7 +707,7 @@ $.ajax({
     dataType: 'text',
     data: { sku: newSKU },
 	success: function(data) {
-		alert(data);
+		//alert(data);
 		var index = data.indexOf(" images");
 		var prodName = data.substr(0, index);
 		var imgUrl = data.substr(index+1);
@@ -730,15 +729,4 @@ $.ajax({
 	
 })
 
-function createCookie(name, value, days) {
-  var expires;
-  if (days) {
-    var date = new Date();
-    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-    expires = "; expires=" + date.toGMTString();
-  } else {
-   expires = "";
-  }
-  document.cookie = escape(name) + "=" + escape(value) + expires + "; path=/";
-}
 
