@@ -16,7 +16,7 @@ $(document).ready(function(){
 });
 ga('set', 'page', '/place-order.html');
 ga('send', 'pageview');
-/*function getCookie(cname) {
+function getCookie(cname) {
   var name = cname + "=";
   var decodedCookie = decodeURIComponent(document.cookie);
   var ca = decodedCookie.split(';');
@@ -30,14 +30,14 @@ ga('send', 'pageview');
     }
   }
   return "";
-}*/
-/*var skuItems = [];	
+}
+var skuItems = [];	
 	
-var cookieResults = getCookie("sku");
+/*var cookieResults = getCookie("sku");
 for (var j = 0; j < cookieResults[0].sku.length j++ ) {
 	skuItems[j] = cookieResults[0].sku;
-}
-alert(skuItems[0]);*/
+}*/
+//alert(skuItems[0]);
 //alert(cookieResults);
 var products = JSON.parse(localStorage.getItem('product_data'));
 var testDiv = document.getElementById("test");
@@ -83,7 +83,7 @@ localStorage.setItem('product_data', JSON.stringify(products));
 });
 
 });
-$(document).off().on("click", "#update", function () {
+$(document).on("click", "#update", function () {
 var el = $("input[name='quantity0']").val();
 for (var i = 0; i < products.length; i++) {
 	products[i].quantity = $("input[name='quantity" + i +"']").val();
