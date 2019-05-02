@@ -10,6 +10,7 @@
 <style>
 </style>
 
+
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
@@ -42,15 +43,23 @@ for (var j = 0; j < cookieResults[0].sku.length j++ ) {
 var products = JSON.parse(localStorage.getItem('product_data'));
 var testDiv = document.getElementById("test");
 $(document).ready(function () {printList();});
-function printList() {
-testDiv.innerHTML = "";
-console.log("printing list");
-for (var i = 0; i < products.length; i++) {
-	testDiv.innerHTML += ("<div class='col-lg-8'><div style='display:inline-block;'><img style='width:200px;' src='" + products[i].img + "'></div><div style='display:inline-block;max-width:350px;'><h4>"+ products[i].product +"</h4><p>"+ products[i].sku +"</p></div></div><div class='col-lg-4'><input style='max-width:30px;' type='number' name='quantity"+ i  +"' min='1' max='160' value='"+ products[i].quantity +"'><br><button class='trash' value='"+ i +"'>Trash</button></div>");
-}
-}
+
 
 </script>
+
+<div class="modal fade" id="submit-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+<center><h3>HELLO</h3> </center>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div style="padding-top: 110px;" class="row midContent">
 <a href="#/product-configurator">Return to Product Configurator</a>
 <div id="test" class=""></div>
@@ -69,20 +78,33 @@ for (var i = 0; i < products.length; i++) {
 	</div>
 -->
 </div>
-<div id="container"><button id="update">Update Order</button><button id="generate">generate</button></div>
+<div id="container"><button id="update">Update Order</button><button id="generate">generate</button>
+	<a data-toggle="modal" data-target="#submit-modal" data-dismiss="modal">Submit for review</a></div>
 
 <script>
-$(document).ready(function() {
-$(document).on("click", ".trash", function () {
+var genButton = document.getElementById("generate");
+var trashButton = document.getElementsByClassName("trash");
+
+/*document.body.addEventListener('click', function (el) {
+if (el.target.className === 'trash') {
+products.splice(el, 1);
+printList();
+localStorage.setItem('product_data', JSON.stringify(products));
+}
+}, false);*/
+
+	
+	
+$(document).on('click', '#trash', function () {
 var el = $(this).val();
-//alert(el);
 console.log(products[el].sku + " " + el);
 products.splice(el, 1);
 printList();
 localStorage.setItem('product_data', JSON.stringify(products));
 });
 
-});
+
+	
 $(document).on("click", "#update", function () {
 var el = $("input[name='quantity0']").val();
 for (var i = 0; i < products.length; i++) {
@@ -90,7 +112,8 @@ for (var i = 0; i < products.length; i++) {
 }
 localStorage.setItem('product_data', JSON.stringify(products));
 });
-$(document).on("click", "#generate", function () {
+	
+genButton.addEventListener('click', event => {
 var p1 = {"sku":"095-1001","product":"Moda Mini Cove Interior Standard Output Silver 0-10V Dimming 1800K HCRI 1FT","img":"images/all-products/MMCGI V2 white light.png ","quantity":1};
 var p2 = {"sku":"096-3000","product":"Moda Mini Cove Interior Standard Output Silver 0-10V Dimming Red 4FT ","img":"images/all-products/MMCGI V2 Static Color.png ","quantity":1};
 var p3 = {"sku":"106-1201","product":"Moda Mini Cove Interior Standard Output Silver DMX 512 Dynamic Warm HCRI 1FT","img":"images/all-products/MMCGI V2 Dynamic White.png ","quantity":1};
@@ -98,7 +121,28 @@ products.push(p1);products.push(p2);products.push(p3);
 localStorage.setItem('product_data', JSON.stringify(products));
 printList();
 });
-
+	
+$(document).click(function(event) {
+var el = test();
+var target = $(event.target);	
+if (!target.is("nav li a")) {
+    if(!$(event.target).closest('#' + el).length) {
+         if($('#' + el).is(":visible")) {
+//			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
+            $('#' + el).hide();
+		 	$('#' + el).style.visibility = "hidden";
+        }
+    }  
+}
+});
+function printList() {
+testDiv.innerHTML = "";
+console.log("printing list");
+for (var i = 0; i < products.length; i++) {
+	testDiv.innerHTML += ("<div class='col-lg-8'><div style='display:inline-block;'><img style='width:200px;' src='" + products[i].img + "'></div><div style='display:inline-block;max-width:350px;'><h4>"+ products[i].product +"</h4><p>"+ products[i].sku +"</p></div></div><div class='col-lg-4'><input style='max-width:30px;' type='number' name='quantity"+ i  +"' min='1' max='160' value='"+ products[i].quantity +"'><br><button id='trash' class='trash' value='"+ i +"'>Trash</button></div>");
+}
+}
 </script>
+
 <script src="js/logo.js"></script>
 
