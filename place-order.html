@@ -8,6 +8,9 @@
 <!--<script src="js/scrollSpy.js"></script>-->
 
 <style>
+	.modal-dialog {
+		top: 5% !important;
+	}
 </style>
 
 
@@ -17,29 +20,9 @@ $(document).ready(function(){
 });
 ga('set', 'page', '/place-order.html');
 ga('send', 'pageview');
-function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i <ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
 var skuItems = [];	
 	
-/*var cookieResults = getCookie("sku");
-for (var j = 0; j < cookieResults[0].sku.length j++ ) {
-	skuItems[j] = cookieResults[0].sku;
-}*/
-//alert(skuItems[0]);
-//alert(cookieResults);
+
 var products = JSON.parse(localStorage.getItem('product_data'));
 var testDiv = document.getElementById("test");
 $(document).ready(function () {printList();});
@@ -54,7 +37,15 @@ $(document).ready(function () {printList();});
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-<center><h3>HELLO</h3> </center>
+<div class="row">
+	<div class="input-field col-lg-6"><input id="name" type="text" name="name"><label for="name">Full Name</label></div>
+	<div class="input-field col-lg-5">
+		<input id="email" name="email" type="email" class="validate">
+          <label for="email">Email</label></div><br>
+</div><br><br>
+<center>
+<button id="submitEmail">Submit</button>
+</center>
       </div>
     </div>
   </div>
@@ -63,20 +54,7 @@ $(document).ready(function () {printList();});
 <div style="padding-top: 110px;" class="row midContent">
 <a href="#/product-configurator">Return to Product Configurator</a>
 <div id="test" class=""></div>
-<!--
-<div class="midContent">
-	<div class="row">
-	<div class="col-lg-8">
-		<div style="display:inline-block;"><img style="width: 200px;" src="images/all-products/MMCGI V2 white light.png"></div><div style="display: inline-block; max-width: 350px; margin-top: 0px;"> <h4>Moda Mini Cove Interior Standard Output Silver 100-277V ELV Dimming 1800K HCRI 1FT</h4><p>090-0001</p></div>
-		</div>
-		<div class="col-lg-4"><input style="margin-top: 25px; max-width: 30px;" type="number" name="quantity" min="1" max="160" value="1"><p>Trash</p></div>
-	<div class="col-lg-8">
-		<div style="display:inline-block;vertical-align:top;"><img style="width: 200px;" src="images/all-products/MMCGI V2 white light.png"></div><div style="display: inline-block; max-width: 350px; margin-top: 0px;"> <h4>Moda Mini Cove Interior Standard Output Silver 100-277V ELV Dimming 1800K HCRI 1FT</h4><p>090-0001</p></div>
-		</div>
-		<div class="col-lg-4"><input style="margin-top: 25px; max-width: 30px;" type="number" name="quantity" min="1" max="160" value="1"><p>Trash</p></div>
-	</div>
-	</div>
--->
+
 </div>
 <div id="container"><button id="update">Update Order</button><button id="generate">generate</button>
 	<a data-toggle="modal" data-target="#submit-modal" data-dismiss="modal">Submit for review</a></div>
@@ -85,23 +63,15 @@ $(document).ready(function () {printList();});
 var genButton = document.getElementById("generate");
 var trashButton = document.getElementsByClassName("trash");
 
-/*document.body.addEventListener('click', function (el) {
-if (el.target.className === 'trash') {
-products.splice(el, 1);
-printList();
-localStorage.setItem('product_data', JSON.stringify(products));
-}
-}, false);*/
+
+
 
 	
 	
-$(document).on('click', '#trash', function () {
-var el = $(this).val();
-console.log(products[el].sku + " " + el);
-products.splice(el, 1);
-printList();
-localStorage.setItem('product_data', JSON.stringify(products));
-});
+for (var i = 0; i < trashButton.length; i++) {
+	trashButton[i].addEventListener('click', trashFunction, false);
+}	
+	
 
 
 	
@@ -128,13 +98,13 @@ var target = $(event.target);
 if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
          if($('#' + el).is(":visible")) {
-//			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
             $('#' + el).hide();
 		 	$('#' + el).style.visibility = "hidden";
         }
     }  
 }
 });
+
 function printList() {
 testDiv.innerHTML = "";
 console.log("printing list");
@@ -143,6 +113,6 @@ for (var i = 0; i < products.length; i++) {
 }
 }
 </script>
-
+<script src="js/place-order.js"></script>
 <script src="js/logo.js"></script>
 
