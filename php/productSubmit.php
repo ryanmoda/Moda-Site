@@ -13,15 +13,15 @@ $array = json_decode($storage, true);
 //$mail->isSMTP();                                      // Set mailer to use SMTP
 $mail->Host = 'smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'hereismycontactinfo1@gmail.com';                 // SMTP username
-$mail->Password = '&jswePJqc0ZG';                           // SMTP password
+$mail->Username = 'jack@modalight.com';                 // SMTP username
+$mail->Password = 'g4q3fnwTG';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
 
-$mail->SingleTo = true;
+//$mail->SingleTo = true;
 
-$mail->setFrom('hereismycontactinfo1@gmail.com', 'Jack');
+$mail->setFrom('jack@modalight.com', 'Moda Light');
 $mail->addAddress('jackphelan461@gmail.com');     // Add a recipient
 /* $mail->addAddress('ellen@example.com');               // Name is optional
 $mail->addReplyTo('info@example.com', 'Information');
@@ -32,7 +32,7 @@ $mail->addBCC('bcc@example.com'); */
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name */
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = "Contact Form Submission";
+$mail->Subject = "Here is your purchase order";
 $mail->Body    = "<h1>List of Items to purchase</h1><br>";
 foreach ($array as $i => $item) {
 	$mail->Body .= "

@@ -7,7 +7,7 @@ printList();
 localStorage.setItem('product_data', JSON.stringify(products));
 });
 var lStorage = 	localStorage.getItem('product_data');
-$("#submitEmail").click(function () {
+$("#submitEmail").on('click', function() {
 $.ajax({
             type: "POST",
             url: "php/productSubmit.php",
