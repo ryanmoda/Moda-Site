@@ -8,15 +8,15 @@ $company = $_POST['company'];
 $message = $_POST['message'];*/
 $storage = $_POST['lStorage'];
 $array = json_decode($storage, true);
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+//$mail->SMTPDebug = 4;                               // Enable verbose debug output
 
-//$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtpout.secureserver.net;smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'jack@modalight.com';                 // SMTP username
 $mail->Password = 'g4q3fnwTG';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;                                    // TCP port to connect to
+$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
+$mail->Port = 465;                                    // TCP port to connect to
 
 
 //$mail->SingleTo = true;
@@ -39,6 +39,7 @@ foreach ($array as $i => $item) {
 	{$array[$i]["product"]} <br>
     <strong>Sku: </strong>{$array[$i]["sku"]} <br>
 	<strong>Quantity: </strong> {$array[$i]["quantity"]}<br>
+	----------------------------------------------------<br>
 	";
 }
 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';

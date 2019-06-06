@@ -47,24 +47,6 @@ notSideBar.addEventListener("click", function() {
 	});
 
 
-//SIDEBAR COLLAPSABLE PANEL ================
-/*
-var acc = document.getElementsByClassName("collapsable");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-		panel.style.display = "none";
-        } else {
-			panel.style.display = "block";
-
-        }
-    });
-}
-*/
-
 
 //SCROLL SPY ===================
 $(document).on("click", ".spy-links", function(e) {

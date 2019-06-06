@@ -8,15 +8,15 @@ $company = $_POST['company'];
 $message = $_POST['message'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
-//$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
+$mail->isSMTP();                                      // Set mailer to use SMTP
+$mail->Host = 'smtpout.secureserver.net;smtp.gmail.com;smtp2.example.com';  // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'hereismycontactinfo1@gmail.com';                 // SMTP username
-$mail->Password = '&jswePJqc0ZG';                           // SMTP password
+$mail->Username = 'jack@modalight.com';                 // SMTP username
+$mail->Password = 'g4q3fnwTG';                           // SMTP password
 $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 587;                                    // TCP port to connect to
 
-$mail->setFrom('jackphelan461@gmail.com', 'Jack');
+$mail->setFrom('jack@modalight.com', 'Jack');
 $mail->addAddress('jackphelan461@gmail.com');     // Add a recipient
 /* $mail->addAddress('ellen@example.com');               // Name is optional
 $mail->addReplyTo('info@example.com', 'Information');

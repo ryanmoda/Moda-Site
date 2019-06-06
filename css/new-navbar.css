@@ -17,3 +17,7 @@ nav li ul li a {
 body,html {
 	color: black !important;
 }
+
+.noPad {
+	padding: 0;
+}

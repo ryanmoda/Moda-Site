@@ -8,15 +8,16 @@ localStorage.setItem('product_data', JSON.stringify(products));
 });
 var lStorage = 	localStorage.getItem('product_data');
 $("#submitEmail").on('click', function() {
+	$('#submit-modal').modal('hide');
 $.ajax({
             type: "POST",
             url: "php/productSubmit.php",
             data: { lStorage:lStorage },
             success: function(data){
-              window.location.href = "php/productSubmit.php";
+              window.location.href = "#/product-submit";
             }
         });
 	return;
-});
+ });
         
     
