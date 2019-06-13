@@ -130,19 +130,22 @@ body{
     opacity: 0;
     z-index: -40;
 	-webkit-backface-visibility: hidden;
-    animation: imageAnimation 18s infinite 0s;
+    animation: imageAnimation 24s infinite 0s;
 }
 
 .slideshow li:nth-child(1) span { background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
 animation-delay: 0s;
-}
+} 
+/* .slideshow li:nth-child(1) span { background-image: url("../videos/Louvers1280x720.gif");
+	animation-delay: 0s;
+	} */
 .slideshow li:nth-child(2) span {
     background-image: url("../images/Projects/Talde/talde-2.jpeg");
-    animation-delay: 6s;
+    animation-delay: 8s;
 }
 .slideshow li:nth-child(3) span {
     background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
-    animation-delay: 12s;
+    animation-delay: 16s;
 }
 #ledText {margin-top: -130px;}
 #awardText {margin-top: 40px; display: flex;justify-content: flex-end;}

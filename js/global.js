@@ -128,7 +128,8 @@ $("input[name='tabs2']").prop("checked", false);
 }
 
 function navDrop(val) {
-//alert("navDrop: " + val);
+if (document.getElementById("sidenav-d").style.width > "0px")
+	closeSide();
 closeAct();
 document.getElementById("navbar").style.backgroundColor = "black";
 document.getElementById(val).style.display = "block";
@@ -175,7 +176,10 @@ for (var i = 0; i < navArr.length; i++) {
 
 $(document).click(function(event) {
 var el = test();
-var target = $(event.target);	
+var target = $(event.target);
+if (target.is("a")) {
+	closeSide();
+}	
 if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
          if($('#' + el).is(":visible")) {
