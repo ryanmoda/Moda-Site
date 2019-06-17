@@ -1,5 +1,5 @@
 <filesMatch "index-slide-2.html">
-Header set Cache-Control "no-cache"
+Header set Cache-Control "no-store"
 </filesMatch>
 Redirect 301 /moda-mini-cove.html http://modalight.com/#/mini-cove
 Redirect 301 /products.html http://modalight.com/#/all-products
