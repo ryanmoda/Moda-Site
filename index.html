@@ -38,6 +38,14 @@ ga('send', 'pageview');
 
 
   <header>
+    <script>
+      window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+      </script>
     <nav class="navbar navbar-default" id="navbar" ng-controller="HeaderController">
       <button class="hamburger hamburger--squeeze" id="burg" type="button" onClick="drop()">
   <span class="hamburger-box">
