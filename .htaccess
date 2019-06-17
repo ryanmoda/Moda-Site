@@ -1,5 +1,5 @@
 <filesMatch "index-slide-2.html">
-Header set Cache-Control "no-store"
+Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
 Header set Vary "*"
 </filesMatch>
 
