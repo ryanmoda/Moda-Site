@@ -1,4 +1,4 @@
-<filesMatch "index-slide-2.html">
+<filesMatch "script.js">
 Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
 Header set Vary "*"
 </filesMatch>
