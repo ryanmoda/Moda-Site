@@ -193,6 +193,10 @@ for (var i = 0; i < navArr.length; i++) {
 
 $(document).click(function(event) {
 var el = test();
+var target = $(event.target);
+if (target.is("a")) {
+	closeSide();
+}
 var target = $(event.target);	
 if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
