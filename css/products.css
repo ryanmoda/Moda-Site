@@ -171,14 +171,13 @@ span.icon-grid-caption {
 }
 
 
-.block-img {
-	width: 95%;
-	max-width: 733px;
-}
-
 .cove-img {
 	width: 95%;
 	max-width: 533px;
+}
+
+.cove-img-land {
+	max-width: 733px;
 }
 
 .block-img-2 {
