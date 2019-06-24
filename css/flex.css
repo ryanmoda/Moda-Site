@@ -5,3 +5,7 @@
 .flex-container div {
 	padding: 0 7px;
 }
+
+.flex-block {
+    width: 320px; margin-top: 50px;
+}
