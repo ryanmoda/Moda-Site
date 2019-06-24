@@ -4,6 +4,17 @@ body, html {
   padding: 0 !important;
 	color: white;
 }
+
+body {
+animation: bodyFade 2s;
+}
+
+@keyframes bodyFade {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
 .k18 {color: #FFB236;}
 .k22 {color: #FFDD75;}
 .k27 {color: #FDE894;}
