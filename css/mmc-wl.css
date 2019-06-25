@@ -328,6 +328,18 @@ h3 {
 	text-align: left;
 }
 
+.features > [class^="col-"] {
+	padding: 0;
+}
+
+.feat p {
+	text-align: left;
+}
+
+.feat > [class^="col-"] {
+	padding: 0;
+}
+
 .img-cont {
 	position: relative;
 	width: 90%;

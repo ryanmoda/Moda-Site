@@ -87,6 +87,9 @@
 				.when('/graze-wl',{
 						templateUrl:'graze-wl.html',
 					})
+					.when('/graze-test',{
+						templateUrl:'graze-dw-2.html',
+					})
 					.when('/graze-sc',{
 						templateUrl:'graze-sc.html',
 					})
