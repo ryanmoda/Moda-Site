@@ -328,9 +328,6 @@ h3 {
 	text-align: left;
 }
 
-.features > [class^="col-"] {
-	padding: 0;
-}
 
 .feat p {
 	text-align: left;

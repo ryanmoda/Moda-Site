@@ -13,7 +13,7 @@ $.ajax({
             url: "php/productSubmit.php",
             data: { lStorage:lStorage },
             success: function(data){
-              window.location.href = "php/productSubmit.php";
+              //window.location.href = "php/productSubmit.php";
             }
         });
 	return;

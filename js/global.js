@@ -2,10 +2,6 @@
 var navArr = ["cove-bar", "graze-bar", "flex-bar", "cntrl-bar"];
 
 
-function hashChange () {
-	console.log("Route has been changed");
-}
-
 function drop() {
 	var w = window.innerWidth;
 	var h = String(document.documentElement.scrollHeight - 18) + 'px'

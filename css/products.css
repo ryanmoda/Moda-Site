@@ -205,6 +205,16 @@ span.icon-grid-caption {
 	font-size: 30px
 }
 
+.grazer-container {
+	grid-template-columns: repeat(auto-fill, 100px);
+	display: grid;
+}
+
+.grid-element .grazers {
+	width: 100px;
+	height: 100px;
+}
+
 @media (min-width: 1400px) {
 
 }
