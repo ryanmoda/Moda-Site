@@ -53,10 +53,29 @@
 		background-color: #fafafa;
 		flex: 1;
 		margin: 10px 10px;
-		padding: 0 35px;
+		padding: 50px 35px 0 35px;
+	}
+	.v2-container {
+		max-width: 1620px;
+		margin: 0 auto;
+		display: flex;
 	}
 	.grazer-container {
 		justify-content: center;
+	}
+	@media (max-width: 1199px) {
+		.v2 {
+		background-color: #fafafa;
+		max-width: 900px;
+		min-height: 500px;
+		margin: 10px auto;
+	}
+	.v2-container {
+		display: block;
+	}
+	.no-gutters-accs {
+		width: 100.7%;
+	}
 	}
 </style>
 <script>
@@ -120,9 +139,9 @@ ga('send', 'pageview');
 
 <div>
 <center>
-	<div class="row" style="max-width: 1620px; display: flex;">
+	<div class="row v2-container">
 		<div class="col-lg-6 v2">
-			<h1 style="margin-top: 50px;">Dynamics</h1>
+			<h1>Dynamics</h1>
 			<div style="height: 30px; margin-bottom: 10px;"><div class="col-xs-2"><p style="text-align: right;">2200K</p></div><div class="col-xs-8"><div class="gradient dw-gradient"></div></div><div class="col-xs-2"><p style="text-align: left;">6500K</p></div></div>
 			<p class="margin1">Advanced Firmware ensures cove delivers smooth, no noise, flicker free dimming.</p>
 			<div style="height: 30px; margin-bottom: 10px;"><div class="col-xs-2"><p style="text-align: right;">1800K</p></div><div class="col-xs-8"><div class="gradient dw-gradient2"></div></div><div class="col-xs-2"><p style="text-align: left;">3000K</p></div></div>
@@ -146,7 +165,7 @@ ga('send', 'pageview');
 		</div>
 
 		<div class="col-lg-6 v2" style="padding-bottom: 50px;">
-			<h1 style="margin-top: 50px;">Linear Optic</h1>
+			<h1>Linear Optic</h1>
 			<p style="text-align: left;" class="margin2">Precise beam pattern with no color over angle, no striations, and no dark spots up to 10ft (3.05m)</p>
 			<div class="grazer-container">
 					<div class="grid-element">
@@ -216,7 +235,7 @@ ga('send', 'pageview');
 </div>
 
 <div>
-	<div class="row midContent" style="width: 100%; max-width: 1620px; display: flex;">
+	<div class="row v2-container">
 		<div class="col-lg-6 v2"><h1>Versatile Sizes</h1>
 			
 				<p class="margin3">Link any combination of fixtures and every fixture will dim together, smoothly, synchronized from 100% to 0%. With no minimum run lengths required, just one 1ft fixture will dim seamlessly.</p>
@@ -251,9 +270,9 @@ ga('send', 'pageview');
 	</div>
 </div>
 
-<div class="coveBlock" style="padding-bottom: 0;">
-<div class="row midContent" style="max-width: 1620px;">
-	<div class="col-lg-6">
+<div>
+<div class="row v2-container">
+	<div class="col-lg-6 v2" style="padding: 0; padding-top: 50px;">
 	<center>
 		<h1>Excellent TM-30-15 Values</h1>
 		<p class="margin1" style="text-align: left; max-width: 440px;	">R1-R15 tested to TM-30-15 with values in excess of 90, creating beautiful graze illumination.</p>
@@ -289,7 +308,7 @@ ga('send', 'pageview');
 </center>
 
 	</div>
-	<div class="col-lg-6">
+	<div class="col-lg-6 v2" style="padding: 0; padding-top: 50px;">
 <center>
 			<h1>Unlimited Control Options</h1>
 			<p class="margin3" style="text-align: left; max-width: 470px;">Our fixtures communicate using the universal DMX-512 protocol, which allows them to be controlled from a wide variety of controllers. From architectural lighting controllers to theatrical lighting controllers, our fixtures will be able to receive DMX-512 from whatever controller you have on site.</p>
@@ -300,35 +319,36 @@ ga('send', 'pageview');
 
 </div>
 
-<div class="coveBlock">
-	<div class="row">
-		<div class="col-lg-6">
+<div>
+	<div class="row v2-container">
+		<div class="col-lg-6 v2" style="padding: 0; padding-top: 50px;">
 			<center>
 				<h1>Easy Installation</h1>
 				<p class="margin2" style="max-width: 468px; text-align: left;">Built-in male and female connectors with thumb latch connections for fast installation.</p>
-			</center>
 			<img style="width: 100%;" src="images/Graze/graze2.0 connector@2x.png">
+		</center>
+
 		</div>
-		<div class="col-lg-6">
-			<div class="midContent" style="max-width: 993px;">
-				<div class="row no-gutters-accs">
-				  <div class="col-xs-6 col-sm-4 accs"><center><span>Leader Cables</span></center><center>
-		  <img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin 25ft LC.png">
-		  </center>
-					  <center><span>10ft and 25ft</span></center></div>
-				  <div class="col-xs-6 col-sm-4 accs"><center><span>Jumper Cables</span></center><img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin 4ft JC.png">
-							  <center><span>1ft and 4ft</span></center></div>
-				  <div class="col-xs-6 col-sm-4 accs"><center><span>Terminators</span></center><img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin Terminator.png">
-					  <center><span>Power end caps</span></center></div>
-			<div class="col-xs-6 col-sm-4 accs"><center><span>Belden Cable</span><img src="images/Accessories/500 belden.png">
-					  <span>500ft</span></center></div>
-					<div class="col-xs-6 col-sm-4 accs"><center><span>Belden Cable</span><img src="images/Accessories/1000 belden.png">
-					  <span>1000ft</span></center></div>
-					<div class="col-xs-6 col-sm-4 accs"><center><span>DMX</span><img src="images/Accessories/dmx-wiring-hub.png">
-					  <span>DMX Wiring Hub</span></center></div>
+		<div class="col-lg-6 v2" style="background: white; padding: 0;">
+			
+			<div class="row no-gutters-accs">
+			  <div class="col-xs-6 col-sm-4 accs"><center><span>Leader Cables</span></center><center>
+	  <img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin 25ft LC.png">
+	  </center>
+				  <center><span>10ft and 25ft</span></center></div>
+			  <div class="col-xs-6 col-sm-4 accs"><center><span>Jumper Cables</span></center><img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin 4ft JC.png">
+						  <center><span>1ft and 4ft</span></center></div>
+			  <div class="col-xs-6 col-sm-4 accs"><center><span>Terminators</span></center><img src="images/Accessories/MMCGI/ResizedPhotos/MMCGI 5pin Terminator.png">
+				  <center><span>Power end caps</span></center></div>
+		<div class="col-xs-6 col-sm-4 accs"><center><span>Belden Cable</span><img src="images/Accessories/500 belden.png">
+				  <span>500ft</span></center></div>
+				<div class="col-xs-6 col-sm-4 accs"><center><span>Belden Cable</span><img src="images/Accessories/1000 belden.png">
+				  <span>1000ft</span></center></div>
+				<div class="col-xs-6 col-sm-4 accs"><center><span>DMX</span><img src="images/Accessories/dmx-wiring-hub.png">
+				  <span>DMX Wiring Hub</span></center></div>
+	  
+			</div>
 		  
-				</div>
-			  </div>
 		</div>
 	</div>
 </div>
