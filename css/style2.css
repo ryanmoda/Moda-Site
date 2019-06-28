@@ -133,14 +133,34 @@ body{
     animation: imageAnimation 24s infinite 0s;
 }
 
-.slideshow li:nth-child(1) span { background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
+
+.img1 {
+	animation: imageAnimation 24s infinite 0s;
+	z-index: 4;
+}
+
+#honeycomb {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 42vw;
+
+}
+#louvres3 {
+position: absolute;
+left: 50px;
+width: ;
+bottom: 0;
+}
+
+.slideshow li:nth-child(1) span { background-image: url("../images/products/background270.png");
 animation-delay: 0s;
-} 
+}
 /* .slideshow li:nth-child(1) span { background-image: url("../videos/Louvers1280x720.gif");
 	animation-delay: 0s;
 	} */
 .slideshow li:nth-child(2) span {
-    background-image: url("../images/Projects/Talde/talde-2.jpeg");
+    background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
     animation-delay: 8s;
 }
 .slideshow li:nth-child(3) span {
@@ -202,4 +222,34 @@ animation-delay: 0s;
 }
 @media (max-width: 1499px) {
 	#awardText { justify-content: center;}
+}
+
+@media (max-width: 2560px) {
+#honeycomb{width: 40vw; }
+#louvres3{ width: 27vw; }
+}
+
+@media (max-width: 1440px) {
+#honeycomb{ width: 40vw; }
+#louvres3{ width: 33vw; }
+}
+
+@media (max-width: 1280px) {
+#honeycomb{ width: 43vw;}
+#louvres3{ width: 36vw; }
+}
+
+@media (max-width: 1024px) {
+#honeycomb{ width: 62vw; top: -150px; }
+#louvres3{ width: 39vw; }
+}
+
+@media (max-width: 768px) {
+#honeycomb{ width: 44vw; top: 10px; }
+#louvres3{ width: 41vw; }
+}
+
+@media (max-width: 500px) {
+#honeycomb{ }
+#louvres3{ width: 48vw; }
 }

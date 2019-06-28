@@ -1,5 +1,5 @@
 body {
-	
+
 	font-family: FutuLt;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -176,14 +176,13 @@ span.icon-grid-caption {
 }
 
 
-.block-img {
-	width: 95%;
-	max-width: 733px;
-}
-
 .cove-img {
 	width: 95%;
-	max-width: 533px;
+	max-width: 450px;
+}
+
+.cove-img-land {
+	max-width: 500px;
 }
 
 .block-img-2 {
@@ -194,7 +193,7 @@ span.icon-grid-caption {
 
 .three-block {
 	height: 100px;
-	
+
 }
 	.gutterless img {
 		width: 100%;
@@ -212,24 +211,15 @@ span.icon-grid-caption {
 }
 
 .grazer-container {
-	grid-template-columns: repeat(auto-fill, 150px);
+	grid-template-columns: repeat(auto-fill, 100px);
 	display: grid;
 }
 
 .grid-element .grazers {
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
-.louver:hover  {
-	transition: .5s;
-	background-color: #e9e9e9;
-} 
-.plus {
-	position: absolute; 
-	width: 40px !important; 
-	padding: 0 !important; 
-	left: 44.5%;
-}
+
 @media (min-width: 1400px) {
 
 }

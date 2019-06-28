@@ -288,7 +288,11 @@ h3 {
 }
 .block-img {
 	max-width: 70%;
-	width: 733px;
+	width: 545px;
+}
+
+.block-img-land {
+	width: 670px;	
 }
 
 .pia-img {
@@ -322,6 +326,15 @@ h3 {
 
 .features p {
 	text-align: left;
+}
+
+
+.feat p {
+	text-align: left;
+}
+
+.feat > [class^="col-"] {
+	padding: 0;
 }
 
 .img-cont {

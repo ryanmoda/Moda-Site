@@ -14,10 +14,9 @@ $.ajax({
             url: "php/productSubmit.php",
             data: { lStorage:lStorage },
             success: function(data){
-              window.location.href = "#/product-submit";
+              //window.location.href = "php/productSubmit.php";
             }
         });
 	return;
  });
         
-    

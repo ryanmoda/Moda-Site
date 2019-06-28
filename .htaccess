@@ -1,3 +1,8 @@
+<filesMatch "script.js">
+Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+Header set Vary "*"
+</filesMatch>
+
 Redirect 301 /moda-mini-cove.html http://modalight.com/#/mini-cove
 Redirect 301 /products.html http://modalight.com/#/all-products
 Redirect 301 /moda-reps.html http://modalight.com/#/reps
