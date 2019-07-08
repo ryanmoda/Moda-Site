@@ -7,6 +7,9 @@ p {
 	margin: 0;
 }
 */
+
+
+
 .fixed-bar {
 	position: fixed;
 	width: 100%;
@@ -25,7 +28,10 @@ p {
 	margin-top: -70px;
 	
 }
-
+body.modal-open {
+	overflow-y:auto;
+ 
+}
 .modal-header {
 	padding-bottom: 45px;
 }
