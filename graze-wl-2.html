@@ -31,7 +31,7 @@
 		width: 8.66666667%;
 	}
 	
-	#dw {
+	#wl {
 		font-weight: 400 !important;
 		opacity: 1 !important;
 	}
@@ -46,8 +46,12 @@
 	.slick-slide {
 		width: 530px;
 	}
-	.dwSlider {
+	.slider {
 		width: 540px;
+	}
+	.slick-dots {
+		width: 630px;
+		margin-left: -60px;
 	}
 	.v2 {
 		background-color: #fafafa;
@@ -98,7 +102,7 @@ ga('send', 'pageview');
 	<hr class="prod-hr">
 <div class="row midContent prod-bar">
 	<div class="col-sm-3">
-		<p id="prod-name">Graze Dynamic Whites</p>
+		<p id="prod-name">Graze White Light</p>
 	</div>
 	<div class="col-sm-9">
 	<div class="hori">
@@ -139,36 +143,58 @@ ga('send', 'pageview');
 
 		
 <div class="midContent readContent" style="margin-top: 50px;">
-<p>Graze Interior is a new patent pending wall grazing lighting system designed for interior applications. Utilizing Moda’s latest DMX software, our onboard microprocessor is uniquely programmed in-house with a firmware to receive DMX 512 signals for full independent control of every 1ft section. Change the color temperature ranging from 2200K to 6500K and create a variety of moods. With Moda’s methods of precision and high standards of work, Moda achieves perfect illumination. Color Rendering Index is at a standard of 90-98. R1 - R15 values are in excess of 90. No striations, no color over angle, and no dark spots.<br><br>Wall wash any applications with a choice of 6°, 10°, 25°, 40°, 10°x40°, 30°x60°, or 30°x60°x5° beam patterns for HO, or 30°x100° for SO or HO+ Lumen packages. 100-277V, 50/60Hz power input allows these fixtures to be installed anywhere in the world.<br><br>New patent pending locking bracket rotates 180° for a multitude of light directions with a rugged aluminum design. Fast installation is achieved with Kwik Connect plugs and install-integral thumb latch connectors. Available in 1ft & 4ft sections. Series is designed for driver or light engine to be factory replaced at its end of life or recycled.<br><br>Designed and developed in Las Vegas, USA by MODA.</p></div>
+	<p>Graze Interior is a new patent pending wall grazing lighting system designed for interior applications. Utilizing Moda’s latest software and dimming technology with its onboard dimming chipset and firmware, this series can dim to 0% smoothly without any flicker or noise and simultaneously synchronize dim with every fixture. Electronic Low Voltage dimming has no minimum run lengths. With Moda’s methods of precision and high standards of work, Moda achieves perfect illumination. Color Rendering Index is at a standard of 94-98. R1 - R15 values are in excess of 90. No striations, no color over angle, and no dark spots.<br><br>
+		Small in physical size, yet powerful with up to 1200 lm/ft. Wall wash any applications with a choice of 6°, 10°, 25°, 40°, 10°x40°, 30°x60°, or 30°x60°x5° beam patterns for SO+ and HO, or 30°x100° for LO, SO or HO+ Lumen packages. Standard color temperatures available are 2200K, 2700K, 3000K, 3500K, and 4000K. Other CCT are available by request. 100-277V, 50/60Hz power input allows these fixtures to be installed anywhere in the world.<br><br>New patent pending locking bracket rotates 180° for a multitude of light directions with a rugged aluminum design. Protected from corrosion and harsh weather conditions by Guard–a tough seal which protects the fixture. Fast installation is achieved with Kwik Connect plugs and install-integral thumb latch connectors. Choice of five lumen packages ranging from 300 lm/ft to 1200 lm/ft. Available in 1ft & 4ft sections. Series is designed for driver or light engine to be factory replaced at its end of life or recycled. Designed and developed in Las Vegas, USA by MODA</p></div>
 </div>
 
 <div>
 
 <div class="row v2-container">
-	<div class="col-lg-6 v2">
-<div>
-			<h1>Dynamics</h1> 
-			<div style="height: 30px; margin-bottom: 10px;"><div class="col-xs-2"><p style="text-align: right;">2200K</p></div><div class="col-xs-8"><div class="gradient dw-gradient"></div></div><div class="col-xs-2"><p style="text-align: left;">6500K</p></div></div>
-			<p class="margin1" style="text-align: center;">Advanced Firmware ensures cove delivers smooth, no noise, flicker free dimming.</p>
-			<div style="height: 30px; margin-bottom: 10px;"><div class="col-xs-2"><p style="text-align: right;">1800K</p></div><div class="col-xs-8"><div class="gradient dw-gradient2"></div></div><div class="col-xs-2"><p style="text-align: left;">3000K</p></div></div>
-			<p class="margin1" style="text-align: center;">Choose your color temperature using DMX 512.</p>
-			 <div style="height: 30px; margin-bottom: 10px;"><div class="col-xs-2"><p style="text-align: right;">3500K</p></div><div class="col-xs-8"><div class="gradient dw-gradient3"></div></div><div class="col-xs-2"><p style="text-align: left;">6500K</p></div></div>
-			<p class="margin3" style="text-align: center;">Link any combination of 1ft and 4ft fixtures.</p>
-	
-	
-			<div class="feat feature-cont">
-				<div class="feat-element">
-						<p class="p1 thin">100-277V</p><p class="thin">Universal Input</p>
+	<div class="col-lg-6 v2" style="padding-bottom: 40px;">
+		<h1>Multitude of options.</h1> 
+		<p class="margin2">Choose from our standard white light temperatures.</p>
+		<div class="grid-container grid-container--fit margin2" style="grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));">
+			<div class="grid-element">
+			  <center><div class="square" id="k22" ></div><p>2200K</p></center>
+			</div>
+			<div class="grid-element">
+			  <center><div class="square" id="k27"></div><p>2700K</p></center>
+			</div>
+			<div class="grid-element">
+			  <center><div class="square" id="k30"></div><p>3000K</p></center>
+			</div>
+			<div class="grid-element">
+			  <center><div class="square" id="k35"></div><p>3500K</p></center>
+			</div>
+			<div class="grid-element">
+			  <center><div class="square" id="k40"></div><p>4000K</p></center>
+			</div>
+		 </div>
+		 <div class="feat feature-cont">
+			<div class="feat-element">
+					<p class="p1 thin">100-277V</p><p class="thin">Universal Input</p>
+			</div>
+			<div class="feat-element">
+					<p class="p1 thin">940 lm/ft</p><p class="thin">Standard Output</p>
+			</div>
+			<div class="feat-element" id="coveSize"></div>
+			<div class="feat-element">
+					<p class="p1 thin">180ft</p><p class="thin">Max Run Length</p>
+			</div>
+		</div>  
+		<div class="row" style="margin-top: 70px;">
+			<div class="col-lg-6 margin1"><p class="p1 thin margin1">Dimming</p><p class="p2 thin">Choose from Electornic Low Voltage or DALI.</p></div>
+			<div class="col-lg-6">
+			<div class="row">
+				<div class="col-xs-3"><div class="dim"><center>
+		<p class="p3">ELV</p>
+		</center></div></div>
+				<div class="col-xs-3"><div class="dim"><center>
+		<p class="p3">DALI</p>
+		</center></div></div>
 				</div>
-				<div class="feat-element">
-						<p class="p1 thin">1,000+</p><p class="thin">Color Temperatures</p>
-				</div>
-				<div class="feat-element" id="coveSize"></div>
-				<div class="feat-element">
-						<p class="p1 thin">80ft</p><p class="thin">Max Run Length</p>
-				</div>
-			</div> 
-</div> 
+			</div>
+			</div>
 	</div>
 
 	<div class="col-lg-6 v2" style="padding-bottom: 50px;">
@@ -251,42 +277,31 @@ ga('send', 'pageview');
 				<img style="height: 19px;" src="images/Graze/Moda Graze2.0 4ft sideview.png"><br>
 	<span class="p1 thin">4ft</span><p class="thin">1.22m</p>
 		</div>
-		<div class="col-lg-6 v2">
+		<div class="col-lg-6 v2" style="padding-bottom: 40px;">
+			
 			<div class="row">
+				<div class="col-xs-4"><img width="144" src="images/Technologies/Dim/sync-dimming.svg">		</div>
 				<div class="col-xs-8">
-					<center>
-					<h1 style="width: 326px; line-height: 40px;">Thousands of Color Temperatures</h1>
-					<p style="max-width: 350px; text-align: left;">By mixing the various color temperature LEDs, one can create any custom temperature, it’s up to their imagination.</p>
-
-					
-						<div class="margin1 gradient" style="background: rgb(255,221,116);
-						background: linear-gradient(90deg, rgba(255,221,116,1) 0%, rgba(255,225,134,1) 25%, rgba(253,253,250,1) 50%, rgba(248,254,255,1) 100%); width: 260px; margin-top: 50px;">
-						</div>
-							<div class="row" style="max-width: 260px; margin: 0 auto;">
-								<div class="col-xs-6" style="padding-left: 0 !important;"><p style="text-align: left;">2200K</p></div>
-								<div class="col-xs-6" style="padding-right: 0 !important; text-align: right;"><p>6500K</p></div>
-								</div>
-					</center>
-
+					<p>Our patent pending new dimming technology enables our fixtures to dim so precise and to be flawless at the low end trim of a dimming system. Combining our advanced firmware with intelligent micro processors and dimming chips, this technology creates a 100-0% dimming curve, smooth, no noise and flicker free and allows our lighting systems to be completely synchronized.</p>
 				</div>
-				<div class="col-xs-4">
-					<center><img style="width: 173px; margin-top: -100px;" src="images/Graze/Moda Graze DW/dw-temp.png"></center>
-				</div>
-			</div>
+		</div>
+		<center style="margin-top: 40px;"><img style="max-width: 400px; width: 90%;" class="margin2" src="images/Cove/Mini Cove White Light/mmcgi-18k-top.png">
+		<div class="square margin2" id="k18"></div><p>1800K</p></center>
+		
 		</div>
 	</div>
 </div>
 
 <div>
 <div class="row v2-container">
-	<div class="col-lg-6 v2" style="padding: 0; padding-top: 50px;">
+	<div class="col-lg-6 v2" style="padding: 0; padding-top: 50px; position: relative;">
 	<center>
 		<h1>Excellent TM-30-15 Values</h1>
 		<p class="margin1" style="text-align: left; max-width: 440px;	">R1-R15 tested to TM-30-15 with values in excess of 90, creating beautiful graze illumination.</p>
 	</center>
 
 <center>
-		<section class="dwSlider">
+		<section class="slider">
 			<div><div class="row" style="text-align: left;">
 				<div class="col-md-3 col-sm-9 col-xs-5"><img style="width: 100%;" src="images/TM30/18K/5630_18K_TM30-01.png"></div>
 				<div class="col-md-9 col-sm-10 col-xs-6"><img style="width: 100%; margin-top: 17px; " id="K1800" src="images/TM30/18K/5630_18K_TM30-03.png"></div>
@@ -306,6 +321,10 @@ ga('send', 'pageview');
 			<div><div class="row" style="text-align: left;">
 				<div class="col-md-3 col-sm-9 col-xs-5"><img style="width: 100%;" src="images/TM30/35K/5630_35K_TM30-01.png"></div>
 				<div class="col-md-9 col-sm-10 col-xs-6"><img style="width: 100%; margin-top: 17px; " id="K1800" src="images/TM30/35K/5630_35K_TM30-03.png"></div>
+			</div></div>
+			<div><div class="row" style="text-align: left;">
+				<div class="col-md-3 col-sm-9 col-xs-5"><img style="width: 100%;" src="images/TM30/40K/5630_40K_TM30-01.png"></div>
+				<div class="col-md-9 col-sm-10 col-xs-6"><img style="width: 100%; margin-top: 17px; " id="K1800" src="images/TM30/40K/5630_40K_TM30-03.png"></div>
 			</div></div>
 			<div><div class="row" style="text-align: left;">
 				<div class="col-md-3 col-sm-9 col-xs-5"><img style="width: 100%;" src="images/TM30/65K/5630_65K_TM30-01.png"></div>

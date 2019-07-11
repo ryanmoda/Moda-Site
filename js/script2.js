@@ -90,6 +90,9 @@
 					.when('/graze-test',{
 						templateUrl:'graze-dw-2.html',
 					})
+					.when('/graze-wl-2',{
+						templateUrl:'graze-wl-2.html',
+					})
 					.when('/graze-sc-2',{
 						templateUrl:'graze-sc-2.html',
 					})
