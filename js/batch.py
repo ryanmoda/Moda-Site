@@ -1,6 +1,6 @@
 import re
 
-moda = "http://modalight.com/#/"
+moda = "http://www.modalight.com/#/"
 
 regex = re.compile("(?<=\'\/)(.*?)(?=\')")
 with open("script2.js", 'r') as f:
@@ -16,6 +16,3 @@ for x in result:
     n.write(moda + x + "</loc>\n</url>\n")
 
 n.write("</urlset>")
-
-
-n.close()
