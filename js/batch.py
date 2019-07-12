@@ -13,6 +13,6 @@ n.write('<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="
 for x in result:
     n.write("<url>\n")
     n.write("<loc>")
-    n.write(moda + x + "</loc>\n</url>\n")
+    n.write(moda + x + "/</loc>\n</url>\n")
 
 n.write("</urlset>")
