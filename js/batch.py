@@ -1,3 +1,5 @@
+# This script parses 'script2.js' file and outputs a sitemap.xml file for google search console
+
 import re
 
 moda = "http://www.modalight.com/#/"
