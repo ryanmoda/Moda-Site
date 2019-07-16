@@ -507,6 +507,18 @@
             })
 			.when('/contact',{
                 templateUrl:'contact.html'
+			})
+			.when('/careers',{
+                templateUrl:'careers.html'
+			})
+			.when('/job-description',{
+                templateUrl:'job-description.html'
+			})
+			.when('/job-listings',{
+                templateUrl:'job-listings.html'
+			})
+			.when('/test-submit',{
+                templateUrl:'test-submit.html'
             })
 			.when('/all-products',{
                 templateUrl:'all-products.html'
