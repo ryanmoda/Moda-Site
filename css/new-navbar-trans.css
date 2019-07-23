@@ -38,7 +38,6 @@ h1 {
       width: calc(100vw - 15px);
       background: rgba(0,0,0,0.1);
 	transition: background .5s;
-	margin-top: 16px;
 	z-index: 4;
 }
 

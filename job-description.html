@@ -30,6 +30,15 @@
 	border: none;
 }
 th {font-weight: 300; padding-right: 15px;}
+#backArrow {
+	transform: rotate(180deg);
+}
+#backArrow:hover {
+	text-decoration: underline;
+}
+#jobLink:hover {
+	text-decoration: underline;
+}
 </style>
 <script>
 $(document).ready(function(){
@@ -39,8 +48,9 @@ ga('set', 'page', '/careers.html');
 ga('send', 'pageview');
 
 </script>
+
 <div style="margin-top: 70px;"></div>
-<div style="padding-bottom: 30px;" class="fixed-bar">
+<div style="padding-bottom: 30px; position: static; z-index: 0;" class="fixed-bar">
 <center>
 	<hr class="prod-hr">	
 <div class="row midContent prod-bar">
@@ -50,7 +60,10 @@ ga('send', 'pageview');
 </div>
 </center>
 </div>
-<div class="midContent maxContent" style="background-color:#fafafa; padding: 90px 30px 50px 30px; margin-bottom: 50px;">
+<div class="midContent maxContent">
+<a id="jobLink" href="#/job-listings">&larr;&emsp;Back to Job Listings</a>
+</div>
+<div class="midContent maxContent" style="background-color:#fafafa; padding: 30px 30px 50px 30px; margin-top: 20px; margin-bottom: 50px;">
 
 <h3 id="title" style="font-weight: 400;"></h3>
 <table>
@@ -76,8 +89,19 @@ ga('send', 'pageview');
 </div>
 </div> 
 
-
+	
+<script>
+	console.log("Here we go");
+function stripUrl() {
+	alert("Happening");
+}
+window.addEventListener("beforeunload", function (e) {
+    // to do something (Remember, redirects or alerts are blocked here by most browsers):
+    stripUrl();    
+    // to show a dialog (uncomment to test):
+});
+</script>
 <script src="js/logo.js"></script>
-<script src="js/jobs.js"></script>
+<script src="js/jobs2.js"></script>
 
 
