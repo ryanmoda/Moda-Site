@@ -2,7 +2,7 @@
 
 (function () {
 
-    var app = angular.module('modaApp',['ngRoute']);
+    var app = angular.module('modaApp',['ngAnimate','ngRoute']);
 
     app.config(function ($routeProvider){
         $routeProvider
