@@ -21,6 +21,32 @@ font-family: 'Lato', sans-serif;
 padding-top: 0px;
 }
 
+ img.icon-grid-icon:active  {
+opacity: .3 !important;
+} 
+span.icon-grid-caption:active {
+	color: grey !important;
+}
+
+h4:active,p:active {
+	color: grey !important;
+}
+
+a:active {
+	font-weight: 400 !important;
+	color: grey !important;
+}
+
+.hamburger-box:active > .hamburger-inner::after {
+	height: 2px !important;
+}
+.hamburger-box:active > .hamburger-inner::before {
+	height: 2px !important;
+}
+.hamburger-box:active > .hamburger-inner {
+	height: 2px !important;
+}
+
 body {
 overflow-y: scroll;
 }
@@ -264,7 +290,7 @@ background-color: var(--3rd-color);
 	z-index: 101 !important;
 }
 .burg-links:hover {
-	opacity: .5;
+	opacity: .7;
 }
 
 .sidenav hr {
