@@ -176,6 +176,10 @@ span.icon-grid-caption {
 	max-width: 450px;
 }
 
+a .cove-img:active {
+	opacity: .5;
+}
+
 .cove-img-land {
 	max-width: 500px;
 }

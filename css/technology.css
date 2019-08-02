@@ -1,6 +1,6 @@
 	#nav-tech {
 		font-weight: var(--active-header) !important;
-		color: var(--3rd-color) !important;
+		color: var(--3rd-color) 
 	}
 	.medals {
 		width: 20vw;
