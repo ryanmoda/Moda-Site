@@ -2,10 +2,8 @@
 require 'PHPMailerAutoload.php';
 
 $mail = new PHPMailer;
-/*$name = $_POST['name'];
+$full_name = $_POST['name'];
 $email = $_POST['email'];
-$company = $_POST['company'];
-$message = $_POST['message'];*/
 $storage = $_POST['lStorage'];
 $array = json_decode($storage, true);
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
@@ -32,7 +30,7 @@ $mail->addBCC('bcc@example.com'); */
 //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name */
 $mail->isHTML(true);                                  // Set email format to HTML
 
-$mail->Subject = "Here is your purchase order";
+$mail->Subject = "Here is your purchase order $full_name";
 $mail->Body    = "<h1>List of Items to purchase</h1><br>";
 foreach ($array as $i => $item) {
 	$mail->Body .= "
