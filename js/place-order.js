@@ -7,10 +7,10 @@ printList();
 localStorage.setItem('product_data', JSON.stringify(products));
 });
 var lStorage = 	localStorage.getItem('product_data');
-var full_name = document.getElementById('name').value;
-var email = document.getElementById('email').value;
+console.log(full_name);
 $("#submitEmail").on('click', function() {
-  console.log("hello");
+  var full_name = document.getElementById("full_name").value;
+  var email = document.getElementById('email').value;
 $.ajax({
             type: "POST",
             url: "php/productSubmit.php",
@@ -19,7 +19,8 @@ $.ajax({
             email: email
             },
             success: function(data){
-              //window.location.href = "php/productSubmit.php";
+              $('#submit-modal').modal('hide');
+              window.location.href = "http://localhost:8888/mamp/#/order-submit";
             }
         });
 	return;

@@ -528,6 +528,9 @@
             })
 			.when('/place-order',{
                 templateUrl:'place-order.html'
+			})
+			.when('/order-submit',{
+                templateUrl:'order-submit.html'
             })
 
     });
