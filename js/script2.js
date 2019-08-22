@@ -10,6 +10,9 @@
                 templateUrl:'index-slide-3.html'
              //   templateUrl:'slide-test-1.html'
 
+			})
+			.when('/inc-5000',{
+                templateUrl:'index-slide-2-inc.html'
             })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html'
