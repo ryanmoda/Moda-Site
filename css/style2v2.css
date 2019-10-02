@@ -139,7 +139,7 @@ body{
 	color: white;
 	letter-spacing: 3px;
 	position: absolute;
-	left: 50%;top: 30%; transform: translate(-50%, -50%);
+	left: 50%;top: 33%; transform: translate(-50%, -50%);
 	animation: imageAnimation 24s infinite 0s;
 	z-index: 4;
 }
@@ -265,9 +265,28 @@ animation-delay: 0s;
 #louvres3{ width: 48vw; }
 }
 
-@media (max-height: 1100px) {
+@media (max-width: 450px) {
+.inc5k h1 {
+	 font-size: 24px !important;
+ }	
+}
+}
+
+@media (max-height: 900px) {
 	.inc5k {
-		top: 40%;
+		top: 43%;
+	}
+	#inc-cigar {
+		width: 65% !important;
+	}
+	}
+
+@media (max-height: 800px) {
+	.inc5k {
+		top: 43%;
+	}
+	#inc-cigar {
+		width: 55% !important;
 	}
 	}
 
