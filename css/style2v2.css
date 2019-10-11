@@ -270,28 +270,22 @@ animation-delay: 0s;
 	 font-size: 24px !important;
  }	
 }
-}
 
-@media (max-height: 900px) {
+
+@media (max-height: 1200px) {
 	.inc5k {
-		top: 43%;
+		padding-top: 100px !important;
 	}
 	#inc-cigar {
 		width: 65% !important;
 	}
 	}
 
-@media (max-height: 800px) {
+@media (max-height: 900px) {
 	.inc5k {
-		top: 43%;
+	padding-top: 200px !important;
 	}
 	#inc-cigar {
-		width: 55% !important;
 	}
 	}
 
-@media (max-height: 900px) and (max-width: 600px) {
-	.inc5k {
-		top: 35%;
-	}
-	}
