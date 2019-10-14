@@ -265,27 +265,36 @@ animation-delay: 0s;
 #louvres3{ width: 48vw; }
 }
 
-@media (max-width: 450px) {
-.inc5k h1 {
-	 font-size: 24px !important;
- }	
-}
 
 
 @media (max-height: 1200px) {
 	.inc5k {
-		padding-top: 100px !important;
+		padding-top: 100px;
+	}
+	#inc-cigar {
+		width: 65%;
+	}
+	}
+
+ @media (max-height: 1000px) {
+	.inc5k {
+	padding-top: 100px;
+	}
+	.inc5k h2 {
+		font-size: 16px;
 	}
 	#inc-cigar {
 		width: 65% !important;
 	}
-	}
+	} 
 
-@media (max-height: 900px) {
-	.inc5k {
-	padding-top: 200px !important;
-	}
-	#inc-cigar {
-	}
-	}
+@media (max-height: 700px) {
+.inck5k {
+	padding-top: 70px !important;
+}
+.inc5k h2 {
+	font-size: 16px;
+}
+
+}
 
