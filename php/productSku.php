@@ -1,9 +1,9 @@
 <?php
 $servername = "localhost";
-//$username = "phelanj";
-//$password = "Terminu$94";
-$username = "mamp";
-$password = "modalight";
+$username = "phelanj";
+$password = "Terminu$94";
+//$username = "mamp";
+//$password = "modalight";
 $dbname = "ModaProducts";
 
 $sku = $_POST['sku'];
