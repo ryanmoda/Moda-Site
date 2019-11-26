@@ -1,5 +1,6 @@
 <?php
-$servername = "localhost";
+//$servername = "localhost";
+$servername = "a2plcpnl0797.prod.iad2.secureserver.net";
 $username = "phelanj";
 $password = "Terminu$94";
 //$username = "mamp";
