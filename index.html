@@ -167,13 +167,9 @@ ga('send', 'pageview');
 
       </div> 
 
-      <div class="progress">
-        <div class="indeterminate"></div>
-      </div>
+
     </nav>
-
   </header>
-
   <div id="over" class="notSide"></div>
   <ng-view></ng-view>
   <div moda-footer></div>
@@ -195,21 +191,7 @@ ga('send', 'pageview');
   <script src="js/global.js"></script>
   <script src="js/flex.js"></script>
 <script src="js/scrollSpy.js"></script>
-<script>
-	// $(window).load(function() {
-	// 	// Animate loader off screen
-	// });
 
-
-$(window).on('hashchange', function(e){
-  $(".progress").show();
-  setTimeout(function(){
-  $(".progress").fadeOut("fast");
-},1000)
-});
-  
-
-</script>
 </body>
 
 </html>
