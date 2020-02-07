@@ -8,9 +8,9 @@ $('.js-test').css('display','none')
 	$("#container").isotope({
             filter: '*'
         });
-	$("#container").isotope({
-            filter: '*'
-        });
+	// $("#container").isotope({
+  //           filter: '*'
+  //       });
 });
 //createItems();
 function mapFilter(el) {
