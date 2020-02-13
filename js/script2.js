@@ -7,7 +7,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'index-slide-2-inc.html'
+                templateUrl:'index-new.html'
              //   templateUrl:'slide-test-1.html'
 
 			})

@@ -148,7 +148,7 @@ $("input[name='tabs2']").prop("checked", false);
 function navDrop(val) {
 //alert("navDrop: " + val);
 closeAct();
-document.getElementById("navbar").style.backgroundColor = "black";
+//document.getElementById("navbar").style.backgroundColor = "black";
 document.getElementById(val).style.display = "block";
 document.getElementById(val).style.visibility = "visible";
 document.getElementById(val).style.opacity = "1";	

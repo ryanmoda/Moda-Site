@@ -7,8 +7,8 @@
 		background-color: var(--side-nav-1) !important;
 	}
 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-		background-color: white !important;
-		background-color: var(--sec-color) !important;
+		/* background-color: white !important;
+		background-color: var(--sec-color) !important; */
 }
 	.burg-links {
 		color: white !important;
