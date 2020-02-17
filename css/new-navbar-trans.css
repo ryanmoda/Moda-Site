@@ -81,7 +81,7 @@ header {
 	height: 60px;
 	position: fixed;
 	z-index: 11;
-	background-color: black;
+	background-color: white;
 	transition: .5s;
 }
 
@@ -111,8 +111,8 @@ nav li {
 	font-size: 16px;
 	font-weight: 300;
 	text-decoration: none;
-	color: white;
-	color: var(--main-text-color);
+	color: black;
+	color: var(--3rd-color);
 }
 
 .sub-bar li a {
@@ -130,7 +130,7 @@ opacity: 0;
  height: 50px;
   transition: visibility 0s, opacity .3s ease-in-out;
   	padding-left: 0px;
-	background-color: black;
+	background-color: white;
 	width: 100%;
 	padding-top: 13px;
 	left: 0;
@@ -148,7 +148,7 @@ opacity: 0;
 
 
 nav li ul li a {
-  	color: white !important;
+  	/* color: white !important; */
 	margin-top: 15px;
 }
 
