@@ -13,7 +13,7 @@ var app = angular.module('modaApp');
     { 
         $scope.isActive = function (viewLocation) { 
 			currentPath = $location.path();
-			localStorage.setItem("currentPath", currentPath);
+			//localStorage.setItem("currentPath", currentPath);
             return viewLocation === $location.path();
 		};
 		$scope.$on('$locationChangeStart',function(evt, absNewUrl, absOldUrl) {
@@ -22,9 +22,14 @@ var app = angular.module('modaApp');
 
 			var oldRoute = absOldUrl.substr(hashIndex + 2);
 
+			hashIndex = absNewUrl.indexOf('#');
+
+			var newRoute = absNewUrl.substr(hashIndex + 2);
+
 			History.lastRoute = oldRoute;
 
-			console.log(oldRoute);
+			localStorage.setItem("currentPath", "/" + newRoute);
+			//console.log(oldRoute);
 
 			localStorage.setItem("prevPath", "/" + oldRoute);
 
