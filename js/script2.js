@@ -829,6 +829,11 @@
       templateUrl: 'legacy-modal.html'
     };
   });
+app.directive('mmcwlSelect', function() {
+    return {
+      templateUrl: 'mmcwl-select.html'
+    };
+  });
 })();
 // SCROLL TO TOP
 // app.directive('scrollTop', function() {

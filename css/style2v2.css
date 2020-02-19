@@ -140,7 +140,7 @@ position: absolute;
 left: 50%; top: 30%; transform: translate(-50%,0%);
 }
 
-#awardwinning {
+.awardwinning {
 	position: absolute;
 	left: 50%; top: 57%; transform: translate(-50%,0%);
 	color: black;
@@ -187,10 +187,36 @@ width: ;
 bottom: 0;
 }
 
+#zerobin {
+	color: white; position:absolute; top: 30%; left: 50%; transform: translate(-50%, 0);
+}
+#zerobin::before {
+	content: "ZERO";
+	font-weight: 400;
+}
+#tagline {
+	color: white;
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%, 0);
+}
+
+#zerobinlink {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,0);
+	color: #f97b02;
+	font-size: 18px;
+}
+
 .slideshow li:nth-child(1) span { 
 animation-delay: 0s;
 }
-.slideshow li:nth-child(2) span { background-image: url("../images/Homepage/lasvegas\ sky_merged2.jpg");
+.slideshow li:nth-child(2) span { 
+	/* background-image: url("../images/Homepage/lasvegas\ sky_merged2.jpg"); */
+	background-color: black;
 	animation-delay: 8s;
 	}
 /* .slideshow li:nth-child(2) span {
@@ -198,7 +224,7 @@ animation-delay: 0s;
     animation-delay: 8s;
 } */
 .slideshow li:nth-child(3) span {
-	background-image: url('../images/Projects/bitexco/bt_3_2x.png');
+	background-color: black;
 	background-size: cover;
     animation-delay: 16s;
 } 
