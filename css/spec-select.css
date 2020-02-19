@@ -1,0 +1,9 @@
+.spec-box {
+    background-color: #eaeaea;
+    /* height: 55px; */
+    padding: 10px;
+}
+.spec-body {
+    display: flex;
+    justify-content: space-between;
+}
