@@ -2,8 +2,31 @@
     background-color: #eaeaea;
     /* height: 55px; */
     padding: 10px;
+    margin: 1px 0;
 }
 .spec-body {
     display: flex;
     justify-content: space-between;
 }
+
+.spec-label {
+    cursor: pointer;
+    color: black;
+}
+
+.spec-checkbox {
+    display: none;
+}
+
+.minus {
+  display: none;
+}
+
+.spec-checkbox:checked + .spec-label .minus {
+    display: inline;
+  }
+  
+  .spec-checkbox:checked + .spec-label .add {
+    display: none;
+  }
+  
