@@ -20,7 +20,8 @@
 	}
 
 .foot, .foot a p {
-    color: white;
+	color: white;
+	background-color: black;
 }
 
 /*
@@ -90,7 +91,7 @@ h5 {
 /* General Demo Style */
 body{
 	  height: 100%;
-	background: #000;
+	background: #fff;
 	font-weight: 300;
 	font-size: 15px;
 	overflow-y: scroll;
@@ -144,6 +145,37 @@ body{
 	z-index: 4;
 }
 
+.minicove {
+	z-index: 1;
+	color: black;
+	position: absolute;
+	left: 50%;
+	top: 36%;
+	transform: translate(-50%,0);
+}
+
+.minicove::before {
+	content: "MINI";
+	font-weight: 400;
+}
+
+.mmcImg {
+	width: 52%;
+	position: absolute;
+	left: 50%;
+	top: 43%;
+	transform: translate(-50%,0);
+}
+
+.awardwinning {
+	color: black;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%,0);
+}
+
+
 .img1 {
 	animation: imageAnimation 24s infinite 0s;
 	animation-delay: 8s;
@@ -164,7 +196,15 @@ width: ;
 bottom: 0;
 }
 
-.slideshow li:nth-child(1) span { background-color: #000;
+#awardsBlock {
+	background-color: black;
+}
+
+#newsBlock {
+	background-color: black;
+}
+
+.slideshow li:nth-child(1) span { background-color: #fff;
 animation-delay: 0s;
 }
 .slideshow li:nth-child(2) span { background-image: url("../images/products/background270.png");
