@@ -15,8 +15,8 @@
 		color: var(--sec-color) !important; */
 	}
 	.tab-content p {
-		color: white !important;
-		color: var(--sec-color) !important;
+		/* color: black !important;
+		color: var(--sec-color) !important; */
 	}
 
 .foot, .foot a p {
@@ -161,6 +161,7 @@ body{
 
 .mmcImg {
 	width: 52%;
+	max-width: 900px;
 	position: absolute;
 	left: 50%;
 	top: 43%;
