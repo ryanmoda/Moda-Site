@@ -169,6 +169,7 @@ body{
 }
 
 .awardwinning {
+	width: fit-content;
 	color: black;
 	position: absolute;
 	left: 50%;
@@ -242,11 +243,13 @@ animation-delay: 0s;
 	.container {
 		top: 70%;
 	}
-/*
-	.ctText {
-		font-size: 18px !important;
+	.minicove {
+		top: 34%;
 	}
-*/
+	.mmcImg {
+		width: 85%;
+	}
+
 	.ctSVG {
 		margin-top: 0px !important;
 	}
