@@ -21,6 +21,7 @@ function urlToPromise(url) {
 }
 
 var $form = $("#download_form").on("submit", function () {
+    console.log("yessir");
 
     resetMessage();
 
@@ -55,8 +56,17 @@ var $form = $("#download_form").on("submit", function () {
 
     return false;
 });
+ 
+$("#submit1").click(function(ev){
+    $("#download_form1").submit();
+    console.log("button clicked");
 
-$form = $("#download_form1").on("submit", function () {
+    
+});
+
+ $("#download_form1").on("submit", function () {
+    
+    console.log("yesyes") ;
 
     resetMessage();
 

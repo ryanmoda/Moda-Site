@@ -7,10 +7,39 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+		</button>
 <center><h3>PRODUCT GUIDE</h3>
-		  <div class="row"><div class="col-lg-6"><a target="_blank" href="resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_ELV_Product_Guide.pdf"><p>ELV</p></a></div>
-		  <div class="col-lg-6"><a target="_blank" href="resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_010V_Product_Guide.pdf"><p>0-10V</p></a></div></div>
+		  <div class="row"><div class="col-lg-6"><a target="_blank" href="resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_ELV_Product_Guide.pdf">
+
+			<div class="spec-body"><p>ELV</p>
+			<div>
+				<input type="checkbox" id="mmcwl-pg-elv" class="spec-checkbox" data-url="resources/Product%20Guide/Moda_Mini_Cove_Interior_White_Light_ELV_Product_Guide.pdf">
+				<label for="mmcwl-pg-elv" class="spec-label">
+					<i class="add small material-icons">add</i>
+					<i class="minus small material-icons">indeterminate_check_box
+					</i>
+				</label>
+				<i class="small material-icons">file_download</i>
+			</div>
+			</div>
+		</a>
+		
+		</div>
+		  <div class="col-lg-6"><a target="_blank" href="resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_010V_Product_Guide.pdf">
+			
+			<div class="spec-body"><p>0-10V</p>
+				<div>
+					<input type="checkbox" id="mmcwl-pg-010" class="spec-checkbox" data-url="resources/Product%20Guide/Moda_Mini_Cove_Interior_White_Light_010V_Product_Guide.pdf">
+					<label for="mmcwl-pg-010" class="spec-label">
+						<i class="add small material-icons">add</i>
+						<i class="minus small material-icons">indeterminate_check_box
+						</i>
+					</label>
+					<i class="small material-icons">file_download</i>
+				</div>
+			</div>
+
+		</a></div></div>
 		  </center>
       </div>
     </div>
@@ -52,12 +81,11 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
-        </button>
+		</button>
 <button class="accordion"><p>White Light Standard Output</p><div class="chev"></div></button>
 <div class="panel">
-
-<form action="#" id="download_form1">
 	<div class="row">
+		<form action="#" id="download_form1">
 		<div class="col-lg-6">
 		<a target="_blank" href="resources/IES/Cove/Moda Mini Cove/White Light/6in/Moda Mini Cove Interior Standard Output 1800K HCRI 6IN.ies.zip">
 		
@@ -338,7 +366,7 @@
 		</a>
 		</div>
 		</div>
-		<button type="submit" class="btn btn-primary">Download files</button>
+		<button id="submit1" type="submit" class="btn btn-primary">Download files</button>
 </form>
 <div class="progress hide" id="progress_bar">
 	<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
@@ -431,4 +459,5 @@
     </div>
   </div>
 </div>
+
 <script src="js/accordian.js"></script>
