@@ -834,6 +834,11 @@ app.directive('mmcwlSelect', function() {
       templateUrl: 'mmcwl-select.html'
     };
   });
+  app.directive('zipJs', function() {
+    return {
+      templateUrl: 'zip-js.html'
+    };
+  });
 })();
 // SCROLL TO TOP
 // app.directive('scrollTop', function() {
