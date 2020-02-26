@@ -182,6 +182,8 @@ body{
 	animation: imageAnimation 24s infinite 0s;
 	animation-delay: 8s;
 	z-index: 4;
+	width: 95%; max-width: 285px; color: white;  position: absolute;
+	  left: 50%; top: 45%; transform: translate(-50%, -50%);
 }
 
 #honeycomb {
@@ -209,7 +211,8 @@ bottom: 0;
 .slideshow li:nth-child(1) span { background-color: #fff;
 animation-delay: 0s;
 }
-.slideshow li:nth-child(2) span { background-image: url("../images/products/background270.png");
+.slideshow li:nth-child(2) span { background-image: url("../images/products/background louvres.png");
+	background-position: 0;
 	animation-delay: 8s;
 	}
 /* .slideshow li:nth-child(2) span {
@@ -217,7 +220,7 @@ animation-delay: 0s;
     animation-delay: 8s;
 } */
 .slideshow li:nth-child(3) span {
-    background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
+	background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
     animation-delay: 16s;
 } 
 #ledText {margin-top: -130px;}
@@ -295,6 +298,12 @@ animation-delay: 0s;
 #louvres3{ width: 24vw; left: 10%; }
 }
 
+@media (max-width: 1300px) {
+	.img1 {
+		top: 20%;
+	}
+}
+
 @media (max-width: 1280px) {
 #honeycomb{ width: 43vw;}
 #louvres3{ width: 27vw; left: 5%; }
@@ -315,6 +324,12 @@ animation-delay: 0s;
 #louvres3{ width: 48vw;  }
 }
 
+@media (max-width: 850px) {
+	.slideshow li:nth-child(2) span { background-image: url("../images/products/background\ louvres\ mobile.png");
+		background-position: 50% 50%;
+		}
+}
+
 
 
 @media (max-height: 1200px) {
@@ -327,7 +342,10 @@ animation-delay: 0s;
 	}
 
  @media (max-height: 1000px) {
-
+	#honeycomb { 
+		width: 40vw; /*mobile issues*/
+		top: 0px;
+	}
 	.inc5k {
 	padding-top: 100px;
 	}
@@ -340,10 +358,7 @@ animation-delay: 0s;
 	} 
 
 @media (max-height: 1000px) and (min-height: 800px ) {
-	#honeycomb {
-		width: 40vw;
-		top: 0px;
-	}
+
 }
 
 @media (max-height: 700px) {
