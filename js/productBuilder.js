@@ -992,7 +992,7 @@ $.ajax({
     dataType: 'text',
     data: { sku: newSKU },
 	success: function(data) {
-		alert(data);
+		//alert(data);
 		var index = data.indexOf(" images");
 		var prodName = data.substr(0, index);
 		var imgUrl = data.substr(index+1);
@@ -1000,7 +1000,7 @@ $.ajax({
 		if (products === null) { //no data stored in localStorage
 			products = [];
 		}
-		alert("prodName: " + prodName + "\nimg url: " + imgUrl);
+		//alert("prodName: " + prodName + "\nimg url: " + imgUrl);
 		cookieArr = {"sku": newSKU, "product": prodName, "img": imgUrl, "quantity": 1};
 
 		products.push(cookieArr);
