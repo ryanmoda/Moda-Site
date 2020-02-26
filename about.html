@@ -1,14 +1,20 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/global.css" rel="stylesheet" type="text/css">
-<link href="css/style2.css" rel="stylesheet" type="text/css">
+<!-- <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0"> -->
 <style>
 	#h-1 {
 		font-size: 35px;
 	}
 	.cont {
-		  position: relative;
-  text-align: center;
-  color: black;
+		background-image: url("images/About/ryan-hafey-656472-unsplash-bw2.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 100vh;
+		position: relative;
+  		text-align: center;
+  		color: black;
 	}
 	body {
 		background-color: black;
@@ -33,7 +39,7 @@
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
 		background-color: black !important;		
-		background-color: var(--3rd-color) !important;
+		background-color: var(--3rd-color) !important
 }
  .hamburger--squeeze.is-active .hamburger-inner::after {
 	background-color: white !important;
@@ -43,28 +49,24 @@
 	background-color: white !important;
 	background-color: var(--sec-color) !important;
 	}
+.foot p {
+color: white;
+}
 </style>
 <script>ga('set', 'page', '/about.html');
-ga('send', 'pageview');</script>
-<!--
-<img width="100%" src="images/About/moda-hq-1.jpeg">
-<div class="midContent" style="max-width: 1000px;">
-<center>
-	<div style="margin-top: 65px;" id="h-1">Our Story</div>	</center>
+ga('send', 'pageview');
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+</script>
 
-	<div style="margin-top: 65px; margin-bottom: 65px;"><p>Moda Light, an award winning manufacturer, was formed in 2006 by Mark Samson who has over 34 years of experience in the Lighting and SSL industry. Presently located in the 24-hour city, Las Vegas, Nevada, we stand prominently in the SSL industry, thriving on the challenges of things considered “impossible”. We create truly new and original lighting technology, manipulating and inventing new hardware and software to produce what was once considered inaccessible data from LED products.<br><br> A powerhouse in delivering results within a simple to use product for large or small scale consumers, we control every aspect of our brand from the inception of our distinct design to our unsurpassed fit and finish crafted in our own factories. We are not only a SSL hardware manufacturing company, we are a lighting mechanics and software company developing products with technology created independently by our Moda team. Because of this process, our lighting mechanisms cannot be found in any of our competitor’s products.<br><br> Our creations have had a revolutionary impact throughout the world based on its specification data and will continue to push the limits of SSL lighting through its advanced engineering and remarkable design. Experience our products and harness the power of cutting edge advancement. Trust in our Technology.</p></div>
-</div>
--->
-<!--
-<div class="bg"></div>
-<p>MODA LIGHT, based in Las Vegas, has asserted a global presence through many architectural and commercial developments. Our direction as a company is to innovate and further develop our very own proprietary technology to cater to our customers’ needs. MODA has transitioned into an LED tech company by pioneering lighting and electrical technology combined with computer science. We are an award winning company that continuously experiences clean growth due to the never-ending pursuit of advancing SSL technology.</p>
--->
 
 <div class="cont">
-<img width="100%" src="images/About/ryan-hafey-656472-unsplash-bw2.jpg">
-<div class="centered">
+<!-- <img width="" style="object-fit: contain;" src="images/About/ryan-hafey-656472-unsplash-bw2.jpg"> -->
+<div class="centered" style="margin-top: 100px;">
 	<img style="max-width: 345px; width: 80%;" src="svgs/modalogo.svg">
-	<p style="text-align: left; margin-top: 40px;">MODA LIGHT, based in Las Vegas, has asserted a global presence through many architectural and commercial developments. Our direction as a company is to innovate and further develop our very own proprietary technology to cater to our customers’ needs. MODA has transitioned into an LED tech company by pioneering lighting and electrical technology combined with computer science. We are an award winning company that continuously experiences clean growth due to the never-ending pursuit of advancing SSL technology.</p></div>
+	<p style="text-align: left; margin-top: 40px; padding: 15px; background-color: rgba(255, 255, 255, .4); min-width: 300px;">MODA LIGHT, based in Las Vegas, has asserted a global presence through many architectural and commercial developments. Our direction as a company is to innovate and further develop our very own proprietary technology to cater to our customers’ needs. MODA has transitioned into an LED tech company by pioneering lighting and electrical technology combined with computer science. We are an award winning company that continuously experiences clean growth due to the never-ending pursuit of advancing SSL technology.</p>
+</div>
 </div>
 
 <script src="js/logoAbout.js"></script>

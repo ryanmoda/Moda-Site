@@ -21,6 +21,32 @@ font-family: 'Lato', sans-serif;
 padding-top: 0px;
 }
 
+ img.icon-grid-icon:active  {
+opacity: .3 !important;
+} 
+span.icon-grid-caption:active {
+	color: grey !important;
+}
+
+h4:active {
+	color: grey !important;
+}
+
+a:active {
+	font-weight: 400 !important;
+	color: grey !important;
+}
+
+.hamburger-box:active > .hamburger-inner::after {
+	height: 2px !important;
+}
+.hamburger-box:active > .hamburger-inner::before {
+	height: 2px !important;
+}
+.hamburger-box:active > .hamburger-inner {
+	height: 2px !important;
+}
+
 body {
 overflow-y: scroll;
 }
@@ -38,7 +64,6 @@ h1 {
       width: calc(100vw - 15px);
       background: rgba(0,0,0,0.1);
 	transition: background .5s;
-	margin-top: 16px;
 	z-index: 4;
 }
 
@@ -56,7 +81,7 @@ header {
 	height: 60px;
 	position: fixed;
 	z-index: 11;
-	background-color: black;
+	background-color: white;
 	transition: .5s;
 }
 
@@ -86,8 +111,8 @@ nav li {
 	font-size: 16px;
 	font-weight: 300;
 	text-decoration: none;
-	color: white;
-	color: var(--main-text-color);
+	color: black;
+	color: var(--3rd-color);
 }
 
 .sub-bar li a {
@@ -105,7 +130,7 @@ opacity: 0;
  height: 50px;
   transition: visibility 0s, opacity .3s ease-in-out;
   	padding-left: 0px;
-	background-color: black;
+	background-color: white;
 	width: 100%;
 	padding-top: 13px;
 	left: 0;
@@ -123,7 +148,7 @@ opacity: 0;
 
 
 nav li ul li a {
-  	color: white !important;
+  	/* color: white !important; */
 	margin-top: 15px;
 }
 
@@ -132,9 +157,6 @@ nav li ul li a {
 	cursor: pointer;
 }
 
-.nav-links-a {
-
-}
 
 .sub-bar {
 	left: 0px;
@@ -268,7 +290,7 @@ background-color: var(--3rd-color);
 	z-index: 101 !important;
 }
 .burg-links:hover {
-	opacity: .5;
+	opacity: .7;
 }
 
 .sidenav hr {
@@ -366,7 +388,7 @@ input[name="tabs2"]:checked ~ .tab-content {
 	background-color: black;
 }
 
- li: .dropdown-menu {
+ li .dropdown-menu {
     display: none;
     position: absolute;
     left: 0;
@@ -402,9 +424,7 @@ input[name="tabs2"]:checked ~ .tab-content {
 }
 
 @media (max-width: 900px) {
-	.foot {
-/*	padding-bottom: 15px;*/
-}
+
 }
 
 @media (max-width: 425px) {

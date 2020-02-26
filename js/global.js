@@ -131,7 +131,7 @@ function navDrop(val) {
 if (document.getElementById("sidenav-d").style.width > "0px")
 	closeSide();
 closeAct();
-document.getElementById("navbar").style.backgroundColor = "black";
+// document.getElementById("navbar").style.backgroundColor = "black";
 document.getElementById(val).style.display = "block";
 document.getElementById(val).style.visibility = "visible";
 document.getElementById(val).style.opacity = "1";

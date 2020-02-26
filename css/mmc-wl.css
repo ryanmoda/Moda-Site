@@ -286,10 +286,17 @@ h3 {
 	font-weight: 300;
 	margin-bottom: 15px;
 }
+
+
 .block-img {
 	max-width: 70%;
 	width: 545px;
 }
+
+a .block-img:active {
+	opacity: .5;
+}
+
 
 .block-img-land {
 	width: 670px;	

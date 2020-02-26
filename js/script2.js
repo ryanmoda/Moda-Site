@@ -7,9 +7,12 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'index-slide-3.html'
+                templateUrl:'index-slide-3-inc.html'
              //   templateUrl:'slide-test-1.html'
 
+			})
+			.when('/inc-5000',{
+                templateUrl:'index-slide-2-inc.html'
             })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html'
@@ -89,6 +92,12 @@
 					})
 					.when('/graze-test',{
 						templateUrl:'graze-dw-2.html',
+					})
+					.when('/graze-wl-2',{
+						templateUrl:'graze-wl-2.html',
+					})
+					.when('/graze-sc-2',{
+						templateUrl:'graze-sc-2.html',
 					})
 					.when('/graze-sc',{
 						templateUrl:'graze-sc.html',
@@ -507,6 +516,18 @@
             })
 			.when('/contact',{
                 templateUrl:'contact.html'
+			})
+			.when('/careers',{
+                templateUrl:'careers.html'
+			})
+			.when('/job-description',{
+                templateUrl:'job-description2.html'
+			})
+			.when('/job-listings',{
+                templateUrl:'job-listings.html'
+			})
+			.when('/test-submit',{
+                templateUrl:'test-submit.html'
             })
 			.when('/all-products',{
                 templateUrl:'all-products.html'
@@ -516,6 +537,9 @@
             })
 			.when('/place-order',{
                 templateUrl:'place-order.html'
+			})
+			.when('/order-submit',{
+                templateUrl:'order-submit.html'
             })
 
     });

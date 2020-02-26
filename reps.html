@@ -6,6 +6,14 @@
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
+
+window.onload = function() {
+    if(!window.location.hash) {
+		console.log("Reloaded");
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
 ga('set', 'page', '/reps.html');
 ga('send', 'pageview');
 </script>
@@ -148,21 +156,21 @@ ga('send', 'pageview');
 <!-- <div class="item AR IL IN KS LA MI MO OH OK TX WI US">
 <p class="name">Cody Cooper</p><p>Regional Sales Manager</p><br><p>Cell: (323) 691 4912</p><p>Fax: (702) 407 7773</p><a href="mailto:cody@modalight.com"><p class="foot-link">cody@modalight.com</p></a>
 	</div> -->
-<div class="item AL CT DE FL GA MA MD ME NH NJ NY PA RI VT WV US">
+<!-- <div class="item AL CT DE FL GA MA MD ME NH NJ NY PA RI VT WV US">
 <p class="name">Exzavian Greenfield</p><p>Regional Sales Manager</p><br><p>Cell: (702) 713 1642</p><p>Fax: (702) 407 7773</p><a href="mailto:exzavian@modalight.com"><p class="foot-link">exzavian@modalight.com</p></a>
-	</div>
+	</div> -->
 <div class="item AL US">
 <p class="name">AMA Lighting</p><p>Northern Division</p><br><p>402 Office Park Drive</p><p>Suite G50</p><p>Mountain Brook, AL 35223</p><br><p>Tel: (205) 278 8140</p><p>Fax: (205) 278 8199</p><a target="_blank" href="http://www.amalighting.com/"><p class="foot-link">www.amalighting.com</p></a>
 	</div>	
 <div class="item AL GA MS US">
 <p class="name">AMA Lighting</p><p>Southern Division</p><br><p>813 Downtowner Boulevard</p><p>Suite A</p><p>Mobile, AL 36609</p><br><p>Tel: (251) 343 7693</p><p>Fax: (251) 343 7748</p><a target="_blank" href="http://www.amalighting.com/"><p class="foot-link">www.amalighting.com</p></a>
 	</div>	
-	<div class="item AK US">
+	<!-- <div class="item AK US">
 		<p class="name">Alaska Pro-Sell Agents</p><p>Anchorage</p><br><p>414800 Golden View Drive</p><p>Anchorage, AK 99516</p><br><p>Tel: (907) 677 7555</p><p>Fax: (907) 677 7509</p><a target="_blank" href="https://www.alaskaprosell.com/"><p class="foot-link">www.alaskaprosell.com</p></a>
-			</div>
+			</div> -->
 <div class="item AK US">
-<p class="name">SEATAC Lighting</p><p>Seattle</p><br><p>4439 S. 134th Place Bld. E,</p><p>Tukwila, WA 98168</p><br><p>Tel: (206) 575 6865</p><p>Fax: (206) 575 8013</p><a target="_blank" href="https://seataclighting.com/"><p class="foot-link">www.seataclighting.com</p></a>
-	</div>
+	<p class="name">SeaTac Alaska Lighting and Controls</p><p>Anchorage</p><br><p>600 West 41st Ave Suite 202B</p><p>Anchorage, AK 99503</p><br><p>Tel: (907) 230 6874</p><a target="_blank" href="http://seataclightingalaska.com/"><p class="foot-link">www.seataclightingalaska.com</p></a>
+		</div>
 <div class="item AZ US">
 <p class="name">RC Lurie CO. INC.</p><p>Phoenix</p><br><p>1122 N. 7th St.</p><p>Phoenix, AZ 85006</p><br><p>Tel: (602) 258 2400</p><p>Fax: (602) 252 5018</p><a target="_blank" href="http://rclurie.com/"><p class="foot-link">www.rclurie.com</p></a>	
 	</div>
@@ -206,18 +214,24 @@ ga('send', 'pageview');
 	<p class="name">Southeast Flordia Lighting</p><p>Miami</p><br><p>3824 SW 30th Ave</p><p>Fort Lauderdale, FL 33312</p><br><p>Tel: (904) 744 7000</p><p>Fax: (904) 744 3444</p><a target="_blank" href="https://www.sefl.cc/"><p class="foot-link">www.sefl.cc</p></a>	
 		</div>
 
-<div class="item FL US">
+<!-- <div class="item FL US">
 <p class="name">Architectural Sales & Illuminations Inc.</p><p>Jacksonville</p><br><p>1815 University Blvd N</p><p>Jacksonville, FL 32211</p><br><p>Tel: (904) 744 7000</p><p>Fax: (904) 744 3444</p><a target="_blank" href="http://www.asilighting.com/"><p class="foot-link">www.asilighting.com</p></a>	
 	</div>
 	<div class="item FL US">
 		<p class="name">Architectural Sales & Illuminations Inc.</p><p>Tallahassee</p><br><p>250 John Knox Rd #3</p><p>Tallahassee, FL 32303</p><br><p>Tel: (850) 562 5332</p><p>Fax: (850) 354 5789</p><a target="_blank" href="http://www.asilighting.com/"><p class="foot-link">www.asilighting.com</p></a>	
-			</div>
+			</div> -->
+
 <div class="item FL US">
 	<p class="name">AMA Lighting</p><p>Southern Division</p><br><p>3 West Garden Street, Suite 206</p><p>Pensacola, FL 35202</p><br><p>Tel: (251) 343 7693</p><p>Fax: (251) 343 7748</p><a target="_blank" href="https://amalighting.com/"><p class="foot-link">www.amalighting.com</p></a>	
 	</div>
 <div class="item FL US">
-<p class="name">Western Florida Lighting</p><p>Orlando</p><br><p>2533 Permit Place</p><p>New Port Richey, FL 34655</p><br><p>Tel: (727) 733 7000</p><p>Fax: (727) 733 4008</p><a target="_blank" href="http://www.wfli.com/"><p class="foot-link">www.wfli.com</p></a>
+<p class="name">Western Florida Lighting</p><p>Port Richey</p><br><p>2533 Permit Place</p><p>New Port Richey, FL 34655</p><br><p>Tel: (727) 733 7000</p><p>Fax: (727) 733 4008</p><a target="_blank" href="http://www.wfli.com/"><p class="foot-link">www.wfli.com</p></a>
 	</div>
+
+	<div class="item FL US">
+		<p class="name">Western Florida Lighting</p><p>Orlando</p><br><p>475 Montgomery Place</p><p>Altamonte Springs, FL 32714</p><br><p>Tel: (407) 740 6973</p><a target="_blank" href="http://www.wflorlando.com/"><p class="foot-link">www.wflorlando.com</p></a>
+			</div>	
+
 	<div class="item GA US">
 		<p class="name">Architectural Sales & Illuminations Inc..</p><p>Savannah</p><br><p>138 Canal St, Suite 105</p><p>Pooler, GA 31322</p><br><p>Tel: (912) 330 9910</p><p>Fax: (912) 330 6859</p><a target="_blank" href="https://www.asilighting.com/"><p class="foot-link">www.asilighting.com</p></a>
 			</div>
@@ -233,9 +247,9 @@ ga('send', 'pageview');
 <div class="item IL US">
 <p class="name">Archibald & Meek</p><p>Elmhurst</p><br><p>537 W. Wrightwood Avenue</p><p>Elmhurst, IL 60126</p><br><p>Tel: (630) 833 7377</p><a target="_blank" href="http://www.amirep.com/"><p class="foot-link">www.amirep.com</p></a>
 	</div>
-	<div class="item IL US">
+	<!-- <div class="item IL US">
 		<p class="name">KSA Lighting & Controls</p><p>Toluca</p><br><p>108 N Main Street</p><p>Toluca, IL 61369</p><br><p>Tel: (815) 452 2337</p><a target="_blank" href="http://www.ksalighting.com/"><p class="foot-link">www.ksalighting.com</p></a>
-			</div>
+			</div> -->
 <div class="item IN US">
 <p class="name">ESL Spectrum Lighting</p><p>Indianapolis</p><br><p>1591 North Harding Street</p><p>Indianapolis, IN 46202</p><br><p>Tel: (317) 951 2300</p><a target="_blank" href="https://esl-spectrum.com/"><p class="foot-link">www.esl-spectrum.com</p></a>
 	</div>
@@ -245,15 +259,25 @@ ga('send', 'pageview');
 <div class="item IA US">
 <p class="name">JTH Lighting</p><p>Cedar Rapids</p><br><p>1924 Saint Andews Court NE</p><p>Cedar Rapids, IA 52402</p><br><p>Tel: (515) 650 8122</p><a target="_blank" href="https://www.jthlighting.com/"><p class="foot-link">www.jthlighting.com</p></a>
 	</div>
-<div class="item KS MO US">
+<!-- <div class="item KS MO US">
 <p class="name">Convergence Partners Inc.</p><p>North Kansas City</p><br><p>103 East 18th Avenue</p><p>North Kansas City, MO 64116</p><br><p>Tel: (816) 581 6300</p><p>Fax: (816) 581 6301</p><a target="_blank" href="https://convergerep.com/"><p class="foot-link">www.convergerep.com</p></a>
-	</div>
+	</div> -->
+
 <div class="item KY US">
 <p class="name">LHI</p><p>Louisville (Main Office)</p><p>3943 Central Avenue</p><p>Louisville, KY 40218</p><br><p>Tel: (502) 964 9661</p><p>Fax: (502) 964 7155</p><a target="_blank" href="http://lhilightingsales.com/"><p class="foot-link">www.lhilightingsales.com</p></a>
 </div>
-<div class="item LA US">
+<!-- <div class="item LA US">
 <p class="name">Architectural Lighting Alliance</p><p>Shreveport</p><br><p>201 Milam Street Suite C</p><p>Shreveport, LA 71101</p><br><p>Tel: (318) 674 2713</p><p>Fax: (318) 674 2741</p><a target="_blank" href="https://www.alatx.com/"><p class="foot-link">www.alatx.com</p></a>	
+	</div> -->
+
+<div class="item LA US">
+<p class="name">WKA Lighting</p><p>New Orleans</p><p>301 Plauche Street</p><p>Harahan, LA 70123</p><br><p>Tel: (504) 733 0301</p><p>Fax: (504) 733 3675</p><a target="_blank" href="https://www.wkalighting.com/"><p class="foot-link">www.wkalighting.com</p></a>
+</div>
+
+<div class="item LA US">
+	<p class="name">WKA Lighting</p><p>Baton Rouge</p><p>17501 Jefferson Highway</p><p>Suite D</p><p>Baton Rouge, LA 70817</p><br><p>Tel: (225) 753 1903</p><p>Fax: (225) 753 1906</p><a target="_blank" href="https://www.wkalighting.com/"><p class="foot-link">www.wkalighting.com</p></a>
 	</div>
+
 <div class="item ME US">
 <p class="name">Apex Lighting Solutions</p><p>Freeport</p><br><p>1185 U.S. Route 1</p><p>Freeport, ME 04032</p><br><p>Tel: (877) 886 2843</p><p>Fax: (877) 886 2844</p><a target="_blank" href="http://www.apexlightingsolutions.com/"><p style="font-size: 18px;" class="foot-link">www.apexlightingsolutions.com</p>	</a>
 	</div>
@@ -309,7 +333,7 @@ ga('send', 'pageview');
 <div class="item NY US">
 <p class="name">Lightspec, LLC</p><p>Syracuse</p><br><p>1000 7th North Street Suite B110</p><p>Liverpool, NY 13088</p><br><p>Tel: (315) 451 8884</p><a target="_blank" href="https://lightspec.com/"><p class="foot-link">www.lightspec.com</p></a>	
 	</div>
-<div class="item NC US">
+<!-- <div class="item NC US">
 <p class="name">EGI Associates Inc.</p><p>Charlotte</p><br><p>417 A Minuet Lane</p><p>Charlotte, NC 28217</p><br><p>Tel: (704) 561 3337</p><p>Fax: (704) 561 3380</p><a target="_blank" href="https://egi-nc.com/"><p class="foot-link">www.egi-nc.com</p></a>	
 	</div>
 <div class="item NC US">
@@ -317,11 +341,31 @@ ga('send', 'pageview');
 	</div>
 <div class="item NC US">
 <p class="name">R.L. Vanstory Company</p><p>Greensboro</p><br><p>4807 Koger Boulevard Suite E</p><p>Greensboro, NC 27407</p><br><p>Tel: (336) 294 8645</p><a target="_blank" href="http://rlvanstory.com/"><p class="foot-link">www.rlvanstory.com</p></a>	
+	</div> -->
+
+<div class="item NC US">
+<p class="name">Team Lighting</p><p>Charlotte Offices</p><br><p>1300 South Mint Street, Suite 100</p><p>Charlotte, NC 28203</p><br><p>Tel: (704) 358 9229</p><p>Fax: (704) 358 4743</p><a target="_blank" href="http://www.teamlighting.com/"><p class="foot-link">www.teamlighting.com</p></a>	
 	</div>
+
+<div class="item NC US">
+	<p class="name">Team Lighting</p><p>Durham Offices</p><br><p>3310 Croasdaile Drive, Suite 200</p><p>Durham, NC 27705</p><br><p>Tel: (919) 383 1956</p><p>Fax: (919) 383 9265</p><a target="_blank" href="http://www.teamlighting.com/"><p class="foot-link">www.teamlighting.com</p></a>	
+		</div>
+
+<div class="item NC US">
+	<p class="name">Team Lighting</p><p>Greenville Offices</p><br><p>154 Beacon Drive, Suite F</p><p>Winterville, NC 28590</p><br><p>Tel: (252) 756 9932</p><p>Fax: (252) 756 9653</p><a target="_blank" href="http://www.teamlighting.com/"><p class="foot-link">www.teamlighting.com</p></a>	
+		</div>	
+
+<div class="item NC US">
+	<p class="name">Team Lighting</p><p>Greensboro Offices</p><br><p>1516 Cornwallis Drive</p><p>Greensboro, NC 27408</p><br><p>Tel: (336) 545 1504</p><p>Fax: (336) 545 1886</p><a target="_blank" href="http://www.teamlighting.com/"><p class="foot-link">www.teamlighting.com</p></a>	
+		</div>	
+
 <div class="item ND WI US">
 <p class="name">JTH Lighting Alliance</p><p>Apple Valley</p><br><p>6885 146th Street West</p><p>Apple Valley, MN 55124</p><br><p>Tel: (952) 223 6300</p><p>Fax: (952) 432 5752</p><a target="_blank" href="https://www.jthlighting.com/"><p class="foot-link">www.jthlighting.com</p></a>
 	</div>
-<div class="item OH US">
+	<div class="item OH US">
+		<p class="name">Clarus Lighting & Controls</p><p>Toledo</p><br><p>7010 Spring Meadow Dr. W</p><p>Suite 105</p><p>Holland, OH 43528</p><br><p>Tel: (419) 866 3501</p><a target="_blank" href="https://clarus-lighting.com/"><p class="foot-link">www.clarus-lighting.com</p></a>
+			</div>
+	<div class="item OH US">
 <p class="name">K2SA Controls + Lighting</p><p>Cincinnati</p><br><p>3033 Riverside Drive</p><p>Cincinnati, OH 45226</p><br><p>Tel: (513) 855 0633</p><a target="_blank" href="http://k2salight.com/"><p class="foot-link">www.k2salight.com</p></a>
 	</div>
 <div class="item OH US">
@@ -330,7 +374,7 @@ ga('send', 'pageview');
 	<div class="item OH US">
 		<p class="name">Spectrum Lighting, Inc.</p><p>Columbus</p><br><p>994 Jefferson Street</p><p>Fall River, MA 02721</p><br><p>Tel: (508) 678 2303</p><p>Fax: (508) 678 2260</p><a target="_blank" href="https://www.speclight.com/"><p class="foot-link">www.speclight.com</p></a>
 			</div>
-<div class="item OK US">
+<div class="item KS MO OK US">
 <p class="name">Triple C Companies</p><p>Oklahoma City (Main Office)</p><br><p>1212 West Main Street</p><p>Oklahoma City, OK 73106</p><br><p>Tel: (405) 235 5456</p><p>Fax: (405) 235 5445</p><a target="_blank" href="http://www.tripleclighting.com/"><p class="foot-link">www.tripleclighting.com</p></a>
 	</div>
 <div class="item OK US">
@@ -394,7 +438,7 @@ ga('send', 'pageview');
 <p class="name">Thomas Harris & Co. Inc.</p><p>Virgina Beach</p><br><p>129 Hanbury Road West, Suite 202</p><p>Chesapeake, VA 23322</p><br><p>Tel: (757) 340 1621</p><a target="_blank" href="http://www.light-up-va.com/"><p class="foot-link">www.light-up-va.com</p></a>
 	</div>
 <div class="item WA US">
-<p class="name">SEATAC Lighting</p><p>Seattle</p><br><p>15455 53rd Ave S.</p><p>Tukwila, WA 98168</p><br><p>Tel: (206) 575 6865</p><p>Fax: (206) 575 8013</p><a target="_blank" href="https://seataclighting.com/"><p class="foot-link">www.seataclighting.com</p></a>
+<p class="name">SeaTac Lighting</p><p>Seattle</p><br><p>15455 53rd Ave S.</p><p>Tukwila, WA 98168</p><br><p>Tel: (206) 575 6865</p><p>Fax: (206) 575 8013</p><a target="_blank" href="https://seataclighting.com/"><p class="foot-link">www.seataclighting.com</p></a>
 	</div>
 <div class="item WA US">
 <p class="name">Ambient Lighting & Controls, LLC</p><p>Spokane</p><br><p style="font-size: 18px;">2610 N Van Marter Rd, Suite #3</p><p>Spokane, WA 99206</p><br><p>Tel: (509) 922 5011</p><p>Fax: (509) 922 5017</p><a target="_blank" href="http://ambientltg.com/"><p class="foot-link">www.ambientltg.com</p></a>

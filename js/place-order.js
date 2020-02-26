@@ -7,16 +7,21 @@ printList();
 localStorage.setItem('product_data', JSON.stringify(products));
 });
 var lStorage = 	localStorage.getItem('product_data');
+console.log(full_name);
 $("#submitEmail").on('click', function() {
-	$('#submit-modal').modal('hide');
+  var full_name = document.getElementById("full_name").value;
+  var email = document.getElementById('email').value;
 $.ajax({
             type: "POST",
             url: "php/productSubmit.php",
-            data: { lStorage:lStorage },
+            data: { lStorage:lStorage,
+            full_name: full_name,
+            email: email
+            },
             success: function(data){
-              //window.location.href = "php/productSubmit.php";
+              $('#submit-modal').modal('hide');
+              window.location.href = "http://localhost:8888/mamp/#/order-submit";
             }
         });
 	return;
  });
-        
