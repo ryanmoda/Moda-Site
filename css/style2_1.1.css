@@ -280,23 +280,29 @@ animation-delay: 0s;
 }
 
 @media (max-width: 2560px) {
-#honeycomb{width: 40vw; }
-#louvres3{ width: 27vw; }
+#honeycomb{width: 28vw; }
+#louvres3{ width: 16vw;left:20% }
 }
+
+@media (max-width: 1800px) {
+	#honeycomb{ width: 40vw; }
+	#louvres3{ width: 19vw; left: 15%; }
+	}
+
 
 @media (max-width: 1440px) {
 #honeycomb{ width: 40vw; }
-#louvres3{ width: 33vw; }
+#louvres3{ width: 24vw; left: 10%; }
 }
 
 @media (max-width: 1280px) {
 #honeycomb{ width: 43vw;}
-#louvres3{ width: 36vw; }
+#louvres3{ width: 27vw; left: 5%; }
 }
 
 @media (max-width: 1024px) {
 #honeycomb{ width: 62vw; top: -150px; }
-#louvres3{ width: 39vw; }
+#louvres3{ width: 33vw; }
 }
 
 @media (max-width: 768px) {
@@ -305,7 +311,7 @@ animation-delay: 0s;
 }
 
 @media (max-width: 500px) {
-#honeycomb{ }
+#honeycomb{ width: 50vw; }
 #louvres3{ width: 48vw; }
 }
 
