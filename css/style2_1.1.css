@@ -312,7 +312,7 @@ animation-delay: 0s;
 
 @media (max-width: 500px) {
 #honeycomb{ width: 50vw; }
-#louvres3{ width: 48vw; }
+#louvres3{ width: 48vw;  }
 }
 
 
@@ -327,6 +327,7 @@ animation-delay: 0s;
 	}
 
  @media (max-height: 1000px) {
+
 	.inc5k {
 	padding-top: 100px;
 	}
@@ -337,6 +338,13 @@ animation-delay: 0s;
 		width: 65% !important;
 	}
 	} 
+
+@media (max-height: 1000px) and (min-height: 800px ) {
+	#honeycomb {
+		width: 40vw;
+		top: 0px;
+	}
+}
 
 @media (max-height: 700px) {
 .inck5k {
