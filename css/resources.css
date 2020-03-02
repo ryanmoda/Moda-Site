@@ -235,6 +235,7 @@ button.accordion {
 	text-align: center;
 	transition: all .15s;
 }
+
 	.rotate {
 	transform: rotate(-45deg);
 	}
