@@ -30,7 +30,7 @@ var app = angular.module('modaApp');
 			localStorage.setItem("prevPath", "/" + oldRoute);
 
 			if ( localStorage.getItem("prevPath") == "/reps" && localStorage.getItem("currentPath") != "/reps" ) {
-				console.log("yessir");
+				//console.log("yessir");
 				
 				localStorage.setItem("visited", "false");
 				
@@ -39,6 +39,9 @@ var app = angular.module('modaApp');
 		});
 
 	};
+
+	
+
 	
     app.controller('HeaderController',headerController);
 	app.controller('linkFunc', linkFunc);

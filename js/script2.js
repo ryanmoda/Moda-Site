@@ -625,6 +625,21 @@
       templateUrl: 'Templates/cove-wl-resources.html'
     };
   });
+  app.directive('covescResource', function() {
+    return {
+      templateUrl: 'Templates/cove-sc-resources.html'
+    };
+  });
+  app.directive('coveccResource', function() {
+    return {
+      templateUrl: 'Templates/cove-cc-resources.html'
+    };
+  });
+  app.directive('covedwResource', function() {
+    return {
+      templateUrl: 'Templates/cove-dw-resources.html'
+    };
+  });
 //COVE EXTERIOR ================================
  app.directive('coveextwlModal', function() {
     return {
@@ -837,6 +852,81 @@ app.directive('mmcwlSelect', function() {
   app.directive('zipJs', function() {
     return {
       templateUrl: 'zip-js.html'
+    };
+  });
+  app.directive('minicovePack', function() {
+	return {
+	  templateUrl: 'minicove-pack.html',
+    };
+  });
+  app.directive('mmcwlPack', function() {
+	return {
+	  templateUrl: 'mmcwl-pack.html',
+    };
+  });
+  app.directive('mmcscPack', function() {
+	return {
+	  templateUrl: 'mmcsc-pack.html',
+    };
+  });
+  app.directive('mmcgdPack', function() {
+	return {
+	  templateUrl: 'mmcgd-pack.html',
+    };
+  });
+  app.directive('mmcccPack', function() {
+	return {
+	  templateUrl: 'mmccc-pack.html',
+    };
+  });
+  app.directive('mmcdwPack', function() {
+	return {
+	  templateUrl: 'mmcdw-pack.html',
+    };
+  });
+  app.directive('covewlPack', function() {
+	return {
+	  templateUrl: 'covewl-pack.html',
+    };
+  });
+  app.directive('covescPack', function() {
+	return {
+	  templateUrl: 'covesc-pack.html',
+    };
+  });
+  app.directive('coveccPack', function() {
+	return {
+	  templateUrl: 'covecc-pack.html',
+    };
+  });
+  app.directive('covedwPack', function() {
+	return {
+	  templateUrl: 'covedw-pack.html',
+    };
+  });
+  app.directive('mmgwlPack', function() {
+	return {
+	  templateUrl: 'mmgwl-pack.html',
+    };
+  });
+  app.directive('mmgscPack', function() {
+	return {
+	  templateUrl: 'mmgsc-pack.html',
+    };
+  });
+  app.directive('mmggdPack', function() {
+	return {
+	  templateUrl: 'mmggd-pack.html',
+    };
+  });
+  app.directive('mmgdwPack', function() {
+	return {
+	  templateUrl: 'mmgdw-pack.html',
+    };
+  });
+  app.directive('specButton', function() {
+	return {
+	  templateUrl: 'spec-button.html',
     };
   });
 })();

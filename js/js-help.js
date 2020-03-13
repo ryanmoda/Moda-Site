@@ -2,20 +2,32 @@
  * Reset the message.
  */
 function resetMessage () {
-    $("#result")
-    .removeClass()
-    .text("");
+    $(":submit")
+    .prop("disabled", false)
+    .empty()
+    .text("Pack Files");
 }
 /**
  * show a successful message.
  * @param {String} text the text to show.
  */
-function showMessage(text) {
-    resetMessage();
-    $("#result")
-    .addClass("alert alert-success")
-    .text(text);
+function showMessage() {
+    //resetMessage();
+    $(":submit")
+    .prop("disabled", true)
+    .empty()
+    .append(`<span style="vertical-align: middle;" class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span><span>  Downloading</span>`);
+    //.addClass("alert alert-success")
+    //.text(text);
 }
+
+function resetButton(id) {
+    $(":submit")
+    .empty()
+    .text("Pack Files");
+    $("#" + id + " .btn").attr("disabled", !checkboxes.is("#" + id + " :checked"));
+}
+
 /**
  * show an error message.
  * @param {String} text the text to show.
