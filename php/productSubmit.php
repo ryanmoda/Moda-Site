@@ -6,7 +6,7 @@ $full_name = $_POST['full_name'];
 $email = $_POST['email'];
 $storage = $_POST['lStorage'];
 $array = json_decode($storage, true);
-//$mail->SMTPDebug = 3;                               // Enable verbose debug output
+//$mail->SMTPDebug = 4;                               // Enable verbose debug output
 
 //$mail->isSMTP();                                      // Set mailer to use SMTP
 //$mail->Host = 'relay-hosting.secureserver.net;smtp.gmail.com';  // Specify main and backup SMTP servers
@@ -39,6 +39,7 @@ foreach ($array as $i => $item) {
 	{$array[$i]["product"]} <br>
     <strong>Sku: </strong>{$array[$i]["sku"]} <br>
 	<strong>Quantity: </strong> {$array[$i]["quantity"]}<br>
+	----------------------------------------------------<br>
 	";
 }
 //$mail->AltBody = 'This is the body in plain text for non-HTML mail clients';

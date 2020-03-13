@@ -8,7 +8,7 @@ function drop() {
 	var open = "345px";
 	var openTab = "50vw";
 	var openMob = "75vw";
-	
+
 	if (document.getElementById("sidenav-d").style.width == open) {
 		document.getElementById("sidenav-d").style.width = "0px";
 		document.getElementById("burg").classList.remove("is-active");
@@ -24,17 +24,17 @@ function drop() {
 		closeCollapse();
 		return;
 	}
-	
+
 	document.getElementById("burg").classList.add("is-active");
 	document.getElementById("over").classList.toggle("overlay");
 	document.getElementById("over").style.height = h; /*set dynamic height for overlay*/
-	
+
 	if (w > 1200) {
 	document.getElementById("sidenav-d").style.width = open;
 
 	}
 	if (w <= 1200 && w > 425) {
-	document.getElementById("sidenav-mob").style.width = openTab;	
+	document.getElementById("sidenav-mob").style.width = openTab;
 	}
 	if (w <= 425) {
 	document.getElementById("sidenav-mob").style.width = openMob;
@@ -43,27 +43,9 @@ function drop() {
 
 var notSideBar = document.getElementById("over");
 notSideBar.addEventListener("click", function() {
-		drop();			
+		drop();
 	});
 
-
-//SIDEBAR COLLAPSABLE PANEL ================
-/*
-var acc = document.getElementsByClassName("collapsable");
-var i;
-
-for (i = 0; i < acc.length; i++) {
-    acc[i].addEventListener("click", function() {
-        var panel = this.nextElementSibling;
-        if (panel.style.display === "block") {
-		panel.style.display = "none";
-        } else {
-			panel.style.display = "block";
-
-        }
-    });
-}
-*/
 
 
 //SCROLL SPY ===================
@@ -119,12 +101,12 @@ var re4 = RegExp(/^e-\S*/);
 //	  document.getElementById("power-bar").classList.toggle("hide");
 //	}, 500);
 	//}
-	
+
 	else if (re3.test(foo)) {
 	 document.getElementById("cntrl-bar").classList.toggle("hide");
 	setTimeout(function() {
 	  document.getElementById("cntrl-bar").classList.toggle("hide");
-	}, 500);		
+	}, 500);
 	}
 }
 
@@ -146,12 +128,13 @@ $("input[name='tabs2']").prop("checked", false);
 }
 
 function navDrop(val) {
-//alert("navDrop: " + val);
+if (document.getElementById("sidenav-d").style.width > "0px")
+	closeSide();
 closeAct();
 // document.getElementById("navbar").style.backgroundColor = "black";
 document.getElementById(val).style.display = "block";
 document.getElementById(val).style.visibility = "visible";
-document.getElementById(val).style.opacity = "1";	
+document.getElementById(val).style.opacity = "1";
 }
 
 function test() {
@@ -187,7 +170,7 @@ for (var i = 0; i < navArr.length; i++) {
 		document.getElementById(navArr[i]).style.display = "none";
 		document.getElementById(navArr[i]).style.visibility = "hidden";
 	}
-}	
+}
 }
 
 
@@ -197,7 +180,7 @@ var target = $(event.target);
 if (target.is("a")) {
 	closeSide();
 }
-var target = $(event.target);	
+var target = $(event.target);
 if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
          if($('#' + el).is(":visible")) {
@@ -207,6 +190,6 @@ if (!target.is("nav li a")) {
 			 $('#' + el).style.visibility = "hidden";
 			}
         }
-    }  
+    }
 }
 });

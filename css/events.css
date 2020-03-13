@@ -74,3 +74,12 @@
 	font-weight: 100;
 }
 
+.slider-element {
+	display: flex !important; justify-content: space-evenly; align-items: center;
+}
+
+@media (max-width: 1020px) {
+	.slider-block.slick-slide.slider-element { width: 300px;}
+	.slider-element {display: block !important;}
+	.r9 {display: none !important;}
+}

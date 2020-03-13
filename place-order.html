@@ -2,10 +2,9 @@
 <link href="css/readMore.css" rel="stylesheet" type="text/css">
 <link href="css/resources.css" rel="stylesheet" type="text/css">
 <link href="css/events.css" rel="stylesheet" type="text/css">
-<link href="css/resources.css" rel="stylesheet" type="text/css">
 <link href="css/slick-theme.css" rel="stylesheet" type="text/css">
 <link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
-<!--<script src="js/scrollSpy.js"></script>-->
+
 
 <style>
 	.modal-dialog {
@@ -44,7 +43,7 @@ $(document).ready(function () {printList();});
           <label for="email">Email</label></div><br>
 </div><br><br>
 <center>
-<button id="submitEmail">Submit</button>
+	<button id="submitEmail">Submit for Review</button>
 </center>
       </div>
     </div>
@@ -54,10 +53,12 @@ $(document).ready(function () {printList();});
 <div style="padding-top: 110px;" class="row midContent">
 <a href="#/product-configurator">&larr; Return to Product Configurator</a>
 <div id="test" class=""></div>
-
+<i class="fas fa-sync"></i>
 </div>
-<div id="container"><button id="update">Update Order</button><button id="generate">generate</button>
-	<a data-toggle="modal" data-target="#submit-modal" data-dismiss="modal">Submit for review</a></div>
+<div id="container">
+  <a id="update" class="btn btn-elegant btn-lg waves-effect waves-light"><i class="fas fa-sync mr-1"></i>Update Order</a>
+  <a id="generate" class="btn btn-elegant btn-lg waves-effect waves-light">Generate</a>
+  <a data-toggle="modal" data-target="#submit-modal" data-dismiss="modal" class="btn btn-elegant btn-lg waves-effect waves-light">Submit for review</a>
 
 <script>
 var genButton = document.getElementById("generate");
@@ -115,4 +116,3 @@ for (var i = 0; i < products.length; i++) {
 </script>
 <script src="js/place-order.js"></script>
 <script src="js/logo.js"></script>
-
