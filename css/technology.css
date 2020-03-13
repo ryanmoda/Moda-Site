@@ -80,7 +80,7 @@ border-radius: 5px;
 position: relative;	
 }
 	
-	
+	}
 	@media only screen and (max-width: 768px) {
 		.medals {
 			max-width: 100px;

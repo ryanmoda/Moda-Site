@@ -2,14 +2,22 @@
 #footy {
 	padding-top: 39px !important;
 }
+<<<<<<< HEAD:css/style2v2.css
 /* .sidenav {
 		background-color: rgba(0,0,0,.93) !important;
 		background-color: var(--side-nav-1) !important;
 	} */
+=======
+.sidenav {
+		/* background-color: rgba(0,0,0,.93) !important;
+		background-color: var(--side-nav-1) !important; */
+	}
+>>>>>>> gh-pages:css/style2_1.1.css
 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
 		/* background-color: white !important;
 		background-color: var(--sec-color) !important; */
 }
+<<<<<<< HEAD:css/style2v2.css
 	/* .burg-links {
 		color: white !important;
 		color: var(--sec-color) !important;
@@ -18,6 +26,16 @@
 		color: white !important;
 		color: var(--sec-color) !important;
 	} */
+=======
+	.burg-links {
+		/* color: white !important;
+		color: var(--sec-color) !important; */
+	}
+	.tab-content p {
+		/* color: black !important;
+		color: var(--sec-color) !important; */
+	}
+>>>>>>> gh-pages:css/style2_1.1.css
 
 .foot, .foot a p {
 	color: white;
@@ -168,6 +186,41 @@ left: 50%; top: 30%; transform: translate(-50%,0%);
 	z-index: 0;
 }
 
+<<<<<<< HEAD:css/style2v2.css
+=======
+.minicove {
+	z-index: 1;
+	color: black;
+	position: absolute;
+	left: 50%;
+	top: 36%;
+	transform: translate(-50%,0);
+}
+
+.minicove::before {
+	content: "MINI";
+	font-weight: 400;
+}
+
+.mmcImg {
+	width: 52%;
+	max-width: 800px;
+	position: absolute;
+	left: 50%;
+	top: 43%;
+	transform: translate(-50%,0);
+}
+
+.awardwinning {
+	width: fit-content;
+	color: black;
+	position: absolute;
+	left: 50%;
+	top: 55%;
+	transform: translate(-50%,0);
+}
+
+>>>>>>> gh-pages:css/style2_1.1.css
 
 .img1 {
 	animation: imageAnimation 24s infinite 0s;
@@ -191,6 +244,7 @@ width: ;
 bottom: 0;
 }
 
+<<<<<<< HEAD:css/style2v2.css
 #zerobin {
 	color: white; position:absolute; top: 30%; left: 50%; transform: translate(-50%, 0);
 }
@@ -221,6 +275,21 @@ animation-delay: 0s;
 .slideshow li:nth-child(2) span { 
 	/* background-image: url("../images/Homepage/lasvegas\ sky_merged2.jpg"); */
 	background-color: black;
+=======
+#awardsBlock {
+	background-color: black;
+}
+
+#newsBlock {
+	background-color: black;
+}
+
+.slideshow li:nth-child(1) span { background-color: #fff;
+animation-delay: 0s;
+}
+.slideshow li:nth-child(2) span { background-image: url("../images/products/background louvres.png");
+	background-position: 0;
+>>>>>>> gh-pages:css/style2_1.1.css
 	animation-delay: 8s;
 	}
 /* .slideshow li:nth-child(2) span {
@@ -228,8 +297,12 @@ animation-delay: 0s;
     animation-delay: 8s;
 } */
 .slideshow li:nth-child(3) span {
+<<<<<<< HEAD:css/style2v2.css
 	background-color: black;
 	background-size: cover;
+=======
+	background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
+>>>>>>> gh-pages:css/style2_1.1.css
     animation-delay: 16s;
 } 
 #ledText {margin-top: -130px;}
