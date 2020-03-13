@@ -6,12 +6,27 @@ $(document).ready(function() {
 $('.js-provs').css('display','none');
 $('.js-test').css('display','none')
 	$("#container").isotope({
-            filter: '*'
+            filter: '*',
         });
 	// $("#container").isotope({
   //           filter: '*'
   //       });
 });
+//localStorage.setItem('visited', 'true');
+var visited = localStorage.getItem('visited');
+
+if (visited === null || visited === "false") {
+  localStorage.setItem('visited', 'true');
+location.reload();
+}
+
+window.onunload = function() {
+  //localStorage.setItem("visited", "false");
+  
+}
+
+
+// location.reload();
 //createItems();
 
 var visited = localStorage.getItem('visited');
@@ -51,7 +66,7 @@ function mapFilter(el) {
 }
 
 var $container = $('#container').isotope({
-  itemSelector: '.item'
+  itemSelector: '.item',
 });
 
 

@@ -577,11 +577,21 @@ a.icon-grid-link {
   color: black;
 }
 span.icon-grid-caption {
+	width: fit-content;
   display: block;
 	white-space: nowrap;
   margin-top: 0.7em;
 	font-weight: 100;
 	color: black;
+}
+
+.icon-grid-9 {
+	max-width: 400px;
+}
+
+.col-lg-4 > .col-sm-4 {
+	padding: 0;
+	/* width: 86px; */
 }
 
 
@@ -815,6 +825,9 @@ opacity: 0.5;
 	}
 	.icon-grid-6 {
 		max-width: 700px;
+	}
+	.icon-grid-9 {
+		max-width: 800px;
 	}
 }
 

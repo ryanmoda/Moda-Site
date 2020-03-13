@@ -5,13 +5,14 @@
 <title>Moda Light</title>
 <meta name="Description" content="Moda light is an innovative architectural lighting company at the forefront of LED technology."/>
 <meta content="width=device-width, initial-scale=1" name="viewport" />
-<meta http-equiv=“Expires” content=”-1″>
+<meta http-equiv='expires' content='-1'>
 
 
-	
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<link href="css/materialize.css" rel="stylesheet" type="text/css">
+  <link href="css/materialize.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link href="css/hamburger.css" rel="stylesheet" type="text/css">
@@ -28,8 +29,8 @@ ga('send', 'pageview');
 </script>
 <script async src="https://www.google-analytics.com/analytics.js"></script>
 <!--<script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>-->
-	
-	
+
+
 <body>
 <style>
 	h4 {
@@ -72,14 +73,14 @@ ga('send', 'pageview');
 		<li onClick="closeAll();" class="nav-links"><a href="#/xtrusion" class="nav-links-a" id="nav-xtrusion">XTRUSION</a>
           </li>
 			<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
-          </li>          
+          </li>
 			<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
             <ul class="sub-bar" id="cntrl-bar">
               <li style="margin-left: -26px;"><a href="#/controls" id="d-dmx-ctrl" onclick="hideBar(this.id);">DMX CONTROLLERS</a></li>
               <li><a href="#/accessories" id="d-dmx-acc" onclick="hideBar(this.id);">DMX ACCESSORIES</a></li>
               <li><a href="#/converters" id="d-conv" onclick="hideBar(this.id);">CONVERTERS</a></li>
             </ul>
-          </li>   
+          </li>
 	          <li onClick="closeAll();"><a class="nav-links-a" id="nav-tech" href="#/technology">TECHNOLOGY</a></li>
         </ul>
 
@@ -113,15 +114,15 @@ ga('send', 'pageview');
 		<a onClick="closeSide()" href="#/ext-flex"><p>EXTERIOR</p></a>
 		<a onClick="closeSide()" href="#/super-neon"><p>SUPER NEON</p></a>
       </div>
-    </div>	
+    </div>
     <div class="accordian tab blue">
       <input id="tab-7" type="radio" name="tabs2">
         <label><a onClick="closeSide()" href="#/xtrusion"><h4 class="burg-links">XTRUSION</h4></a></label>
-    </div>	
+    </div>
     <div class="accordian tab blue">
       <input id="tab-8" type="radio" name="tabs2">
       <label><a onClick="closeSide()" href="#/power"><h4 class="burg-links">POWER</h4></a></label>
-    </div>	
+    </div>
 	<div class="accordian tab blue">
       <input id="tab-9" type="radio" name="tabs2">
 		<label for="tab-9"><h4 class="burg-links">CONTROLS</h4></label>
@@ -130,11 +131,11 @@ ga('send', 'pageview');
 		<a onClick="closeSide()" href="#/accessories"><p>DMX ACCESSORIES</p></a>
         <a onClick="closeSide()" href="#/converters"><p>CONVERTERS</p></a>
       </div>
-    </div>	
+    </div>
     <div class="accordian blue">
       <input id="tab-10" type="radio" name="tabs2">
         <label><a onClick="closeSide()" href="#/technology"><h4 class="burg-links">TECHNOLOGY</h4></a></label>
-    </div>	
+    </div>
 	<br>
 		 <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ABOUT US</h4></a></label></div>
 		 <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ALL PRODUCTS</h4></a></label></div>
@@ -149,7 +150,7 @@ ga('send', 'pageview');
 		  <br>
       </div>
 
-		
+
 <!--		DESKTOP SIDEBAR-->
       <div class="sidenav" id="sidenav-d">
         <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ABOUT US</h4></a></label></div>
@@ -164,13 +165,15 @@ ga('send', 'pageview');
 		 <div class="accordian tab"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h4 class="burg-links">HOW TO BUY</h4></a></label></div>
      <div class="accordian"> <label><a href="#/job-listings" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CAREERS</h4></a></label></div>
 
-      </div> 
+      </div>
 
 
     </nav>
   </header>
   <div id="over" class="notSide"></div>
   <ng-view></ng-view>
+  <div zipjs></div>
+
   <div moda-footer></div>
 
 
@@ -178,6 +181,13 @@ ga('send', 'pageview');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- <script type="text/javascript" src="js/jszip.min.js"></script>
+<script type="text/javascript" src="js/jszip-utils.min.js"></script>
+<script src="js/FileSaver.js"></script>
+<script src="js/zip.js"></script>
+<script src="js/js-help.js"></script> -->
+
 <script src="js/bootstrap.min.js"></script>
 <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular.min.js" data-semver="1.4.9"></script>
 <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular-route.min.js" data-semver="1.4.9"></script>
@@ -190,6 +200,7 @@ ga('send', 'pageview');
   <script src="js/global.js"></script>
   <script src="js/flex.js"></script>
 <script src="js/scrollSpy.js"></script>
+
 
 </body>
 
