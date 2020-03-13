@@ -1,0 +1,252 @@
+/* CSS reset */
+#footy {
+	padding-top: 39px !important;
+}
+.sidenav {
+		background-color: rgba(0,0,0,.93) !important;
+		background-color: var(--side-nav-1) !important;
+	}
+	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+		background-color: white !important;
+		background-color: var(--sec-color) !important;
+}
+	.burg-links {
+		color: white !important;
+		color: var(--sec-color) !important;
+	}
+	.tab-content p {
+		color: white !important;
+		color: var(--sec-color) !important;
+	}
+
+.foot, .foot a p {
+    color: white;
+}
+
+/*
+h5 {
+	color: var(--main-text-color) !important;
+}
+*/
+.index-but {
+	position: relative;
+	font-size: 16px;
+	font-weight: 300;
+	opacity: 1 !important;
+	height: 40px;
+	width: 200px;
+	background-color: rgba(255,255,255,0);
+	color: white;
+	border: 1px solid white;
+	background-color: var(--main-bg-color);
+	color: var(--main-text-color);
+	border: 1px solid var(--main-text-color);
+	margin: 3px 10px;
+}
+.index-but:hover {
+	color: #999;
+	border: 1px solid #999;
+}
+	#footy {
+	position: absolute;
+	background-color: rgba(225,225,225,0);
+	background-color: var(--main-bg-color);
+	z-index: 5;
+	max-height: 100%;
+	overflow: hidden;
+	width: 100%;
+	padding-top: 20px;
+		bottom: 0px;
+}
+
+#scrollChev {
+  position: absolute;
+  bottom: 110px;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb04 2s infinite;
+  animation: sdb04 2s infinite;
+  box-sizing: border-box;
+}
+
+@keyframes sdb04 {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+/* General Demo Style */
+body{
+	  height: 100%;
+	background: #000;
+	font-weight: 300;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	color: white;
+}
+
+.container{
+	width: 100%;
+	top: 80%;
+	position: absolute;
+	text-align: center;
+}
+.bg {
+  /* The image used */
+/*  background-image: url("images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");*/
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slideshow li span {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: none;
+    opacity: 0;
+    z-index: -40;
+	-webkit-backface-visibility: hidden;
+    animation: imageAnimation 24s infinite 0s;
+}
+
+
+.img1 {
+	animation: imageAnimation 24s infinite 0s;
+	z-index: 4;
+}
+
+#honeycomb {
+	position: absolute;
+	top: 50px;
+	right: 0;
+	width: 42vw;
+	
+}
+#louvres3 {
+position: absolute;
+left: 50px;
+width: ;
+bottom: 0;
+}
+
+.slideshow li:nth-child(1) span { background-image: url("../images/products/background270.png");
+animation-delay: 0s;
+}
+.slideshow li:nth-child(2) span {
+    background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
+    animation-delay: 8s;
+}
+.slideshow li:nth-child(3) span {
+    background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
+    animation-delay: 16s;
+} 
+#ledText {margin-top: -130px;}
+#awardText {margin-top: 40px; display: flex;justify-content: flex-end;}
+#nanoText {height: 363px;}
+
+@keyframes imageAnimation {
+  0%   { opacity: 0;}
+  11.11%   { opacity: 1; }
+  33.33%  { opacity: 1; }
+  44.44%  { opacity: 0; }
+  100% { opacity: 0;}
+}
+@keyframes gifAnimation {
+  0%   { opacity: 0;}
+  11.11%   { opacity: 1; }
+  90.11%   { opacity: 1; }
+  99.44%  { opacity: 0; }
+  100% { opacity: 0;}
+}
+
+@media (max-width: 425px) {
+	.container {
+		top: 70%;
+	}
+/*
+	.ctText {
+		font-size: 18px !important;
+	}
+*/
+	.ctSVG {
+		margin-top: 0px !important;
+	}
+	#ledText {
+		margin-top: -50px;
+	}
+}
+
+@media (max-height: 860px) {
+	#scrollChev {
+		bottom: 25px;
+	}
+}
+
+/*
+@media (max-width: 1024px) {
+	#scrollChev {
+		bottom: 50px;
+	}
+}
+*/
+
+@media (max-width: 1200px) {
+	#nanoText {height: 620px;}
+}
+@media (max-width: 1499px) {
+	#awardText { justify-content: center;}
+}
+
+@media (max-width: 2560px) {
+#honeycomb{width: 40vw; }
+#louvres3{ width: 27vw; }
+}
+
+@media (max-width: 1440px) {
+#honeycomb{ width: 40vw; }
+#louvres3{ width: 33vw; }
+}
+
+@media (max-width: 1280px) {
+#honeycomb{ width: 43vw;}
+#louvres3{ width: 36vw; }
+}
+
+@media (max-width: 1024px) {
+#honeycomb{ width: 62vw; top: -150px; }
+#louvres3{ width: 39vw; }
+}
+
+@media (max-width: 768px) {
+#honeycomb{ width: 44vw; top: 10px; }
+#louvres3{ width: 41vw; }
+}
+
+@media (max-width: 500px) {
+#honeycomb{ }
+#louvres3{ width: 48vw; }
+}

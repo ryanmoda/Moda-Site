@@ -1,5 +1,5 @@
 body {
-
+	
 	font-family: FutuLt;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -24,11 +24,6 @@ opacity: 0.5;
 */
 
 /* Container */
-
-.newIcon {
-	width: 88px;
-}
-
 .container-full {
 	width: 100%;
 	margin-left: auto;
@@ -142,7 +137,7 @@ span.icon-grid-caption {
 	opacity: .7;
 }
 
-.icon-grid .col-lg-1 {
+.col-lg-1 {
 	margin-bottom: 15px;
 }
 
@@ -190,9 +185,9 @@ a .cove-img:active {
 
 .three-block {
 	height: 100px;
-
+	
 }
-	.gutterless img {
+	.gutterless .col-xs-6 img {
 		width: 100%;
 	}
 .block-a {

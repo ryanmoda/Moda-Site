@@ -2,22 +2,22 @@
 #footy {
 	padding-top: 39px !important;
 }
-.sidenav {
+/* .sidenav {
 		background-color: rgba(0,0,0,.93) !important;
 		background-color: var(--side-nav-1) !important;
-	}
+	} */
 	.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-		background-color: white !important;
-		background-color: var(--sec-color) !important;
+		/* background-color: white !important;
+		background-color: var(--sec-color) !important; */
 }
-	.burg-links {
+	/* .burg-links {
 		color: white !important;
 		color: var(--sec-color) !important;
 	}
 	.tab-content p {
 		color: white !important;
 		color: var(--sec-color) !important;
-	}
+	} */
 
 .foot, .foot a p {
     color: white;
@@ -31,21 +31,22 @@ h5 {
 .index-but {
 	position: relative;
 	font-size: 16px;
-	font-weight: 300;
+	font-weight: 400;
 	opacity: 1 !important;
 	height: 40px;
 	width: 200px;
-	background-color: rgba(255,255,255,0);
-	color: white;
-	border: 1px solid white;
-	background-color: var(--main-bg-color);
-	color: var(--main-text-color);
-	border: 1px solid var(--main-text-color);
+	color: var(--moda-red);
+	/* border: 1px solid white; */
+	background-color: transparent;
+	box-shadow: none;
+	/* border: 1px solid black; */
 	margin: 3px 10px;
 }
 .index-but:hover {
-	color: #999;
-	border: 1px solid #999;
+	color: #ee202e9e;
+	box-shadow: none;
+	text-decoration: underline;
+	/* border: 1px solid #999; */
 }
 	#footy {
 	position: absolute;
@@ -90,7 +91,7 @@ h5 {
 /* General Demo Style */
 body{
 	  height: 100%;
-	background: #000;
+	background: #fff;
 	font-weight: 300;
 	font-size: 15px;
 	overflow-y: scroll;
@@ -134,8 +135,42 @@ body{
 }
 
 
+.minicove {
+	z-index: 1;
+position: absolute;
+left: 50%; top: 30%; transform: translate(-50%,0%);
+}
+
+.awardwinning {
+	position: absolute;
+	left: 50%; top: 57%; transform: translate(-50%,0%);
+	color: black;
+}
+
+.minicove::before {
+	content: "MINI";
+	font-weight: 400;
+}
+
+.imgAnimation {
+	animation: imageAnimation 24s infinite 0s;
+
+}
+
+.cove-hp {
+	width: 40%;
+	padding-top: 70px;
+	color: white;
+	letter-spacing: 3px;
+	position: absolute;
+	left: 51%; top: 43%; transform: translate(-50%, -50%);
+	z-index: 0;
+}
+
+
 .img1 {
 	animation: imageAnimation 24s infinite 0s;
+	animation-delay: 8s;
 	z-index: 4;
 }
 
@@ -144,7 +179,7 @@ body{
 	top: 50px;
 	right: 0;
 	width: 42vw;
-
+	
 }
 #louvres3 {
 position: absolute;
@@ -153,20 +188,47 @@ width: ;
 bottom: 0;
 }
 
-.slideshow li:nth-child(1) span { background-image: url("../images/products/background270.png");
+#zerobin {
+	color: white; position:absolute; top: 30%; left: 50%; transform: translate(-50%, 0);
+}
+#zerobin::before {
+	content: "ZERO";
+	font-weight: 400;
+}
+#tagline {
+	color: white;
+	position: absolute;
+	top:60%;
+	left:50%;
+	transform: translate(-50%, 0);
+}
+
+#zerobinlink {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translate(-50%,0);
+	color: var(--moda-red);
+	font-size: 18px;
+}
+
+.slideshow li:nth-child(1) span { 
 animation-delay: 0s;
 }
-/* .slideshow li:nth-child(1) span { background-image: url("../videos/Louvers1280x720.gif");
-	animation-delay: 0s;
-	} */
-.slideshow li:nth-child(2) span {
+.slideshow li:nth-child(2) span { 
+	/* background-image: url("../images/Homepage/lasvegas\ sky_merged2.jpg"); */
+	background-color: black;
+	animation-delay: 8s;
+	}
+/* .slideshow li:nth-child(2) span {
     background-image: url("../images/Projects/Bonfire Memorial/bonfire-memorial-1.jpg");
     animation-delay: 8s;
-}
+} */
 .slideshow li:nth-child(3) span {
-    background-image: url('../images/Projects/BLVD/BLVD-Champagne-Room.jpeg');
+	background-color: black;
+	background-size: cover;
     animation-delay: 16s;
-}
+} 
 #ledText {margin-top: -130px;}
 #awardText {margin-top: 40px; display: flex;justify-content: flex-end;}
 #nanoText {height: 363px;}
@@ -176,7 +238,7 @@ animation-delay: 0s;
   11.11%   { opacity: 1; }
   33.33%  { opacity: 1; }
   44.44%  { opacity: 0; }
-  100% { opacity: 0;}
+  100% { opacity: 0;  pointer-events: none; }
 }
 @keyframes gifAnimation {
   0%   { opacity: 0;}
@@ -253,3 +315,37 @@ animation-delay: 0s;
 #honeycomb{ }
 #louvres3{ width: 48vw; }
 }
+
+
+
+@media (max-height: 1200px) {
+	.inc5k {
+		padding-top: 100px;
+	}
+	#inc-cigar {
+		width: 65%;
+	}
+	}
+
+ @media (max-height: 1000px) {
+	.inc5k {
+	padding-top: 100px;
+	}
+	.inc5k h2 {
+		font-size: 16px;
+	}
+	#inc-cigar {
+		width: 65% !important;
+	}
+	} 
+
+@media (max-height: 700px) {
+.inck5k {
+	padding-top: 70px !important;
+}
+.inc5k h2 {
+	font-size: 16px;
+}
+
+}
+

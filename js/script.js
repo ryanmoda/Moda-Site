@@ -90,9 +90,6 @@
 					.when('/graze-sc',{
 						templateUrl:'graze-sc.html',
 					})
-					.when('/graze-gd',{
-						templateUrl:'graze-gd.html',
-					})
 					.when('/graze-cc',{
 						templateUrl:'graze-cc.html',
 					})
@@ -516,10 +513,8 @@
             })
 			.when('/place-order',{
                 templateUrl:'place-order.html'
-						})
-			.when('/product-submit',{
-							templateUrl:'product-submit.html'
-					})
+            })
+
     });
  app.directive('modaFooter', function() {
     return {
