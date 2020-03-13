@@ -9,39 +9,42 @@ var app = angular.module('modaApp');
 			$window.open("www.google.com");
 		}
 	}
-  var headerController = function ($scope, $location) 
-    { 
-        $scope.isActive = function (viewLocation) { 
+  var headerController = function ($scope, $location)
+    {
+        $scope.isActive = function (viewLocation) {
 			currentPath = $location.path();
-			//localStorage.setItem("currentPath", currentPath);
-            return viewLocation === $location.path();
+			localStorage.setItem("currentPath", currentPath);
+			return viewLocation === $location.path();
 		};
+
 		$scope.$on('$locationChangeStart',function(evt, absNewUrl, absOldUrl) {
 
 			var hashIndex = absOldUrl.indexOf('#');
 
 			var oldRoute = absOldUrl.substr(hashIndex + 2);
 
-			hashIndex = absNewUrl.indexOf('#');
-
-			var newRoute = absNewUrl.substr(hashIndex + 2);
-
 			History.lastRoute = oldRoute;
 
-			localStorage.setItem("currentPath", "/" + newRoute);
-			//console.log(oldRoute);
+			console.log(oldRoute);
 
 			localStorage.setItem("prevPath", "/" + oldRoute);
 
 			if ( localStorage.getItem("prevPath") == "/reps" && localStorage.getItem("currentPath") != "/reps" ) {
-				console.log("yessir");
+				//console.log("yessir");
 
 				localStorage.setItem("visited", "false");
 
 			}
 
 		});
-    };
+
+	};
+
+
+
+
     app.controller('HeaderController',headerController);
 	app.controller('linkFunc', linkFunc);
+
+
 }());
