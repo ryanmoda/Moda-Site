@@ -40,11 +40,45 @@ var app = angular.module('modaApp');
 
 	};
 
+	var jsload = function($scope) {
+		console.log("yessir");
+		
+		$scope.loadScript = function (url, type, charset) {
+			if (type===undefined) type = 'text/javascript';
+			if (url) {
+				var script = document.querySelector("script[src*='"+url+"']");
+				if (!script) {
+					var heads = document.getElementsByTagName("head");
+					if (heads && heads.length) {
+						var head = heads[0];
+						if (head) {
+							script = document.createElement('script');
+							script.setAttribute('src', url);
+							script.setAttribute('type', type);
+							if (charset) script.setAttribute('charset', charset);
+							head.appendChild(script);
+						}
+					}
+				}
+				return script;
+			}
+		};		
+		
+
+	};
+
 
 
 
     app.controller('HeaderController',headerController);
 	app.controller('linkFunc', linkFunc);
+	app
+	.controller('jsload', jsload)
+	.directive('mmcwlModal', function() {
+		return {
+		  templateUrl: 'mmcwl-modal.html'
+		};
+	  });
 
 
 }());

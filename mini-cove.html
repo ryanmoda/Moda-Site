@@ -23,11 +23,15 @@ $(document).ready(function(){
 ga('set', 'page', '/mini-cove.html');
 ga('send', 'pageview');
 </script>
- <div mmcwl-modal></div> 
+<div ng-controller="jsload">
+
+ <div mmcwl-modal></div> </div>
 <div mmcsc-modal></div>
 <div mmcgd-modal></div>
 <div mmccc-modal></div>
 <div mmcdw-modal></div>
+
+
 <div class="coveBlock" style="padding-top: 70px;">
   <center>
     <h1 class="title-text">Mini Cove White Light</h1>
@@ -38,7 +42,7 @@ ga('send', 'pageview');
 
   <center>
       <div mmcwl-resource></div>
-      <div minicove-pack></div>
+      <!-- <div minicove-pack></div> -->
   </center>
 
 
@@ -112,6 +116,7 @@ ga('send', 'pageview');
   <div mmcdw-resource></div>
   </center>
 </div>
+
 
 <script src="js/analytics.js"></script>
 <script src="js/accordian.js"></script>

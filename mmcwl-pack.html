@@ -1,14 +1,16 @@
 <link rel="stylesheet" href="css/spec-select.css">
+<script>
+
+</script>
     <form id="mmc-wl-form">
 <div id="row" class="row">
 <div class="col-lg-4 col-sm-6">
     <h3>Product Guides</h3>
-    
     <div class="spec-box">
         <div class="spec-body">
             <p>ELV</p>
             <div>
-                <input type="checkbox" id="mmcwl-pg-elv" class="spec-checkbox" data-url="/resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_ELV_Product_Guide.pdf">
+                <input ng-model="checkbox1" type="checkbox" id="mmcwl-pg-elv" class="spec-checkbox" data-url="/resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_ELV_Product_Guide.pdf">
                 <label for="mmcwl-pg-elv" class="spec-label">
                     <i class="add small material-icons">add</i>
                     <i class="minus small material-icons">indeterminate_check_box
@@ -22,7 +24,7 @@
         <div class="spec-body">
             <p>0-10V</p>
             <div>
-                <input type="checkbox" id="mmcwl-pg-010" class="spec-checkbox" data-url="/resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_010V_Product_Guide.pdf">
+                <input ng-model="checkbox2" type="checkbox" ng-click="checked()" id="mmcwl-pg-010" class="spec-checkbox" data-url="/resources/Product Guide/Moda_Mini_Cove_Interior_White_Light_010V_Product_Guide.pdf">
                 <label for="mmcwl-pg-010" class="spec-label">
                     <i class="add small material-icons">add</i>
                     <i class="minus small material-icons">indeterminate_check_box

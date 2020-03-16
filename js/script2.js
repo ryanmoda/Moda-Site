@@ -4,6 +4,22 @@
 
     var app = angular.module('modaApp',['ngRoute']);
 
+    // app
+    // .controller('TestController', ['$scope', function($scope) {
+    //   console.log("hweroijsdf");
+    //   $scope.customer = {
+    //     name: 'Naomi',
+    //     address: '1600 Amphitheatre'
+    //   };
+    //   //console.log("hweroijsdf");
+      
+    // }])
+    // .directive('myCustomer', function() {
+    //   return {
+    //     template: 'Name: {{customer.name}} Address: {{customer.address}}'
+    //   };
+    // });
+
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
@@ -569,11 +585,11 @@
     };
   });
 //MINI COVE ================================
- app.directive('mmcwlModal', function() {
-    return {
-      templateUrl: 'mmcwl-modal.html'
-    };
-  });
+//  app.directive('mmcwlModal', function() {
+//     return {
+//       templateUrl: 'mmcwl-modal.html'
+//     };
+//   });
  app.directive('mmcscModal', function() {
     return {
       templateUrl: 'mmcsc-modal.html'
@@ -859,7 +875,18 @@ app.directive('mmcwlSelect', function() {
 	  templateUrl: 'minicove-pack.html',
     };
   });
-  app.directive('mmcwlPack', function() {
+  app.controller('mmcwlController', ['$scope', function($scope) {
+    $scope.$parent.loadScript('js/jszip.min.js', 'text/javascript', 'utf-8');
+    $scope.$parent.loadScript('js/jszip-utils.min.js', 'text/javascript', 'utf-8');
+    $scope.$parent.loadScript('js/FileSaver.js', 'text/javascript', 'utf-8');
+    $scope.$parent.loadScript('js/zip.js', 'text/javascript', 'utf-8');
+    $scope.$parent.loadScript('js/js-help.js', 'text/javascript', 'utf-8');
+    $scope.checked = function() {
+      return ($scope.checkbox1 || $scope.checkbox2);
+    }
+
+  }])
+  .directive('mmcwlPack', function() {
 	return {
 	  templateUrl: 'mmcwl-pack.html',
     };
@@ -929,6 +956,7 @@ app.directive('mmcwlSelect', function() {
 	  templateUrl: 'spec-button.html',
     };
   });
+
 })();
 // SCROLL TO TOP
 // app.directive('scrollTop', function() {

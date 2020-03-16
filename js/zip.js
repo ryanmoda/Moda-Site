@@ -100,7 +100,7 @@ $(document).ready(function (){
     
 
 /*Enable submit button when at least one checkbox is checked*/
-checkboxes.click(function() {debugger;
+checkboxes.click(function() {
    var formId = $(this).closest("form").attr("id");
         console.log(formId);
         
