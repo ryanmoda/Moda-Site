@@ -41,7 +41,6 @@ var app = angular.module('modaApp');
 	};
 
 	var jsload = function($scope) {
-		console.log("yessir");
 		
 		$scope.loadScript = function (url, type, charset) {
 			if (type===undefined) type = 'text/javascript';

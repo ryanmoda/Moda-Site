@@ -1,6 +1,8 @@
 /**
  * Reset the message.
  */
+console.log("yessir");
+
 function resetMessage () {
     $(":submit")
     .prop("disabled", false)
