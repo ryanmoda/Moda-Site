@@ -876,6 +876,8 @@ app.directive('mmcwlSelect', function() {
     };
   });
   app.controller('mmcwlController', ['$scope', function($scope) {
+   // $window.location.reload();
+
     $scope.$parent.loadScript('js/jszip.min.js', 'text/javascript', 'utf-8');
     $scope.$parent.loadScript('js/jszip-utils.min.js', 'text/javascript', 'utf-8');
     $scope.$parent.loadScript('js/FileSaver.js', 'text/javascript', 'utf-8');
