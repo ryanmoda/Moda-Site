@@ -41,7 +41,7 @@ var app = angular.module('modaApp');
 	};
 
 	var jsload = function($scope) {
-		
+
 		$scope.loadScript = function (url, type, charset) {
 			if (type===undefined) type = 'text/javascript';
 			if (url) {
@@ -63,7 +63,15 @@ var app = angular.module('modaApp');
 			}
 		};		
 		
-
+	  $scope.loadScript('js/jszip.min.js', 'text/javascript', 'utf-8');
+    $scope.loadScript('js/jszip-utils.min.js', 'text/javascript', 'utf-8');
+    $scope.loadScript('js/FileSaver.js', 'text/javascript', 'utf-8');
+    $scope.loadScript('js/zip.js', 'text/javascript', 'utf-8');
+    $scope.loadScript('js/js-help.js', 'text/javascript', 'utf-8');
+    $scope.checked = function() {
+      return ($scope.checkbox1 || $scope.checkbox2);
+    }
+		
 	};
 
 

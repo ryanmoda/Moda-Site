@@ -1,7 +1,7 @@
 /**
  * Reset the message.
  */
-console.log("yessir");
+console.log("js-help");
 
 function resetMessage () {
     $(":submit")
