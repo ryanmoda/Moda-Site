@@ -2,7 +2,7 @@
  * Reset the message.
  */
 function resetMessage () {
-    $(":submit")
+    $("form :submit")
     .prop("disabled", false)
     .empty()
     .text("Pack Files");
@@ -13,7 +13,7 @@ function resetMessage () {
  */
 function showMessage() {
     //resetMessage();
-    $(":submit")
+    $("form :submit")
     .prop("disabled", true)
     .empty()
     .append(`<span style="vertical-align: middle;" class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span><span>  Downloading</span>`);
@@ -22,7 +22,7 @@ function showMessage() {
 }
 
 function resetButton(id) {
-    $(":submit")
+    $("form :submit")
     .empty()
     .text("Pack Files");
     $("#" + id + " .btn").attr("disabled", !checkboxes.is("#" + id + " :checked"));
