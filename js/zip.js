@@ -14,7 +14,12 @@ var form_ids = [
     ["mmg-wl-form", "Mini_Graze_White_Light.zip"],
     ["mmg-sc-form", "Mini_Graze_Static_Color.zip"],
     ["mmg-gd-form", "Mini_Graze_Glowdim.zip"],
-    ["mmg-dw-form", "Mini_Graze_Dynamic_Whites.zip"]
+    ["mmg-dw-form", "Mini_Graze_Dynamic_Whites.zip"],
+
+    ["mgi-wl-form", "Graze_Interior_White_Light.zip"],
+    ["mgi-sc-form", "Graze_Interior_Static_Color.zip"],
+    ["mgi-gd-form", "Graze_Interior_Glowdim.zip"],
+    ["mgi-dw-form", "Graze_Interior_Dynamic_Whites.zip"]
 ];
 var stopSubmit = false;
 var Promise = window.Promise;

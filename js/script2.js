@@ -953,6 +953,26 @@ app.directive('mmcwlSelect', function() {
 	  templateUrl: 'mmgdw-pack.html',
     };
   });
+  app.directive('grazewlPack', function() {
+    return {
+      templateUrl: 'grazewl-pack.html',
+      };
+    });
+    app.directive('grazescPack', function() {
+    return {
+      templateUrl: 'grazesc-pack.html',
+      };
+    });
+    app.directive('grazeccPack', function() {
+    return {
+      templateUrl: 'grazecc-pack.html',
+      };
+    });
+    app.directive('grazedwPack', function() {
+    return {
+      templateUrl: 'grazedw-pack.html',
+      };
+    });
   app.directive('specButton', function() {
 	return {
 	  templateUrl: 'spec-button.html',
