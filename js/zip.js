@@ -1,3 +1,5 @@
+console.log("zip.js");
+
 var checkboxes = $("form input[type='checkbox']");
 var form_ids = [
     ["mmc-wl-form", "Mini_Cove_White_Light.zip"],

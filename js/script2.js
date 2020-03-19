@@ -585,11 +585,11 @@
     };
   });
 //MINI COVE ================================
-//  app.directive('mmcwlModal', function() {
-//     return {
-//       templateUrl: 'mmcwl-modal.html'
-//     };
-//   });
+ app.directive('mmcwlModal', function() {
+    return {
+      templateUrl: 'mmcwl-modal.html'
+    };
+  });
  app.directive('mmcscModal', function() {
     return {
       templateUrl: 'mmcsc-modal.html'

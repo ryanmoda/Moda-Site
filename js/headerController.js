@@ -41,7 +41,8 @@ var app = angular.module('modaApp');
 	};
 
 	var jsload = function($scope) {
-
+		console.log("jsload");
+		
 		$scope.loadScript = function (url, type, charset) {
 			if (type===undefined) type = 'text/javascript';
 			if (url) {
@@ -64,6 +65,8 @@ var app = angular.module('modaApp');
 		};		
 		
 	  $scope.loadScript('js/jszip.min.js', 'text/javascript', 'utf-8');
+	  console.log("jsload afterword");
+
     $scope.loadScript('js/jszip-utils.min.js', 'text/javascript', 'utf-8');
     $scope.loadScript('js/FileSaver.js', 'text/javascript', 'utf-8');
     $scope.loadScript('js/zip.js', 'text/javascript', 'utf-8');
@@ -80,12 +83,12 @@ var app = angular.module('modaApp');
     app.controller('HeaderController',headerController);
 	app.controller('linkFunc', linkFunc);
 	app
-	.controller('jsload', jsload)
-	.directive('mmcwlModal', function() {
-		return {
-		  templateUrl: 'mmcwl-modal.html'
-		};
-	  });
+	.controller('jsload', jsload);
+	// .directive('mmcwlModal', function() {
+	// 	return {
+	// 	  templateUrl: 'mmcwl-modal.html'
+	// 	};
+	//   });
 
 
 }());
