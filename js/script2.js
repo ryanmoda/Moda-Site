@@ -13,6 +13,9 @@
 			})
 			.when('/inc-5000',{
                 templateUrl:'index-slide-2-inc.html'
+			})
+			.when('/nano',{
+                templateUrl:'nano.html'
             })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html'
