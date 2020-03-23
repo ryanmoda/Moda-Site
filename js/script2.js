@@ -622,6 +622,11 @@
       templateUrl: 'Templates/mmc-dw-resources.html'
     };
   });
+  app.directive('mncwlResource', function() {
+    return {
+      templateUrl: 'Templates/mnc-wl-resources.html'
+    };
+  });
 //COVE INTERIOR =================================
  app.directive('covewlResource', function() {
     return {

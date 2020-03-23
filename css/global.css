@@ -183,6 +183,10 @@ span {
 	margin: 0;
 }
 
+.disabled {
+	cursor: not-allowed;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
