@@ -48,10 +48,11 @@ ga('send', 'pageview');
 </button>
       <a onClick="closeSide()" href="#/"><img class="" id="logo" src="svgs/modalogo.svg" alt="Moda Light"></a>
       <div class="nav navbar-nav" id="navlist">
-        <ul>
+        <ul> 
           <li onClick="navDrop('cove-bar');" class="nav-links"><a class="nav-links-a" id="nav-cove">COVE</a>
             <ul class="sub-bar" id="cove-bar">
-              <li style="margin-left: 21px;"><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
+              <li style="margin-left: 21px;"><a href="#/nano" id="a-mini-cove" ng-class="{ active: isActive('/nano')}" onclick="closeSide()">NANO</a></li>
+              <li><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
               <li><a href="#/cove" id="a-sub-cove" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove')}">COVE</a></li>
               <li><a href="#/cove-ext" id="a-cove-ext" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove-ext')}">COVE EXTERIOR</a></li>
             </ul>
