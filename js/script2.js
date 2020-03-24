@@ -597,6 +597,11 @@
       templateUrl: 'mmcdw-modal.html'
     };
   });
+  app.directive('mncwlModal', function() {
+    return {
+      templateUrl: 'mncwl-modal.html'
+    };
+  });
  app.directive('mmcwlResource', function() {
     return {
       templateUrl: 'Templates/mmc-wl-resources.html'
