@@ -12,7 +12,7 @@ $('.links a').on('click', function () {
         $(this).removeClass("targetedSlide")
         
     });
-    factor = (docWidth > 1050) ? 1000 : 300;
+    factor = (docWidth > 1050) ? 1000 : 350;
     
     $(this).addClass("targetedSlide");
     // get the partial id of the div to scroll to
