@@ -20,6 +20,5 @@ $('.links a').on('click', function () {
     divIdx = divIdx.slice(divIdx.length-1) ;
     divIdx = parseInt(divIdx);    
     divIdx = (divIdx * factor) - factor;     
-    //alert("scrollLeft: " + divIdx);     
     $scroller.scrollLeft(divIdx, 0);
 });
