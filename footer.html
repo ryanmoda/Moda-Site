@@ -1,59 +1,29 @@
 <link href="css/global.css" rel="stylesheet" type="text/css">
+<link href="css/resources.css" rel="stylesheet" type="text/css">
 <link href="css/footer.css" rel="stylesheet" type="text/css">
 <style>
 	
 </style>
-<!--<div id="footy">
-
-<center>
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-        <h1 class="modal-title" style="margin-top: 50px; margin-bottom: 32px" id="exampleModalLabel">SIGN UP</h1>
-		  <div style="width: 400px; max-width:90%; margin: 0 auto;"><span style="font-size: 20px; font-weight: 400; margin-top: 32px;">You'll be the first to find out the latest news, product updates, announcements, events, and more!</span></div>
-		  <div style="margin-top: 50px;"></div>
-		  <div class="row" style="width: 484px !important; max-width: 90%; margin: 0 auto;">
-		<div class="input-field col-lg-6">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col-lg-6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-		<div class="input-field col-lg-6">
-          <input id="email1" type="text" class="validate">
-          <label for="email1">Email</label>
-        </div>
-        <div class="input-field col-lg-6">
-          <input id="company1" type="text" class="validate">
-          <label for="company1">Company</label>
-        </div>
-		  </div>
-		  <br><br>
-		  
-		  	<button class="nl-but">SUBSCRIBE</button>
-      </div>
-    </div>
-  </div>
-</div>	
-	</center>
-</div>-->
-<!--
-<div class="row foot-row no-gutters">
-	<div class="col-lg-3 col-xs-4 col-lg-offset-1"><a target="_blank" href="https://www.google.com/" class="footLink">© 2018 MODA LIGHT. All Rights Reserved.</a></div>
-	<div class="col-lg-2 col-xs-4"><a class="footLink">Terms & Conditions</a></div>
-	<div class="col-lg-2 col-xs-4"><a class="footLink" data-toggle="modal" data-target="#exampleModal" data-dismiss="modal">Get Newsletter</a></div>
-	<div class="col-lg-1 col-xs-4"><a class="footLink">About</a></div>
-	<div class="col-lg-1 col-xs-4"><a class="footLink">Contact Us</a></div>
-	<div class="col-lg-1 col-xs-4"><a class="footLink">Resources</a></div>
+<div class="modal fade" id="contact-us-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog footer-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+<div style="padding: 0 60px">
+			  <h2>Questions? Contact Us</h2><br>
+			  <p><strong>Quotes</strong></p>
+			  <a href="mailto:quotations@modalight.com"><p>quotations@modalight.com</p></a>
+			  <p><strong>Purchase Orders</strong></p>
+			  <a href="mailto:purchaseorders@modalight.com"><p>purchaseorders@modalight.com</p></a>
+			  <p><strong>Accounts</strong></p>
+			  <a href="mailto:accounts@modalight.com"><p>accounts@modalight.com</p></a>  
+</div>
+		</div>
+	  </div>
 	</div>
--->
-
+  </div>
 <div class="foot">
 <div class="row midContent rowFoot" style="max-width: 1400px;">
 	
@@ -78,7 +48,9 @@
 		<a href="#/int-flex"><p>Flex Interior</p></a>
 		<a href="#/ext-flex"><p>Flex Exterior</p></a>
 		<a href="#/super-neon"><p>Super Neon</p></a></div>
-	<div class="col-lg-3 col-sm-6"><p style="margin-bottom: 10px;"><strong>Company</strong></p><a href="#/about"><p>About Us</p></a><a href="#/careers"><p>Careers</p></a><a href="#/news"><p>News & Events</p></a><a href="resources/moda_light_terms_and_conditions.pdf" target="_blank"><p>Terms & Conditions</p></a></div>
+	<div class="col-lg-3 col-sm-6"><p style="margin-bottom: 10px;"><strong>Company</strong></p>
+		<a onClick="modalClick('contact-us-modal');" data-toggle="modal" data-target="#contact-us-modal" data-dismiss="modal"><p>Contact Us</p></a>
+		<a href="#/about"><p>About Us</p></a><a href="#/careers"><p>Careers</p></a><a href="#/news"><p>News & Events</p></a><a href="resources/moda_light_terms_and_conditions.pdf" target="_blank"><p>Terms & Conditions</p></a></div>
 	<div class="col-lg-3 col-sm-6"><p class="margin1"><strong>Follow Us</strong></p>
 	<ul class="contacts">
 	<li><a href="https://www.facebook.com/modalightusa/" target="_blank"><img style="height:20px; width:15px;" id="fb" src="images/Icons/FB.svg"></a><a href="https://www.instagram.com/moda_light/" target="_blank"><img style="height:20px; width:25px;" id="ig" src="images/Icons/ig.svg"></a><a href="https://twitter.com/modalight?lang=en" target="_blank"><img style="height:20px; width:26px;" id="tw" src="images/Icons/twitter.svg"></a><a href="https://www.linkedin.com/company/moda-light-usa?trk=similar-companies_org_title" target="_blank"><img style="height:20px; width:19px;" id="in" src="images/Icons/linedkin.svg"></a></li>
