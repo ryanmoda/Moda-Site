@@ -87,3 +87,7 @@ html {
 		margin: 0 60px 30px;
 		max-width: 200px;		
 	}
+	.footer-dialog {
+		top: 10%;
+		width: fit-content;
+	}
