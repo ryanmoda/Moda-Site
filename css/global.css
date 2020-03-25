@@ -86,6 +86,10 @@ span {
 	margin: 0 auto;
 }
 
+.self-align {
+	display: flex;
+}
+
 .readContent {
 	max-width: 902px;
 }
@@ -197,6 +201,12 @@ button:focus {
 
 @media (max-width: 900px) {
 	.mobile-br {
+		display: block;
+	}
+}
+
+@media (max-width: 1199px) {
+	.self-align {
 		display: block;
 	}
 }
