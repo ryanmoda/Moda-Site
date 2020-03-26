@@ -52,7 +52,7 @@
 						templateUrl:'mmc-wl.html?1585247629',
 					})
 					.when('/mmc-sc',{
-						templateUrl:'mmc-sc.html'
+						templateUrl:'mmc-sc.html?1585247629'
 					})
 					.when('/mmc-gd',{
 						templateUrl:'mmc-gd.html'
