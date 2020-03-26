@@ -516,10 +516,7 @@
             })
 			.when('/contact',{
                 templateUrl:'contact.html'
-      })
-			.when('/contact-us',{
-        templateUrl:'contact-us.html'
-})
+			})
 			.when('/careers',{
                 templateUrl:'careers.html'
 			})
