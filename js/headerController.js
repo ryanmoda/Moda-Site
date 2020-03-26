@@ -34,7 +34,6 @@ var app = angular.module('modaApp');
 			localStorage.setItem("prevPath", "/" + oldRoute);
 
 			if ( localStorage.getItem("prevPath") == "/reps" && localStorage.getItem("currentPath") != "/reps" ) {
-				console.log("yessir");
 
 				localStorage.setItem("visited", "false");
 
