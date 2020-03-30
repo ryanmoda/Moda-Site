@@ -314,7 +314,7 @@
                 templateUrl:'technology.html'
             })
 			.when('/about',{
-                templateUrl:'about.html'
+                templateUrl:'about.html?1585599141'
             })
 			.when('/projects',{
                 templateUrl:'projects.html'
