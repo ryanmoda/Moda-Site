@@ -1,6 +1,6 @@
 var logos = document.getElementsByClassName("logo");
  
-	logos[1].src="svgs/modalogoWHITE.svg";
+	logos[0].src="svgs/modalogoWHITE.svg";
 
 document.getElementById("logo").src="svgs/modalogo.svg";
 console.log("yes");
