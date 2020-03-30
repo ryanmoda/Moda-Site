@@ -13,7 +13,7 @@
 			})
 			// .when('/inc-5000',{
             //     templateUrl:'index-slide-2-inc.html'
-            // })
+			// })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1585599141'
             })
@@ -537,7 +537,11 @@
 			})
 			.when('/order-submit',{
                 templateUrl:'order-submit.html?1585599141'
-            })
+			})
+			.otherwise({
+				controller: '404Controller',
+				templateUrl: '404.html'
+			});
 
     });
  app.directive('modaFooter', function() {
@@ -826,6 +830,14 @@
       templateUrl: 'legacy-modal.html'
     };
   });
+
+  app.controller('404Controller', function($scope, $location) {
+    $scope.path = $location.path();
+    $scope.back = function() {
+        history.back();
+    };
+});
+
 })();
 // SCROLL TO TOP
 // app.directive('scrollTop', function() {
