@@ -3,7 +3,6 @@ var logos = document.getElementsByClassName("logo");
 	logos[0].src="svgs/modalogoWHITE.svg";
 
 document.getElementById("logo").src="svgs/modalogo.svg";
-console.log("yes");
 document.getElementById("phone").src="images/Icons/icon-phone-wh.svg";
 document.getElementById("fax").src="images/Icons/icon-fax-wh.svg";
 document.getElementById("mail").src="images/Icons/icon-email-wh.svg";
