@@ -11,9 +11,9 @@
              //   templateUrl:'slide-test-1.html'
 
 			})
-			.when('/test',{
-                templateUrl:'test.html'
-            })
+			// .when('/test',{
+            //     templateUrl:'test.html'
+            // })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1585599141'
             })
