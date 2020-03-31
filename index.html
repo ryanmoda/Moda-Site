@@ -6,8 +6,11 @@
 <meta name="Description" content="Moda light is an innovative architectural lighting company at the forefront of LED technology."/>
 <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"> -->
 	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<link href="css/materialize.css" rel="stylesheet" type="text/css">
+  <link href="css/materialize.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link href="css/hamburger.css" rel="stylesheet" type="text/css">
@@ -41,10 +44,11 @@ ga('send', 'pageview');
 </button>
       <a onClick="closeSide()" href="#/"><img class="" id="logo" src="svgs/modalogo.svg" alt="Moda Light"></a>
       <div class="nav navbar-nav" id="navlist">
-        <ul>
+        <ul> 
           <li onClick="navDrop('cove-bar');" class="nav-links"><a class="nav-links-a" id="nav-cove">COVE</a>
             <ul class="sub-bar" id="cove-bar">
-              <li style="margin-left: 21px;"><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
+              <li style="margin-left: 21px;"><a href="#/nano" id="a-mini-cove" ng-class="{ active: isActive('/nano')}" onclick="closeSide()">NANO</a></li>
+              <li><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
               <li><a href="#/cove" id="a-sub-cove" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove')}">COVE</a></li>
               <li><a href="#/cove-ext" id="a-cove-ext" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove-ext')}">COVE EXTERIOR</a></li>
             </ul>
@@ -176,6 +180,13 @@ ga('send', 'pageview');
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- <script type="text/javascript" src="js/jszip.min.js"></script>
+<script type="text/javascript" src="js/jszip-utils.min.js"></script>
+<script src="js/FileSaver.js"></script>
+<script src="js/zip.js"></script>
+<script src="js/js-help.js"></script> -->
+
 <script src="js/bootstrap.min.js"></script>
 <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular.min.js" data-semver="1.4.9"></script>
 <script data-require="angular.js@1.4.x" src="https://code.angularjs.org/1.4.9/angular-route.min.js" data-semver="1.4.9"></script>

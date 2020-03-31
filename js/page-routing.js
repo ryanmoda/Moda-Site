@@ -4,6 +4,22 @@
 
     var app = angular.module('modaApp',['ngRoute']);
 
+    // app
+    // .controller('TestController', ['$scope', function($scope) {
+    //   console.log("hweroijsdf");
+    //   $scope.customer = {
+    //     name: 'Naomi',
+    //     address: '1600 Amphitheatre'
+    //   };
+    //   //console.log("hweroijsdf");
+      
+    // }])
+    // .directive('myCustomer', function() {
+    //   return {
+    //     template: 'Name: {{customer.name}} Address: {{customer.address}}'
+    //   };
+    // });
+
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
@@ -595,6 +611,11 @@
       templateUrl: 'mmcdw-modal.html'
     };
   });
+  app.directive('mncwlModal', function() {
+    return {
+      templateUrl: 'mncwl-modal.html'
+    };
+  });
  app.directive('mmcwlResource', function() {
     return {
       templateUrl: 'Templates/mmc-wl-resources.html'
@@ -620,10 +641,30 @@
       templateUrl: 'Templates/mmc-dw-resources.html'
     };
   });
+  app.directive('mncwlResource', function() {
+    return {
+      templateUrl: 'Templates/mnc-wl-resources.html'
+    };
+  });
 //COVE INTERIOR =================================
  app.directive('covewlResource', function() {
     return {
       templateUrl: 'Templates/cove-wl-resources.html'
+    };
+  });
+  app.directive('covescResource', function() {
+    return {
+      templateUrl: 'Templates/cove-sc-resources.html'
+    };
+  });
+  app.directive('coveccResource', function() {
+    return {
+      templateUrl: 'Templates/cove-cc-resources.html'
+    };
+  });
+  app.directive('covedwResource', function() {
+    return {
+      templateUrl: 'Templates/cove-dw-resources.html'
     };
   });
 //COVE EXTERIOR ================================

@@ -202,8 +202,10 @@ if (!target.is("nav li a")) {
     if(!$(event.target).closest('#' + el).length) {
          if($('#' + el).is(":visible")) {
 //			document.getElementById("navbar").style.backgroundColor = "var(--main-bg-color-1)";
-            $('#' + el).hide();
-		 	$('#' + el).style.visibility = "hidden";
+			$('#' + el).hide();
+			if ($("#" + el).style != undefined) {debugger;
+			 $('#' + el).style.visibility = "hidden";
+			}
         }
     }  
 }

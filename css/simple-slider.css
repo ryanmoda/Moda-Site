@@ -28,7 +28,6 @@
     scroll-snap-type: mandatory;
     */
   }
-
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
