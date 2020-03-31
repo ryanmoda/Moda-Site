@@ -686,6 +686,26 @@
       templateUrl: 'coveextdw-modal.html'
     };
   });
+  app.directive('coveextwlResource', function() {
+    return {
+      templateUrl: 'Templates/coveextwl-resources.html'
+    };
+  });
+  app.directive('coveextscResource', function() {
+    return {
+      templateUrl: 'Templates/coveextsc-resources.html'
+    };
+  });
+  app.directive('coveextccResource', function() {
+    return {
+      templateUrl: 'Templates/coveextcc-resources.html'
+    };
+  });
+  app.directive('coveextdwResource', function() {
+    return {
+      templateUrl: 'Templates/coveextdw-resources.html'
+    };
+  });
 //MINI GRAZE =====================================
  app.directive('mmgwlModal', function() {
     return {
@@ -869,7 +889,128 @@
       templateUrl: 'legacy-modal.html'
     };
   });
-
+  // SPEC SHEET PACKER ===================================
+  app.directive('zipJs', function() {
+    return {
+      templateUrl: 'zip-js.html'
+    };
+  });
+  app.directive('minicovePack', function() {
+	return {
+	  templateUrl: 'minicove-pack.html',
+    };
+  });
+  app.directive('mmcwlPack', function() {
+    return {
+      templateUrl: 'mmcwl-pack.html',
+      };
+    });
+    app.directive('mmcscPack', function() {
+    return {
+      templateUrl: 'mmcsc-pack.html',
+      };
+    });
+    app.directive('mmcgdPack', function() {
+    return {
+      templateUrl: 'mmcgd-pack.html',
+      };
+    });
+    app.directive('mmcccPack', function() {
+    return {
+      templateUrl: 'mmccc-pack.html',
+      };
+    });
+    app.directive('mmcdwPack', function() {
+    return {
+      templateUrl: 'mmcdw-pack.html',
+      };
+    });
+    app.directive('covewlPack', function() {
+    return {
+      templateUrl: 'covewl-pack.html',
+      };
+    });
+    app.directive('covescPack', function() {
+    return {
+      templateUrl: 'covesc-pack.html',
+      };
+    });
+    app.directive('coveccPack', function() {
+    return {
+      templateUrl: 'covecc-pack.html',
+      };
+    });
+    app.directive('covedwPack', function() {
+    return {
+      templateUrl: 'covedw-pack.html',
+      };
+    });
+    app.directive('mmgwlPack', function() {
+    return {
+      templateUrl: 'mmgwl-pack.html',
+      };
+    });
+    app.directive('mmgscPack', function() {
+    return {
+      templateUrl: 'mmgsc-pack.html',
+      };
+    });
+    app.directive('mmggdPack', function() {
+    return {
+      templateUrl: 'mmggd-pack.html',
+      };
+    });
+    app.directive('mmgdwPack', function() {
+    return {
+      templateUrl: 'mmgdw-pack.html',
+      };
+    });
+    app.directive('grazewlPack', function() {
+      return {
+        templateUrl: 'grazewl-pack.html',
+        };
+      });
+      app.directive('grazescPack', function() {
+      return {
+        templateUrl: 'grazesc-pack.html',
+        };
+      });
+      app.directive('grazeccPack', function() {
+      return {
+        templateUrl: 'grazecc-pack.html',
+        };
+      });
+      app.directive('grazedwPack', function() {
+      return {
+        templateUrl: 'grazedw-pack.html',
+        };
+      });
+      app.directive('coveextwlPack', function() {
+        return {
+          templateUrl: 'coveextwl-pack.html',
+          };
+        });
+      app.directive('coveextscPack', function() {
+        return {
+          templateUrl: 'coveextsc-pack.html',
+          };
+        });
+      app.directive('coveextccPack', function() {
+        return {
+          templateUrl: 'coveextcc-pack.html',
+          };
+        });
+      app.directive('coveextdwPack', function() {
+        return {
+          templateUrl: 'coveextdw-pack.html',
+          };
+        });
+    app.directive('specButton', function() {
+    return {
+      templateUrl: 'spec-button.html',
+      };
+    });
+  
   app.controller('404Controller', function($scope, $location) {
     $scope.path = $location.path();
     $scope.back = function() {
