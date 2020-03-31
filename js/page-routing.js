@@ -546,7 +546,7 @@
     });
  app.directive('modaFooter', function() {
     return {
-      templateUrl: 'footer.html?1585594111'
+      templateUrl: 'footer.html?1585594112'
     };
   });
  app.directive('covewlModal', function() {
