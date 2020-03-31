@@ -30,6 +30,9 @@
 			// .when('/test',{
             //     templateUrl:'test.html'
             // })
+            .when('/nano',{
+              templateUrl:'nano.html'
+          })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1585599141'
             })
@@ -136,10 +139,6 @@
 					.when('/graze-dw-ext',{
 						templateUrl:'graze-dw-ext.html?1585599141',
 					})
-			// .when('/flex',{
-            //     templateUrl:'flex-test.html',
-			// 	script:'js/flex.js'
-            // })
 				.when('/int-flex',{
 					templateUrl:'int-flex.html?1585599141'
 				})
