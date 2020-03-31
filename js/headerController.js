@@ -47,16 +47,16 @@ var app = angular.module('modaApp');
 				for (var i=allsuspects.length; i>=0; i--){ //search backwards within nodelist for matching elements to remove
 				 if (allsuspects[i] && allsuspects[i].getAttribute(targetattr)!=null && allsuspects[i].getAttribute(targetattr).indexOf(filename)!=-1) {
 				  allsuspects[i].parentNode.removeChild(allsuspects[i]) //remove element by calling parentNode.removeChild()
-				  //console.log("unload + " + allsuspects[i].src);
+				//   console.log("unload + " + allsuspects[i].src);
 				  
 				 }
 				}
 			   }  
-			   removejscssfile("js/jszip.min.js", "js");
-			   removejscssfile("js/jszip-utils.min.js", "js");
-			   removejscssfile("js/FileSaver.js", "js");
-			   removejscssfile("js/js-help.js", "js");
-			   removejscssfile("js/zip.js", "js");
+			//    removejscssfile("js/jszip.min.js", "js");
+			//    removejscssfile("js/jszip-utils.min.js", "js");
+			//    removejscssfile("js/FileSaver.js", "js");
+			//    removejscssfile("js/js-help.js", "js");
+			//    removejscssfile("js/zip.js", "js");
 		
 		});
 	};

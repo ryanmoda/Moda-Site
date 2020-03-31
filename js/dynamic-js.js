@@ -3,7 +3,7 @@ function loadjscssfile(filename, filetype){
      var fileref=document.createElement('script')
      fileref.setAttribute("type","text/javascript")
      fileref.setAttribute("src", filename)
-     //console.log("load " + filename);
+     console.log("load " + filename);
      
     }
     else if (filetype=="css"){ //if filename is an external CSS file
