@@ -48,14 +48,14 @@ var app = angular.module('modaApp');
 				  allsuspects[i].parentNode.removeChild(allsuspects[i]) //remove element by calling parentNode.removeChild()
 				  //console.log("unload + " + allsuspects[i].src);
 				  
-				 }
-				}
-			   }  
-			   removejscssfile("js/jszip.min.js", "js");
-			   removejscssfile("js/jszip-utils.min.js", "js");
-			   removejscssfile("js/FileSaver.js", "js");
-			   removejscssfile("js/js-help.js", "js");
-			   removejscssfile("js/zip.js", "js");
+			// 	 }
+			// 	}
+			//    }  
+			//    removejscssfile("js/jszip.min.js", "js");
+			//    removejscssfile("js/jszip-utils.min.js", "js");
+			//    removejscssfile("js/FileSaver.js", "js");
+			//    removejscssfile("js/js-help.js", "js");
+			//    removejscssfile("js/zip.js", "js");
 		
 		});
 	};
