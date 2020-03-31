@@ -203,7 +203,7 @@
 					templateUrl:'ext-aqua-edge-wl.html?1585599141'
 					})
 					.when('/ext-super-aqua-wl',{
-					templateUrl:'ext-super-aqua-wl.html?1585599141'
+					templateUrl:'ext-super-aqua-wl.html?1585667267'
 					})
 					.when('/ext-aqua-sc',{
 					templateUrl:'ext-aqua-sc.html?1585599141'
