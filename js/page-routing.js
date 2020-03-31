@@ -185,7 +185,7 @@
 						templateUrl:'int-x-flex.html?1585599141'
 					})
 				.when('/ext-flex',{
-					templateUrl:'ext-flex.html?1585599141'
+					templateUrl:'ext-flex.html?1585680840'
 				})
 					.when('/ext-linear-wl',{
 					templateUrl:'ext-linear-wl.html?1585599141'
