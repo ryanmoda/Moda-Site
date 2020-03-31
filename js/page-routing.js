@@ -11,9 +11,9 @@
              //   templateUrl:'slide-test-1.html'
 
 			})
-			// .when('/inc-5000',{
-            //     templateUrl:'index-slide-2-inc.html'
-			// })
+			.when('/test',{
+                templateUrl:'test.html'
+            })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1585599141'
             })
@@ -49,7 +49,7 @@
 					})
 
 					.when('/mmc-wl',{
-						templateUrl:'mmc-wl.html?1585247630',
+						templateUrl:'mmc-wl.html?1585671020',
 					})
 					.when('/mmc-sc',{
 						templateUrl:'mmc-sc.html?1585247629'

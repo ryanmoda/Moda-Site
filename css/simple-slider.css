@@ -9,6 +9,8 @@
     width: 1000px;
     text-align: center;
     overflow: hidden;
+    margin: 0 auto;
+
   }
   
   .slides {
@@ -26,17 +28,7 @@
     scroll-snap-type: mandatory;
     */
   }
-  .slides::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-  }
-  .slides::-webkit-scrollbar-thumb {
-    background: black;
-    border-radius: 10px;
-  }
-  .slides::-webkit-scrollbar-track {
-    background: transparent;
-  }
+
   .slides > div {
     scroll-snap-align: start;
     flex-shrink: 0;
@@ -99,8 +91,10 @@
 
   .tm-square {
       width: 220px;
+      align-self: center;
   }
   .r9 {
+    align-self: center;
       width: 720px;
   }
   /* Don't need button navigation */
@@ -121,7 +115,7 @@
       padding: 0 10px;
       cursor: pointer;
   } 
- .targetedSlide {
+ .active {
      text-decoration: underline;
      font-weight: 400 !important;
  }

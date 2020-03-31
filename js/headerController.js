@@ -68,7 +68,6 @@ $('.links a').on('click', function () {
 	var whiteIcons = function($scope, $location) {
 		$scope.$on('$viewContentLoaded', function() {
 			currentPath = $location.path();
-			console.log("hello from whiteIcons");
 			if (currentPath === "/" || currentPath === "/about") {
 				var logos = document.getElementsByClassName("logo");
  
