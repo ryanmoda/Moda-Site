@@ -57,8 +57,9 @@ var app = angular.module('modaApp');
 			//    removejscssfile("js/js-help.js", "js");
 			//    removejscssfile("js/zip.js", "js");
 		
-		});
-	};
+		
+	}};
+ }})}    
 var simpleSlider = function ($scope) {
 	console.log("hello");
 	

@@ -23,8 +23,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'index-slide-3-inc.html?1585599141'
-             //   templateUrl:'slide-test-1.html'
+                templateUrl:'homepage.html'
 
 			})
 			// .when('/test',{
