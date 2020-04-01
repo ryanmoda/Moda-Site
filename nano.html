@@ -1,11 +1,7 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/readMore.css" rel="stylesheet" type="text/css">
 <link href="css/resources.css" rel="stylesheet" type="text/css">
-<link href="css/events.css" rel="stylesheet" type="text/css">
-<link href="css/resources.css" rel="stylesheet" type="text/css">
-<link href="css/slick-theme.css" rel="stylesheet" type="text/css">
 <link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="css/simple-slider.css">
 <!--<script src="js/scrollSpy.js"></script>-->
  
 <style>
@@ -254,32 +250,32 @@ D850,700<br><br>Product Innovation Award (PIA) Winner 2017 for Best Luminaire. T
 -->
 	
 
-<div class="sliderComp">
+<div ng-controller="simpleSlider">
 	<div class="simpleslider">
 		<div class="slides">
-		  <div id="slide-1">
+		  <div class="mySlides">
 			<img class="tm-square"  src="images/TM30/27K/5630_27K_TM30-01.png" alt="">
 			<img class="r9" src="images/TM30/27K/5630_27K_TM30-03.png" alt="">
 		  </div>
-		  <div id="slide-2">
+		  <div class="mySlides">
 			<img class="tm-square" src="images/TM30/30K/5630_30K_TM30-01.png" alt="">
 			<img class="r9" src="images/TM30/30K/5630_30K_TM30-03.png" alt="">
 		  </div>
-		  <div id="slide-3">
+		  <div class="mySlides">
 			<img class="tm-square" src="images/TM30/35K/5630_35K_TM30-01.png" alt="">
 			<img class="r9" src="images/TM30/35K/5630_35K_TM30-03.png" alt="">
 		  </div>
-		  <div id="slide-4">
+		  <div class="mySlides">
 			<img class="tm-square" src="images/TM30/40K/5630_40K_TM30-01.png" alt="">
 			<img class="r9" src="images/TM30/40K/5630_40K_TM30-03.png" alt="">
 		  </div>
 		</div>
 	  </div>
 <div class="links">
-  <a id="#slide-1" class="targetedSlide">2700K</a>
-  <a id="#slide-2">3000K</a>
-  <a id="#slide-3">3500K</a>
-  <a id="#slide-4">4000K</a>
+  <a ng-click="currentSlide(1)" class="dot">2700K</a>
+  <a ng-click="currentSlide(2)" class="dot">3000K</a>
+  <a ng-click="currentSlide(3)" class="dot">3500K</a>
+  <a ng-click="currentSlide(4)" class="dot">4000K</a>
 </div>
 </div>
 	
@@ -334,7 +330,6 @@ D850,700<br><br>Product Innovation Award (PIA) Winner 2017 for Best Luminaire. T
 <script src="js/readMore.js"></script>
 <script src="js/events.js"></script>
 <script src="js/logo.js"></script>
-<script src="js/simple-slider.js"></script>
 <script src="js/mmcSize.js?version=1.1"></script>
 <!--
 <script>$(document).ready(function() {
