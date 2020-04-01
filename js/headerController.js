@@ -42,27 +42,29 @@ var app = angular.module('modaApp');
 		});
 	};
 var simpleSlider = function ($scope) {
-	console.log("hello");
+	var slideIndex = 1;
+	showSlides(slideIndex);
+		
+	$scope.currentSlide = function(n) {
+	  showSlides(slideIndex = n);
+	}
 	
-var $scroller = $('.slides');
-// assign click handler
-$('.links a').on('click', function () { 
-    var docWidth = $(document).width();
-    var factor; 
-    $('.links a').each(function() {
-        $(this).removeClass("targetedSlide")
-        
-    });
-    factor = (docWidth > 1050) ? 1000 : 350;
-    
-    $(this).addClass("targetedSlide");
-    // get the partial id of the div to scroll to
-    var divIdx = $(this).attr("id"); 
-    divIdx = divIdx.slice(divIdx.length-1) ;
-    divIdx = parseInt(divIdx);    
-    divIdx = (divIdx * factor) - factor;     
-    $scroller.scrollLeft(divIdx, 0);
-});
+	function showSlides(n) {
+	  var i;
+	  var slides = document.getElementsByClassName("mySlides");
+	  var dots = document.getElementsByClassName("dot");
+	  if (n > slides.length) {slideIndex = 1}    
+	  if (n < 1) {slideIndex = slides.length}
+	  for (i = 0; i < slides.length; i++) {
+		  slides[i].style.display = "none";  
+	  }
+	  for (i = 0; i < dots.length; i++) {
+		  dots[i].className = dots[i].className.replace(" active", "");
+	  }
+	  slides[slideIndex-1].style.display = "flex";  
+	  dots[slideIndex-1].className += " active";
+	}
+	
 	};
 
 	var whiteIcons = function($scope, $location) {
@@ -101,9 +103,8 @@ $('.links a').on('click', function () {
 		});
 	};
 
-
-	app.controller('simpleSlider', simpleSlider);
     app.controller('HeaderController',headerController);
+	app.controller('simpleSlider', simpleSlider);
 	app.controller('linkFunc', linkFunc);
 	app.controller('dynamicIcons', whiteIcons);
 }());
