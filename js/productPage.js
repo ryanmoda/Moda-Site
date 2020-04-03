@@ -7,7 +7,7 @@ function productPage(el) {
 		else {blocks[i].style.backgroundColor = odd;} //odd
 	}
 }
-function modalClick(el) {	
+function modalClick(el) {
 	ga('send', 'event', 'modal', 'click', el);
 }
 function linkClick(el) {

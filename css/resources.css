@@ -1,6 +1,6 @@
-/* body {
+body {
 	position: relative;
-} */
+}
 /*
 p {
 	padding: 0;
@@ -235,7 +235,6 @@ button.accordion {
 	text-align: center;
 	transition: all .15s;
 }
-
 	.rotate {
 	transform: rotate(-45deg);
 	}
@@ -249,5 +248,3 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
-
-  

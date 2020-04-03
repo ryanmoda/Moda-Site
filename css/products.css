@@ -94,7 +94,14 @@ figcaption {
 
 }
 
-
+.icon-grid {
+	display: none;
+	margin-top: 52px;
+/*	margin-bottom: 30px;*/
+	max-width: 1100px;
+	width: 90%;
+/*  max-width: 100%;*/
+}
 .icon-grid-list {
 	display: none;
 	flex-wrap: wrap;

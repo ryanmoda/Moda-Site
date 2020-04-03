@@ -13,10 +13,9 @@ var app = angular.module('modaApp');
     { 
         $scope.isActive = function (viewLocation) { 
 			currentPath = $location.path();
-			localStorage.setItem("currentPath", currentPath);
-			return viewLocation === $location.path();
+			//localStorage.setItem("currentPath", currentPath);
+            return viewLocation === $location.path();
 		};
-
 		$scope.$on('$locationChangeStart',function(evt, absNewUrl, absOldUrl) {
 
 			var hashIndex = absOldUrl.indexOf('#');
@@ -37,29 +36,11 @@ var app = angular.module('modaApp');
 			if ( localStorage.getItem("prevPath") == "/reps" && localStorage.getItem("currentPath") != "/reps" ) {
 
 				localStorage.setItem("visited", "false");
-				
+
 			}
-			function removejscssfile(filename, filetype){
-				var targetelement=(filetype=="js")? "script" : (filetype=="css")? "link" : "none" //determine element type to create nodelist from
-				var targetattr=(filetype=="js")? "src" : (filetype=="css")? "href" : "none" //determine corresponding attribute to test for
-				var allsuspects=document.getElementsByTagName(targetelement)
-				for (var i=allsuspects.length; i>=0; i--){ //search backwards within nodelist for matching elements to remove
-				 if (allsuspects[i] && allsuspects[i].getAttribute(targetattr)!=null && allsuspects[i].getAttribute(targetattr).indexOf(filename)!=-1) {
-				  allsuspects[i].parentNode.removeChild(allsuspects[i]) //remove element by calling parentNode.removeChild()
-				  //console.log("unload + " + allsuspects[i].src);
-				  
-			// 	 }
-			// 	}
-			//    }  
-			//    removejscssfile("js/jszip.min.js", "js");
-			//    removejscssfile("js/jszip-utils.min.js", "js");
-			//    removejscssfile("js/FileSaver.js", "js");
-			//    removejscssfile("js/js-help.js", "js");
-			//    removejscssfile("js/zip.js", "js");
-		
-		
-	}};
- }})}    
+
+		});
+	};
 var simpleSlider = function ($scope) {
 	var slideIndex = 1;
 	showSlides(slideIndex);
