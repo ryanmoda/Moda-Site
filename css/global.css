@@ -39,14 +39,14 @@ a:hover p{
 		z-index: -1;
 	}
 
-	.modal-dialog {
+	/* .modal-dialog {
 		color: black;
 		position: relative;
 		max-width: 680px;
 		width: 90%;
 		top: 20%;
 		z-index: 1100 !important;
-	}
+	} */
 h1,h2,h3,h4,h5 {
 	font-weight: 300;
 }
@@ -84,6 +84,10 @@ span {
 	width: 90%;
 	max-width: 1024px;
 	margin: 0 auto;
+}
+
+.self-align {
+	display: flex;
 }
 
 .readContent {
@@ -168,9 +172,13 @@ span {
 		position: relative;
 		max-width: 680px;
 		width: 90%;
-		top: 45%;
+		top: 40%;
 		z-index: 1100 !important;
 	}
+.pack-dialog {
+	max-width: 1000px;
+	top: 10%;
+}
 
 
 .mobile-br {
@@ -183,6 +191,10 @@ span {
 	margin: 0;
 }
 
+.disabled {
+	cursor: not-allowed;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -193,6 +205,12 @@ button:focus {
 
 @media (max-width: 900px) {
 	.mobile-br {
+		display: block;
+	}
+}
+
+@media (max-width: 1199px) {
+	.self-align {
 		display: block;
 	}
 }

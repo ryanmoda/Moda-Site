@@ -3,8 +3,6 @@
     Author: 
     Version: 
 /* -------------------------- */
-console.log("hello");
-
 var $scroller = $('.slides');
 // assign click handler
 $('.links a').on('click', function () { 
