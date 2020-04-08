@@ -1005,6 +1005,26 @@
           templateUrl: 'coveextdw-pack.html',
           };
         });
+        app.directive('grazeextwlPack', function() {
+          return {
+            templateUrl: 'grazeextwl-pack.html',
+            };
+          });
+        app.directive('grazeextscPack', function() {
+          return {
+            templateUrl: 'grazeextsc-pack.html',
+            };
+          });
+        app.directive('grazeextccPack', function() {
+          return {
+            templateUrl: 'grazeextcc-pack.html',
+            };
+          });
+        app.directive('grazeextdwPack', function() {
+          return {
+            templateUrl: 'grazeextdw-pack.html',
+            };
+          });
     app.directive('specButton', function() {
     return {
       templateUrl: 'spec-button.html',
