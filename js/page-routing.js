@@ -494,7 +494,7 @@
 				templateUrl:'leg-graze-rs.html?1585933729'
 				})
 			.when('/reps',{
-                templateUrl:'reps.html?1586382101'
+                templateUrl:'reps.html?1586470782'
             })
 			.when('/news',{
                 templateUrl:'news.html?1585599141'
