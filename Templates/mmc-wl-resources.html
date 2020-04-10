@@ -1,32 +1,45 @@
-<div class="icon-grid">
+<script>
+    
+    $("#packId").click(function() {
+        $("#wl-pack-modal").modal('show');		
+	
+});
+</script>
+<div class="icon-grid icon-grid-9">
       <div class="row">
-        <div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-pd');" data-toggle="modal" data-target="#wl-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-		<span class="icon-grid-caption">Product Guide</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-spec');" data-toggle="modal" data-target="#wl-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-		<span class="icon-grid-caption">Specification</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-inst');" data-toggle="modal" data-target="#wl-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-		<span class="icon-grid-caption">Installs</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><div class="disabled"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-		<span class="icon-grid-caption">Brochure</span></div>
-        </div>
-
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-ies');" data-toggle="modal" data-target="#wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-		<span class="icon-grid-caption">IES</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-rev');" data-toggle="modal" data-target="#wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-		<span class="icon-grid-caption">Revit</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-cad');" data-toggle="modal" data-target="#wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
-		<span class="icon-grid-caption">CAD</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('mmc-wl-comp');" target="_blank" href="resources/Compatability List/Mini Cove/whitelight/mmcgi-whitelight-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-		<span class="icon-grid-caption">Compatibility</span></a>
-        </div>
-        <div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onclick="modalClick('mmc-wl-pack')" data-toggle="modal" data-target="#wl-pack-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-brochure-gry.svg">
-            <span class="icon-grid-caption">Pack</span></a>
+<div class="col-lg-4 hovButtons">
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-pd');" data-toggle="modal" data-target="#wl-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+    		<span class="icon-grid-caption">Product Guide</span></a>
             </div>
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-spec');" data-toggle="modal" data-target="#wl-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+    		<span class="icon-grid-caption">Specification</span></a>
+            </div>
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-inst');" data-toggle="modal" data-target="#wl-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+    		<span class="icon-grid-caption">Installs</span></a>
+            </div>
+</div>
+<div class="col-lg-4 hovButtons">
+            <div class="col-xs-4 hovButtons"><div class="disabled"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
+    		<span class="icon-grid-caption">Brochure</span></div>
+            </div>
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-ies');" data-toggle="modal" data-target="#wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+    		<span class="icon-grid-caption">IES</span></a>
+            </div>
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-rev');" data-toggle="modal" data-target="#wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+    		<span class="icon-grid-caption">Revit</span></a>
+            </div>
+</div>
+
+<div class="col-lg-4">
+            <div class="col-xs-4 hovButtons"><a onClick="modalClick('mmc-wl-cad');" data-toggle="modal" data-target="#wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+    		<span class="icon-grid-caption">CAD</span></a>
+            </div>
+            <div class="col-xs-4 hovButtons"><a onClick="linkClick('mmc-wl-comp');" target="_blank" href="resources/Compatability List/Mini Cove/whitelight/mmcgi-whitelight-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
+    		<span class="icon-grid-caption">Compatibility</span></a>
+            </div>
+            <div class="col-xs-4 hovButtons"><a id="packId" href="#/mmc-wl?pack"><img class="icon-grid-icon" src="svgs/system_update_alt-24px.svg">
+    			<span class="icon-grid-caption">Pack</span></a>
+                </div>
+</div>
       </div>
     </div>
