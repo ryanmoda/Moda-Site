@@ -21,7 +21,17 @@ var form_ids = [
     ["graze-wl-form", "Graze_Interior_White_Light.zip"],
     ["graze-sc-form", "Graze_Interior_Static_Color.zip"],
     ["graze-gd-form", "Graze_Interior_Glowdim.zip"],
-    ["graze-dw-form", "Graze_Interior_Dynamic_Whites.zip"]
+    ["graze-dw-form", "Graze_Interior_Dynamic_Whites.zip"],
+
+    ["cove-ext-wl-form", "Cove_Exterior_White_Light.zip"],
+    ["cove-ext-sc-form", "Cove_Exterior_Static_Color.zip"],
+    ["cove-ext-cc-form", "Cove_Exterior_Color_Changing.zip"],
+    ["cove-ext-dw-form", "Cove_Exterior_Dynamic_Whites.zip"],
+
+    ["graze-ext-wl-form", "Graze_Exterior_White_Light.zip"],
+    ["graze-ext-sc-form", "Graze_Exterior_Static_Color.zip"],
+    ["graze-ext-cc-form", "Graze_Exterior_Color_Changing.zip"],
+    ["graze-ext-dw-form", "Graze_Exterior_Dynamic_Whites.zip"]
 ];
 var stopSubmit = false;
 var Promise = window.Promise;
