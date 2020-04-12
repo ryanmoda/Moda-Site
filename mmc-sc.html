@@ -22,6 +22,21 @@
 <script>
 $(document).ready(function(){
 	$(this).scrollTop(0);
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+var sPageURL = window.location.href;
+sURLVariables = sPageURL.split('?');
+
+if (sURLVariables[1] == "pack") {
+		
+	$("#sc-pack-modal").modal('show');		
+	}
+};
+getUrlParameter('pack');
+	
+
+
 });
 ga('set', 'page', '/mmc-sc.html');
 ga('send', 'pageview');

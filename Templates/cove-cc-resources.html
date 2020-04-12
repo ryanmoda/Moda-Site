@@ -1,3 +1,9 @@
+<script>
+    $("#packId").click(function() {
+        $("#covecc-pack-modal").modal('show');		
+	
+});
+</script>
 <div class="icon-grid icon-grid-9">
     <div class="row">
         <div class="col-lg-4 hovButtons">
@@ -29,7 +35,7 @@
         <div class="col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
         <span class="icon-grid-caption">Compatibility</span>
         </div>
-        <div class="col-xs-4 hovButtons"><a onClick="modalClick('cove-cc-pack');" data-toggle="modal" data-target="#covecc-pack-modal" data-dismiss="modal"><img class="icon-grid-icon" src="svgs/system_update_alt-24px.svg">
+        <div class="col-xs-4 hovButtons"><a id="packId" href="#/cove-cc?pack"><img class="icon-grid-icon" src="svgs/system_update_alt-24px.svg">
             <span class="icon-grid-caption">Pack</span></a>
             </div>
         </div>
