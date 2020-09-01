@@ -7,7 +7,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'index-slide-3-inc.html?1585599141'
+                templateUrl:'homepage.html?1598943600'
              //   templateUrl:'slide-test-1.html'
 
 			})
@@ -275,14 +275,14 @@
                 templateUrl:'24v.html?1585599141'
             })
 			.when('/controls',{
-                templateUrl:'controls.html?1585599141'
+                templateUrl:'controls.html?1598943600'
             })
 			.when('/converters',{
                 templateUrl:'converters.html?1585933729'
             })
-			.when('/dmx-cntrl',{
-                templateUrl:'dmx-cntrl.html?1585599141'
-            })
+			//.when('/dmx-cntrl',{
+            //    templateUrl:'dmx-cntrl.html?1585599141'
+            //})
 					.when('/kandi-touch',{
 						templateUrl:'kandi-touch.html?1585599141'
 					})
@@ -298,11 +298,11 @@
 					.when('/lpcx',{
 						templateUrl:'lpcx.html?1585599141'
 					})
-			.when('/dmx-accs',{
-                templateUrl:'dmx-accs.html?1585599141'
-            })
+			//.when('/dmx-accs',{
+            //    templateUrl:'dmx-accs.html?1585599141'
+            //})
 			.when('/accessories',{
-                templateUrl:'accessories.html?1585599141'
+                templateUrl:'accessories.html?1598943600'
             })
 					.when('/dmx-hub',{
 						templateUrl:'dmx-wiring-hub.html?1585599141'
@@ -821,7 +821,7 @@
 // CONTROLS ===================================
  app.directive('controlsModal', function() {
     return {
-      templateUrl: 'controls-modal.html'
+      templateUrl: 'controls-modal.html?1598943600'
     };
   });
 // LEGACY ===================================
