@@ -494,7 +494,7 @@
 				templateUrl:'leg-graze-rs.html?1585933729'
 				})
 			.when('/reps',{
-                templateUrl:'reps.html?1586470782'
+                templateUrl:'reps.html?1599750000'
             })
 			.when('/news',{
                 templateUrl:'news.html?1585599141'
@@ -521,10 +521,10 @@
                 templateUrl:'careers.html?1585599141'
 			})
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1585599141'
+                templateUrl:'job-description2.html?1599750000'
 			})
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1585599141'
+                templateUrl:'job-listings.html?1599750000'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1585599141'
@@ -546,7 +546,7 @@
     });
  app.directive('modaFooter', function() {
     return {
-      templateUrl: 'footer.html?1596147840'
+      templateUrl: 'footer.html?1599750000'
     };
   });
  app.directive('covewlModal', function() {
