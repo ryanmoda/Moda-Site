@@ -42,7 +42,7 @@ display: none;
 .item {
     position: relative;
   width: 331px;
-  height: 331px;
+  height: 310px;
   float: left;
   background-color: #fafafa;
   margin: 5px;
@@ -54,10 +54,13 @@ hr{
     color: black !important;
 }
 
-.item p {
+p {
     
     margin: 0;
     
+}
+.item a{
+    font-size: 20px;
 }
 .item br {
     line-height:1em;
