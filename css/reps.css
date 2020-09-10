@@ -71,6 +71,7 @@ p {
     font-weight: 500 !important;
 }
 
+/*
 .repSpecLoc {
     font-size: 15px !important;
     font-weight: 500 !important;
@@ -79,6 +80,7 @@ p {
 .repLoc {
     font-size: 18px !important;
 }
+*/
 
 
 select, label, input { font-size: 20px; }
