@@ -16,13 +16,13 @@ display: none;
 display: none;
 }
 
+/*
 .select2-container ::placeholder{
     font-weight: 600;
     color: rosybrown;
     font-size: 20px;
 }
 
-/*
 .rep-filter {
   border: none;
   border-bottom: 1px solid black;
@@ -33,9 +33,7 @@ display: none;
     background-color: white;
     top: 14px;
 }
-*/
 
-/*
 .select2:required:invalid{
     color: red;
 }
@@ -62,7 +60,7 @@ hr{
     font-size: 20px;
     /*line-height: 28px;*/
 }
-.item br{
+.item br {
     line-height:1em;
 }
 
@@ -70,12 +68,12 @@ hr{
     font-weight: 500 !important;
 }
 
-.repSpecLoc{
+.repSpecLoc {
     font-size: 15px !important;
     font-weight: 500 !important;
 }
 
-.repLoc{
+.repLoc {
     font-size: 18px !important;
 }
 
