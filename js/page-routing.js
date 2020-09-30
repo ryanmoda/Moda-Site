@@ -185,7 +185,7 @@
 						templateUrl:'int-x-flex.html?1585599141'
 					})
 				.when('/ext-flex',{
-					templateUrl:'ext-flex.html?1585933729'
+					templateUrl:'ext-flex.html?1601485200'
 				})
 					.when('/ext-linear-wl',{
 					templateUrl:'ext-linear-wl.html?1585933729'
@@ -194,13 +194,13 @@
 					templateUrl:'ext-linear-sc.html?1585933729'
 					})
 					.when('/ext-aqua-wl',{
-					templateUrl:'ext-aqua-wl.html?1585599141'
+					templateUrl:'ext-aqua-wl.html?1601485200'
 					})
 					.when('/ext-mini-aqua-wl',{
 					templateUrl:'ext-mini-aqua-wl.html?1585599141'
 					})
 					.when('/ext-aqua-edge-wl',{
-					templateUrl:'ext-aqua-edge-wl.html?1585599141'
+					templateUrl:'ext-aqua-edge-wl.html?1601485200'
 					})
 					.when('/ext-super-aqua-wl',{
 					templateUrl:'ext-super-aqua-wl.html?1585933729'
