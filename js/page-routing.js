@@ -494,7 +494,7 @@
 				templateUrl:'leg-graze-rs.html?1585933729'
 				})
 			.when('/reps',{
-                templateUrl:'reps.html?1601647200'
+                templateUrl:'reps.html?1602172800'
             })
 			.when('/news',{
                 templateUrl:'news.html?1585599141'
@@ -521,10 +521,10 @@
                 templateUrl:'careers.html?1585599141'
 			})
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1599750000'
+                templateUrl:'job-description2.html?1602172800'
 			})
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1599750000'
+                templateUrl:'job-listings.html?1602172800'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1585599141'

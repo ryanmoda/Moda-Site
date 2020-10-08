@@ -101,7 +101,7 @@ ga('send', 'pageview');
 -->
 
 
-<div class="midContent" style="max-width: 860px; padding-top: 15px;">
+<div class="midContent" style="max-width: 860px; padding-top: 15px; padding-bottom: 15px;">
     <div class="row margin2 title">
         <div class="col-lg-5"><strong>Job Opening</strong></div>
         <div class="col-lg-4"><strong>Date Listed</strong></div>
@@ -112,6 +112,14 @@ ga('send', 'pageview');
 
 <div class="midContent listings" style="max-width: 860px;">
     
+    <form action="#/job-description" id="submitJobISM">
+        <input type="hidden" name="v" value="ISM" />
+    </form>
+
+    <form action="#/job-description" id="submitJobPJM">
+        <input type="hidden" name="v" value="PJM" />
+    </form>
+
 	<form action="#/job-description" id="submitJobLASM">
         <input type="hidden" name="v" value="LASM" />
     </form>
@@ -165,6 +173,22 @@ ga('send', 'pageview');
         </div>
     </button>
     -->
+
+    <button class="listBut" type="submit" form="submitJobISM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Inside Sales Manager</p></div>
+            <div class="col-lg-4"><p>October 1, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobPJM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Project Manager</p></div>
+            <div class="col-lg-4"><p>October 1, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
 
 	<button class="listBut" type="submit" form="submitJobLASM">
         <div class="row">
