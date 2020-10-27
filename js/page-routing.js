@@ -524,7 +524,7 @@
                 templateUrl:'job-description2.html?1602172800'
 			})
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1602172800'
+                templateUrl:'job-listings.html?1603800000'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1585599141'
