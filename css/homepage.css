@@ -136,7 +136,7 @@ body{
 
 .SSONECenterImg{
   max-width: 1100px;
-  top: 15vh;
+  top: 10vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
@@ -148,7 +148,7 @@ body{
 
 .SSTWOCenterImg{
   max-width: 1100px;
-  top: 15vh;
+  top: 10vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
