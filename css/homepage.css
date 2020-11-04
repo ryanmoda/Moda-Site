@@ -137,20 +137,21 @@ body{
 
 
 
-.SSONECenterImg {
+.SSONECenterImg{
   max-width: 1100px;
   top: 15vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
-  align-content: center;
+  left: 50%;
+  
 
 }
 
 
 
 
-.SSTWOCenterImg {
+.SSTWOCenterImg{
   max-width: 1100px;
   top: 15vh;
   width: 80vw;
