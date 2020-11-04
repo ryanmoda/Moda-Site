@@ -158,12 +158,10 @@ body{
 
 .SSONECenterImg {
   max-width: 1100px;
-  top: 23vh;
-  left: 30vw;
-  width: 60vw;
+  top: 15vh;
+  width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
-  z-index: 1;
 
 }
 
@@ -197,10 +195,10 @@ body{
 
 .SSTWOCenterImg {
   max-width: 1100px;
-  top: 26vh;
-  left: 30vw;
-  width: 60vw;
+  top: 15vh;
+  width: 80vw;
   transform: translate(-50%, 0);
+  position: absolute;
   
 }
 
