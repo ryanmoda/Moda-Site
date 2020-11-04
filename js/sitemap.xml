@@ -3,6 +3,9 @@
 <loc>http://www.modalight.com/#//</loc>
 </url>
 <url>
+<loc>http://www.modalight.com/#/nano/</loc>
+</url>
+<url>
 <loc>http://www.modalight.com/#/mini-cove/</loc>
 </url>
 <url>
@@ -506,6 +509,9 @@
 <url>
 <loc>http://www.modalight.com/#/all-products/</loc>
 </url>
+<!--<url>
+<loc>http://www.modalight.com/#/all-products2/</loc>
+</url>-->
 <url>
 <loc>http://www.modalight.com/#/product-configurator/</loc>
 </url>

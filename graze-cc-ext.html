@@ -36,7 +36,17 @@
 </style>
 <script>
 $(document).ready(function(){
-    $(this).scrollTop(0);
+	$(this).scrollTop(0);
+var getUrlParameter = function getUrlParameter(sParam) {
+var sPageURL = window.location.href;
+sURLVariables = sPageURL.split('?');
+
+if (sURLVariables[1] == "pack") {
+		
+	$("#graze-ext-cc-pack-modal").modal('show');		
+	}
+};
+getUrlParameter('pack');
 });
 ga('set', 'page', '/graze-cc-ext.html');
 ga('send', 'pageview');
@@ -80,7 +90,7 @@ ga('send', 'pageview');
 
 	<div id="graze1" class="coveBlock" style="padding-top: 110px; padding-bottom: 60px;">
 		<div class="vidMob"><center><video style="margin-top: 161px;" class="cove-img cove-img-land" autoplay loop>
-  <source src="images/RGB Videos/Cove:Graze RGB EXT White.mp4" type="video/mp4">
+  <source src="images/RGB Videos/Cove_Graze RGB EXT White.mp4" type="video/mp4">
 </video>	
 		</center></div>
 <center><img class="imgMob cove-img cove-img-land" src="images/Cove/Moda Cove Ext/Cove Ext Color Changing (Static).png"></center>
@@ -234,7 +244,15 @@ ga('send', 'pageview');
 <script src="js/accordian.js"></script>
 <script src="js/productPage.js"></script>
 <script src="js/readMore.js"></script>
+<script src="js/dynamic-js.js"></script>
+<script>
+    loadjscssfile("js/jszip.min.js", "js");
+	loadjscssfile("js/jszip-utils.min.js", "js");
+	loadjscssfile("js/FileSaver.js", "js");
+	loadjscssfile("js/js-help.js", "js");
+    loadjscssfile("js/zip.js", "js");
 
+</script>
 <script>
 	productPage("coveBlock");
 	</script>

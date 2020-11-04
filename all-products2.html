@@ -1,0 +1,135 @@
+<link href="css/all-products2.css" rel="stylesheet" type="text/css">
+<link href="css/new-navbar.css" rel="stylesheet" type="text/css">
+<link href="css/global.css" rel="stylesheet" type="text/css">
+<!--<link href="css/select.css" rel="stylesheet" type="text/css">-->
+<script>
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+window.onload = function() {
+    if(!window.location.hash) {
+		console.log("Reloaded");
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
+ga('set', 'page', '/all-products2.html');
+ga('send', 'pageview');
+</script>
+
+<style>
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+    background-color: #EE202E !important;
+}
+</style>
+
+
+
+<div style="padding-top: 100px;">
+	<hr style="margin-top: -38px !important; width: 780px;">
+</div>
+
+
+
+<div id="form-ui">
+	<div class="row midContent" style="border-bottom: 1px solid black;">
+    <p>
+	<div class="col-lg-7">
+        <h1 id="local-header">Products</h1>
+    </div>
+	<div class="col-lg-2 col-sm-12">
+        <select class="js-main">
+            <option value="">–Type of Product–</option>
+            <option value=".LIN">Linear</option>
+            <option value=".POW">Power</option>
+            <option value=".TL">Tapelight</option>
+        </select>
+    </div>
+    
+	<div class="col-lg-3 col-sm-12">
+        <select class="js-items" id="items" name="item">
+            <option value="">-Type of Item-</option>
+    
+            <option value=".WL">White Light</option>
+            <option value=".INT">Interior</option>
+            <option value=".COVE">Cove</option>
+            <option value=".NANO">Nano Cove</option>
+            <option value=".RGB">RGB</option>
+            <option value=".DMX">DMX</option>
+            <option value=".FF">Flat Flex</option>
+            <option value=".1FT">1 Feet</option>
+            <option value=".4FT">4 Feet</option>
+            <option value=".19FT">19 Feet</option>
+
+
+        </select>
+
+<select class="js-provs" id="provs">
+    <option value="">-Province-</option>
+	
+	<option value=".SK">Saskatchewan</option>
+</select>
+
+<select class="js-test" id="test">
+    <option value="">-Select Location-</option>
+	
+	<option value=".THA">Thailand</option>
+</select>
+	</div>
+		
+  </p>
+</div>
+<!--
+<p>
+  <label><input type="checkbox" value=".red" /> red</label>
+  <label><input type="checkbox" value=".green" /> green</label>
+  <label><input type="checkbox" value=".blue" /> blue</label>
+  <label><input type="checkbox" value=".orange" /> orange</label>
+</p>
+-->
+<button id="resetItems" onClick="mapFilter(this.id)">Reset 1</button>
+<button id="resetProvs" onClick="mapFilter(this.id)">Reset 2</button>
+<button id="resetTest" onClick="mapFilter(this.id)">Reset 3</button>
+
+
+<!--  <p id="output">--</p>-->
+  
+</div>
+
+
+
+<div id="container" class="midContent">
+
+    <div class="item LIN WL COVE NANO INT 1FT 4FT MNC">
+        <a><img src="images/all-products/nano/Moda Nano Cove -web.jpg"	alt="nano" ></a>
+    </div>	
+    <div class="item TL RGB DMX FF 19FT">
+        <a><img src="images/all-products/flex color changing/flatflex-rgb.jpg"	alt="flatflex" ></a>
+    </div>	
+    <div class="item LIN WL COVE NANO INT 1FT 4FT MNC">
+        <a><img src="images/all-products/nano/Moda Nano Cove -web.jpg"	alt="nano" ></a>
+    </div>	
+    <div class="item TL RGB DMX FF 19FT">
+        <a><img src="images/all-products/flex color changing/flatflex-rgb.jpg"	alt="flatflex" ></a>
+    </div>	
+    <div class="item LIN WL COVE NANO INT 1FT 4FT MNC">
+        <a><img src="images/all-products/nano/Moda Nano Cove -web.jpg"	alt="nano" ></a>
+    </div>	
+    <div class="item TL RGB DMX FF 19FT">
+        <a><img src="images/all-products/flex color changing/flatflex-rgb.jpg"	alt="flatflex" ></a>
+    </div>	
+    <div class="item LIN WL COVE NANO INT 1FT 4FT MNC">
+        <a><img src="images/all-products/nano/Moda Nano Cove -web.jpg"	alt="nano" ></a>
+    </div>	
+    <div class="item TL RGB DMX FF 19FT">
+        <a><img src="images/all-products/flex color changing/flatflex-rgb.jpg"	alt="flatflex" ></a>
+    </div>	
+
+  <!-- items added with JS -->
+</div>
+
+
+<div style="padding-top: 100px;"></div>
+	<script src="js/allprod-isotope.js"></script>	
+<script src="js/allprod-select.js"></script>

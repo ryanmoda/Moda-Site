@@ -16,13 +16,13 @@ display: none;
 display: none;
 }
 
-/*
 .select2-container ::placeholder{
     font-weight: 600;
     color: rosybrown;
     font-size: 20px;
 }
 
+/*
 .rep-filter {
   border: none;
   border-bottom: 1px solid black;
@@ -33,7 +33,9 @@ display: none;
     background-color: white;
     top: 14px;
 }
+*/
 
+/*
 .select2:required:invalid{
     color: red;
 }
@@ -42,7 +44,7 @@ display: none;
 .item {
     position: relative;
   width: 331px;
-  height: 310px;
+  height: 300px;
   float: left;
   background-color: #fafafa;
   margin: 5px;
@@ -54,33 +56,28 @@ hr{
     color: black !important;
 }
 
-p {
-    
+.item p {
+    font-weight: 100;
     margin: 0;
-    
-}
-.item a{
     font-size: 20px;
+    /*line-height: 28px;*/
 }
-.item br {
+.item br{
     line-height:1em;
 }
 
 .name {
-    font-size: 20px;
     font-weight: 500 !important;
 }
 
-/*
-.repSpecLoc {
+.repSpecLoc{
     font-size: 15px !important;
     font-weight: 500 !important;
 }
 
-.repLoc {
+.repLoc{
     font-size: 18px !important;
 }
-*/
 
 
 select, label, input { font-size: 20px; }

@@ -103,6 +103,8 @@ var simpleSlider = function ($scope) {
 		});
 	};
 
+
+
     app.controller('HeaderController',headerController);
 	app.controller('simpleSlider', simpleSlider);
 	app.controller('linkFunc', linkFunc);

@@ -34,7 +34,20 @@
 </style>
 <script>
 $(document).ready(function(){
-    $(this).scrollTop(0);
+	$(this).scrollTop(0);
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+var sPageURL = window.location.href;
+sURLVariables = sPageURL.split('?');
+console.log("yes");
+
+if (sURLVariables[1] == "pack") {
+		
+	$("#covewl-pack-modal").modal('show');		
+	}
+};
+getUrlParameter('pack');
 });
 ga('set', 'page', '/cove-wl.html');
 ga('send', 'pageview');
@@ -259,7 +272,7 @@ ga('send', 'pageview');
 	  <a ng-click="currentSlide(7)" class="dot">6500K</a>
 	</div>
 
-</pdiv	
+</div>	
 </div>
 </center>
 </div>

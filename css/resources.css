@@ -1,13 +1,12 @@
-body {
+/* body {
 	position: relative;
-}
+} */
 /*
 p {
 	padding: 0;
 	margin: 0;
 }
 */
-
 
 
 .fixed-bar {
@@ -71,7 +70,6 @@ button.accordion {
 	top: -15px;
 	left: 95%;
 	transform: rotate(135deg);
-	vertical-align: top;
 	text-align: center;
 	transition: all .15s;
 }
@@ -205,6 +203,7 @@ input[type=checkbox]:checked + label::after {
   transform: rotate(-45deg);
 }
 
+/* duped code
 
 button.accordion {
 	font-family: 'Lato', sans-serif;
@@ -231,10 +230,10 @@ button.accordion {
 	top: -15px;
 	left: 95%;
 	transform: rotate(135deg);
-	vertical-align: top;
 	text-align: center;
 	transition: all .15s;
 }
+
 	.rotate {
 	transform: rotate(-45deg);
 	}
@@ -248,3 +247,5 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
+*/
+  

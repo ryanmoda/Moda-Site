@@ -36,7 +36,19 @@
 </style>
 <script>
 $(document).ready(function(){
-    $(this).scrollTop(0);
+	$(this).scrollTop(0);
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+var sPageURL = window.location.href;
+sURLVariables = sPageURL.split('?');
+
+if (sURLVariables[1] == "pack") {
+		
+	$("#covesc-pack-modal").modal('show');		
+	}
+};
+getUrlParameter('pack');
 });
 ga('set', 'page', '/cove-sc.html');
 ga('send', 'pageview');

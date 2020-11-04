@@ -37,7 +37,19 @@
 </style>
 <script>
 $(document).ready(function(){
-    $(this).scrollTop(0);
+	$(this).scrollTop(0);
+
+
+var getUrlParameter = function getUrlParameter(sParam) {
+var sPageURL = window.location.href;
+sURLVariables = sPageURL.split('?');
+
+if (sURLVariables[1] == "pack") {
+		
+	$("#cove-ext-dw-pack-modal").modal('show');		
+	}
+};
+getUrlParameter('pack');
 });
 ga('set', 'page', '/cove-dw-ext.html');
 ga('send', 'pageview');
@@ -299,7 +311,15 @@ ga('send', 'pageview');
 <script src="js/coveSize.js"></script>
 <script src="js/productPage.js"></script>
 <script src="js/readMore.js"></script>
+<script src="js/dynamic-js.js"></script>
+<script>
+	loadjscssfile("js/jszip.min.js", "js");
+	loadjscssfile("js/jszip-utils.min.js", "js");
+	loadjscssfile("js/FileSaver.js", "js");
+	loadjscssfile("js/js-help.js", "js");
+	loadjscssfile("js/zip.js", "js");
 
+</script>
 <script>
 	productPage("coveBlock");
 	</script>

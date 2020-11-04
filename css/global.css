@@ -63,7 +63,7 @@ h4 {font-size: 1em; /*16px*/}
 
 h5 {font-size: .8em; /*12px*/}
 
-}
+
 
 p {
 	letter-spacing: 0.05em !important;
@@ -71,9 +71,7 @@ p {
 	font-weight: 300;
 }
 
-.win p {
-/*	font-weight: 400;*/
-}
+
 
 span {
 	font-weight: 300;
@@ -97,24 +95,23 @@ span {
 .iconContent {
 	max-width: 240px;
 }
-	.thin {
-/*		font-weight: 100 !important;*/
-	}
-	.h1 {
-		font-size: 30px;
-		font-weight: 200;
-	}
-	.p1 {
-		font-size: 18px;
-	}
-	.p2 {
-		font-size: 16px;
-	}
-	.p3 {
-		font-size: 12px;
-		color: white; 
-		padding-top: 15px;
-	}
+
+
+.h1 {
+	font-size: 30px;
+	font-weight: 200;
+}
+.p1 {
+	font-size: 18px;
+}
+.p2 {
+	font-size: 16px;
+}
+.p3 {
+	font-size: 12px;
+	color: white; 
+	padding-top: 15px;
+}
 
 .square {
 	height: 50px;
