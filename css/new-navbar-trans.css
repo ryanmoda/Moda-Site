@@ -3,7 +3,7 @@
 	--main-bg-color-1: rgba(0,0,0,.5);
 	--main-text-color: rgba(255,255,255,1);
 	--sec-color: white;
-	--third-color: black;
+	--3rd-color: black;
 	--nav-text: rgba(0,0,0,.7);
 	--side-nav-1: rgba(0,0,0,.93);
 	--side-nav-2: rgba(255,255,255,.93);
@@ -112,7 +112,7 @@ nav li {
 	font-weight: 300;
 	text-decoration: none;
 	color: black;
-	color: var(--third-color);
+	color: var(--3rd-color);
 }
 
 .sub-bar li a {
@@ -257,7 +257,7 @@ figcaption {
 
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
 background-color: black;
-background-color: var(--third-color);
+background-color: var(--3rd-color);
 }
 
 .sidenav {
@@ -352,7 +352,7 @@ background-color: var(--third-color);
 .tab-content p {
   margin: 1em 0;
 	color: black;
-	color: var(--third-color);
+	color: var(--3rd-color);
 }
 
 .tab-grid {

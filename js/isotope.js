@@ -46,7 +46,7 @@ function mapFilter(el) {
 		$('#states').val('').trigger('change');
 		$('#provs').val('').trigger('change');
 		changeHeader("INTERNATIONAL");
-  }
+	}
 }
 
 var $container = $('#container').isotope({

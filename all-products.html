@@ -1,288 +1,200 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/global.css" rel="stylesheet" type="text/css">
-<link href="css/all-products.css" rel="stylesheet" type="text/css">
-<link href="css/uni-css.css" rel="stylesheet" type="text/css">
-
-
+<link href="css/products.css" rel="stylesheet" type="text/css">
+<link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
 ga('set', 'page', '#/all-products');
 ga('send', 'pageview');
-
-window.onload = function() {
-    if(!window.location.hash) {
-		console.log("Reloaded");
-        window.location = window.location + '#loaded';
-        window.location.reload();
-    }
-}
-
 </script>
-
-
+<style>
+.no-gutters-accs img {
+		width: 100%;
+	}
+	.col-sm-4, .col-xs-6 {
+		padding: 0 3px !important;
+		margin: 15px 0 !important; 
+	}
 </style>
-
-
 <div style="padding-top: 70px;"></div>
-
-<hr class="prod-hr">
-<br>
-<br>
-
-
-<!--
-<div class="row midContent" style="max-width: 990px; padding-top: 45px; padding-bottom: 40px;">
-	<input type="text" name="search-text" placeholder="Filter by search..." id="search-text" class="form-control">
-
-</div>
--->
 <center>
-
-
-<!--	
-<div id="prodGallery">
-	<div class="picColumn">
-		<a class="prodLink" href="#/nano"><img src="images/all-products/nano/MNCI WL.jpg"></a>
-		<div class="prodText">Moda Nano Cove</div>
-		<hr>
-		<img src="images/all-products/mini cove/MMCGI V2 white light.jpg">
-		<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-		<img src="images/all-products/mini cove/MMCGI V2 Glowdim.jpg">
-		<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-		<img src="images/all-products/mini cove/MMCGI V2 Dynamic White.jpg">
-		<hr>
-		<img src="images/all-products/mini graze/MMCGI V2 white light.jpg">
-		<img src="images/all-products/mini graze/MMCGI V2 Static Color.jpg">
-		<img src="images/all-products/mini graze/MMCGI V2 Glowdim.jpg">
-		<img src="images/all-products/mini graze/MMCGI V2 Static Color.jpg">
-		<img src="images/all-products/mini graze/MMCGI V2 Dynamic White.jpg">
-		<hr>
-		
-	</div>
-
+	<hr class="prod-hr">	
+<div class="row midContent prod-bar" style="margin-top: 30px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Mini Cove</p>
+			<hr>
 </div>
-
--->
-<!--
-	<div id="prodGallery">
-		<div class="picColumn">
-			<div class="imgContainer">
-				<img src="images/all-products/nano/Moda Nano Cove -web.jpg">
-				<div class="imgOverlay">
-					<div class="prodText">Moda Nano Cove</div>
-				</div>
-			</div>
-			<hr>
-			<div class="imgContainer">
+</center>
+<div class="midContent" style="max-width: 993px;">
+      <div class="row no-gutters-accs">
+                <a href="#/mmc-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/mini cove/MMCGI V2 white light.jpg">
-				<div class="imgOverlay">
-					<div class="prodText">Moda Mini Cove White Light</div>
-				</div>
-			</div>
-			<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-			<img src="images/all-products/mini cove/MMCGI V2 Glowdim.jpg">
-			<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-			<img src="images/all-products/mini cove/MMCGI V2 Dynamic White.jpg">
-			<hr>
-			<img src="images/all-products/mini graze/MMCGI V2 white light.jpg">
-			<img src="images/all-products/mini graze/MMCGI V2 Static Color.jpg">
-			<img src="images/all-products/mini graze/MMCGI V2 Glowdim.jpg">
-			<img src="images/all-products/mini graze/MMCGI V2 Static Color.jpg">
-			<img src="images/all-products/mini graze/MMCGI V2 Dynamic White.jpg">
-			<hr>
-			
-		</div>
-		
-	</div>	
-	<div id="prodFooter"></div>
+				<center><span>Mini Cove White Light</span></center>
+		  		</div></a>
+		  		 <a href="#/mmc-sc"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
+				<center><span>Mini Cove Static Colors</span></center>
+		  		</div></a>
+		  		 <a href="#/mmc-gd"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/mini cove/MMCGI V2 Glowdim.jpg">
+				<center><span>Mini Cove Glowdim</span></center>
+		  		</div></a>
+		  		 <a href="#/mmc-cc"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
+				<center><span>Mini Cove Color Changing</span></center>
+		  		</div></a>
+		  		 <a href="#/mmc-dw"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/mini cove/MMCGI V2 Dynamic White.jpg">
+				<center><span>Mini Cove Dynamic Whites</span></center>
+		  		</div></a>
+		  		
+      </div>
+    </div>
 
--->
-
-	<div class="midContent" style="max-width: 993px;">
-		<div class="row no-gutters-accs">
-				  <p class="prod-name" style="text-align: left;">Nano Cove</p>
-				  <hr>
-				  <a href="#/nano"><div class="col-xs-6 col-sm-4">
-				  <img src="images/all-products/nano/MNCI WL.jpg">
-				  <span>Nano Cove White Light</span>
-					</div></a>
-		</div>
-  </div>
-  
-  
-  
-  <div class="midContent" style="max-width: 993px;">
-		<div class="row no-gutters-accs">
-				  <p class="prod-name" style="text-align: left;">Mini Cove</p>
-				  <hr>
-				  <div class="col-xs-6 col-sm-4"><a href="#/mmc-wl" >
-				  <img src="images/all-products/mini cove/MMCGI V2 white light.jpg">
-				  <span>Mini Cove White Light</span>
-					</div></a>
-					 <a href="#/mmc-sc"><div class="col-xs-6 col-sm-4">
-				  <img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-				  <span>Mini Cove Static Colors</span>
-					</div></a>
-					 <a href="#/mmc-gd"><div class="col-xs-6 col-sm-4">
-				  <img src="images/all-products/mini cove/MMCGI V2 Glowdim.jpg">
-				  <span>Mini Cove Glowdim</span>
-					</div></a>
-					 <a href="#/mmc-cc"><div class="col-xs-6 col-sm-4">
-				  <img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-				  <span>Mini Cove Color Changing</span>
-					</div></a>
-					 <a href="#/mmc-dw"><div class="col-xs-6 col-sm-4">
-				  <img src="images/all-products/mini cove/MMCGI V2 Dynamic White.jpg">
-				  <span>Mini Cove Dynamic Whites</span>
-					</div></a>
-		</div>
-  </div>
-  
-	
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Mini Graze</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Mini Graze</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/mmg-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/mini cove/MMCGI V2 white light.jpg">
-				<span>Mini Graze White Light</span>
+				<center><span>Mini Graze White Light</span></center>
 		  		</div></a>
 		  		 <a href="#/mmg-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/mini cove/MMCGI V2 Static Color.jpg">
-				<span>Mini Graze Static Colors</span>
+				<center><span>Mini Graze Static Colors</span></center>
 		  		</div></a>
 		  		 <a href="#/mmg-gd"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/mini cove/MMCGI V2 Glowdim.jpg">
-				<span>Mini Graze Glowdim</span>
+				<center><span>Mini Graze Glowdim</span></center>
 		  		</div></a>
 		  		 <a href="#/mmg-dw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/mini cove/MMCGI V2 Dynamic White.jpg">
-				<span>Mini Graze Dynamic Whites</span>
+				<center><span>Mini Graze Dynamic Whites</span></center>
 		  		</div></a>
 		  		
       </div>
     </div>
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Cove</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Cove</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/cove-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove/mci-wl no shadow.jpg">
-				<span>White Light</span>
+				<center><span>White Light</span></center>
 		  		</div></a>
 		  		<a href="#/cove-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove/mci-color no shadow.jpg">
-				<span>Static Colors</span>
+				<center><span>Static Colors</span></center>
 		  		</div></a>
 		  		<a href="#/cove-cc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove/mci-rgb No Shadow.jpg">
-				<span>Color Changing</span>
+				<center><span>Color Changing</span></center>
 		  		</div></a>
 		  		<a href="#/cove-dw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove/cove-int-dw-1ft noshadow.jpg">
-				<span>Dynamic Whites</span>
+				<center><span>Dynamic Whites</span></center>
 		  		</div></a>
 		  		
 		  		
       </div>
     </div>
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Graze</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Graze</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/graze-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze/mg-wl no shadow.jpg">
-				<span>White Light</span>
+				<center><span>White Light</span></center>
 		  		</div></a>
 		  		<a href="#/graze-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze/mgi-color2 no shadow.jpg">
-				<span>Static Colors</span>
+				<center><span>Static Colors</span></center>
 		  		</div></a>
 		  		<a href="#/graze-cc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze/mg-rgb no shadow2.jpg">
-				<span>Color Changing</span>
+				<center><span>Color Changing</span></center>
 		  		</div></a>
 		  		<a href="#/graze-dw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze/mg-int-dw-1ft no shadow.jpg">
-				<span>Dynamic Whites</span>
+				<center><span>Dynamic Whites</span></center>
 		  		</div></a>
 		  		
 		  		
       </div>
     </div>
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Cove EXT</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Cove EXT</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/graze-wl-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove ext/cove-ext-wl-resize.jpg">
-				<span>White Light EXT</span>
+				<center><span>White Light EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-sc-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove ext/Cove-Ext-Color-resize.jpg">
-				<span>Static Colors EXT</span>
+				<center><span>Static Colors EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-cc-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove ext/cove-ext-rgb-resize.jpg">
-				<span>Color Changing EXT</span>
+				<center><span>Color Changing EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-dw-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/cove ext/cove-ext-dc-resize.jpg">
-				<span>Dynamic Whites EXT</span>
+				<center><span>Dynamic Whites EXT</span></center>
 		  		</div></a>
 		  		
 		  		
       </div>
     </div>
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Graze EXT</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Graze EXT</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/graze-wl-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze ext/graze_ext_1ft.jpg">
-				<span>White Light EXT</span>
+				<center><span>White Light EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-sc-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze ext/Graze-Ext-Color-1ft-LP.jpg">
-				<span>Static Colors EXT</span>
+				<center><span>Static Colors EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-cc-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze ext/graze-ext-rgb-1ft.jpg">
-				<span>Color Changing EXT</span>
+				<center><span>Color Changing EXT</span></center>
 		  		</div></a>
 		  		<a href="#/graze-dw-ext"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/graze ext/graze-ext-dw-1ft.jpg">
-				<span>Dynamic Whites EXT</span>
+				<center><span>Dynamic Whites EXT</span></center>
 		  		</div></a>
 		  		
 		  		
@@ -291,546 +203,530 @@ window.onload = function() {
 
 
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Flex White Light</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Flex White Light</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/int-eco-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light//Ecoflex-1.jpg">
-				<span>Ecoflex</span>
-				<span>158 lm/ft</span>
+				<center><span>Ecoflex</span></center>
+				<center><span>158 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-star"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light//starflex-wl.jpg">
-				<span>Starflex</span>
-				<span>139 lm/ft</span>
+				<center><span>Starflex</span></center>
+				<center><span>139 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-mini-star"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light//Mini-Staflex-WL.jpg">
-				<span>Mini Starflex</span>
-				<span>189 lm/ft</span>
+				<center><span>Mini Starflex</span></center>
+				<center><span>189 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-fusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/Fusionflex-WL.jpg">
-				<span>Fusionflex</span>
-				<span>141 lm/ft</span>
+				<center><span>Fusionflex</span></center>
+				<center><span>141 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-super-fusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light//super-fusionflex-WL.jpg">
-				<span>Super Fusionflex</span>
-				<span>259 lm/ft</span>
+				<center><span>Super Fusionflex</span></center>
+				<center><span>259 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-edge"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/Edge-WL.jpg">
-				<span>Edge</span>
-				<span>383 lm/ft</span>
+				<center><span>Edge</span></center>
+				<center><span>383 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-flat"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/flatflex-wl.jpg">
-				<span>Flatflex</span>
-				<span>311 lm/ft</span>
+				<center><span>Flatflex</span></center>
+				<center><span>311 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/powerflex-wl.jpg">
-				<span>Powerflex</span>
-				<span>318 lm/ft</span>
+				<center><span>Powerflex</span></center>
+				<center><span>318 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-superflex"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/superflex-wl.jpg">
-				<span>Superflex</span>
-				<span>403 lm/ft</span>
+				<center><span>Superflex</span></center>
+				<center><span>403 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-x-flex"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/x-flex-wl.jpg">
-				<span>X-flex</span>
-				<span>503 lm/ft</span>
+				<center><span>X-flex</span></center>
+				<center><span>503 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-linear-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/linearflex EXT-wl.jpg">
-				<span>Linearflex EXT</span>
-				<span>94 lm/ft</span>
+				<center><span>Linearflex EXT</span></center>
+				<center><span>94 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/aquaflex EXT-wl.jpg">
-				<span>Aquaflex EXT</span>
-				<span>158 lm/ft</span>
+				<center><span>Aquaflex EXT</span></center>
+				<center><span>158 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-mini-aqua-wl"><div class="col-xs-6 col-sm-4">
-				<span>Mini Aquaflex EXT</span>
-				<span>189 lm/ft</span>
+				<img src="images/all-products/flex white light/mini-aquaflex EXT-wl.jpg">
+				<center><span>Mini Aquaflex EXT</span></center>
+				<center><span>189 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-edge-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/aqua-edge EXT-wl.jpg">
-				<span>Aqua Edge EXT</span>
-				<span>313 lm/ft</span>
+				<center><span>Aqua Edge EXT</span></center>
+				<center><span>313 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-aqua-wl"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/super-aquaflex EXT-wl.jpg">
-				<span>Super Aquaflex EXT</span>
-				<span>396 lm/ft</span>
+				<center><span>Super Aquaflex EXT</span></center>
+				<center><span>396 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-dome"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/snx-dome EXT-wl.jpg">
-				<span>Super Neon X Dome EXT</span>
-				<span>99 lm/ft</span>
+				<center><span>Super Neon X Dome EXT</span></center>
+				<center><span>99 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-flat"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/snx-flat EXT-wl.jpg">
-				<span>Super Neon X Flat EXT</span>
-				<span>132 lm/ft</span>
+				<center><span>Super Neon X Flat EXT</span></center>
+				<center><span>132 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-edge"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex white light/snx-edge EXT-wl.jpg">
-				<span>Super Neon Edge EXT</span>
-				<span>198 lm/ft</span>
+				<center><span>Super Neon Edge EXT</span></center>
+				<center><span>198 lm/ft</span></center>
 		  		</div></a>
 		  
 		   </div>
     </div>
 		  
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Flex Static Colors</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Flex Static Colors</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/int-star-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/starflex-colors.jpg">
-				<span>Starflex Color</span>
-				<span>52 lm/ft</span>
+				<center><span>Starflex Color</span></center>
+				<center><span>52 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-flat-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/flatflex-colors.jpg">
-				<span>Flatflex Color</span>
-				<span>254 lm/ft</span>
+				<center><span>Flatflex Color</span></center>
+				<center><span>254 lm/ft</span></center>
+		  		</div></a>
+		  		<a href="#/int-super-sc"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/flex static colors/superflex-colors.jpg">
+				<center><span>Superflex Color</span></center>
+				<center><span>118 lm/ft</span></center>
+		  		</div></a>
+		  		<a href="#/ext-linear-sc"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/flex static colors/linearflex-color.jpg">
+				<center><span>Linearflex Color EXT</span></center>
+				<center><span>53 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/aquaflex-color.jpg">
-				<span>Aquaflex Color EXT</span>
-				<span>51 lm/ft</span>
+				<center><span>Aquaflex Color EXT</span></center>
+				<center><span>51 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-aqua-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/super-aquaflex-color.jpg">
-				<span>Super Aquaflex Color Ext</span>
-				<span>118 lm/ft</span>
+				<center><span>Super Aquaflex Color Ext</span></center>
+				<center><span>118 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-dome-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/snx-dome-color.jpg">
-				<span>Super Neon X Dome Color EXT</span>
-				<span>83 lm/ft</span>
+				<center><span>Super Neon X Dome Color EXT</span></center>
+				<center><span>83 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-flat-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/snx-flat-color.jpg">
-				<span>Super Neon X Flat Color EXT</span>
-				<span>96 lm/ft</span>
+				<center><span>Super Neon X Flat Color EXT</span></center>
+				<center><span>96 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-edge-sc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex static colors/snx-edge-color.jpg">
-				<span>Super Neon Edge Color EXT</span>
-				<span>184 lm/ft</span>
+				<center><span>Super Neon Edge Color EXT</span></center>
+				<center><span>184 lm/ft</span></center>
 		  		</div></a>
       </div>
     </div>
 		  
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Flex Color Changing</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Flex Color Changing</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/int-star-rgbw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//starflex-rgbw.jpg">
-				<span>RGBW Starflex</span>
-				<span>207 lm/ft</span>
+				<center><span>RGBW Starflex</span></center>
+				<center><span>207 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-star-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//starflex-rgb.jpg">
-				<span>RGB Starflex</span>
-				<span>78 lm/ft</span>
+				<center><span>RGB Starflex</span></center>
+				<center><span>78 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-edge-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//edge-rgb.jpg">
-				<span>RGB Edge</span>
-				<span>159 lm/ft</span>
+				<center><span>RGB Edge</span></center>
+				<center><span>159 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/int-flat-cc"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//flatflex-rgb.jpg">
-				<span>RGB Flatflex</span>
-				<span>96 lm/ft</span>
+				<center><span>RGB Flatflex</span></center>
+				<center><span>96 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-linear-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//linearflex-rgb.jpg">
-				<span>RGB Linearflex EXT</span>
-				<span>28 lm/ft</span>
+				<center><span>RGB Linearflex EXT</span></center>
+				<center><span>28 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-rgbw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//aquaflex-rgbw.jpg">
-				<span>RGBW Aquaflex EXT</span>
-				<span>96 lm/ft</span>
+				<center><span>RGBW Aquaflex EXT</span></center>
+				<center><span>96 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//aquaflex-rgb.jpg">
-				<span>RGB Aquaflex EXT</span>
-				<span>78 lm/ft</span>
+				<center><span>RGB Aquaflex EXT</span></center>
+				<center><span>78 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-edge-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//aqua-edge-rgb.jpg">
-				<span>RGB Aqua Edge EXT</span>
-				<span>159 lm/ft</span>
+				<center><span>RGB Aqua Edge EXT</span></center>
+				<center><span>159 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-dome-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//snx-dome-rgb.jpg">
-				<span>RGB Super Neon X Dome Ext</span>
-				<span>48 lm/ft</span>
+				<center><span>RGB Super Neon X Dome Ext</span></center>
+				<center><span>48 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-super-neon-x-flat-rgb"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex color changing//snx-flat-rgb.jpg">
-				<span>RGB super Neon X Flat EXT</span>
-				<span>40 lm/ft</span>
+				<center><span>RGB super Neon X Flat EXT</span></center>
+				<center><span>40 lm/ft</span></center>
 		  		</div></a>
       </div>
     </div>
 
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Flex Dynamic Whites</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Flex Dynamic Whites</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/int-star-dw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex dynamic whites/starflex-dw.jpg">
-				<span>Starflex Dynamic Whites</span>
-				<span>242 lm/ft</span>
+				<center><span>Starflex Dynamic Whites</span></center>
+				<center><span>242 lm/ft</span></center>
 		  		</div></a>
 		  		<a href="#/ext-aqua-dw"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/flex dynamic whites/aquaflex-dw.jpg">
-				<span>Aquaflex Dynamic White EXT</span>
-				<span>242 lm/ft</span>
+				<center><span>Aquaflex Dynamic White EXT</span></center>
+				<center><span>242 lm/ft</span></center>
 		  		</div></a>
 		  		
       </div>
     </div>
 		  
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Xtrusions</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Xtrusions</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/blanx-1.jpg">
-				<span>Surface</span>
-				<span>Blanx</span>
+				<center><span>Surface</span></center>
+				<center><span>Blanx</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/bow-1.jpg">
-				<span>Surface</span>
-				<span>Bow</span>
+				<center><span>Surface</span></center>
+				<center><span>Bow</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/dio-1.jpg">
-				<span>Surface</span>
-				<span>Dio</span>
+				<center><span>Surface</span></center>
+				<center><span>Dio</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/jax-1.jpg">
-				<span>Surface</span>
-				<span>Jax</span>
+				<center><span>Surface</span></center>
+				<center><span>Jax</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/motu-1.jpg">
-				<span>Surface</span>
-				<span>Motu</span>
+				<center><span>Surface</span></center>
+				<center><span>Motu</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/odi-1.jpg">
-				<span>Surface</span>
-				<span>Odi</span>
+				<center><span>Surface</span></center>
+				<center><span>Odi</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/ortiz-1.jpg">
-				<span>Surface</span>>
-				<span>Ortiz</span>
+				<center><span>Surface</span></center>
+				<center><span>Ortiz</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/shield-1.jpg">
-				<span>Surface</span>
-				<span>Shield</span>
+				<center><span>Surface</span></center>
+				<center><span>Shield</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Surface/zenga-1.jpg">
-				<span>Surface</span>
-				<span>Zenga</span>
+				<center><span>Surface</span></center>
+				<center><span>Zenga</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/recessed/kinda_02-crop-u2302025_2x.jpg">
-				<span>Recessed</span>
-				<span>Kinda</span>
+				<center><span>Recessed</span></center>
+				<center><span>Kinda</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/recessed/zoop_silver-crop-u2302044_2x.jpg">
-				<span>Recessed</span>
-				<span>Zoop</span>
+				<center><span>Recessed</span></center>
+				<center><span>Zoop</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/recessed/itzo-crop-u2302082_2x.jpg">
-				<span>Recessed</span>
-				<span>Itzo</span>
+				<center><span>Recessed</span></center>
+				<center><span>Itzo</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Suspended/NOBA.jpg">
-				<span>Suspended</span>
-				<span>Noba</span>
+				<center><span>Suspended</span></center>
+				<center><span>Noba</span></center>
 		  		</div></a>
 		  		<a href="#/xtrusion"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/Xtrusions/Suspended/ROBUS.jpg">
-				<span>Suspended</span>
-				<span>Robus</span>
+				<center><span>Suspended</span></center>
+				<center><span>Robus</span></center>
 		  		</div></a>
 		  		
 	  </div>
     </div>
 		  	
 		  
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Power</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Power</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
+                <a href="#/power"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/power/12V/mp45.jpg">
+				<center><span>12V</span></center>
+				<center><span>MP45</span></center>
+		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/12V/mp18n.jpg">
-				<span>12V</span>
-				<span>MP18N</span>
+				<center><span>12V</span></center>
+				<center><span>MP18N</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/12V/mp05.jpg">
-				<span>12V</span>
-				<span>MP05</span>
+				<center><span>12V</span></center>
+				<center><span>MP05</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/12V/mp16.jpg">
-				<span>12V</span>
-				<span>MP16</span>
+				<center><span>12V</span></center>
+				<center><span>MP16</span></center>
 		  		</div></a>
 		   		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/12V/mp86.jpg">
-				<span>12V</span>
-				<span>MP86</span>
+				<center><span>12V</span></center>
+				<center><span>MP86</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/12V/mp88.jpg">
-				<span>12V</span>
-				<span>MP88</span>
+				<center><span>12V</span></center>
+				<center><span>MP88</span></center>
+		  		</div></a>
+		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/power/24V//mp46.jpg">
+				<center><span>24V</span></center>
+				<center><span>MP46</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/24V//mp19n.jpg">
-				<span>24V</span>
-				<span>MP19N</span>
+				<center><span>24V</span></center>
+				<center><span>MP19N</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/24V//mp06.jpg">
-				<span>24V</span>
-				<span>MP06</span>
+				<center><span>24V</span></center>
+				<center><span>MP06</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/24V//mp17.jpg">
-				<span>24V</span>
-				<span>MP17</span>
+				<center><span>24V</span></center>
+				<center><span>MP17</span></center>
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/24V//mp87.jpg">
-				<span>24V</span>
-				<span>MP87</span>	
+				<center><span>24V</span></center>
+				<center><span>MP87</span></center>	
 		  		</div></a>
 		  		<a href="#/power"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/power/24V//mp89.jpg">
-				<span>24V</span>
-				<span>MP89</span>
+				<center><span>24V</span></center>
+				<center><span>MP89</span></center>
 		  		</div></a>
 		  
       </div>
     </div>
 		  		
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">DMX Controllers</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">DMX Controllers</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/controls"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Controllers/kandi_touch01.jpg">
-				<span>Kandi Touch</span>
+				<center><span>Kandi Touch</span></center>
 		  		</div></a>
 		  		<a href="#/controls"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Controllers/TPC-final.jpg">
-				<span>TPC</span>
+				<center><span>TPC</span></center>
 		  		</div></a>
 		  		<a href="#/controls"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Controllers/LPC (1).jpg">
-				<span>LPC</span>
+				<center><span>LPC</span></center>
 		  		</div></a>
 		  		<a href="#/controls"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Controllers/VLC_shadow trim.jpg">
-				<span>VLC</span>
+				<center><span>VLC</span></center>
 		  		</div></a>
 		   		<a href="#/controls"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Controllers/LPC_X_shadow trim.jpg">
-				<span>LPC X</span>
+				<center><span>LPC X</span></center>
 		  		</div></a>
 		  		
       </div>
     </div>
 		  
-
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">DMX Accessories</p>
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">DMX Accessories</p>
 			<hr>
-	</div>
-
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/dmx_wiring_hub-crop-u2398643_2x.jpg">
-				<span>DMX Wiring Hub</span>
+				<center><span>DMX Wiring Hub</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/ld180_01-crop-u2266632_2x.jpg">
-				<span>LD180</span>
+				<center><span>LD180</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/TPS.jpg">
-				<span>TPS</span>
+				<center><span>TPS</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/BPS.jpg">
-				<span>BPS</span>
+				<center><span>BPS</span></center>
 		  		</div></a>
 		   		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/EXT.jpg">
-				<span>EXT</span>
+				<center><span>EXT</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/POE.jpg">
-				<span>POE</span>
+				<center><span>POE</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/RIO.jpg">
-				<span>RIO</span>
+				<center><span>RIO</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/RIO A.jpg">
-				<span>RIO (A)</span>
+				<center><span>RIO (A)</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/RIO DALI_crop.jpg">
-				<span>RIO (DALI)</span>
+				<center><span>RIO (DALI)</span></center>
 		  		</div></a>
 		  		<a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/ccd.jpg">
-				<span>CCD-CVD</span>
+				<center><span>CCD-CVD</span></center>
 		  		</div></a>
 		        <a href="#/accessories"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/DMX/DMX Accessories/RDM.jpg">
-				<span>RDM</span>
+				<center><span>RDM</span></center>
 		  		</div></a>
 		  
 		  
       </div>
     </div>
 		  
-	<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
-		<p class="prod-name" style="text-align: left;">Converters</p>
-			<hr>
-	</div>
 
+<center>
+<div class="row midContent prod-bar" style="margin-top: 60px; max-width: 990px;">
+		<p id="prod-name" style="text-align: left;">Converters</p>
+			<hr>
+</div>
+</center>
 
 <div class="midContent" style="max-width: 993px;">
       <div class="row no-gutters-accs">
                 <a href="#/converters"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/converters/hyatt-house.jpg">
-				<span>Moda Bridge<sup>1</sup> 2.0</span><br>
-				<span>0-10V to ELV</span>
-				  </div></a>
-
-   			    <!--
-				<a href="#/converters"><div class="col-xs-6 col-sm-4">
+				<center><span>Moda Bridge<sup>1</sup> 2.0</span></center>
+				<center><span>0-10V to ELV</span></center>
+		  		</div></a>
+<!--
+		  		<a href="#/converters"><div class="col-xs-6 col-sm-4">
 				<img src="images/all-products/converters/hyatt-house.jpg">
-				<span>Moda Bridge<sup>3</sup></span>
-				<span>DMX to ELV</span>
-				</div></a>
-				-->
-		</div>
-</div>
+				<center><span>Moda Bridge 2</span></center>
+				<center><span>DALI to ELV</span></center>
+		  		</div></a>
+-->
+		  		<a href="#/converters"><div class="col-xs-6 col-sm-4">
+				<img src="images/all-products/converters/hyatt-house.jpg">
+				<center><span>Moda Bridge<sup>3</sup></span></center>
+				<center><span>DMX to ELV</span></center>
+		  		</div></a>
+		  
+		  </div>
+    </div>
+		  
+		  
 
-	
-</center>
-
-<!-- This gives some space between the last object & the footer-->
-<br></br>
-<br></br>
-<!---->
-
-<script>
-//	$(document).ready(function(){
-//		$('#search-text').keyup(function(){
-//			var txt = $(this).val();
-//			if (txt != ''){
-//				$.ajax({
-//					url:"",
-//					method: "post",
-//					data: {search:Text},
-//					dataType: "text",
-//					success:function(data)
-//					{
-//						$('#result').html(data);
-//					}
-//				})
-//
-//			}
-//			else{
-//				$('#result').html('');
-//				$.ajax({
-//					url:"",
-//					method: "post",
-//					data: {search:Text},
-//					dataType: "text",
-//					success:function(data)
-//					{
-//						$('#result').html(data);
-//					}
-//				})
-//			}
-//
-//		})
-//
-//	})
-
-
-
-</script>
 <script src="js/accordian.js"></script>

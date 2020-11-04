@@ -11,7 +11,9 @@
 /*		margin-top: 15px;*/
 	}
 	
-
+	.grid-container--home {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+}
 	.grid-container {
     display: grid;
 }
@@ -21,9 +23,9 @@
 		padding: 18px 0;
 		position: relative;
 		max-width: 465px;
-		margin-top: -240px;
+	margin-top: -240px;
 		margin-left: 115px;
-		text-align: center;
+	text-align: center;
 		background-color: rgba(0,0,0,0.70);
 	}
 	@media (max-width: 1499px) {
@@ -40,171 +42,69 @@
 		text-decoration: none !important;
 	}
 </style>
-
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
 </script>
-
-
-
 <ul class="slideshow">
 
-	<li>
-		
-			<!--NANO-->
-			<center>
-			<h1 style="font-weight: 400;" class="boldword"> NANO </h1>
-			<img src="images/all-products/nano/Moda Nano Cove -web.jpg" alt="" class="SSONECenterImg" style="position: relative;">
-			<h1 class="SSONEDescripText">Performance Simplified</h1>
-			</center>
+	<li><span>
+		<h1 class="minicove"> COVE</h1>
+		<img src="images/Cove/Mini Cove DW/MMCGI V2 Dynamic White With Shadow.png" alt="" class="mmcImg">
+		<h1 class="awardwinning">Award Winning</h1>
+	</span></li>
 
 
-		
-	</li>
- 
+  <li><span><center>
+	  <div class="img1" style="width: 95%; max-width: 285px; color: white;  position: absolute;
+	  left: 50%; top: 45%; transform: translate(-50%, -50%);">
+		<h1 style="">All New Louvres</h1><br>
+		<!-- <hr> -->
+		<h1 style="">Take Control</h1>
+	</div>
+  </center>
+  <img id="honeycomb" src="images/products/honeycomb.png">
+ <img id="louvres3" src="images/products/3louvres.png"> 
+  <!-- <picture id="louvres3">
+	<source srcset="images/products/3louvres.webp" type="image/webp">
+	  <img src="images/products/3louvres.png">
+</picture> -->
+<!-- <img id="louvres3" src="images/products/3louvres.webp" alt="louvres"> -->
 
-  	<li>
-		
-			<!--MODA TOUCH-->
-			<center>
-			<h1 class="boldword2"> TOUCH</h1>
-        	<img src="images/Controls/dmx-controllers-3.png" alt="" class="SSTWOCenterImg"  style="position: relative;"></img>
-			<h1 class="SSTWODescripText">Revolutionary</h1>
-			</center>
-        	<!--<h1 class="SSTWODescripText" style="font-weight: 800; font-size: 50px; color:white; top: 70% !important;">Fuckin' Simple</h1>-->
- 
-		
-	</li>
-
-
-	<li>
-		
-			<!--INC 5000-->
-			<center>
-					<img class="SSTHREECenterImg" src="images/Awards/inc.5000company.svg">
-								
-			</center>
-		
-		
-	</li>
-
-	<li>
-		
-			<!--MODA WAY-->
-			
-			<div style="float: left;" class="SSFOURCenterImg">
-				<img id="moda-led" src="images/Homepage/Slideshow/MINI-NANO-LED.png" draggable="false"> 
-    				
-			</div>
-
-			<div style="float: right;">
-				<h1 class="SSFOURDescripText">We make our own -
-				<br><br>
-					<strong style="line-height: 1em;">LEDs<br>Drivers<br>Optics</strong><br><br><br>We make every part of our fixtures<br><br>The <strong style="color: var(--moda-red);">MODA</strong> way.
-				</h1>
-			</div>
-			
-
-		
-	</li>
+</span></li>
+  <li><span>Image 03</span></li>
 </ul>
-
-
-<!--
-<div id="slideshowButtons" style="text-align: center;">
-	<button type="button" onclick="slideshow(li(nth-child(1)))"></button>
-	<button class="dot" onclick="slideshow(li(nth-child(2)))"></button>
-	<button class="dot" onclick="slideshow(li(nth-child(3)))"></button>
-	<button class="dot" onclick="slideshow(li(nth-child(4)))"></button>
-</div>
-
-
-
-	<ul class="slideshow">
-
-    <li><span>
-        <h1 class="boldword1"> TOUCH</h1>
-        <img src="images/Controls/dmx-controllers-3.png" alt="" class="SSONECenterImg"><a href="#/controls"></a></img>
-        <h1 class="SSONEDescripText"><a href="#/controls" target="_blank" >Revolutionary</a></h1>
-        <h1 class="SSONEDescripText" style="font-weight: 800; font-size: 50px; color:white; top: 70% !important;">Fuckin' Simple</h1>
-    </span></li>
-    
-    <li><span>
-        <h1 class="boldword2"> COVE</h1>
-        <img src="images/Cove/Mini Cove DW/MMCGI V2 Dynamic White With Shadow.png" alt="" class="SSTWOCenterImg"></img>
-        <h1 class="SSTWODescripText">Award Winning</h1>
-    </span></li>
-
-
-    <li><span><center>
-        <div class="img1" style="width: 95%; max-width: 285px; color: white;  position: absolute;
-        left: 50%; top: 45%; transform: translate(-50%, 0%);">
-          <h1>All New Louvres</h1><br>
-          
-          <h1>Take Control</h1>
-      </div>
-    </center>
-    <img id="honeycomb" src="images/products/honeycomb.png">
-   <img id="louvres3" src="images/products/3louvres.png"> 
-    <picture id="louvres3">
-      <source srcset="images/products/3louvres.webp" type="image/webp">
-        <img src="images/products/3louvres.png">
-  </picture> 
-  <img id="louvres3" src="images/products/3louvres.webp" alt="louvres">
-  
-  </span></li>
-</ul>
-
-
-
-
--->
-
-
-
 <!-- <div class="container">
 <a href="#/news" class="btn index-but">NEWS</a>
 <a href="#/all-products" class="index-but btn">ALL PRODUCTS</a>
 </div> -->
+<span id="scrollChev"></span>
 
-
-<div id="nanoBlock" style="width: 100%; margin-top: 80vh; background-color: black; border-bottom: 1px solid #999; padding: 50px; height: 70vh;">
-<div class="row" style="height: 100%; margin-top: 50px;">
-	<center>
-	<div  id="nanoText" style="padding: 30px; align-content: center; width: 40%; height: 60vh; float: left;">
-		
-			<div style="padding-top: calc(390px - calc(420px - 17%));">
-				<span style="font-size: 62px; font-weight: 400; letter-spacing: 2px;">NANO<span style="display: block; margin-top: -79px; margin-bottom: 50px; margin-left: 200px; font-size: 14px;">&reg;</span> COVE INTERIOR</span>
-				<p style="color: var(--moda-red); font-size: 24px; padding-bottom: 40px; font-weight: 400;">Performance Simplified</p>
+<!-- <div id="nanoBlock" style="width: 100%; background-color: black; border-bottom: 1px solid #999; margin-top: 100vh;">
+<div class="row" style="height: 100%;">
+	<div class="col-lg-6" id="nanoText">
+		<center><div style="padding-top: calc(390px - calc(420px - 17%));">
+		<span style="font-size: 62px; font-weight: 400; letter-spacing: 2px;">NANO</span><span style="display: block; margin-top: -79px; margin-bottom: 50px; margin-left: 200px; font-size: 14px;">&reg;</span>
+			<p style="color: var(--moda-red); font-size: 24px; padding-bottom: 40px;">COMING SOON</p>
 			<h1>Industry's smallest line voltage cove fixture.</h1>
 			<div style="max-width: 536px;"><hr style="border-top: 1px solid #ffffff78;"></div>
-			<h2>Most cost effective cove light in the market.</h2>
-			</div>
-		
+			<h2>Most cost effective cove light in the market.</h2></div>
+		</center>
 	</div>
-
-	<nav class="nano-video">
-	<div id="nano-video" style="padding: 30px; width: 50% !important; margin-top: 40px; float: right;">
-		<video style="border: 1px solid #999; border-radius: 3px;" width="100%" height="100%" controls>
-  		<source src="videos/NANO-VIDEO-FINAL.mp4" type="video/mp4">
-  			Your browser does not support the video tag.
-		</video>
+	<div class="col-lg-6" style="padding: 30px !important;"><video style="border: 1px solid #999; border-radius: 3px;" width="100%" height="100%" controls>
+  <source src="videos/MODA NANO.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video></div>
 	</div>
-	</nav>
-</center>
-</div>
-</div>
+</div> -->
 
-
-<!--
-<div id="ledBlock" style="background-color: black; margin-top: 80vh; padding-top: 74px; padding-bottom: 70px;">
-	<center>
-		<img style="max-width: 792px; width: 90%; position: relative; z-index: 0;" draggable="false" src="images/Technologies/led/led sideview6.jpg">
-		<div id="ledText" style="position: relative; z-index: 1;"><h1>We make our own LEDs, the MODA way.</h1>
-		<div style="max-width: 502px;"><hr style="border-top: 1px solid #ffffff78;"></div>
-		<h2>Thousands of Color Options</h2></div>
+<div id="ledBlock" style="background-color: black; margin-top: 100vh; padding-top: 74px; padding-bottom: 70px;">
+<center>
+<img style="max-width: 792px; width: 90%; position: relative; z-index: 0;" src="images/Technologies/led/led sideview6.jpg">
+<div id="ledText" style="position: relative; z-index: 1;"><h1>We make our own LEDs, the MODA way.</h1>
+<div style="max-width: 502px;"><hr style="border-top: 1px solid #ffffff78;"></div>
+<h2>Thousands of Color Options</h2></div>
 </center>
 </div>
 
@@ -212,11 +112,11 @@ $(document).ready(function(){
 <div id="ctBlock" style="background-color: black; padding: 70px 0 150px; border-bottom: 1px solid #999; width: 100%;" >
 <center>
 <div class="row gutterless midContent" style="max-width: 780px;">
-	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k22">2200K</p></div><div class="col-xs-8"><img class="ctSVG" draggable="false" src="images/Icons/newCCT/22-65.svg"></div><div class="col-xs-2"><p class="ctText k65">6500K</p></div></div>
-	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k35">3500K</p></div><div class="col-xs-8"><img class="ctSVG" draggable="false" src="images/Icons/newCCT/35-65.svg"></div><div class="col-xs-2"><p class="ctText k65">6500K</p></div></div>
-	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k35">3500K</p></div><div class="col-xs-8"><img class="ctSVG" draggable="false" src="images/Icons/newCCT/35-22.svg"></div><div class="col-xs-2"><p class="ctText k22">2200K</p></div></div>
-	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k27">2700K</p></div><div class="col-xs-8"><img class="ctSVG" draggable="false" src="images/Icons/newCCT/27-18.svg"></div><div class="col-xs-2"><p class="ctText k18">1800K</p></div></div>
-	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k18">1800K</p></div><div class="col-xs-8"><img class="ctSVG" draggable="false" src="images/Icons/newCCT/18-30.svg"></div><div class="col-xs-2"><p class="ctText k30">3000K</p></div></div>
+	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k22">2200K</p></div><div class="col-xs-8"><img class="ctSVG" src="images/Icons/newCCT/22-65.svg"></div><div class="col-xs-2"><p class="ctText k65">6500K</p></div></div>
+	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k35">3500K</p></div><div class="col-xs-8"><img class="ctSVG" src="images/Icons/newCCT/35-65.svg"></div><div class="col-xs-2"><p class="ctText k65">6500K</p></div></div>
+	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k35">3500K</p></div><div class="col-xs-8"><img class="ctSVG" src="images/Icons/newCCT/35-22.svg"></div><div class="col-xs-2"><p class="ctText k22">2200K</p></div></div>
+	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k27">2700K</p></div><div class="col-xs-8"><img class="ctSVG" src="images/Icons/newCCT/27-18.svg"></div><div class="col-xs-2"><p class="ctText k18">1800K</p></div></div>
+	<div style="height: 50px; margin-bottom: 60px;"><div class="col-xs-2"><p class="ctText k18">1800K</p></div><div class="col-xs-8"><img class="ctSVG" src="images/Icons/newCCT/18-30.svg"></div><div class="col-xs-2"><p class="ctText k30">3000K</p></div></div>
 	<img style="max-width: 976px; width: 100%; margin-bottom: 100px;" src="images/Icons/newCCT/rgb.svg">
 	
 	<div class="grid-container grid-container--home">
@@ -265,7 +165,9 @@ $(document).ready(function(){
 	<div class="grid-element">
     <center><div class="square" style="background-color: #F06CA9"></div><p>Pink</p></center>
   </div>
-	
+	<div class="grid-element">
+    <center><div class="square" style="background-color: #FCBC2B"></div><p>Amber</p></center>
+  </div>
 	<div class="grid-element">
     <center><div class="square" style="background-color: #FEC35A"></div><p>1800K</p></center>
   </div>
@@ -286,20 +188,18 @@ $(document).ready(function(){
   </div>
 		<div class="grid-element">
     <center><div class="square" style="background-color: #FFFFFF"></div><p>6500K</p></center>
-		</div>
+  </div
 </div>
 	</div>
 </center>
 </div>
--->
 
-<!--
 	
-<div id="inc5kBlock" style="padding-top: 100px; padding-bottom: 100px; border-bottom: 1px solid #999;">
+<!-- <div id="inc5kBlock" style="padding-top: 100px; padding-bottom: 100px; border-bottom: 1px solid #999;">
 	<center>
 <img style="max-width: 708px; width: 100%;" src="images/media/awards/inc5000@2x.png">
 </center>
-	</div> 
+	</div> -->
 
 <div id="awardsBlock" style="padding-top: 150px; padding-bottom: 50px; ">
 	<div class="row">
@@ -320,9 +220,7 @@ $(document).ready(function(){
 <div class="row gutterless" style="max-width: 1200px;">
 	<div class="col-lg-6"><a href="#/news"><img style="max-width:414px; width: 100%;" src="images/media/news/mmcgi-18k-news.jpg"></a></div>
 	<div class="col-lg-6"><a href="#/news"><img style="max-width:414px; width: 100%;" src="images/media/news/mmcgi-65k-news.jpg"></a></div>
-</div>
+	</div>
 </center>
 	</div>
--->
-
 

@@ -1,25 +1,45 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/flex.css" rel="stylesheet" type="text/css">
-<link href="css/uni-css.css" rel="stylesheet" type="text/css">
+<link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
 <link href="css/readMore.css" rel="stylesheet" type="text/css">
 
 <!--<script src="js/scrollSpy.js"></script>-->
 
 <style>
+.chairs {
+	background: url("images/careers/chairs.png") top center;
+	width: 100%;
+}
+.cntr {
+	position: relative;
+	text-align: center;
 
+}
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.careerBut {
+	background-color: var(--moda-red);
+	color: white;
+	height: 45px;
+	border-radius: 8px;
+	width: 160px;
+	border: none;
+}
 th {font-weight: 300; padding-right: 15px;}
 #backArrow {
-    transform: rotate(180deg);
+	transform: rotate(180deg);
 }
 #backArrow:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 #jobLink:hover {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 </style>
-
-
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
@@ -28,56 +48,49 @@ ga('set', 'page', '/careers.html');
 ga('send', 'pageview');
 
 </script>
-
-
-<div style="margin-top: 60px;"></div>
+<div style="margin-top: 70px;"></div>
 <div style="padding-bottom: 30px; position: static; z-index: 0;" class="fixed-bar">
 <center>
-    <hr class="prod-hr">    
+	<hr class="prod-hr">	
 <div class="row midContent prod-bar">
-    <div class="col-lg-12">
-        <p id="prod-name" style="font-weight: 500;">Careers</p>
-    </div>
+	<div class="col-sm-3">
+		<p id="prod-name">Careers</p>
+	</div>
 </div>
 </center>
 </div>
-
 <div class="midContent maxContent">
-    <a id="jobLink" href="#/job-listings">&larr;&emsp;Back to Job Listings</a>
+<a id="jobLink" href="#/job-listings">&larr;&emsp;Back to Job Listings</a>
 </div>
-
 <div class="midContent maxContent" style="background-color:#fafafa; padding: 30px 30px 50px 30px; margin-top: 20px; margin-bottom: 50px;">
 
-    <h3 id="title" style="font-weight: 400;"></h3>
-    <table>
-        <tr>
-            <th id="jobDate"></th>
-            <th id="jobLoc"></th>
-            <!-- <th>August 31, 2020</th> -->
-            <!-- <th>Las Vegas, NV</th> -->
-        </tr>
-    </table>
-
-    <hr style="margin-top: 10px; margin-bottom: 50px;">
-    <div class="row">
-    <!--
-    <div class="col-lg-2" style="text-align: left;">
-    </div>
-    -->
-        <div class="col-lg-12">
-            <p id="description"></p>
-        </div>
-        
-    
-        <div class="row" style="margin-top: 70px;">
-            <div class="col-lg-10">
-                <p>Please send resume and cover letter to <a style="text-decoration: underline;" href="mailto:careers@modalight.com">careers@modalight.com</a></p>
-            </div>
-        </div>
-    </div>
+<h3 id="title" style="font-weight: 400;"></h3>
+<table>
+	<tr>
+		<th>SEPTEMBER 23, 2019</th>
+		<th>Las Vegas, NV</th>
+	</tr>
+</table>
+<hr style="margin-top: 10px; margin-bottom: 50px;">
+<div class="row">
+	<div class="col-lg-2" style="text-align: left;">
+		<strong>Description</strong>
+	</div>
+	<div class="col-lg-10">
+		<p id="description"></p>
+	</div>
+<div class="row" style="margin-top: 70px;">
+		<div class="col-lg-2"></div>
+		<div class="col-lg-10">
+			<p>Please send resume and cover letter to <a style="text-decoration: underline;" href="mailto:brett@modalight.com">brett@modalight.com</a></p>
+		</div>
+</div>
+</div>
 </div> 
 
-    
+	
 
 
- <script src="js/jobs.js"></script>
+ <script src="js/jobs.js"></script> 
+
+
