@@ -289,14 +289,14 @@
                 templateUrl:'24v.html?1585599141'
             })
 			.when('/controls',{
-                templateUrl:'controls.html?1585599141'
+                templateUrl:'controls.html?1597086900'
             })
 			.when('/converters',{
                 templateUrl:'converters.html?1585599141'
             })
-			.when('/dmx-cntrl',{
-                templateUrl:'dmx-cntrl.html?1585599141'
-            })
+			//.when('/dmx-cntrl',{
+                //templateUrl:'dmx-cntrl.html?1585599141'
+           // })
 					.when('/kandi-touch',{
 						templateUrl:'kandi-touch.html?1585599141'
 					})
@@ -312,15 +312,15 @@
 					.when('/lpcx',{
 						templateUrl:'lpcx.html?1585599141'
 					})
-			.when('/dmx-accs',{
-                templateUrl:'dmx-accs.html?1585599141'
-            })
+		//	.when('/dmx-accs',{
+                //templateUrl:'dmx-accs.html?1585599141'
+            //})
 			.when('/accessories',{
-                templateUrl:'accessories.html?1585599141'
+                templateUrl:'accessories.html?1597086900'
             })
-					.when('/dmx-hub',{
-						templateUrl:'dmx-wiring-hub.html?1585599141'
-					})
+					//.when('/dmx-hub',{
+					//	templateUrl:'dmx-wiring-hub.html?1585599141'
+					//})
 			.when('/technology',{
                 templateUrl:'technology.html?1585599141'
             })
@@ -543,6 +543,9 @@
 			.when('/all-products',{
                 templateUrl:'all-products.html?1585599141'
             })
+      //.when('/all-products2',{
+       //         templateUrl:'all-products2.html'
+       //   })
 			.when('/product-configurator',{
                 templateUrl:'product-configurator.html?1585599141'
             })

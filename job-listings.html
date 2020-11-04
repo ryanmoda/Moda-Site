@@ -1,220 +1,68 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/flex.css" rel="stylesheet" type="text/css">
-<link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
+<link href="css/uni-css.css" rel="stylesheet" type="text/css">
 <link href="css/readMore.css" rel="stylesheet" type="text/css">
 
 <!--<script src="js/scrollSpy.js"></script>-->
 
 <style>
-.chairs {
-	background: url("images/careers/chairs.png") top center;
-	width: 100%;
-}
-.cntr {
-	position: relative;
-	text-align: center;
 
-}
-.centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-.careerBut {
-	background-color: var(--moda-red);
-	color: white;
-	height: 45px;
-	border-radius: 8px;
-	width: 160px;
-	border: none;
-}
+   
 
-.listings .row {
-	height: 100px;
-	background-color: #fafafa;
-	padding-top: 40px;
-	margin-bottom: 10px;
-}
+    .listings .row {
+        height: 100px;
+        background-color: #fafafa;
+        padding-top: 40px;
+        margin-bottom: 10px;
+    }
 
-.listBut {
-	border: none;
-	width: 100%;
-	padding: 0;
-	text-align: left;
-}
+    .listBut {
+        border: none;
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
 
-.listings .row:hover {
-	background-color: #EAEAEA;
-}
+    .listings .row:hover {
+        background-color: #EAEAEA;
+    }
 
-@media (max-width: 1200px) {
-	.listings .row {padding-top: 20px;}
-	.title {display: none;}
-}
+    @media (max-width: 1200px) {
+        .listings .row {padding-top: 20px;}
+        .title {display: none;}
+    }
+
+    .comeBack{
+        width: auto; 
+        padding-top: 300px; 
+        padding-bottom: 300px;
+        text-align: center;
+        font-size: large;
+    }
+    
 </style>
+
 <script>
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
 ga('set', 'page', '/careers.html');
 ga('send', 'pageview');
-</script>
-<div style="padding-top: 70px;" class="fixed-bar">
-<center>
-	<hr class="prod-hr">	
-<div class="row midContent prod-bar">
-	<div class="col-sm-3">
-		<p id="prod-name">Careers</p>
-	</div>
-</div>
-</center>
-</div>
 
-<div class="midContent" style="max-width: 860px; padding-top: 115px;">
-	<div class="row margin2 title">
-		<div class="col-lg-5"><strong>Job Opening</strong></div>
-		<div class="col-lg-4"><strong>Date Listed</strong></div>
-		<div class="col-lg-3"><strong>Location</strong></div>
-	</div>
-</div>
-<div class="midContent listings" style="max-width: 860px;">
-	
-	<form action="#/job-description" id="submitJob">
-	<input type="hidden" name="v" value="ECRSM" />
-	</form>
-	<form action="#/job-description" id="submitJobNASM">
-		<input type="hidden" name="v" value="NASM" />
-		</form>
-		<form action="#/job-description" id="submitJobVPS">
-			<input type="hidden" name="v" value="VPS" />
-			</form>
-			<form action="#/job-description" id="submitJobDFT">
-				<input type="hidden" name="v" value="DFT" />
-				</form>
-				<form action="#/job-description" id="submitJobSE">
-					<input type="hidden" name="v" value="SE" />
-					</form>
-					<form action="#/job-description" id="submitJobSEE">
-						<input type="hidden" name="v" value="SEE" />
-						</form>
-						<form action="#/job-description" id="submitJobPM">
-							<input type="hidden" name="v" value="PM" />
-							</form>
-							<form action="#/job-description" id="submitJobWM">
-								<input type="hidden" name="v" value="WM" />
-								</form>
-								<form action="#/job-description" id="submitJobPRM">
-									<input type="hidden" name="v" value="PRM" />
-									</form>
-									<form action="#/job-description" id="submitJobAE">
-										<input type="hidden" name="v" value="AE" />
-										</form>
-										<form action="#/job-description" id="submitJobRGC">
-											<input type="hidden" name="v" value="RGC" />
-											</form>
-											<form action="#/job-description" id="submitJobSVP">
-												<input type="hidden" name="v" value="SVP" />
-												</form>
-	
-	<button class="listBut" type="submit" form="submitJob">
-		<div class="row">
-			<div class="col-lg-5"><p>East Coast Regional Sales Manager</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
+//function processAjaxData(response, urlPath){
+//  document.getElementById("content").innerHTML = response.html;
+//  document.title = response.pageTitle;
+//  window.history.pushState({"html":response.html, "pageTitle":response.pageTitle}, "", urlPath);
+//}
+
+//window.onpopstate = function(e){
+//  if(e.state){
+//      document.getElementById("content").innerHTML = e.state.html;
+//      document.title = e.state.pageTitle;
+//  }
+//}
 
 
-	<button class="listBut" type="submit" form="submitJobNASM">
-		<div class="row">
-			<div class="col-lg-5"><p>National Accountant Sales Manager</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobVPS">
-		<div class="row">
-			<div class="col-lg-5"><p>Vice President of Sales</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobDFT">
-		<div class="row">
-			<div class="col-lg-5"><p>DMX Field Technician</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobSE">
-		<div class="row">
-			<div class="col-lg-5"><p>Software Engineer</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobSEE">
-		<div class="row">
-			<div class="col-lg-5"><p>Senior Electrical Engineer</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobPM">
-		<div class="row">
-			<div class="col-lg-5"><p>Purchasing Manager</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-	<button class="listBut" type="submit" form="submitJobWM">
-		<div class="row">
-			<div class="col-lg-5"><p>Warehouse Manager</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-<button class="listBut" type="submit" form="submitJobPRM">
-		<div class="row">
-			<div class="col-lg-5"><p>Production Manager</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-</button>
-
-	<button class="listBut" type="submit" form="submitJobAE">
-		<div class="row">
-			<div class="col-lg-5"><p>Application Engineer</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobRGC">
-		<div class="row">
-			<div class="col-lg-5"><p>Regional Sales - Canada</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-	<button class="listBut" type="submit" form="submitJobSVP">
-		<div class="row">
-			<div class="col-lg-5"><p>Senior Vice President</p></div>
-			<div class="col-lg-4"><p>September 23, 2019</p></div>
-			<div class="col-lg-3"><p>Las Vegas, NV</p></div>
-		</div>
-	</button>
-
-</div>
-<script>
 // var myEvent = window.attachEvent || window.addEventListener;
 // var chkevent = window.attachEvent ? 'onbeforeunload' : 'beforeunload'; /// make IE7, IE8 compitable
 
@@ -223,12 +71,207 @@ ga('send', 'pageview');
 //                 (e || window.event).returnValue = confirmationMessage;
 //                 return confirmationMessage;
 //             });
+
 </script>
+
+
+<div style="padding-top: 40px;" class="fixed-bar">
+    <center>
+        <hr class="prod-hr">    
+    <div class="row midContent prod-bar">
+        <div class="col-lg-12">
+            <p id="prod-name" style="font-weight: 500;">Careers</p>
+        </div>
+    </div>
+    </center>
+</div>
+
+
+<br></br>
+
+<!--
+<div class="midContent">
+    <div class="row margin2 comeBack">
+        <div class="col-lg-12">
+            <strong>Come back soon for future job openings!</strong>
+        </div>
+        
+    </div>
+</div>
+-->
+
+
+<div class="midContent" style="max-width: 860px; padding-top: 15px; padding-bottom: 15px;">
+    <div class="row margin2 title">
+        <div class="col-lg-5"><strong>Job Opening</strong></div>
+        <div class="col-lg-4"><strong>Date Listed</strong></div>
+        <div class="col-lg-3"><strong>Location</strong></div>
+    </div>
+</div>
+
+
+<div class="midContent listings" style="max-width: 860px;">
+    
+    <!--
+    <form action="#/job-description" id="submitJobISM">
+        <input type="hidden" name="v" value="ISM" />
+    </form>
+    -->
+
+    <form action="#/job-description" id="submitJobPJM">
+        <input type="hidden" name="v" value="PJM" />
+    </form>
+
+    <form action="#/job-description" id="submitJobLASM">
+        <input type="hidden" name="v" value="LASM" />
+    </form>
+
+    <!--
+    <form action="#/job-description" id="submitJobNASM">
+        <input type="hidden" name="v" value="NASM" />
+    </form>
+    -->
+
+    <form action="#/job-description" id="submitJobDFT">
+        <input type="hidden" name="v" value="DFT" />
+    </form>
+
+    <form action="#/job-description" id="submitJobSE">
+        <input type="hidden" name="v" value="SE" />
+    </form>
+    
+    <form action="#/job-description" id="submitJobSEE">
+        <input type="hidden" name="v" value="SEE" />
+    </form>
+
+
+    <!--
+    <form action="#/job-description" id="submitJobWM">
+        <input type="hidden" name="v" value="WM" />
+    </form>
+    -->
+
+    <form action="#/job-description" id="submitJobPRM">
+        <input type="hidden" name="v" value="PRM" />
+    </form>
+    
+    <form action="#/job-description" id="submitJobAE">
+        <input type="hidden" name="v" value="AE" />
+    </form>
+    
+    <!--
+    <form action="#/job-description" id="submitJobRGC">
+        <input type="hidden" name="v" value="RGC" />
+    </form>
+    -->
+
+
+    <!--
+    <button class="listBut" type="submit" form="submitJobNASM">
+        <div class="row">
+            <div class="col-lg-5"><p>National Accountant Sales Manager</p></div>
+            <div class="col-lg-4"><p>July 16, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+    -->
+
+    <!--
+    <button class="listBut" type="submit" form="submitJobISM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Inside Sales Manager</p></div>
+            <div class="col-lg-4"><p>October 1, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+    -->
+
+    <button class="listBut" type="submit" form="submitJobPJM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Project Manager</p></div>
+            <div class="col-lg-4"><p>October 1, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobLASM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Los Angeles Sales Manager</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Los Angeles, California</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobDFT">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">DMX Field Technician</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobSE">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Software Engineer</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobSEE">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Senior Electrical Engineer</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+
+    <!--
+    <button class="listBut" type="submit" form="submitJobWM">
+        <div class="row">
+            <div class="col-lg-5"><p>Warehouse Manager</p></div>
+            <div class="col-lg-4"><p>July 16, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+    -->
+
+    <button class="listBut" type="submit" form="submitJobPRM">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Production Manager</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <button class="listBut" type="submit" form="submitJobAE">
+        <div class="row">
+            <div class="col-lg-5"><p style="font-weight: 400;">Application Engineer</p></div>
+            <div class="col-lg-4"><p>August 31, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+
+    <!--
+    <button class="listBut" type="submit" form="submitJobRGC">
+        <div class="row">
+            <div class="col-lg-5"><p>Regional Sales - Canada</p></div>
+            <div class="col-lg-4"><p>July 16, 2020</p></div>
+            <div class="col-lg-3"><p>Las Vegas, NV</p></div>
+        </div>
+    </button>
+    -->
+
+</div>
+
+<p style="padding: 40px;"></p>
+
+
+
 <script src="js/productPage.js"></script>
 <script src="js/readMore.js"></script>
+
 <script>
-	productPage("controlBlock");
-	</script>
-
-
-
+    productPage("controlBlock");
+</script>
