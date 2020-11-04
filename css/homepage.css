@@ -143,8 +143,7 @@ body{
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
-  left: 50%;
-  justify-content: center;
+  justify-content: center !important;
 
 }
 
