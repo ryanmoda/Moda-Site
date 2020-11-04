@@ -93,7 +93,6 @@ body{
 .slideshow li  {
     width: 100vw;
     height: 80vh;
-    
     position: absolute;
     top: 0px;
     left: 0px;
@@ -134,14 +133,6 @@ body{
 }
 */
 
-.SSIMG{
-  max-width: 1100px;
-  top: 15vh;
-  width: 80vw;
-  transform: translate(-50%, 0);
-  position: absolute;
-}
-
 
 .SSONECenterImg{
   max-width: 1100px;
@@ -149,6 +140,7 @@ body{
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
+  
 }
 
 
@@ -377,9 +369,7 @@ body{
   .boldword {
 		top: 34%;
 	}
-	.SSONECenterImg {
-		width: 85%;
-	}
+	
 
 	.ctSVG {
 		margin-top: 0px !important;
@@ -461,9 +451,7 @@ body{
 }
 
 @media (max-height: 1000px) and (min-height: 800px ) {
-  .slideshow li:nth-child(1){
-    width: 60vw;
-  }
+  
   /*
   #SSTHREECenterImg1{width: 60vw;}
   .SSTWOCenterImg{width: 75vw;}
@@ -475,25 +463,14 @@ body{
 }
 
 @media (max-width: 768px) {
-  .SSONECenterImg{width: 75vw;}
+  
   .SSFOURCenterImg{left: -85vw;}
   #honeycomb{ width: 44vw; top: 10px; }
   #louvres3{ width: 41vw; }
 }
 
 @media (max-width: 500px) {
-  .slideshow li:nth-child(1){
-    width: 60vw;
-  }
-  .slideshow li:nth-child(2){
-    width: 60vw;
-  }
-  .slideshow li:nth-child(3){
-    width: 60vw;
-  }
-  .slideshow li:nth-child(4){
-    width: 60vw;
-  }
+  
   /*
   #SSTHREECenterImg1{width: 60vw;}
   .SSONECenterImg{width: 80vw;}
