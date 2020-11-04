@@ -9,7 +9,6 @@ p {
 */
 
 
-
 .fixed-bar {
 	position: fixed;
 	width: 100%;
@@ -71,7 +70,6 @@ button.accordion {
 	top: -15px;
 	left: 95%;
 	transform: rotate(135deg);
-	vertical-align: top;
 	text-align: center;
 	transition: all .15s;
 }
@@ -205,6 +203,7 @@ input[type=checkbox]:checked + label::after {
   transform: rotate(-45deg);
 }
 
+/* duped code
 
 button.accordion {
 	font-family: 'Lato', sans-serif;
@@ -231,7 +230,6 @@ button.accordion {
 	top: -15px;
 	left: 95%;
 	transform: rotate(135deg);
-	vertical-align: top;
 	text-align: center;
 	transition: all .15s;
 }
@@ -249,5 +247,5 @@ div.panel {
 div.panel.show {
     display: block !important;
 }
-
+*/
   

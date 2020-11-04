@@ -20,6 +20,7 @@
 <!--<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400" rel="stylesheet">-->
   <link href="css/new-navbar-trans.css" rel="stylesheet" type="text/css">
 </head>
+
 <script>
 window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
 ga('create', 'UA-53767212-1', 'auto');
@@ -47,8 +48,8 @@ ga('send', 'pageview');
         <ul> 
           <li onClick="navDrop('cove-bar');" class="nav-links"><a class="nav-links-a" id="nav-cove">COVE</a>
             <ul class="sub-bar" id="cove-bar">
-              <li style="margin-left: 21px;"><a href="#/nano" id="a-mini-cove" ng-class="{ active: isActive('/nano')}" onclick="closeSide()">NANO</a></li>
-              <li><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="closeSide()">MINI COVE</a></li>
+              <li style="margin-left: 21px;"><a href="#/nano" id="a-mini-cove" ng-class="{ active: isActive('/nano')}" onclick="hideBar()">NANO</a></li>
+              <li><a href="#/mini-cove" id="a-mini-cove" ng-class="{ active: isActive('/mini-cove')}" onclick="hideBar(this.id)">MINI COVE</a></li>
               <li><a href="#/cove" id="a-sub-cove" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove')}">COVE</a></li>
               <li><a href="#/cove-ext" id="a-cove-ext" onclick="hideBar(this.id);" ng-class="{ active: isActive('/cove-ext')}">COVE EXTERIOR</a></li>
             </ul>
@@ -64,14 +65,14 @@ ga('send', 'pageview');
             <ul class="sub-bar" id="flex-bar">
               <li style="margin-left: 23px;"><a href="#/int-flex" id="c-int-flex" onclick="hideBar(this.id);">INTERIOR</a></li>
               <li><a href="#/ext-flex" id="c-ext-flex" onclick="hideBar(this.id);">EXTERIOR</a></li>
-			<li><a href="#/super-neon" id="c-super-neon" onclick="hideBar(this.id);">SUPER NEON</a></li>
+		    	    <li><a href="#/super-neon" id="c-super-neon" onclick="hideBar(this.id);">SUPER NEON</a></li>
             </ul>
           </li>
-		<li onClick="closeAll();" class="nav-links"><a href="#/xtrusion" class="nav-links-a" id="nav-xtrusion">XTRUSION</a>
+		      <li onClick="closeAll();" class="nav-links"><a href="#/xtrusion" class="nav-links-a" id="nav-xtrusion">XTRUSION</a>
           </li>
-			<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
+		    	<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
           </li>          
-			<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
+		    	<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
             <ul class="sub-bar" id="cntrl-bar">
               <li style="margin-left: -26px;"><a href="#/controls" id="d-dmx-ctrl" onclick="hideBar(this.id);">DMX CONTROLLERS</a></li>
               <li><a href="#/accessories" id="d-dmx-acc" onclick="hideBar(this.id);">DMX ACCESSORIES</a></li>
@@ -89,9 +90,10 @@ ga('send', 'pageview');
       <input id="tab-four" type="radio" name="tabs2">
       <label for="tab-four"><h4 class="burg-links">COVE</h4></label>
       <div class="tab-content">
+        <a onclick="closeSide()" href="#/nano"><p>NANO</p></a>
        	<a onClick="closeSide()" href="#/mini-cove"><p>MINI COVE</p></a>
-		<a onClick="closeSide()" href="#/cove"><p>COVE</p></a>
-		<a onClick="closeSide()" href="#/cove-ext"><p>COVE EXTERIOR</p></a>
+		    <a onClick="closeSide()" href="#/cove"><p>COVE</p></a>
+		    <a onClick="closeSide()" href="#/cove-ext"><p>COVE EXTERIOR</p></a>
       </div>
     </div>
     <div class="accordian tab blue">
@@ -124,8 +126,8 @@ ga('send', 'pageview');
       <input id="tab-9" type="radio" name="tabs2">
 		<label for="tab-9"><h4 class="burg-links">CONTROLS</h4></label>
       <div class="tab-content">
-		<a onClick="closeSide()" href="#/controls"><p>DMX CONTROLLERS</p></a>
-		<a onClick="closeSide()" href="#/accessories"><p>DMX ACCESSORIES</p></a>
+		<a onClick="closeSide()" href="#/dmx-controls"><p>DMX CONTROLLERS</p></a>
+		<a onClick="closeSide()" href="#/dmx-accessories"><p>DMX ACCESSORIES</p></a>
         <a onClick="closeSide()" href="#/converters"><p>CONVERTERS</p></a>
       </div>
     </div>	
@@ -136,14 +138,14 @@ ga('send', 'pageview');
 	<br>
 		 <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ABOUT US</h4></a></label></div>
 		 <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ALL PRODUCTS</h4></a></label></div>
-			 <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h4 class="burg-links">PROJECTS</h4></a></label></div>
+		 <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h4 class="burg-links">PROJECTS</h4></a></label></div>
 		 <div class="accordian tab"> <label><a href="#/news" onClick="closeSide()" class="burg-links"><h4 class="burg-links">NEWS</h4></a></label></div>
 
 		 <div class="accordian tab"> <label><a href="#/resources" onClick="closeSide()" class="burg-links"><h4 class="burg-links">RESOURCES</h4></a></label></div>
 		 <div class="accordian tab"> <label><a href="#/legacy" onClick="closeSide()" class="burg-links"><h4 class="burg-links">LEGACY</h4></a></label></div>
-     <div class="accordian tab"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h4 class="burg-links">HOW TO BUY</h4></a></label></div>
+     <div class="accordian tab"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h4 class="burg-links">FIND YOUR REP</h4></a></label></div>
      <div class="accordian tab"> <label><a href="#/contact-us" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CONTACT US</h4></a></label></div>
-     <div class="accordian"> <label><a href="#/job-listings" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CAREERS</h4></a></label></div>
+     <div class="accordian tab"> <label><a href="#/job-listings" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CAREERS</h4></a></label></div>
 
 		  <br>
       </div>
@@ -152,17 +154,17 @@ ga('send', 'pageview');
 <!--		DESKTOP SIDEBAR-->
       <div class="sidenav" id="sidenav-d">
         <div class="accordian tab"> <label><a href="#/about" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ABOUT US</h4></a></label></div>
-		 <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ALL PRODUCTS</h4></a></label></div>
-			 <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h4 class="burg-links">PROJECTS</h4></a></label></div>
+		    <div class="accordian tab"> <label><a href="#/all-products" onClick="closeSide()" class="burg-links"><h4 class="burg-links">ALL PRODUCTS</h4></a></label></div>
+        <div class="accordian tab"> <label><a href="#/projects" onClick="closeSide()" class="burg-links"><h4 class="burg-links">PROJECTS</h4></a></label></div>
 
-		 <div class="accordian tab"> <label><a href="#/news" onClick="closeSide()" class="burg-links"><h4 class="burg-links">NEWS</h4></a></label></div>
+		    <div class="accordian tab"> <label><a href="#/news" onClick="closeSide()" class="burg-links"><h4 class="burg-links">NEWS</h4></a></label></div>
 
-		 <div class="accordian tab"> <label><a href="#/resources" onClick="closeSide()" class="burg-links"><h4 class="burg-links">RESOURCES</h4></a></label></div>
-	 <div class="accordian tab"> <label><a href="#/legacy" onClick="closeSide()" class="burg-links"><h4 class="burg-links">LEGACY</h4></a></label></div>
+		    <div class="accordian tab"> <label><a href="#/resources" onClick="closeSide()" class="burg-links"><h4 class="burg-links">RESOURCES</h4></a></label></div>
+	      <div class="accordian tab"> <label><a href="#/legacy" onClick="closeSide()" class="burg-links"><h4 class="burg-links">LEGACY</h4></a></label></div>
 
-     <div class="accordian tab"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h4 class="burg-links">HOW TO BUY</h4></a></label></div>
-     <div class="accordian tab"> <label><a href="#/contact-us" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CONTACT US</h4></a></label></div>
-     <div class="accordian"> <label><a href="#/job-listings" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CAREERS</h4></a></label></div>
+        <div class="accordian tab"> <label><a href="#/reps" onClick="closeSide()" class="burg-links"><h4 class="burg-links">FIND YOUR REP</h4></a></label></div>
+        <div class="accordian tab"> <label><a href="#/contact-us" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CONTACT US</h4></a></label></div>
+        <div class="accordian tab"> <label><a href="#/job-listings" onClick="closeSide()" class="burg-links"><h4 class="burg-links">CAREERS</h4></a></label></div>
 
       </div> 
 

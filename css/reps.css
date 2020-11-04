@@ -3,7 +3,7 @@
 input:focus {outline:none !important;}
 
 #resetStates {
-	display: none;
+    display: none;
 }
 
 #resetProvs {
@@ -15,17 +15,34 @@ display: none;
 #resetTest {
 display: none;
 }
+
+.select2-container ::placeholder{
+    font-weight: 600;
+    color: rosybrown;
+    font-size: 20px;
+}
+
+/*
 .rep-filter {
   border: none;
   border-bottom: 1px solid black;
-	position: relative;
+    position: relative;
   -webkit-appearance: none;
   -webkit-border-radius: 0px;
-	background-color: white;
-	top: 14px;
+  border-radius: 0px;
+    background-color: white;
+    top: 14px;
 }
+*/
+
+/*
+.select2:required:invalid{
+    color: red;
+}
+*/
+
 .item {
-	position: relative;
+    position: relative;
   width: 331px;
   height: 300px;
   float: left;
@@ -35,11 +52,31 @@ display: none;
 }
 
 
+hr{
+    color: black !important;
+}
 
 .item p {
-	font-weight: 100;
-  margin: 0;
-font-size: 20px;
+    font-weight: 100;
+    margin: 0;
+    font-size: 20px;
+    /*line-height: 28px;*/
+}
+.item br{
+    line-height:1em;
+}
+
+.name {
+    font-weight: 500 !important;
+}
+
+.repSpecLoc{
+    font-size: 15px !important;
+    font-weight: 500 !important;
+}
+
+.repLoc{
+    font-size: 18px !important;
 }
 
 
@@ -47,54 +84,51 @@ select, label, input { font-size: 20px; }
 
 label { margin-right: 10px; }
 
-.name {
-	font-weight: 500 !important;
-}
+
 
 .foot-link {
-	position: absolute;
-	bottom: 22px;
-	text-decoration: underline;
+    position: absolute;
+    bottom: 22px;
+    text-decoration: underline;
 }
 
 .select2 {
-	font-size: 20px;
+    font-size: 20px;
+    font-weight: 500;
 }
+
 /*
 .select2-container {
-	top: 14px;
+    top: 14px;
 }
 */
 
 .select2-container--default .select2-selection--single {
-	position: relative;
-	border: none;
-	border-radius: 0px;
+    position: relative;
+    border: none;
+    border-radius: 0px;
 }
 
 select[style*="display: none"] + .select2 { display: none; }
 
 .gridContent {
-	width: 90%;
-	max-width: 1440px;
-	margin: 0 auto;
-}
-
-.title {
-	height: 700px;
+    width: 90%;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1199px) {
-	.midContent {
-		padding-bottom: 15px;
-	}
-	.select2-container {
-		width: 100% !important;
-	}
+    .midContent {
+        padding-bottom: 15px;
+    }
+    .select2-container {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 425px) {
-	.item {
-		width: 100%;
-	}
+    .item {
+        width: 100%;
+    }
 }
+
