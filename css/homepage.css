@@ -134,7 +134,13 @@ body{
 }
 */
 
-
+.SSIMG{
+  max-width: 1100px;
+  top: 15vh;
+  width: 80vw;
+  transform: translate(-50%, 0);
+  position: absolute;
+}
 
 
 .SSONECenterImg{
