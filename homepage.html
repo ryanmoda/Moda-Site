@@ -1,4 +1,5 @@
 <link href="css/homepage.css" rel="stylesheet" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 <style>
 	.ctText {
@@ -11,7 +12,6 @@
 /*		margin-top: 15px;*/
 	}
 	
-
 	.grid-container {
     display: grid;
 }
@@ -31,7 +31,6 @@
     width: 100% !important;
 	}
 }
-
 	
 </style>
 
@@ -41,49 +40,41 @@ $(document).ready(function(){
 });
 </script>
 
-
+<body>
 
 <ul class="slideshow">
 
-	<li>
-		 
+	<li><span>
 			<!--NANO-->
 			<center>
 				<img class="SSONECenterImg" src="images/Homepage/Slideshow/Slideshow1-2.png">
 							
 			</center>
-
-
-		
-	</li>
+		</span></li>
  
 
-  	<li>
-		
+
+  	<li><span>
 			<!--MODA TOUCH-->
 			<center>
 				<img class="SSTWOCenterImg" src="images/Homepage/Slideshow/Slideshow2.png">
 							
 			</center>
         	<!--<h1 class="SSTWODescripText" style="font-weight: 800; font-size: 50px; color:white; top: 70% !important;">Fuckin' Simple</h1>-->
- 
-		
-	</li>
+		</span></li>
 
+	
 
-	<li>
-		
+	<li><span>
 			<!--INC 5000-->
 			<center>
 					<img class="SSTHREECenterImg" src="images/Awards/inc.5000company.svg">
 								
 			</center>
-		
-		
-	</li>
+		</span></li>
 
-	<li>
-		
+
+	<li><span>
 			<!--MODA WAY-->
 			
 			<div style="float: left;" class="SSFOURCenterImg">
@@ -91,16 +82,16 @@ $(document).ready(function(){
     				
 			</div>
 
-			<div style="float: right;">
-				<h1 class="SSFOURDescripText">We make our own -
+			<div style="float: right;" class="SSFOURDescripText">
+				<h1>We make our own -
 				<br><br>
-					<strong style="line-height: 1em;">LEDs<br>Drivers<br>Optics</strong><br><br><br>We make every part of our fixtures<br><br>The <strong style="color: var(--moda-red);">MODA</strong> way.
+					<strong style="line-height: 1em;">LEDs<br>Drivers<br>Optics</strong>
+					<br><br><br>
+					We make every part<br>of our fixtures...<br><br>
+					The <strong style="color: var(--moda-red);">MODA</strong> way.
 				</h1>
 			</div>
-			
-
-		
-	</li>
+		</span></li>
 </ul>
 
 
@@ -161,16 +152,16 @@ $(document).ready(function(){
 <a href="#/all-products" class="index-but btn">ALL PRODUCTS</a>
 </div> -->
 
-
+<!--
 <div id="nanoBlock" style="width: 100%; margin-top: 80vh; background-color: black; border-bottom: 1px solid #999; padding-top: 50px; padding-left:50px;padding-right: 50px; padding-bottom: 70px;  height: 70vh;">
 <div class="row" style="height: 100%; margin-top: 50px;">
 	<center>
-	<div  id="nanoText" style="padding: 30px; align-content: center; width: 40%; height: 60vh; float: left;">
+	<div id="nanoText" style="padding: 30px; align-content: center; width: 40%; height: 60vh; float: left;">
 		
 			<div style="padding-top: calc(390px - calc(420px - 17%));">
-				<span style="font-size: 62px; font-weight: 400; letter-spacing: 2px;">NANO<span style="display: block; margin-top: -79px; margin-bottom: 50px; margin-left: 200px; font-size: 14px;">&reg;</span> COVE INTERIOR</span>
+				<a href="#/nano"><span style="font-size: 62px; font-weight: 400; letter-spacing: 2px;">NANO<span style="display: block; margin-top: -79px; margin-bottom: 50px; margin-left: 200px; font-size: 14px;">&reg;</span> COVE INTERIOR</span></a>
 				<p style="color: var(--moda-red); font-size: 24px; padding-bottom: 40px; font-weight: 400;">Performance Simplified</p>
-			<h1>Industry's smallest line voltage cove fixture.</h1>
+			<h2>Industry's smallest line voltage cove fixture.</h2>
 			<div style="max-width: 536px;"><hr style="border-top: 1px solid #ffffff78;"></div>
 			<h2>Most cost effective cove light in the market.</h2>
 			</div>
@@ -188,6 +179,28 @@ $(document).ready(function(){
 </center>
 </div>
 </div>
+-->
+
+<div style="padding-top: 115px; padding-bottom: 60px; margin-top: 70vh;" id="newsBlock">
+	<center>
+<div class="row gutterless" style="max-width: 1200px;">
+	<div class="col-lg-6" style="padding-bottom: 20px;">
+		<a href="#/nano" id="nano-link">
+			<span style="font-size: 62px; font-weight: 400; letter-spacing: 2px;">NANO<span style="display: block; margin-top: -79px; margin-bottom: 50px; margin-left: 200px; font-size: 14px;">&reg;</span> COVE INTERIOR</span>
+		</a>
+		<p style="color: var(--moda-red); font-size: 24px; padding-bottom: 40px; font-weight: 400;">Performance Simplified</p>
+			<h2>Industry's smallest line voltage cove fixture.</h2>
+			<div style="max-width: 536px;"><hr style="border-top: 1px solid #ffffff78;"></div>
+			<h2>Most cost effective cove light in the market.</h2>
+	</div>
+	<div class="col-lg-6"><video style="border: 1px solid #999; border-radius: 3px;" width="80%" height="100%" controls>
+		<source src="videos/NANO-VIDEO-FINAL.mp4" type="video/mp4">
+			Your browser doesn not support the video tag.
+	</video>
+</div>
+</div>
+</center>
+	</div>
 
 
 <!--
@@ -317,4 +330,4 @@ $(document).ready(function(){
 	</div>
 -->
 
-
+</body>

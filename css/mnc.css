@@ -189,19 +189,21 @@ hr {
 
 .vers-fix-sect{
 	float: left;
-	width: 650px;
+	width: 80%;
 	margin: 30px;
 	margin-right: -70px;
 }
+
 
 
 .contentParagraphs{
 	font-weight: 200 !important;
 	line-height: 2em;
 	font-kerning: auto;
-	width: 720px !important;
+	width: 80%;
 	padding: 30px !important;
 }
+
 
 .text-link:hover{
 	color: var(--moda-red) !important;
@@ -256,7 +258,7 @@ hr {
 
 #block6 .p1{
 	background-color: white;
-	width: 993px;
+	width: 80%;
 	padding: 20px;
 }
 
@@ -872,12 +874,30 @@ opacity: 0.5;
 	.grid-container--5facts {
 	grid-template-columns: repeat(2, 1fr);
 	}
-img.icon-grid-icon {
-  height: 30px;
+	img.icon-grid-icon {
+ 		height: 30px;
+	}
+	img.icon-grid-icon-dis {
+ 		height: 30px;
+	}
 }
-img.icon-grid-icon-dis {
-  height: 30px;
-}
+
+/*mobile code*/
+
+@media screen and (max-width: 481px){
+	img{
+		width: 80%;
+	}
+	
+
+	p{
+		width: 80%;
+	}
+	 #img-moda-syn-board{
+		max-width: 20px;
+	 }
+
+	 
 }
 
 @media screen and (min-width: 1440px) {

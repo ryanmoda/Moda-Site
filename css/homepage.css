@@ -90,9 +90,9 @@ body{
 }
 
 
-.slideshow li  {
+.slideshow li span  {
     width: 100vw;
-    height: 80vh;
+    height: 75vh;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -100,7 +100,7 @@ body{
     background-position: 50% 50%;
     background-repeat: none;
     opacity: 0;
-    z-index: -20;
+    z-index: -40;
     animation: imageAnimation 20s infinite 0s;
 }
 
@@ -135,8 +135,8 @@ body{
 
 
 .SSONECenterImg{
-  max-width: 1100px;
-  top: 10vh;
+  width: 100%;
+  top: 20vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
@@ -147,8 +147,8 @@ body{
 
 
 .SSTWOCenterImg{
-  max-width: 1100px;
-  top: 10vh;
+  max-width: 1300px;
+  top: 20vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
@@ -161,7 +161,7 @@ body{
 .SSTHREECenterImg{
   
   max-width: 1100px;
-  top: 18vh;
+  top: 25vh;
   width: 80vw;
   transform: translate(-50%, 0);
   position: absolute;
@@ -189,13 +189,22 @@ body{
 
 
 
-.SSFOURDescripText {
-    width: 75%;
+.SSFOURDescripText{
+  max-width: 500px;
+}
+
+.SSFOURDescripText h1{
+    
     font-size: 30px;
     letter-spacing: 3px;
     color: white;
+    /*text-shadow: -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+    */
     position: absolute;
-    left: 90%;
+    left: 65%;
     top: 30%;
     transform: translate(-50%,0);
     z-index: 30;
@@ -204,7 +213,7 @@ body{
 .SSFOURCenterImg{
   position: fixed;
   bottom: 0px;
-  width: 50%;
+  width: 20%;
   left: -5vw;
 }
 
@@ -313,31 +322,48 @@ body{
 }
 */
 
+#nano-link{
+  text-decoration: none;
+  color: white !important;
+}
+
+#nano-link:hover{
+  color: var(--moda-red) !important;
+}
+
+#nanoBlock::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 #awardsBlock {
 	background-color: black;
 }
 
 #newsBlock {
-	background-color: black;
+  background-color: black;
+  width: 100vw;
 }
 
-.slideshow li:nth-child(1)  { 
+.slideshow li:nth-child(1) span { 
 	background-color: #fff;
 	animation-delay: 0s;
 }
-.slideshow li:nth-child(2)  { 
+.slideshow li:nth-child(2) span { 
 	background-color: white;
 	animation-delay: 5s;
 	}
 
-.slideshow li:nth-child(3)  {
+.slideshow li:nth-child(3) span {
   background: rgb(0,0,0);
   background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(65,65,65,1) 100%);
  
   animation-delay: 10s;
 } 
 
-.slideshow li:nth-child(4){
+.slideshow li:nth-child(4) span{
+
 	animation-delay: 15s;
   background: rgb(68,68,68);
   background: linear-gradient(0deg, rgba(68,68,68,1) 0%, rgba(40,40,40,1) 14%, rgba(0,0,0,1) 100%); 
@@ -409,7 +435,7 @@ body{
 
 
 @media (max-width: 2560px) {
-  .SSFOURCenterImg{left: 5vw;}
+  .SSFOURCenterImg{left: 5%;}
   
   #honeycomb{width: 28vw; }
   #louvres3{ width: 16vw;left:20% }
@@ -417,26 +443,26 @@ body{
 }
 
 @media (max-width: 2050px){
-  .SSFOURCenterImg{left: 5vw;}
+  .SSFOURCenterImg{left: 5%;}
 }
 
 @media (max-width: 1800px) {
 
-  .SSFOURCenterImg{left: 0vw;}
+  .SSFOURCenterImg{left: 0%;}
 	#honeycomb{ width: 40vw; }
 	#louvres3{ width: 19vw; left: 15%; }
 }
 
 
 @media (max-width: 1440px) {
-  .SSFOURCenterImg{left: -15vw;}
+  .SSFOURCenterImg{left: -15%;}
   #honeycomb{ width: 40vw; }
   #louvres3{ width: 24vw; left: 10%; }
 }
 
 @media (max-width: 1280px) {
   
-  .SSFOURCenterImg{left: -15vw;}
+  .SSFOURCenterImg{left: -15%;}
   #honeycomb{ width: 43vw;}
   #louvres3{ width: 27vw; left: 5%; }
   
@@ -445,7 +471,7 @@ body{
 @media (max-width: 1024px) {
   
   #nano-text{width:32vw;}
-  .SSFOURCenterImg{left: -15vw;}
+  .SSFOURCenterImg{left: -15%;}
   #honeycomb{ width: 62vw; top: -150px; }
   #louvres3{ width: 33vw; }
 }
@@ -462,23 +488,34 @@ body{
 	}
 }
 
+/*
 @media (max-width: 768px) {
   
-  .SSFOURCenterImg{left: -85vw;}
-  #honeycomb{ width: 44vw; top: 10px; }
-  #louvres3{ width: 41vw; }
-}
-
-@media (max-width: 500px) {
   
-  /*
-  #SSTHREECenterImg1{width: 60vw;}
-  .SSONECenterImg{width: 80vw;}
-  */
-  #honeycomb{ width: 50vw; }
-  #louvres3{ width: 48vw;  }
+  
 }
+*/
 
+/*mobile code*/
+@media screen and (max-width: 481px){
+  
+  .slideshow li:nth-child(1) span img{
+    width: 110%;
+  }
+  .slideshow li:nth-child(2) span img{
+    width: 110%;
+  }
+  .slideshow li:nth-child(3) span img{
+    width: 100%;
+  }
+
+  
+
+  .SSFOURCenterImg{left: -145%; top: 10%; width: 20%;}
+  .SSFOURDescripText h1{ font-size: 20px;}
+  .SSFOURDescripText{ left: 30%;  max-width: 300px;}
+
+}
 /*
 */
 
