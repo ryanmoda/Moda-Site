@@ -147,7 +147,7 @@ body{
 
 
 .SSTWOCenterImg{
-  max-width: 1300px;
+  max-width: 1100px;
   top: 20vh;
   width: 80vw;
   transform: translate(-50%, 0);
@@ -435,6 +435,8 @@ body{
 
 
 @media (max-width: 2560px) {
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   .SSFOURCenterImg{left: 5%;}
   
   #honeycomb{width: 28vw; }
@@ -443,11 +445,14 @@ body{
 }
 
 @media (max-width: 2050px){
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   .SSFOURCenterImg{left: 5%;}
 }
 
 @media (max-width: 1800px) {
-
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   .SSFOURCenterImg{left: 0%;}
 	#honeycomb{ width: 40vw; }
 	#louvres3{ width: 19vw; left: 15%; }
@@ -455,12 +460,16 @@ body{
 
 
 @media (max-width: 1440px) {
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   .SSFOURCenterImg{left: -15%;}
   #honeycomb{ width: 40vw; }
   #louvres3{ width: 24vw; left: 10%; }
 }
 
 @media (max-width: 1280px) {
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   
   .SSFOURCenterImg{left: -15%;}
   #honeycomb{ width: 43vw;}
@@ -469,6 +478,8 @@ body{
 }
 
 @media (max-width: 1024px) {
+  .SSONECenterImg{width: 70%;}
+  .SSTWOCenterImg{width: 70%;}
   
   #nano-text{width:32vw;}
   .SSFOURCenterImg{left: -15%;}
