@@ -26,11 +26,14 @@
 		text-align: center;
 		background-color: rgba(0,0,0,0.70);
 	}
+	/*
 	@media (max-width: 1499px) {
 	.col-lg-6.custCol {
-    width: 100% !important;
+	width: 100% !important;
 	}
-}
+	}
+	*/
+
 	
 </style>
 
@@ -47,7 +50,7 @@ $(document).ready(function(){
 	<li><span>
 			<!--NANO-->
 			<center>
-				<img class="SSONECenterImg" src="images/Homepage/Slideshow/Slideshow1-2.png">
+				<img id="SSONECenterImg" src="images/Homepage/Slideshow/Slideshow1-2.png">
 							
 			</center>
 		</span></li>
@@ -57,7 +60,7 @@ $(document).ready(function(){
   	<li><span>
 			<!--MODA TOUCH-->
 			<center>
-				<img class="SSTWOCenterImg" src="images/Homepage/Slideshow/Slideshow2.png">
+				<img id="SSTWOCenterImg" src="images/Homepage/Slideshow/Slideshow2.png">
 							
 			</center>
         	<!--<h1 class="SSTWODescripText" style="font-weight: 800; font-size: 50px; color:white; top: 70% !important;">Fuckin' Simple</h1>-->
@@ -68,21 +71,32 @@ $(document).ready(function(){
 	<li><span>
 			<!--INC 5000-->
 			<center>
-					<img class="SSTHREECenterImg" src="images/Awards/inc.5000company.svg">
+					<img id="SSTHREECenterImg" src="images/Awards/inc.5000company-homepage.svg">
 								
 			</center>
 		</span></li>
 
 
 	<li><span>
-			<!--MODA WAY-->
+			<!--BLADE LOUVRE-->
 			
-			<div style="float: left;" class="SSFOURCenterImg">
-				<img id="moda-led" src="images/Homepage/Slideshow/MINI-NANO-LED.png" draggable="false"> 
+			<div id="SSFOURCenterImg" class="col-sm-8 col-md-8 col-lg-8">
+				<img id="blade" src="images/Homepage/Slideshow/bladelouvre-cc-homepage.gif" draggable="false"> 
     				
 			</div>
 
-			<div style="float: right;" class="SSFOURDescripText">
+			<div id="SSFOURCenterImg2" class="col-sm-4 col-md-4 col-lg-4">
+				<img id="blade-text" src="images/Homepage/Slideshow/Blade-Text.svg" draggable="false"> 
+    				
+			</div>
+			
+		</span></li>
+</ul>
+
+
+<!--
+
+	<div id="SSFOURDescripText" >
 				<h1>We make our own -
 				<br><br>
 					<strong style="line-height: 1em;">LEDs<br>Drivers<br>Optics</strong>
@@ -91,11 +105,8 @@ $(document).ready(function(){
 					The <strong style="color: var(--moda-red);">MODA</strong> way.
 				</h1>
 			</div>
-		</span></li>
-</ul>
 
 
-<!--
 <div id="slideshowButtons" style="text-align: center;">
 	<button type="button" onclick="slideshow(li(nth-child(1)))"></button>
 	<button class="dot" onclick="slideshow(li(nth-child(2)))"></button>
@@ -181,7 +192,7 @@ $(document).ready(function(){
 </div>
 -->
 
-<div style="padding-top: 115px; padding-bottom: 60px; margin-top: 70vh;" id="newsBlock">
+<div style="padding-top: 115px; padding-bottom: 60px; margin-top: 100vh;" id="newsBlock">
 	<center>
 <div class="row gutterless" style="max-width: 1200px;">
 	<div class="col-lg-6" style="padding-bottom: 20px;">
@@ -190,7 +201,7 @@ $(document).ready(function(){
 		</a>
 		<p style="color: var(--moda-red); font-size: 24px; padding-bottom: 40px; font-weight: 400;">Performance Simplified</p>
 			<h2>Industry's smallest line voltage cove fixture.</h2>
-			<div style="max-width: 536px;"><hr style="border-top: 1px solid #ffffff78;"></div>
+			<div style="max-width: 536px;"><hr style="border-top: 1px solid #ffffff78; width: 80%;"></div>
 			<h2>Most cost effective cove light in the market.</h2>
 	</div>
 	<div class="col-lg-6">
