@@ -408,7 +408,7 @@ input[name="tabs2"]:checked ~ .tab-content {
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1380px) {
  #navlist {
     display: none;
   }
