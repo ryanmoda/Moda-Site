@@ -330,7 +330,10 @@
 			.when('/projects',{
                 templateUrl:'projects.html?1604510217'
             })
-					.when('/bonfire',{
+        .when('/cathedral-st-john',{
+                templateUrl:'cathedral-stjohn.html?1604510217'
+        })
+				.when('/bonfire',{
                 templateUrl:'bonfire.html?1604510217'
 				})
 				.when('/jaburritos',{
@@ -366,9 +369,9 @@
 				.when('/global-ucf',{
                 templateUrl:'global-ucf.html?1604510217'
 				})
-			.when('/projects-2',{
-                templateUrl:'projects-2.html?1604510217'
-            })
+			//.when('/projects-2',{
+              //  templateUrl:'projects-2.html?1604510217'
+           // })
 				.when('/wh-fl',{
                 templateUrl:'winter-garden-hospital.html?1604510217'
             	})
@@ -405,9 +408,9 @@
 				.when('/gl-sh-il',{
                 templateUrl:'global-showroom.html?1604510217'
             	})
-			.when('/projects-3',{
-                templateUrl:'projects-3.html?1604510217'
-            })
+			//.when('/projects-3',{
+               // templateUrl:'projects-3.html?1604510217'
+          //  })
 				.when('/sidebar-grille',{
                 templateUrl:'sidebar-grille.html?1604510217'
             	})
@@ -525,9 +528,6 @@
 			.when('/events',{
                 templateUrl:'events.html?1604510217'
             })
-			.when('/contact',{
-                templateUrl:'contact.html?1604510217'
-			})
 			.when('/contact-us',{
 				templateUrl:'contact-us.html?1604510217'
 			})
@@ -546,6 +546,9 @@
       //.when('/all-products2',{
        //         templateUrl:'all-products2.html'
        //   })
+       .when('/quickship',{
+        templateUrl:'quickship.html?1604510217'
+            })
 			.when('/product-configurator',{
                 templateUrl:'product-configurator.html?1604510217'
             })

@@ -71,7 +71,9 @@ ga('send', 'pageview');
 		      <li onClick="closeAll();" class="nav-links"><a href="#/xtrusion" class="nav-links-a" id="nav-xtrusion">XTRUSION</a>
           </li>
 		    	<li onClick="closeAll();" class="nav-links"><a href="#/power" class="nav-links-a" id="nav-power">POWER</a>
-          </li>          
+          </li>  
+          <li onClick="closeAll();" class="nav-links"><a href="#/quickship" class="nav-links-a" id="nav-quickship">QUICKSHIP</a>
+          </li>      
 		    	<li onClick="navDrop('cntrl-bar');" class="nav-links-a"><a href="" id="nav-controls">CONTROLS</a>
             <ul class="sub-bar" id="cntrl-bar">
               <li style="margin-left: -26px;"><a href="#/controls" id="d-dmx-ctrl" onclick="hideBar(this.id);">DMX CONTROLLERS</a></li>
@@ -118,13 +120,20 @@ ga('send', 'pageview');
       <input id="tab-7" type="radio" name="tabs2">
         <label><a onClick="closeSide()" href="#/xtrusion"><h4 class="burg-links">XTRUSION</h4></a></label>
     </div>	
+      
     <div class="accordian tab blue">
       <input id="tab-8" type="radio" name="tabs2">
       <label><a onClick="closeSide()" href="#/power"><h4 class="burg-links">POWER</h4></a></label>
-    </div>	
-	<div class="accordian tab blue">
+    </div>
+
+    <div class="accordian tab blue">
       <input id="tab-9" type="radio" name="tabs2">
-		<label for="tab-9"><h4 class="burg-links">CONTROLS</h4></label>
+      <label><a onClick="closeSide()" href="#/quickship"><h4 class="burg-links">QUICKSHIP</h4></a></label>
+    </div>
+    
+	<div class="accordian tab blue">
+      <input id="tab-10" type="radio" name="tabs2">
+		<label for="tab-10"><h4 class="burg-links">CONTROLS</h4></label>
       <div class="tab-content">
 		<a onClick="closeSide()" href="#/dmx-controls"><p>DMX CONTROLLERS</p></a>
 		<a onClick="closeSide()" href="#/dmx-accessories"><p>DMX ACCESSORIES</p></a>
@@ -132,7 +141,7 @@ ga('send', 'pageview');
       </div>
     </div>	
     <div class="accordian blue">
-      <input id="tab-10" type="radio" name="tabs2">
+      <input id="tab-11" type="radio" name="tabs2">
         <label><a onClick="closeSide()" href="#/technology"><h4 class="burg-links">TECHNOLOGY</h4></a></label>
     </div>	
 	<br>

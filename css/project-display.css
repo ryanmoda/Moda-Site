@@ -25,11 +25,12 @@ body {
 .prod-links {
 	font-size: 16px;
 /*	padding:  0 10px 0 0px;*/
-	color: #999999;
+	color: black
 }
 
 .prod-links:hover {
 	text-decoration: none;
+	color: var(--moda-red);
 }
 
 .bar-links {

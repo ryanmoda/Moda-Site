@@ -1,67 +1,67 @@
 /* CSS reset */
 #footy {
-	padding-top: 39px !important;
+  padding-top: 39px !important;
 }
 /* .sidenav {
-	background-color: rgba(0,0,0,.93) !important;
-	background-color: var(--side-nav-1) !important;
+  background-color: rgba(0,0,0,.93) !important;
+  background-color: var(--side-nav-1) !important;
 }
 .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
-	background-color: white !important;
-	background-color: var(--sec-color) !important;
+  background-color: white !important;
+  background-color: var(--sec-color) !important;
 }
 .burg-links {
-	color: white !important;
-	color: var(--sec-color) !important;
+  color: white !important;
+  color: var(--sec-color) !important;
 }
 .tab-content p {
-	color: black !important;
-	color: var(--sec-color) !important;
+  color: black !important;
+  color: var(--sec-color) !important;
 }
 */
 
 .foot, .foot a p {
-	color: white;
-	background-color: black;
+  color: white;
+  background-color: black;
 }
 
 /*
 h5 {
-	color: var(--main-text-color) !important;
+  color: var(--main-text-color) !important;
 }
 
 .index-but {
-	position: relative;
-	font-size: 16px;
-	font-weight: 300;
-	opacity: 1 !important;
-	height: 40px;
-	width: 200px;
-	background-color: rgba(255,255,255,0);
-	color: white;
-	border: 1px solid white;
-	background-color: var(--main-bg-color);
-	color: var(--main-text-color);
-	border: 1px solid var(--main-text-color);
-	margin: 3px 10px;
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  opacity: 1 !important;
+  height: 40px;
+  width: 200px;
+  background-color: rgba(255,255,255,0);
+  color: white;
+  border: 1px solid white;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  border: 1px solid var(--main-text-color);
+  margin: 3px 10px;
 }
 */
 
 .index-but:hover {
-	color: #999;
-	border: 1px solid #999;
+  color: #999;
+  border: 1px solid #999;
 }
 
 #footy {
-	position: absolute;
-	background-color: rgba(225,225,225,0);
-	background-color: var(--main-bg-color);
-	z-index: 7;
-	max-height: 100%;
-	overflow: hidden;
-	width: 100%;
-	padding-top: 20px;
-		bottom: 0px;
+  position: absolute;
+  background-color: rgba(225,225,225,0);
+  background-color: var(--main-bg-color);
+  z-index: 7;
+  max-height: 100%;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 20px;
+    bottom: 0px;
 }
 
 
@@ -80,13 +80,13 @@ h5 {
 
 /* General Demo Style */
 body{
-	  height: 100%;
-	background: #fff;
-	font-weight: 300;
-	font-size: 15px;
-	overflow-y: scroll;
-	overflow-x: hidden;
-	color: white;
+    height: 100%;
+  background: #fff;
+  font-weight: 300;
+  font-size: 15px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: white;
 }
 
 
@@ -147,12 +147,19 @@ body{
 
 
 #SSTWOCenterImg{
-  max-width: 1000px;
-  top: 25vh;
-  width: 100%;
+  opacity: .6;
+  width: 150%;
   transform: translate(-50%, 0);
   position: absolute;
-  
+  z-index: 20;
+}
+
+#qs-HomeSS{
+  position: relative;
+  z-index: 21;
+  width: 30%;
+  top: 35vh;
+  left: 0;
 }
 
 
@@ -314,8 +321,8 @@ body{
 }
 
 .slide3{
-	
-	z-index: 5;
+  
+  z-index: 5;
 }
 */
 
@@ -335,7 +342,7 @@ body{
 }
 
 #awardsBlock {
-	background-color: black;
+  background-color: black;
 }
 
 #newsBlock {
@@ -344,13 +351,13 @@ body{
 }
 
 .slideshow li:nth-child(1) span { 
-	background-color: #fff;
-	animation-delay: 0s;
+  background-color: #fff;
+  animation-delay: 0s;
 }
 .slideshow li:nth-child(2) span { 
-	background-color: white;
-	animation-delay: 5s;
-	}
+  background-color: white;
+  animation-delay: 5s;
+  }
 
 .slideshow li:nth-child(3) span {
   background: rgb(0,0,0);
@@ -361,7 +368,7 @@ body{
 
 .slideshow li:nth-child(4) span{
 
-	animation-delay: 15s;
+  animation-delay: 15s;
   background: rgb(83,83,83);
   
 
@@ -390,28 +397,28 @@ body{
 
 @media (max-width: 425px) {
 
-	.ctSVG {
-		margin-top: 0px !important;
-	}
-	#ledText {
-		margin-top: -50px;
-	}
+  .ctSVG {
+    margin-top: 0px !important;
+  }
+  #ledText {
+    margin-top: -50px;
+  }
 }
 
 @media (max-height: 860px) {
   #nano-text{
     width: 20%;
   }
-	#scrollChev {
-		bottom: 25px;
-	}
+  #scrollChev {
+    bottom: 25px;
+  }
 }
 
 /*
 @media (max-width: 1024px) {
-	#scrollChev {
-		bottom: 50px;
-	}
+  #scrollChev {
+    bottom: 50px;
+  }
 }
 */
 
@@ -420,7 +427,9 @@ body{
   #nano-block{ height: 120vh;}
 }
 @media (max-width: 1499px) {
-	#awardText { justify-content: center;}
+  #awardText { justify-content: center;}
+  #SSTWOCenterImg{ height: 100%; width: 150%; }
+  #qs-HomeSS{width: 50%;}
 }
 
 /*
@@ -428,7 +437,13 @@ body{
 
 
 @media (max-width: 1024px) {
-  
+  #SSTWOCenterImg{
+    
+    width: 350vw;
+  }
+  #qs-HomeSS{
+    width: 65%;
+  }
   #nano-text{width:32vw;}
   
   #honeycomb{ width: 62vw; top: -150px; }
@@ -437,23 +452,27 @@ body{
 
 @media (max-height: 1000px) and (min-height: 800px ) {
   
+  #SSTWOCenterImg{
+    
+    width: 300vw;
+  }
   /*
   #SSTHREECenterImg1{width: 60vw;}
   .SSTWOCenterImg{width: 75vw;}
   */
-	#honeycomb {
-		width: 40vw;
-		top: 0px;
-	}
+  
 }
 
-/*
-@media (max-width: 768px) {
-  
+
+@media (width: 768px) {
+  #SSTWOCenterImg{
+    
+    width: 300vw;
+  }
   
   
 }
-*/
+
 
 /*mobile code*/
 @media screen and (max-width: 481px){
@@ -461,9 +480,10 @@ body{
   .slideshow li:nth-child(1) span img{
     width: 100%;
   }
-  .slideshow li:nth-child(2) span img{
-    width: 100%;
+  /*.slideshow li:nth-child(2) span img{
+    
   }
+  */
   .slideshow li:nth-child(3) span img{
     width: 100%;
   }
@@ -475,10 +495,17 @@ body{
     margin-right: auto;
   }
 
-  #SSFOURCenterImg2{
-    left:7vw;
-    
-  }
+
+#SSTWOCenterImg{
+  width: 300vw;
+}
+
+#qs-HomeSS{
+  left: 5vw;
+  width: 90%;
+  
+  
+}
 
 /*
   .SSFOURCenterImg{left: -145%; top: 10%; width: 20%;}
