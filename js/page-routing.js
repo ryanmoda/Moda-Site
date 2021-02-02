@@ -511,7 +511,7 @@
 				templateUrl:'leg-graze-rs.html?1611071917'
 				})
 			.when('/reps',{
-                templateUrl:'reps.html?1611071917'
+                templateUrl:'reps.html?1612291166'
             })
 			.when('/news',{
                 templateUrl:'news.html?1611071917'
