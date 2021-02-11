@@ -148,7 +148,7 @@ body{
 
 #SSTWOCenterImg{
   opacity: .6;
-  width: 150%;
+  width: 120vw;
   transform: translate(-50%, 0);
   position: absolute;
   z-index: 20;
@@ -497,7 +497,7 @@ body{
 
 
 #SSTWOCenterImg{
-  width: 180vw;
+  height: 100vh;
 }
 
 #qs-HomeSS{
