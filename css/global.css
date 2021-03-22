@@ -238,7 +238,7 @@ a#qs-ContactButton{
 }
 
 
-#qs-MiniCove h1{
+#qs-MiniCove h1, #qs-NanoCove h1{
 	font-size: 18px;
 	font-weight: 400;
 }
