@@ -668,16 +668,7 @@ margin-left: 3px;
 .icon-grid-icon:hover {
 	opacity: .7;
 }
-/* .row.no-gutters {
-   margin-right: 0;
-   margin-left: 0;
-}
-.row.no-gutters > [class^="col-"],
-.row.no-gutters > [class*=" col-"] {
-   padding-right: 0;
-   padding-left: 0;
-}
-*/
+
 .no-gutters-accs img {
 	width: 100%;
 }
