@@ -1,44 +1,59 @@
-<script>
-    $("#packId").click(function() {
-        $("#mmggd-pack-modal").modal('show');		
-	
-});
-</script>
-<div class="icon-grid icon-grid-9">
-<div class="row">
-<div class="col-lg-4 hovButtons">
-	<div class="col-xs-4 hovButtons"><a onClick="modalClick('mmg-gd-pg');" data-toggle="modal" data-target="#mmg-gd-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
-	<span class="icon-grid-caption">Product Guide</span></a>
-	</div>
-	<div class="col-xs-4 hovButtons"><a onClick="modalClick('mmg-gd-spec');" data-toggle="modal" data-target="#mmg-gd-spec-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
-	<span class="icon-grid-caption">Specification</span></a>
-	</div>
-	<div class="col-xs-4 hovButtons"><a onClick="modalClick('mmg-gd-inst');" data-toggle="modal" data-target="#mmg-gd-inst-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
-	<span class="icon-grid-caption">Installs</span></a>
-	</div>
-</div>
-<div class="col-lg-4 hovButtons">
-	<div class="col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
-	<span class="icon-grid-caption">Brochure</span>
-	</div>
-	
-	<div class="col-xs-4 hovButtons"><a data-toggle="modal" data-target="#mmggd-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
-	<span class="icon-grid-caption">IES</span>
-	</div></a>
-	<div class="col-xs-4 hovButtons"><a data-toggle="modal" data-target="#mmggd-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
-	<span class="icon-grid-caption">Revit</span></a>
-	</div>
-</div>
-<div class="col-lg-4 hovButtons">
-	<div class="col-xs-4 hovButtons"><a data-toggle="modal" data-target="#mmggd-cad-modal" data-dismiss="modal"><img class="icon-grid-icon-dis" src="images/Icons/icon-cad-blk.svg">
-	<span class="icon-grid-caption">CAD</span></a>
-	</div>
-	<div class="col-xs-4 hovButtons"><a target="_blank" href="resources/Compatability List/Mini Graze/static color/mmcgi-colors-dimmer-compatibility-list.pdf"><img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
-	<span class="icon-grid-caption">Compatibility</span></a>
-	</div>
-	<div class="col-xs-4 hovButtons"><a id="packId" href="#/mmg-gd?pack"><img class="icon-grid-icon-dis" src="svgs/system_update_alt-24px.svg">
-			<span class="icon-grid-caption">Pack</span></a>
+<div class="icon-grid">
+	<div class="row">
+
+		<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons">
+			<a onClick="modalClick('mmg-gd-pg');" data-toggle="modal" data-target="#mmg-gd-pg-modal" data-dismiss="modal">
+				<img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+				<span class="icon-grid-caption">Product Guide</span>
+			</a>
 		</div>
-</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a onClick="modalClick('mmg-gd-spec');" data-toggle="modal" data-target="#mmg-gd-spec-modal" data-dismiss="modal">
+				<img class="icon-grid-icon" src="images/Icons/icon-quick-spec-blk.svg">
+				<span class="icon-grid-caption">Specification</span>
+			</a>
+		</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a onClick="modalClick('mmg-gd-inst');" data-toggle="modal" data-target="#mmg-gd-inst-modal" data-dismiss="modal">
+				<img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+				<span class="icon-grid-caption">Installs</span>
+			</a>
+		</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
+			<span class="icon-grid-caption">Brochure</span>
+		</div>
+	
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a data-toggle="modal" data-target="#mmggd-ies-modal" data-dismiss="modal">
+				<img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+				<span class="icon-grid-caption">IES</span>
+			</a>
+		</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a data-toggle="modal" data-target="#mmggd-rev-modal" data-dismiss="modal">
+				<img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+				<span class="icon-grid-caption">Revit</span>
+			</a>
+		</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a data-toggle="modal" data-target="#mmggd-cad-modal" data-dismiss="modal">
+				<img class="icon-grid-icon-dis" src="images/Icons/icon-cad-blk.svg">
+				<span class="icon-grid-caption">CAD</span>
+			</a>
+		</div>
+
+		<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons">
+			<a target="_blank" href="resources/Compatability List/Mini Graze/static color/mmcgi-colors-dimmer-compatibility-list.pdf">
+				<img class="icon-grid-icon" src="images/Icons/icon-compatibility-blk.svg">
+				<span class="icon-grid-caption">Compatibility</span>
+			</a>
+		</div>
+
 		</div>
 	</div>
