@@ -376,10 +376,6 @@ body{
 
 
 
-#ledText {margin-top: -130px;}
-#awardText {margin-top: 40px; display: flex;justify-content: flex-end;}
-
-
 @keyframes imageAnimation {
   0%   { opacity: 0;}
   11.11%   { opacity: 1; }
@@ -432,6 +428,12 @@ body{
   #qs-HomeSS{width: 50%;}
 }
 
+@media (min-width: 1500px) {
+  #SSTWOCenterImg{
+    width: 130vw;
+  }
+}
+
 /*
 */
 
@@ -480,10 +482,14 @@ body{
   .slideshow li:nth-child(1) span img{
     width: 100%;
   }
-  /*.slideshow li:nth-child(2) span img{
-    
+  .slideshow li:nth-child(2) span #SSTWOCenterImg{
+    width: 190vw;
   }
-  */
+
+  .slideshow li:nth-child(2) span #qs-HomeSS{
+    width: 90vw;
+  }
+  
   .slideshow li:nth-child(3) span img{
     width: 100%;
   }
