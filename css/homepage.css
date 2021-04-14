@@ -482,10 +482,10 @@ body{
   .slideshow li:nth-child(1) span img{
     width: 100%;
   }
-  /*.slideshow li:nth-child(2) span #SSTWOCenterImg{
-    
+  .slideshow li:nth-child(2) span #SSTWOCenterImg{
+    width: 190vw;
    
-  }*/
+  }
 
   .slideshow li:nth-child(2) span #qs-HomeSS{
     width: 85%;
