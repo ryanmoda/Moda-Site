@@ -148,7 +148,7 @@ body{
 
 #SSTWOCenterImg{
   opacity: .6;
-  width: 105vw;
+  width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
   z-index: 20;
@@ -482,12 +482,13 @@ body{
   .slideshow li:nth-child(1) span img{
     width: 100%;
   }
-  .slideshow li:nth-child(2) span #SSTWOCenterImg{
-    width: 100vw;
-  }
+  /*.slideshow li:nth-child(2) span #SSTWOCenterImg{
+    
+   
+  }*/
 
   .slideshow li:nth-child(2) span #qs-HomeSS{
-    width: 90vw;
+    width: 85%;
   }
   
   .slideshow li:nth-child(3) span img{
@@ -502,16 +503,8 @@ body{
   }
 
 
-#SSTWOCenterImg{
-  height: 100vh;
-}
 
-#qs-HomeSS{
-  left: 5vw;
-  width: 80%;
-  
-  
-}
+
 
 /*
   .SSFOURCenterImg{left: -145%; top: 10%; width: 20%;}
