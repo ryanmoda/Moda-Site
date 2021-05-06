@@ -330,6 +330,9 @@
 			.when('/projects',{
                 templateUrl:'projects.html?1617746400'
             })
+        .when('/via-rail-station',{
+              templateUrl:'via-rail-station.html?1617746400'
+        })
         .when('/harlem-irving-plaza',{
                 templateUrl:'harlem-irving-plaza.html?1617746400'
         })
