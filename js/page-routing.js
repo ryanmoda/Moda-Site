@@ -30,515 +30,515 @@
             //     templateUrl:'test.html'
             // })
             .when('/nano',{
-              templateUrl:'nano.html?1617746400'
+              templateUrl:'nano.html?1622574000'
           })
             .when('/mini-cove',{
-                templateUrl:'mini-cove.html?1617746400'
+                templateUrl:'mini-cove.html?1622574000'
             })
 			.when('/cove',{
-                templateUrl:'moda-cove.html?1617746400'
+                templateUrl:'moda-cove.html?1622574000'
             })
 					.when('/cove-wl',{
-						templateUrl:'cove-wl.html?1617746400',
+						templateUrl:'cove-wl.html?1622574000',
 					})
 					.when('/cove-sc',{
-						templateUrl:'cove-sc.html?1617746400',
+						templateUrl:'cove-sc.html?1622574000',
 					})
 					.when('/cove-cc',{
-						templateUrl:'cove-cc.html?1617746400',
+						templateUrl:'cove-cc.html?1622574000',
 					})
 					.when('/cove-dw',{
-						templateUrl:'cove-dw.html?1617746400',
+						templateUrl:'cove-dw.html?1622574000',
 					})
 			.when('/cove-ext',{
-                templateUrl:'cove-ext.html?1617746400'
+                templateUrl:'cove-ext.html?1622574000'
             })
 					.when('/cove-wl-ext',{
-						templateUrl:'cove-wl-ext.html?1617746400'
+						templateUrl:'cove-wl-ext.html?1622574000'
 					})
 					.when('/cove-sc-ext',{
-						templateUrl:'cove-sc-ext.html?1617746400'
+						templateUrl:'cove-sc-ext.html?1622574000'
 					})
 					.when('/cove-cc-ext',{
-						templateUrl:'cove-cc-ext.html?1617746400'
+						templateUrl:'cove-cc-ext.html?1622574000'
 					})
 					.when('/cove-dw-ext',{
-						templateUrl:'cove-dw-ext.html?1617746400'
+						templateUrl:'cove-dw-ext.html?1622574000'
 					})
 
 					.when('/mmc-wl',{
-						templateUrl:'mmc-wl.html?1617746400',
+						templateUrl:'mmc-wl.html?1622574000',
 					})
 					.when('/mmc-sc',{
-						templateUrl:'mmc-sc.html?1617746400'
+						templateUrl:'mmc-sc.html?1622574000'
 					})
 					.when('/mmc-gd',{
-						templateUrl:'mmc-gd.html?1617746400'
+						templateUrl:'mmc-gd.html?1622574000'
 					})
 					.when('/mmc-cc',{
-						templateUrl:'mmc-cc.html?1617746400'
+						templateUrl:'mmc-cc.html?1622574000'
 					})
 					.when('/mmc-dw',{
-						templateUrl:'mmc-dw.html?1617746400'
+						templateUrl:'mmc-dw.html?1622574000'
 					})
 			.when('/mini-graze',{
-                templateUrl:'mini-graze.html?1617746400'
+                templateUrl:'mini-graze.html?1622574000'
             })
 				.when('/mmg-sc',{
-                templateUrl:'mmg-sc.html?1617746400'
+                templateUrl:'mmg-sc.html?1622574000'
             })
 				.when('/mmg-wl',{
-                templateUrl:'mmg-wl.html?1617746400'
+                templateUrl:'mmg-wl.html?1622574000'
             })
 				.when('/mmg-sc',{
-                templateUrl:'mmg-sc.html?1617746400'
+                templateUrl:'mmg-sc.html?1622574000'
             })
 		    	.when('/mmg-gd',{
-                templateUrl:'mmg-gd.html?1617746400'
+                templateUrl:'mmg-gd.html?1622574000'
             })
 				.when('/mmg-dw',{
-                templateUrl:'mmg-dw.html?1617746400'
+                templateUrl:'mmg-dw.html?1622574000'
             })
 				.when('/graze',{
-					templateUrl:'graze.html?1617746400'
+					templateUrl:'graze.html?1622574000'
 				})
 				.when('/graze-wl',{
-						templateUrl:'graze-wl.html?1617746400',
+						templateUrl:'graze-wl.html?1622574000',
 					})
 					.when('/graze-test',{
-						templateUrl:'graze-dw-2.html?1617746400',
+						templateUrl:'graze-dw-2.html?1622574000',
 					})
 					.when('/graze-wl-2',{
-						templateUrl:'graze-wl-2.html?1617746400',
+						templateUrl:'graze-wl-2.html?1622574000',
 					})
 					.when('/graze-sc-2',{
-						templateUrl:'graze-sc-2.html?1617746400',
+						templateUrl:'graze-sc-2.html?1622574000',
 					})
 					.when('/graze-sc',{
-						templateUrl:'graze-sc.html?1617746400',
+						templateUrl:'graze-sc.html?1622574000',
 					})
 					.when('/graze-cc',{
-						templateUrl:'graze-cc.html?1617746400',
+						templateUrl:'graze-cc.html?1622574000',
 					})
 					.when('/graze-dw',{
-						templateUrl:'graze-dw.html?1617746400',
+						templateUrl:'graze-dw.html?1622574000',
 					})
 				.when('/graze-ext',{
-                	templateUrl:'graze-ext.html?1617746400'
+                	templateUrl:'graze-ext.html?1622574000'
             	})
 					.when('/graze-wl-ext',{
-						templateUrl:'graze-wl-ext.html?1617746400',
+						templateUrl:'graze-wl-ext.html?1622574000',
 					})
 					.when('/graze-sc-ext',{
-						templateUrl:'graze-sc-ext.html?1617746400',
+						templateUrl:'graze-sc-ext.html?1622574000',
 					})
 					.when('/graze-cc-ext',{
-						templateUrl:'graze-cc-ext.html?1617746400',
+						templateUrl:'graze-cc-ext.html?1622574000',
 					})
 					.when('/graze-dw-ext',{
-						templateUrl:'graze-dw-ext.html?1617746400',
+						templateUrl:'graze-dw-ext.html?1622574000',
 					})
 				.when('/int-flex',{
-					templateUrl:'int-flex.html?1617746400'
+					templateUrl:'int-flex.html?1622574000'
 				})
 						.when('/int-eco-wl',{
-						templateUrl:'int-eco-wl.html?1617746400'
+						templateUrl:'int-eco-wl.html?1622574000'
 					})
 					.when('/int-star',{
-						templateUrl:'int-starflex-wl.html?1617746400'
+						templateUrl:'int-starflex-wl.html?1622574000'
 					})
 					.when('/int-mini-star', {
-						templateUrl:'int-mini-star-wl.html?1617746400'
+						templateUrl:'int-mini-star-wl.html?1622574000'
 					})
 					.when('/int-star-sc',{
-						templateUrl:'int-starflex-sc.html?1617746400'
+						templateUrl:'int-starflex-sc.html?1622574000'
 					})
 					.when('/int-star-rgb',{
-						templateUrl:'int-starflex-rgb.html?1617746400'
+						templateUrl:'int-starflex-rgb.html?1622574000'
 					})
 					.when('/int-star-rgbw',{
-						templateUrl:'int-star-rgbw.html?1617746400'
+						templateUrl:'int-star-rgbw.html?1622574000'
 					})
 					.when('/int-star-dw',{
-						templateUrl:'int-starflex-dw.html?1617746400'
+						templateUrl:'int-starflex-dw.html?1622574000'
 					})
 					.when('/int-fusion',{
-						templateUrl:'int-fusion.html?1617746400'
+						templateUrl:'int-fusion.html?1622574000'
 					})
 					.when('/int-super-fusion',{
-						templateUrl:'int-super-fusion.html?1617746400'
+						templateUrl:'int-super-fusion.html?1622574000'
 					})
 					.when('/int-edge',{
-						templateUrl:'int-edge.html?1617746400'
+						templateUrl:'int-edge.html?1622574000'
 					})
 					.when('/int-edge-rgb',{
-						templateUrl:'int-edge-rgb.html?1617746400'
+						templateUrl:'int-edge-rgb.html?1622574000'
 					})
 					.when('/int-flat-sc',{
-						templateUrl:'int-flat-sc.html?1617746400'
+						templateUrl:'int-flat-sc.html?1622574000'
 					})
 					.when('/int-flat-cc',{
-						templateUrl:'int-flat-cc.html?1617746400'
+						templateUrl:'int-flat-cc.html?1622574000'
 					})
 					.when('/int-flat',{
-						templateUrl:'int-flat.html?1617746400'
+						templateUrl:'int-flat.html?1622574000'
 					})
 					.when('/int-power',{
-						templateUrl:'int-power.html?1617746400'
+						templateUrl:'int-power.html?1622574000'
 					})
 					.when('/int-super-sc',{
-						templateUrl:'int-superflex-sc.html?1617746400'
+						templateUrl:'int-superflex-sc.html?1622574000'
 					})
 					.when('/int-superflex',{
-						templateUrl:'int-superflex.html?1617746400'
+						templateUrl:'int-superflex.html?1622574000'
 					})
 					.when('/int-superflex-ho',{
-						templateUrl:'int-superflex-ho.html?1617746400'
+						templateUrl:'int-superflex-ho.html?1622574000'
 					})
 					.when('/int-x-flex',{
-						templateUrl:'int-x-flex.html?1617746400'
+						templateUrl:'int-x-flex.html?1622574000'
 					})
 				.when('/ext-flex',{
-					templateUrl:'ext-flex.html?1617746400'
+					templateUrl:'ext-flex.html?1622574000'
 				})
 					.when('/ext-linear-wl',{
-					templateUrl:'ext-linear-wl.html?1617746400'
+					templateUrl:'ext-linear-wl.html?1622574000'
 					})
 					.when('/ext-linear-sc',{
-					templateUrl:'ext-linear-sc.html?1617746400'
+					templateUrl:'ext-linear-sc.html?1622574000'
 					})
 					.when('/ext-aqua-wl',{
-					templateUrl:'ext-aqua-wl.html?1617746400'
+					templateUrl:'ext-aqua-wl.html?1622574000'
 					})
 					.when('/ext-mini-aqua-wl',{
-					templateUrl:'ext-mini-aqua-wl.html?1617746400'
+					templateUrl:'ext-mini-aqua-wl.html?1622574000'
 					})
 					.when('/ext-aqua-edge-wl',{
-					templateUrl:'ext-aqua-edge-wl.html?1617746400'
+					templateUrl:'ext-aqua-edge-wl.html?1622574000'
 					})
 					.when('/ext-super-aqua-wl',{
-					templateUrl:'ext-super-aqua-wl.html?1617746400'
+					templateUrl:'ext-super-aqua-wl.html?1622574000'
 					})
 					.when('/ext-aqua-sc',{
-					templateUrl:'ext-aqua-sc.html?1617746400'
+					templateUrl:'ext-aqua-sc.html?1622574000'
 					})
 					.when('/ext-super-aqua-sc',{
-					templateUrl:'ext-super-aqua-sc.html?1617746400'
+					templateUrl:'ext-super-aqua-sc.html?1622574000'
 					})
 					.when('/ext-linear-rgb',{
-					templateUrl:'ext-linear-rgb.html?1617746400'
+					templateUrl:'ext-linear-rgb.html?1622574000'
 					})
 					.when('/ext-aqua-rgbw',{
-					templateUrl:'ext-aqua-rgbw.html?1617746400'
+					templateUrl:'ext-aqua-rgbw.html?1622574000'
 					})
 					.when('/ext-aqua-rgb',{
-					templateUrl:'ext-aqua-rgb.html?1617746400'
+					templateUrl:'ext-aqua-rgb.html?1622574000'
 					})
 					.when('/ext-aqua-edge-rgb',{
-					templateUrl:'ext-aqua-edge-rgb.html?1617746400'
+					templateUrl:'ext-aqua-edge-rgb.html?1622574000'
 					})
 					.when('/ext-aqua-dw',{
-					templateUrl:'ext-aqua-dw.html?1617746400'
+					templateUrl:'ext-aqua-dw.html?1622574000'
 					})
 			.when('/super-neon',{
-					templateUrl:'super-neon.html?1617746400'
+					templateUrl:'super-neon.html?1622574000'
 				})
 					.when('/ext-super-neon-x-dome',{
-					templateUrl:'ext-super-neon-x-dome.html?1617746400'
+					templateUrl:'ext-super-neon-x-dome.html?1622574000'
 					})
 					.when('/ext-super-neon-x-flat',{
-					templateUrl:'ext-super-neon-x-flat.html?1617746400'
+					templateUrl:'ext-super-neon-x-flat.html?1622574000'
 					})
 					.when('/ext-super-neon-x-edge',{
-					templateUrl:'ext-super-neon-x-edge.html?1617746400'
+					templateUrl:'ext-super-neon-x-edge.html?1622574000'
 					})
 					.when('/ext-super-neon-x-dome-sc',{
-					templateUrl:'ext-super-neon-x-dome-sc.html?1617746400'
+					templateUrl:'ext-super-neon-x-dome-sc.html?1622574000'
 					})
 					.when('/ext-super-neon-x-flat-sc',{
-					templateUrl:'ext-super-neon-x-flat-sc.html?1617746400'
+					templateUrl:'ext-super-neon-x-flat-sc.html?1622574000'
 					})
 					.when('/ext-super-neon-edge-sc',{
-					templateUrl:'ext-super-neon-edge-sc.html?1617746400'
+					templateUrl:'ext-super-neon-edge-sc.html?1622574000'
 					})
 					.when('/ext-super-neon-x-dome-rgb',{
-					templateUrl:'ext-super-neon-x-dome-rgb.html?1617746400'
+					templateUrl:'ext-super-neon-x-dome-rgb.html?1622574000'
 					})
 					.when('/ext-super-neon-x-flat-rgb',{
-					templateUrl:'ext-super-neon-x-flat-rgb.html?1617746400'
+					templateUrl:'ext-super-neon-x-flat-rgb.html?1622574000'
 					})
 			.when('/xtrusion',{
-                templateUrl:'xtrusion.html?1617746400'
+                templateUrl:'xtrusion.html?1622574000'
             })
 			.when('/xtrusion-surf',{
-                templateUrl:'xtrusion-surf.html?1617746400'
+                templateUrl:'xtrusion-surf.html?1622574000'
             })
 			.when('/xtrusion-rec',{
-                templateUrl:'xtrusion-rec.html?1617746400'
+                templateUrl:'xtrusion-rec.html?1622574000'
             })
 			.when('/xtrusion-sus',{
-                templateUrl:'xtrusion-sus.html?1617746400'
+                templateUrl:'xtrusion-sus.html?1622574000'
             })
 			.when('/power',{
-                templateUrl:'power.html?1617746400'
+                templateUrl:'power.html?1622574000'
             })
 			.when('/12v',{
-                templateUrl:'12v.html?1617746400'
+                templateUrl:'12v.html?1622574000'
             })
 			.when('/24v',{
-                templateUrl:'24v.html?1617746400'
+                templateUrl:'24v.html?1622574000'
             })
 			.when('/controls',{
-                templateUrl:'controls.html?1617746400'
+                templateUrl:'controls.html?1622574000'
             })
 			.when('/converters',{
-                templateUrl:'converters.html?1617746400'
+                templateUrl:'converters.html?1622574000'
             })
 			//.when('/dmx-cntrl',{
-                //templateUrl:'dmx-cntrl.html?1617746400'
+                //templateUrl:'dmx-cntrl.html?1622574000'
            // })
 					.when('/kandi-touch',{
-						templateUrl:'kandi-touch.html?1617746400'
+						templateUrl:'kandi-touch.html?1622574000'
 					})
 					.when('/tpc',{
-						templateUrl:'tpc.html?1617746400'
+						templateUrl:'tpc.html?1622574000'
 					})
 					.when('/lpc',{
-						templateUrl:'lpc.html?1617746400'
+						templateUrl:'lpc.html?1622574000'
 					})
 					.when('/vlc',{
-						templateUrl:'vlc.html?1617746400'
+						templateUrl:'vlc.html?1622574000'
 					})
 					.when('/lpcx',{
-						templateUrl:'lpcx.html?1617746400'
+						templateUrl:'lpcx.html?1622574000'
 					})
 		//	.when('/dmx-accs',{
-                //templateUrl:'dmx-accs.html?1617746400'
+                //templateUrl:'dmx-accs.html?1622574000'
             //})
 			.when('/accessories',{
-                templateUrl:'accessories.html?1617746400'
+                templateUrl:'accessories.html?1622574000'
             })
 					//.when('/dmx-hub',{
-					//	templateUrl:'dmx-wiring-hub.html?1617746400'
+					//	templateUrl:'dmx-wiring-hub.html?1622574000'
 					//})
 			.when('/technology',{
-                templateUrl:'technology.html?1617746400'
+                templateUrl:'technology.html?1622574000'
             })
 			.when('/about',{
-                templateUrl:'about.html?1617746400'
+                templateUrl:'about.html?1622574000'
             })
 			.when('/projects',{
-                templateUrl:'projects.html?1617746400'
+                templateUrl:'projects.html?1622574000'
             })
         .when('/via-rail-station',{
-              templateUrl:'via-rail-station.html?1617746400'
+              templateUrl:'via-rail-station.html?1622574000'
         })
         .when('/harlem-irving-plaza',{
-                templateUrl:'harlem-irving-plaza.html?1617746400'
+                templateUrl:'harlem-irving-plaza.html?1622574000'
         })
         .when('/cathedral-st-john',{
-                templateUrl:'cathedral-stjohn.html?1617746400'
+                templateUrl:'cathedral-stjohn.html?1622574000'
         })
 				.when('/bonfire',{
-                templateUrl:'bonfire.html?1617746400'
+                templateUrl:'bonfire.html?1622574000'
 				})
 				.when('/jaburritos',{
-                templateUrl:'jaburritos.html?1617746400'
+                templateUrl:'jaburritos.html?1622574000'
 				})
 				.when('/lingo-cafe',{
-                templateUrl:'lingo-cafe.html?1617746400'
+                templateUrl:'lingo-cafe.html?1622574000'
 				})
 				.when('/society-of-arts-and-crafts',{
-                templateUrl:'society-of-arts-and-crafts.html?1617746400'
+                templateUrl:'society-of-arts-and-crafts.html?1622574000'
 				})
 				.when('/sierra-gold',{
-                templateUrl:'sierra-gold.html?1617746400'
+                templateUrl:'sierra-gold.html?1622574000'
 				})
 				.when('/talde',{
-                templateUrl:'talde.html?1617746400'
+                templateUrl:'talde.html?1622574000'
 				})
 				.when('/segafredo-zanetti',{
-                templateUrl:'segafredo-zanetti.html?1617746400'
+                templateUrl:'segafredo-zanetti.html?1622574000'
 				})
 				.when('/private-club',{
-                templateUrl:'private-club.html?1617746400'
+                templateUrl:'private-club.html?1622574000'
 				})
 				.when('/mellow-mushroom',{
-                templateUrl:'mellow-mushroom.html?1617746400'
+                templateUrl:'mellow-mushroom.html?1622574000'
 				})
 				.when('/mcdonalds',{
-                templateUrl:'mcdonalds.html?1617746400'
+                templateUrl:'mcdonalds.html?1622574000'
 				})
 				.when('/hyatt-house',{
-                templateUrl:'hyatt-house.html?1617746400'
+                templateUrl:'hyatt-house.html?1622574000'
 				})
 				.when('/global-ucf',{
-                templateUrl:'global-ucf.html?1617746400'
+                templateUrl:'global-ucf.html?1622574000'
 				})
 			//.when('/projects-2',{
-              //  templateUrl:'projects-2.html?1617746400'
+              //  templateUrl:'projects-2.html?1622574000'
            // })
 				.when('/wh-fl',{
-                templateUrl:'winter-garden-hospital.html?1617746400'
+                templateUrl:'winter-garden-hospital.html?1622574000'
             	})
 				.when('/fmc-fl',{
-                templateUrl:'fish-chapel.html?1617746400'
+                templateUrl:'fish-chapel.html?1622574000'
             	})
 				.when('/cse-fl',{
-                templateUrl:'church-exchange.html?1617746400'
+                templateUrl:'church-exchange.html?1622574000'
             	})
 				.when('/alegeus-fl',{
-                templateUrl:'alegeus.html?1617746400'
+                templateUrl:'alegeus.html?1622574000'
             	})
 				.when('/tc-ny',{
-                templateUrl:'tiffany-and-co.html?1617746400'
+                templateUrl:'tiffany-and-co.html?1622574000'
             	})
 				.when('/pat-ny',{
-                templateUrl:'patagonia.html?1617746400'
+                templateUrl:'patagonia.html?1622574000'
             	})
 				.when('/ck-ny',{
-                templateUrl:'city-kitchen.html?1617746400'
+                templateUrl:'city-kitchen.html?1622574000'
             	})
 				.when('/sbg-fl',{
-                templateUrl:'state-bar-grill.html?1617746400'
+                templateUrl:'state-bar-grill.html?1622574000'
             	})
 				.when('/bu-il',{
-                templateUrl:'benedictine-university.html?1617746400'
+                templateUrl:'benedictine-university.html?1622574000'
             	})
 				.when('/bm-tx',{
-                templateUrl:'baybrook-mall.html?1617746400'
+                templateUrl:'baybrook-mall.html?1622574000'
             	})
 				.when('/cm-tx',{
-                templateUrl:'cowgirl-museum.html?1617746400'
+                templateUrl:'cowgirl-museum.html?1622574000'
             	})
 				.when('/gl-sh-il',{
-                templateUrl:'global-showroom.html?1617746400'
+                templateUrl:'global-showroom.html?1622574000'
             	})
 			//.when('/projects-3',{
-               // templateUrl:'projects-3.html?1617746400'
+               // templateUrl:'projects-3.html?1622574000'
           //  })
 				.when('/sidebar-grille',{
-                templateUrl:'sidebar-grille.html?1617746400'
+                templateUrl:'sidebar-grille.html?1622574000'
             	})
 				.when('/fremont',{
-                templateUrl:'fremont.html?1617746400'
+                templateUrl:'fremont.html?1622574000'
             	})
 				.when('/liquor-library',{
-                templateUrl:'liquor-library.html?1617746400'
+                templateUrl:'liquor-library.html?1622574000'
             	})
 				.when('/red-dog',{
-                templateUrl:'red-dog.html?1617746400'
+                templateUrl:'red-dog.html?1622574000'
             	})
 				.when('/blue-man-group',{
-                templateUrl:'blue-man-group.html?1617746400'
+                templateUrl:'blue-man-group.html?1622574000'
             	})
 				.when('/dkny',{
-                templateUrl:'dkny.html?1617746400'
+                templateUrl:'dkny.html?1622574000'
             	})
 				.when('/john-hancock',{
-                templateUrl:'john-hancock.html?1617746400'
+                templateUrl:'john-hancock.html?1622574000'
             	})
 				.when('/monte-carlo',{
-                templateUrl:'monte-carlo.html?1617746400'
+                templateUrl:'monte-carlo.html?1622574000'
             	})
 				.when('/venetian',{
-                templateUrl:'venetian.html?1617746400'
+                templateUrl:'venetian.html?1622574000'
             	})
 				.when('/ny-ny',{
-                templateUrl:'ny-ny.html?1617746400'
+                templateUrl:'ny-ny.html?1622574000'
             	})
 				.when('/cyrus-one',{
-                templateUrl:'cyrus-one.html?1617746400'
+                templateUrl:'cyrus-one.html?1622574000'
             	})
 				.when('/residential',{
-                templateUrl:'residential.html?1617746400'
+                templateUrl:'residential.html?1622574000'
             	})
 				.when('/miron-construction',{
-                templateUrl:'miron-construction.html?1617746400'
+                templateUrl:'miron-construction.html?1622574000'
             	})
 				.when('/bitexco-tower',{
-                templateUrl:'bitexco-tower.html?1617746400'
+                templateUrl:'bitexco-tower.html?1622574000'
             	})
 			.when('/resources',{
-                templateUrl:'resources.html?1617746400'
+                templateUrl:'resources.html?1622574000'
             })
 			.when('/re-graze',{
-                templateUrl:'graze-resources.html?1617746400'
+                templateUrl:'graze-resources.html?1622574000'
             })
 			.when('/re-flex',{
-                templateUrl:'flex-resources.html?1617746400'
+                templateUrl:'flex-resources.html?1622574000'
             })
 			.when('/re-neon',{
-                templateUrl:'neon-resources.html?1617746400'
+                templateUrl:'neon-resources.html?1622574000'
             })
 			.when('/re-xtrus',{
-                templateUrl:'xtrus-resources.html?1617746400'
+                templateUrl:'xtrus-resources.html?1622574000'
             })
 			.when('/re-power',{
-                templateUrl:'power-resources.html?1617746400'
+                templateUrl:'power-resources.html?1622574000'
             })
 			.when('/re-controls',{
-                templateUrl:'controls-resources.html?1617746400'
+                templateUrl:'controls-resources.html?1622574000'
             })
 			.when('/legacy',{
-                templateUrl:'legacy.html?1617746400'
+                templateUrl:'legacy.html?1622574000'
             })
 				.when('/leg-ecove-wl',{
-				templateUrl:'leg-ecove-wl.html?1617746400'
+				templateUrl:'leg-ecove-wl.html?1622574000'
 				})
 				.when('/leg-ecove-dw',{
-				templateUrl:'leg-ecove-dw.html?1617746400'
+				templateUrl:'leg-ecove-dw.html?1622574000'
 				})
 				.when('/leg-ecove-sc',{
-				templateUrl:'leg-ecove-sc.html?1617746400'
+				templateUrl:'leg-ecove-sc.html?1622574000'
 				})
 				.when('/leg-ecove-cc',{
-				templateUrl:'leg-ecove-cc.html?1617746400'
+				templateUrl:'leg-ecove-cc.html?1622574000'
 				})
 				.when('/leg-cove-rs',{
-				templateUrl:'leg-cove-rs.html?1617746400'
+				templateUrl:'leg-cove-rs.html?1622574000'
 				})
 				.when('/leg-zilva',{
-				templateUrl:'leg-zilva.html?1617746400'
+				templateUrl:'leg-zilva.html?1622574000'
 				})
 				.when('/leg-mini-zilva',{
-				templateUrl:'leg-mini-zilva.html?1617746400'
+				templateUrl:'leg-mini-zilva.html?1622574000'
 				})
 				.when('/leg-zilva-cc',{
-				templateUrl:'leg-zilva-cc.html?1617746400'
+				templateUrl:'leg-zilva-cc.html?1622574000'
 				})
 				.when('/leg-egraze',{
-				templateUrl:'leg-egraze.html?1617746400'
+				templateUrl:'leg-egraze.html?1622574000'
 				})
 				.when('/leg-egraze-sc',{
-				templateUrl:'leg-egraze-sc.html?1617746400'
+				templateUrl:'leg-egraze-sc.html?1622574000'
 				})
 				.when('/leg-graze-rs',{
-				templateUrl:'leg-graze-rs.html?1617746400'
+				templateUrl:'leg-graze-rs.html?1622574000'
 				})
 			.when('/reps',{
                 templateUrl:'reps.html?1612291166'
             })
 			.when('/news',{
-                templateUrl:'news.html?1617746400'
+                templateUrl:'news.html?1622574000'
             })
 			.when('/news-2',{
-                templateUrl:'news-2.html?1617746400'
+                templateUrl:'news-2.html?1622574000'
             })
 			.when('/awards',{
-                templateUrl:'awards.html?1617746400'
+                templateUrl:'awards.html?1622574000'
             })
 			.when('/press',{
-                templateUrl:'press.html?1617746400'
+                templateUrl:'press.html?1622574000'
             })
 			.when('/events',{
-                templateUrl:'events.html?1617746400'
+                templateUrl:'events.html?1622574000'
             })
 			.when('/contact-us',{
-				templateUrl:'contact-us.html?1617746400'
+				templateUrl:'contact-us.html?1622574000'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?1617746400'
+                templateUrl:'careers.html?1622574000'
 			})
 			.when('/job-description',{
                 templateUrl:'job-description2.html?1618426800'
@@ -547,22 +547,22 @@
                 templateUrl:'job-listings.html?1619190000'
 			})
 			.when('/all-products',{
-                templateUrl:'all-products.html?1617746400'
+                templateUrl:'all-products.html?1622574000'
             })
       //.when('/all-products2',{
        //         templateUrl:'all-products2.html'
        //   })
        .when('/quickship',{
-        templateUrl:'quickship.html?1617746400'
+        templateUrl:'quickship.html?1622574000'
             })
 			.when('/product-configurator',{
-                templateUrl:'product-configurator.html?1617746400'
+                templateUrl:'product-configurator.html?1622574000'
             })
 			.when('/place-order',{
-                templateUrl:'place-order.html?1617746400'
+                templateUrl:'place-order.html?1622574000'
 			})
 			.when('/order-submit',{
-                templateUrl:'order-submit.html?1617746400'
+                templateUrl:'order-submit.html?1622574000'
 			})
 			.otherwise({
 				controller: '404Controller',
