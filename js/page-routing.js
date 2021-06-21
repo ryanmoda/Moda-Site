@@ -268,16 +268,16 @@
 					templateUrl:'ext-super-neon-x-flat-rgb.html?1623164400'
 					})
 			.when('/xtrusion',{
-                templateUrl:'xtrusion.html?1623164400'
+                templateUrl:'xtrusion.html?1618426800'
             })
 			.when('/xtrusion-surf',{
-                templateUrl:'xtrusion-surf.html?1623164400'
+                templateUrl:'xtrusion-surf.html?1618426800'
             })
 			.when('/xtrusion-rec',{
-                templateUrl:'xtrusion-rec.html?1623164400'
+                templateUrl:'xtrusion-rec.html?1618426800'
             })
 			.when('/xtrusion-sus',{
-                templateUrl:'xtrusion-sus.html?1623164400'
+                templateUrl:'xtrusion-sus.html?1618426800'
             })
 			.when('/power',{
                 templateUrl:'power.html?1623164400'
