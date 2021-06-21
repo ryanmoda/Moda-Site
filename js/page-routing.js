@@ -295,7 +295,7 @@
                 templateUrl:'converters.html?1623164400'
             })
 			//.when('/dmx-cntrl',{
-                //templateUrl:'dmx-cntrl.html?1623164400'
+                //templateUrl:'dmx-cntrl.html?1618426800'
            // })
 					.when('/kandi-touch',{
 						templateUrl:'kandi-touch.html?1623164400'
@@ -313,13 +313,13 @@
 						templateUrl:'lpcx.html?1623164400'
 					})
 		//	.when('/dmx-accs',{
-                //templateUrl:'dmx-accs.html?1623164400'
+                //templateUrl:'dmx-accs.html?1618426800'
             //})
 			.when('/accessories',{
                 templateUrl:'accessories.html?1623164400'
             })
 					//.when('/dmx-hub',{
-					//	templateUrl:'dmx-wiring-hub.html?1623164400'
+					//	templateUrl:'dmx-wiring-hub.html?1618426800'
 					//})
 			.when('/technology',{
                 templateUrl:'technology.html?1623164400'
