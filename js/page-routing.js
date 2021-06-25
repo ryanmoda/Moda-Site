@@ -30,7 +30,7 @@
             //     templateUrl:'test.html'
             // })
             .when('/nano',{
-              templateUrl:'nano.html?1618426800'
+              templateUrl:'nano.html?1624626423'
           })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1623164400'
@@ -67,19 +67,19 @@
 					})
 
 					.when('/mmc-wl',{
-						templateUrl:'mmc-wl.html?1623164400',
+						templateUrl:'mmc-wl.html?1624626423',
 					})
 					.when('/mmc-sc',{
 						templateUrl:'mmc-sc.html?1623164400'
 					})
 					.when('/mmc-gd',{
-						templateUrl:'mmc-gd.html?1623164400'
+						templateUrl:'mmc-gd.html?1624626423'
 					})
 					.when('/mmc-cc',{
 						templateUrl:'mmc-cc.html?1623164400'
 					})
 					.when('/mmc-dw',{
-						templateUrl:'mmc-dw.html?1623164400'
+						templateUrl:'mmc-dw.html?1624626423'
 					})
 			.when('/mini-graze',{
                 templateUrl:'mini-graze.html?1623164400'
@@ -88,28 +88,28 @@
                 templateUrl:'mmg-sc.html?1623164400'
             })
 				.when('/mmg-wl',{
-                templateUrl:'mmg-wl.html?1623164400'
+                templateUrl:'mmg-wl.html?1624626423'
             })
 				.when('/mmg-sc',{
                 templateUrl:'mmg-sc.html?1623164400'
             })
 		    	.when('/mmg-gd',{
-                templateUrl:'mmg-gd.html?1623164400'
+                templateUrl:'mmg-gd.html?1624626423'
             })
 				.when('/mmg-dw',{
-                templateUrl:'mmg-dw.html?1623164400'
+                templateUrl:'mmg-dw.html?1624626423'
             })
 				.when('/graze',{
 					templateUrl:'graze.html?1623164400'
 				})
 				.when('/graze-wl',{
-						templateUrl:'graze-wl.html?1623164400',
+						templateUrl:'graze-wl.html1624626423',
 					})
 					.when('/graze-test',{
 						templateUrl:'graze-dw-2.html?1623164400',
 					})
 					.when('/graze-wl-2',{
-						templateUrl:'graze-wl-2.html?1623164400',
+						templateUrl:'graze-wl-2.html?1624626423',
 					})
 					.when('/graze-sc-2',{
 						templateUrl:'graze-sc-2.html?1623164400',
