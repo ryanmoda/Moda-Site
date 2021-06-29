@@ -30,7 +30,7 @@
             //     templateUrl:'test.html'
             // })
             .when('/nano',{
-              templateUrl:'nano.html?1624626423'
+              templateUrl:'nano.html?1623164400'
           })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1623164400'
@@ -67,19 +67,19 @@
 					})
 
 					.when('/mmc-wl',{
-						templateUrl:'mmc-wl.html?1624626423',
+						templateUrl:'mmc-wl.html?1623164400',
 					})
 					.when('/mmc-sc',{
 						templateUrl:'mmc-sc.html?1623164400'
 					})
 					.when('/mmc-gd',{
-						templateUrl:'mmc-gd.html?1624626423'
+						templateUrl:'mmc-gd.html?1623164400'
 					})
 					.when('/mmc-cc',{
 						templateUrl:'mmc-cc.html?1623164400'
 					})
 					.when('/mmc-dw',{
-						templateUrl:'mmc-dw.html?1624626423'
+						templateUrl:'mmc-dw.html?1623164400'
 					})
 			.when('/mini-graze',{
                 templateUrl:'mini-graze.html?1623164400'
@@ -88,28 +88,28 @@
                 templateUrl:'mmg-sc.html?1623164400'
             })
 				.when('/mmg-wl',{
-                templateUrl:'mmg-wl.html?1624626423'
+                templateUrl:'mmg-wl.html?1623164400'
             })
 				.when('/mmg-sc',{
                 templateUrl:'mmg-sc.html?1623164400'
             })
 		    	.when('/mmg-gd',{
-                templateUrl:'mmg-gd.html?1624626423'
+                templateUrl:'mmg-gd.html?1623164400'
             })
 				.when('/mmg-dw',{
-                templateUrl:'mmg-dw.html?1624626423'
+                templateUrl:'mmg-dw.html?1623164400'
             })
 				.when('/graze',{
 					templateUrl:'graze.html?1623164400'
 				})
 				.when('/graze-wl',{
-						templateUrl:'graze-wl.html1624626423',
+						templateUrl:'graze-wl.html?1623164400',
 					})
 					.when('/graze-test',{
 						templateUrl:'graze-dw-2.html?1623164400',
 					})
 					.when('/graze-wl-2',{
-						templateUrl:'graze-wl-2.html?1624626423',
+						templateUrl:'graze-wl-2.html?1623164400',
 					})
 					.when('/graze-sc-2',{
 						templateUrl:'graze-sc-2.html?1623164400',
@@ -268,16 +268,16 @@
 					templateUrl:'ext-super-neon-x-flat-rgb.html?1623164400'
 					})
 			.when('/xtrusion',{
-                templateUrl:'xtrusion.html?1618426800'
+                templateUrl:'xtrusion.html?1623164400'
             })
 			.when('/xtrusion-surf',{
-                templateUrl:'xtrusion-surf.html?1618426800'
+                templateUrl:'xtrusion-surf.html?1623164400'
             })
 			.when('/xtrusion-rec',{
-                templateUrl:'xtrusion-rec.html?1618426800'
+                templateUrl:'xtrusion-rec.html?1623164400'
             })
 			.when('/xtrusion-sus',{
-                templateUrl:'xtrusion-sus.html?1618426800'
+                templateUrl:'xtrusion-sus.html?1623164400'
             })
 			.when('/power',{
                 templateUrl:'power.html?1623164400'
@@ -292,10 +292,10 @@
                 templateUrl:'controls.html?1623164400'
             })
 			.when('/converters',{
-                templateUrl:'converters.html?1624897341'
+                templateUrl:'converters.html?1623164400'
             })
 			//.when('/dmx-cntrl',{
-                //templateUrl:'dmx-cntrl.html?1618426800'
+                //templateUrl:'dmx-cntrl.html?1623164400'
            // })
 					.when('/kandi-touch',{
 						templateUrl:'kandi-touch.html?1623164400'
@@ -313,13 +313,13 @@
 						templateUrl:'lpcx.html?1623164400'
 					})
 		//	.when('/dmx-accs',{
-                //templateUrl:'dmx-accs.html?1618426800'
+                //templateUrl:'dmx-accs.html?1623164400'
             //})
 			.when('/accessories',{
                 templateUrl:'accessories.html?1623164400'
             })
 					//.when('/dmx-hub',{
-					//	templateUrl:'dmx-wiring-hub.html?1618426800'
+					//	templateUrl:'dmx-wiring-hub.html?1623164400'
 					//})
 			.when('/technology',{
                 templateUrl:'technology.html?1623164400'
@@ -538,10 +538,10 @@
 				templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?1624912915'
+                templateUrl:'careers.html?1623164400'
 			})
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1618426800'
+                templateUrl:'job-description2.html?1624977323'
 			})
 			.when('/job-listings',{
                 templateUrl:'job-listings.html?1619190000'
