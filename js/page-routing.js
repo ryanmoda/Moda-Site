@@ -543,7 +543,7 @@
 			.when('/job-description',{
                 templateUrl:'job-description2.html?1624983500'
               })          
-       .when('/job-description',{
+      .when('/job-description',{
                 templateUrl:'job-description3.html?1624977323'
 			})
 			.when('/job-listings',{
