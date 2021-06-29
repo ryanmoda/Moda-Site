@@ -535,16 +535,19 @@
                 templateUrl:'events.html?1623164400'
             })
 			.when('/contact-us',{
-				templateUrl:'contact-us.html?1623164400'
+				        templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
                 templateUrl:'careers.html?1623164400'
 			})
 			.when('/job-description',{
                 templateUrl:'job-description2.html?1624977323'
+              })          
+       .when('/job-description',{
+                templateUrl:'job-description3.html?1624977323'
 			})
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1619190000'
+                templateUrl:'job-listings.html?1624977323'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1623164400'
