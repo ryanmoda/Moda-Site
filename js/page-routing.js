@@ -417,6 +417,9 @@
 			//.when('/projects-3',{
                // templateUrl:'projects-3.html?1623164400'
           //  })
+          .when('/park-house',{
+            templateUrl:'fremont.html?1625074471'
+          })
 				.when('/sidebar-grille',{
                 templateUrl:'sidebar-grille.html?1623164400'
             	})
