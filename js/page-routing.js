@@ -424,7 +424,7 @@
                 templateUrl:'sidebar-grille.html?1623164400'
             	})
               .when('/park-house',{
-                templateUrl:'park-house.html?162508500'
+                templateUrl:'park-house.html?162508742'
             	})
 				.when('/fremont',{
                 templateUrl:'fremont.html?1623164400'
