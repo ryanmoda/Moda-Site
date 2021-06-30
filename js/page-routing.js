@@ -423,6 +423,9 @@
 				.when('/sidebar-grille',{
                 templateUrl:'sidebar-grille.html?1623164400'
             	})
+              .when('/park-house',{
+                templateUrl:'sidebar-grille.html?1625079899'
+            	})
 				.when('/fremont',{
                 templateUrl:'fremont.html?1623164400'
             	})
