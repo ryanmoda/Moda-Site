@@ -295,13 +295,13 @@
                 templateUrl:'converters.html?1623164400'
             })
 			//.when('/dmx-cntrl',{
-                //templateUrl:'dmx-cntrl.html?1625585075'
+                //templateUrl:'dmx-cntrl.html?1625585080'
            // })
 					.when('/kandi-touch',{
 						templateUrl:'kandi-touch.html?1623164400'
 					})
           .when('/moda-touch',{
-						templateUrl:'kandi-touch.html?1625585075'
+						templateUrl:'kandi-touch.html?1625585080'
 					})
 					.when('/tpc',{
 						templateUrl:'tpc.html?1623164400'
@@ -556,7 +556,7 @@
                 templateUrl:'job-listings.html?1624977323'
 			})
 			.when('/all-products',{
-                templateUrl:'all-products.html?1625585075'
+                templateUrl:'all-products.html?1625585080'
             })
       //.when('/all-products2',{
        //         templateUrl:'all-products2.html'
