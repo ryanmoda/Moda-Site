@@ -88,7 +88,7 @@
                 templateUrl:'mmg-sc.html?1623164400'
             })
 				.when('/mmg-wl',{
-                templateUrl:'mmg-wl.html?1623164400'
+                templateUrl:'mmg-wl.html?1626193817'
             })
 				.when('/mmg-sc',{
                 templateUrl:'mmg-sc.html?1623164400'
