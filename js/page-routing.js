@@ -559,8 +559,13 @@
         templateUrl:'job-description2.html?1626384776'
       })          
       .when('/job-listings',{
+<<<<<<< Updated upstream
        templateUrl:'job-listings-4.html?1626386000'
       })
+=======
+               templateUrl:'job-listings-4.html?1626388313'
+})
+>>>>>>> Stashed changes
 			.when('/all-products',{
                 templateUrl:'all-products.html?1623164400'
             })
