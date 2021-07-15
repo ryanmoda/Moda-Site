@@ -550,13 +550,10 @@
                 templateUrl:'careers.html?1626363558'
 			})
       .when('/job-description',{
-        templateUrl:'job-description-Project-Manager.html?1626382054'
+                templateUrl:'job-description-Project-Manager.html?1626382054'
       })          
 			.when('/job-description',{
-        templateUrl:'job-description-Quotation-Specialist.html?1626382054'
-      })          
-			.when('/job-description',{
-        templateUrl:'job-description2.html?1626382054'
+                templateUrl:'job-description-Quotation-Specialist.html?1626382054'
       })          
 			.when('/job-description',{
                 templateUrl:'job-description2.html?1626382054'
