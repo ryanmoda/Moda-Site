@@ -550,10 +550,10 @@
                 templateUrl:'careers.html?1623164400'
 			})
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1624983500'
+                templateUrl:'job-description2.html?1626360812'
               })          
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1624977323'
+                templateUrl:'job-listings.html?1626360812'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1625585080'
