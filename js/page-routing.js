@@ -547,19 +547,19 @@
 				        templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?1626383630'
+                templateUrl:'careers.html?1626384776'
 			})
       .when('/job-description',{
-                templateUrl:'job-description-Project-Manager.html?1626382054'
+                templateUrl:'job-description-Project-Manager.html?1626384776'
       })          
 			.when('/job-description',{
-                templateUrl:'job-description-Quotation-Specialist.html?1626382054'
+                templateUrl:'job-description-Quotation-Specialist.html?1626384776'
       })          
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1626382054'
+                templateUrl:'job-description2.html?1626384776'
               })          
       .when('/job-listings',{
-               templateUrl:'job-listings-3.html?1626383500'
+               templateUrl:'job-listings-3.html?1626384776'
 })
 			.when('/all-products',{
                 templateUrl:'all-products.html?1625585080'
