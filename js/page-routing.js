@@ -547,13 +547,13 @@
 				        templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?1626360900'
+                templateUrl:'careers.html?1626363558'
 			})
 			.when('/job-description',{
-                templateUrl:'job-description2.html?1626360900'
+                templateUrl:'job-description2.html?1626363558'
               })          
 			.when('/job-listings',{
-                templateUrl:'job-listings.html?1626360900'
+                templateUrl:'job-listings.html?1626363558'
 			})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1625585080'
