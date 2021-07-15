@@ -561,6 +561,9 @@
 			.when('/job-listings',{
                 templateUrl:'job-listings.html?1626382054'
 			})
+      .when('/job-listings-3',{
+               templateUrl:'job-listings.html?1626383500'
+})
 			.when('/all-products',{
                 templateUrl:'all-products.html?1625585080'
             })
