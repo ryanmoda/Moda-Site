@@ -11,19 +11,19 @@ function processForm() {
         "MM": {"Title": "Marketing Manager", "jobDate": "June 9th, 2021", "jobLoc": "Las Vegas, Nevada, USA", "Description": "<p>MODA Light is an innovative architectural lighting company and is currently seeking a Marketing Manager to join its team. The primary responsibility of this position is to represent MODA’s brand and products in the highest regard to our customers, agents, specifiers, and partners.<p>The Marketing Manager will lead MODA’s marketing and branding efforts. Knowledge of the lighting industries various sales and marketing channels and experience in product marketing is essential.</p> Strong candidates will have a positive attitude and the ability to lead an effective team.</p><br><strong>Qualifications &amp; Skills</strong><br><p>&#8226;Partner with senior leadership to craft MODA’s brand identity, value proposition, and voice.</p><p>	o	Cultivate brand story and develop creative standards.</p><p>	o	Communicate the value proposition of MODA Products</p><p>	o	Ensure that all advertising and collateral material align with brand design</p><p>&#8226; Management of all marketing assets including digital, website, catalog/print.</p><p>&#8226; Develop and execute website strategy including major overhaul and/or complete rebuild.</p><p>&#8226; Create marketing strategy for new product launches and oversee creation of all product related collateral.</p><p>&#8226; Responsible for digital marketing strategy, including website and social media, and content management.</p><p>&#8226; Collaborate with marketing and sales teams to ensure an effective social media strategy, email marketing strategy, and calendar planning.</p><p>&#8226; Develop Marketing Plan and manage execution of marketing materials and programs.</p><p>&#8226; Analyze data to track effectiveness of strategy and identify new opportunities or strategies.</p><p>&#8226; Oversee marketing for conferences, trade shows, and major events.</p><p>&#8226 Work with Inside Sales and Customer Service team to increase overall product utilization by developing strategic marketing plans throughout product life cycle.</p><p>&#8226; Work with the product development team to ensure we are staying on top of latest marketing trends.</p><p>&#8226; Make necessary updates to MODA’s website, as needed.</p><p>&#8226; Create and maintain SOPs for various marketing processes.</p><p>&#8226 Completes additional marketing tasks as assigned by senior leadership.</p>  <br><strong>Education &amp; Experience Requirements</strong><p>&#8226; Bachelor's degree (B.A.) in Business or Marketing preferred.</p><p>&#8226; 5+ years of MArketing experience.</p><p>&#8226; 3 – 5 years’ experience managing a team.</p><p>&#8226; Lighting industry experience preferred.</p> <p>&#8226; Proficiency with digital marketing forums such as social media and content marketing.</p> <br><br><p>Must be available to work Monday-Friday, from 7:30am - 4:00pm.</p><br>"},
 
 
-        var parameters = location.search.substring(1).split("&");
-        var temp = parameters[0].split("=");
-        l = unescape(temp[1]);
+        var parameters = location.search.substring(1).split("&"),
+        var temp = parameters[0].split("="),
+        l = unescape(temp[1]),
         
-        var title = jobList[l]["Title"];
-        var description = jobList[l]["Description"];
-        var jobDate = jobList[l]["jobDate"];
-        var jobLoc = jobList[l]["jobLoc"];
+        var title = jobList[l]["Title"],
+        var description = jobList[l]["Description"],
+        var jobDate = jobList[l]["jobDate"],
+        var jobLoc = jobList[l]["jobLoc"],
 
-        document.getElementById("title").innerHTML = title;
-        document.getElementById("description").innerHTML = description;
-        document.getElementById("jobDate").innerHTML = jobDate;
-        document.getElementById("jobLoc").innerHTML = jobLoc;
+        document.getElementById("title").innerHTML = title,
+        document.getElementById("description").innerHTML = description,
+        document.getElementById("jobDate").innerHTML = jobDate,
+        document.getElementById("jobLoc").innerHTML = jobLoc,
         
 }
 processForm();
