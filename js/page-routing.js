@@ -23,7 +23,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'homepage.html?1618426800'
+                templateUrl:'homepage.html?1626383503'
 
 			})
 			// .when('/test',{
@@ -123,9 +123,9 @@
 					.when('/graze-dw',{
 						templateUrl:'graze-dw.html?1623164400',
 					})
-				.when('/graze-ext',{
-                	templateUrl:'graze-ext.html?1623164400'
-            	})
+				    .when('/graze-ext',{
+                	    templateUrl:'graze-ext.html?1623164400'
+            	    })
 					.when('/graze-wl-ext',{
 						templateUrl:'graze-wl-ext.html?1623164400',
 					})
@@ -547,7 +547,7 @@
 				        templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?1626363558'
+                templateUrl:'careers.html?1626383630'
 			})
       .when('/job-description',{
                 templateUrl:'job-description-Project-Manager.html?1626382054'
