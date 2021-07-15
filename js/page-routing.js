@@ -23,7 +23,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'homepage.html?1626383503'
+                templateUrl:'homepage.html?1626388313'
 
 			})
 			// .when('/test',{
@@ -547,7 +547,7 @@
 				        templateUrl:'contact-us.html?1623164400'
 			})
 			.when('/careers',{
-                templateUrl:'careers.html?168813'
+                templateUrl:'careers.html?1688313'
 			})
       .when('/job-description',{
                 templateUrl:'job-description-Project-Manager.html?1626384776'
