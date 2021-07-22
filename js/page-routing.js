@@ -30,7 +30,7 @@
             //     templateUrl:'test.html'
             // })
             .when('/nano',{
-              templateUrl:'nano.html?1626113660'
+              templateUrl:'nano.html?1626987017'
           })
             .when('/mini-cove',{
                 templateUrl:'mini-cove.html?1626801334'
