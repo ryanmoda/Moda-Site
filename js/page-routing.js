@@ -70,7 +70,7 @@
 						templateUrl:'mmc-wl.html?1626193817',
 					})
 					.when('/mmc-sc',{
-						templateUrl:'mmc-sc.html?1627073645'
+						templateUrl:'mmc-sc.html?1627077885'
 					})
 					.when('/mmc-gd',{
 						templateUrl:'mmc-gd.html?1626193817'
@@ -91,7 +91,7 @@
                 templateUrl:'mmg-wl.html?1626193817'
             })
 				.when('/mmg-sc',{
-                templateUrl:'mmg-sc.html?1627073645'
+                templateUrl:'mmg-sc.html?1627077885'
             })
 		    	.when('/mmg-gd',{
                 templateUrl:'mmg-gd.html?1623164400'
