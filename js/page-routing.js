@@ -67,7 +67,7 @@
 					})
 
 					.when('/mmc-wl',{
-						templateUrl:'mmc-wl.html?1626193817',
+						templateUrl:'mmc-wl.html?1627582244',
 					})
 					.when('/mmc-sc',{
 						templateUrl:'mmc-sc.html?1627412312'
