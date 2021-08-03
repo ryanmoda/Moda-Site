@@ -23,7 +23,7 @@
     app.config(function ($routeProvider){
         $routeProvider
             .when('/',{
-                templateUrl:'homepage.html?1626388313'
+                templateUrl:'homepage.html?1628011334'
 
 			})
 			// .when('/test',{
@@ -39,7 +39,7 @@
                 templateUrl:'moda-cove.html?1623164400'
             })
 					.when('/cove-wl',{
-						templateUrl:'cove-wl.html?1623164400',
+						templateUrl:'cove-wl.html?1628005815',
 					})
 					.when('/cove-sc',{
 						templateUrl:'cove-sc.html?1623164400',
@@ -54,7 +54,7 @@
                 templateUrl:'cove-ext.html?1623164400'
             })
 					.when('/cove-wl-ext',{
-						templateUrl:'cove-wl-ext.html?1623164400'
+						templateUrl:'cove-wl-ext.html?1628005815'
 					})
 					.when('/cove-sc-ext',{
 						templateUrl:'cove-sc-ext.html?1623164400'
