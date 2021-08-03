@@ -23,7 +23,7 @@
   app.config(function ($routeProvider){
       $routeProvider
           .when('/',{
-              templateUrl:'homepage.html?1628011334'
+              templateUrl:'homepage.html?1628026543'
 
     })
     // .when('/test',{
@@ -33,13 +33,13 @@
             templateUrl:'nano.html?1626987017'
         })
           .when('/mini-cove',{
-              templateUrl:'mini-cove.html?1626801334'
+              templateUrl:'mini-cove.html?1628026543'
           })
     .when('/cove',{
-              templateUrl:'moda-cove.html?1623164400'
+              templateUrl:'moda-cove.html?1628026543'
           })
         .when('/cove-wl',{
-          templateUrl:'cove-wl.html?1628005815',
+          templateUrl:'cove-wl.html?1628026543',
         })
         .when('/cove-sc',{
           templateUrl:'cove-sc.html?1623164400',
@@ -67,16 +67,16 @@
         })
 
         .when('/mmc-wl',{
-          templateUrl:'mmc-wl.html?1627582244',
+          templateUrl:'mmc-wl.html?1628026543',
         })
         .when('/mmc-sc',{
-          templateUrl:'mmc-sc.html?1627412312'
+          templateUrl:'mmc-sc.html?1628026543'
         })
         .when('/mmc-gd',{
-          templateUrl:'mmc-gd.html?1626193817'
+          templateUrl:'mmc-gd.html?1628026543'
         })
         .when('/mmc-cc',{
-          templateUrl:'mmc-cc.html?1623164400'
+          templateUrl:'mmc-cc.html?1628026543'
         })
         .when('/mmc-dw',{
           templateUrl:'mmc-dw.html?1623164400'
