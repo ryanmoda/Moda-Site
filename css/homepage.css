@@ -382,6 +382,10 @@ body{
   
 
 }
+.slideshow li:nth-child(5) span { 
+  background-color: white;
+  animation-delay: 15s;
+  }
 
 
 
