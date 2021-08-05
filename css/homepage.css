@@ -356,7 +356,7 @@ body{
 }
 
 #awardsBlock {
-  background-color: black;
+  background-color: white;
 }
 
 #newsBlock {
@@ -386,12 +386,6 @@ body{
   background: rgb(83,83,83);
 
 }
-/*
-.slideshow li:nth-child(5) span { 
-  background-color: white;
-  animation-delay: 20s;
-}
-*/
 
 
 @keyframes imageAnimation {
