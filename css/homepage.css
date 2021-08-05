@@ -374,6 +374,7 @@ body{
 }
 
 .slideshow li:nth-child(3) span {
+  background: white;
   background-color: white;
  
   animation-delay: 10s;
