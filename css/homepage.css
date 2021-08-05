@@ -101,7 +101,7 @@ body{
     background-repeat: none;
     opacity: 0;
     z-index: -40;
-    animation: imageAnimation 25s infinite 0s;
+    animation: imageAnimation 20s infinite 0s;
 }
 
 
@@ -385,11 +385,12 @@ body{
   background: rgb(83,83,83);
 
 }
+/*
 .slideshow li:nth-child(5) span { 
   background-color: white;
   animation-delay: 20s;
 }
-
+*/
 
 
 @keyframes imageAnimation {
@@ -397,7 +398,6 @@ body{
   11.11%   { opacity: 1; }
   33.33%  { opacity: 1; }
   44.44%  { opacity: 0; }
-  66.66%  { opacity: 0; }
   100% { opacity: 0;}
 }
 @keyframes gifAnimation {
@@ -405,7 +405,6 @@ body{
   11.11%   { opacity: 1; }
   90.11%   { opacity: 1; }
   99.44%  { opacity: 0; }
-  99.55%  { opacity: 0; }
   100% { opacity: 0;}
 }
 
