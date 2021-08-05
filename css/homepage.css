@@ -374,6 +374,7 @@ body{
 }
 
 .slideshow li:nth-child(3) span {
+  background: white;
   background-color: white;
  
   animation-delay: 10s;
@@ -397,7 +398,6 @@ body{
   11.11%   { opacity: 1; }
   33.33%  { opacity: 1; }
   44.44%  { opacity: 0; }
-  55.55%  { opacity: 0; }
   100% { opacity: 0;}
 }
 @keyframes gifAnimation {
@@ -405,7 +405,6 @@ body{
   11.11%   { opacity: 1; }
   90.11%   { opacity: 1; }
   99.44%  { opacity: 0; }
-  99.55%  { opacity: 0; }
   100% { opacity: 0;}
 }
 
