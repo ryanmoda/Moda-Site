@@ -221,9 +221,9 @@ body{
   
 }
 #SSFIVECenterImg{
-  max-width: 100%;
+  max-width: 1000px;
   top: 25vh;
-  width: 100%;
+  width: relative;
   transform: translate(-50%, 0);
   position: absolute;
   
