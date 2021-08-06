@@ -36,10 +36,10 @@
               templateUrl:'mini-cove.html?1628089999'
           })
     .when('/cove',{
-              templateUrl:'moda-cove.html?1628089999'
+              templateUrl:'moda-cove.html?1628270793'
           })
         .when('/cove-wl',{
-          templateUrl:'cove-wl.html?1628089999',
+          templateUrl:'cove-wl.html?1628270793',
         })
         .when('/cove-sc',{
           templateUrl:'cove-sc.html?1628089999',
@@ -51,10 +51,10 @@
           templateUrl:'cove-dw.html?1628089999',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1628089999'
+              templateUrl:'cove-ext.html?1628270793'
           })
         .when('/cove-wl-ext',{
-          templateUrl:'cove-wl-ext.html?1628089999'
+          templateUrl:'cove-wl-ext.html?1628270793'
         })
         .when('/cove-sc-ext',{
           templateUrl:'cove-sc-ext.html?1628089999'
