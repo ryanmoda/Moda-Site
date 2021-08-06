@@ -60,7 +60,7 @@
           templateUrl:'cove-sc-ext.html?1628089999'
         })
         .when('/cove-cc-ext',{
-          templateUrl:'cove-cc-ext.html?1628089999'
+          templateUrl:'cove-cc-ext.html?162870793'
         })
         .when('/cove-dw-ext',{
           templateUrl:'cove-dw-ext.html?1628089999'
