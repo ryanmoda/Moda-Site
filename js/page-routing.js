@@ -45,7 +45,7 @@
           templateUrl:'cove-sc.html?1628089999',
         })
         .when('/cove-cc',{
-          templateUrl:'cove-cc.html?1628089999',
+          templateUrl:'cove-cc.html?1628523926',
         })
         .when('/cove-dw',{
           templateUrl:'cove-dw.html?1628089999',
