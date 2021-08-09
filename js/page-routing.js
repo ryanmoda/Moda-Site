@@ -100,7 +100,7 @@
               templateUrl:'mmg-dw.html?1628089999'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1628089999'
+        templateUrl:'graze.html?1628523926'
       })
       .when('/graze-wl',{
           templateUrl:'graze-wl.html?1628523926',
