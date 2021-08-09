@@ -103,19 +103,19 @@
         templateUrl:'graze.html?1628089999'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1628089999',
+          templateUrl:'graze-wl.html?1628523926',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1623164400',
         })
         .when('/graze-wl-2',{
-          templateUrl:'graze-wl-2.html?1623164400',
+          templateUrl:'graze-wl-2.html?1628523926',
         })
         .when('/graze-sc-2',{
-          templateUrl:'graze-sc-2.html?1623164400',
+          templateUrl:'graze-sc-2.html?1628523926',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1623164400',
+          templateUrl:'graze-sc.html?1628523926',
         })
         .when('/graze-cc',{
           templateUrl:'graze-cc.html?1623164400',
@@ -124,13 +124,13 @@
           templateUrl:'graze-dw.html?1623164400',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1623164400'
+                templateUrl:'graze-ext.html?1628523926'
             })
         .when('/graze-wl-ext',{
-          templateUrl:'graze-wl-ext.html?1628104976',
+          templateUrl:'graze-wl-ext.html?1628523926',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1623164400',
+          templateUrl:'graze-sc-ext.html?1628523926',
         })
         .when('/graze-cc-ext',{
           templateUrl:'graze-cc-ext.html?1623164400',
