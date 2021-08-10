@@ -112,7 +112,7 @@
           templateUrl:'graze-wl-2.html?1628606350',
         })
         .when('/graze-sc-2',{
-          templateUrl:'graze-sc-2.html?1628606350',
+          templateUrl:'graze-sc-2.html?1628606355',
         })
         .when('/graze-sc',{
           templateUrl:'graze-sc.html?1628606350',
