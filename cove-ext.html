@@ -1,12 +1,12 @@
 <link href="css/new-navbar.css" rel="stylesheet" type="text/css">
 <link href="css/global.css" rel="stylesheet" type="text/css">
 <link href="css/products.css" rel="stylesheet" type="text/css">
-<link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
 <link href="css/resources.css" rel="stylesheet" type="text/css">
+<link href="css/mmc-wl.css" rel="stylesheet" type="text/css">
 <style>
-	#nav-graze {
+	#nav-cove {
 		font-weight: var(--active-header) !important;
-		color: var(--third-color);
+		color: var(--3rd-color) 
 	}
 	.coveBlock {
 		padding-top: 25px;
@@ -20,43 +20,43 @@
 $(document).ready(function(){
     $(this).scrollTop(0);
 });
-ga('set', 'page', '/graze-ext.html');
+ga('set', 'page', '/cove-ext.html');
 ga('send', 'pageview');
 </script>
-<div grazeextwl-modal></div>
-<div grazeextsc-modal></div>
-<div grazeextcc-modal></div>
-<div grazeextdw-modal></div>
+<div coveextwl-modal></div>
+<div coveextsc-modal></div>
+<div coveextcc-modal></div>
+<div coveextdw-modal></div>
 
-<div class="coveBlock" style="padding-top: 100px;">
-		<center><h1 class="title-text">Graze White Light Exterior</h1></center>
-		<center><a href="#/graze-wl-ext"><img class="cove-img" src="images/Cove/Moda Cove Ext/Cove EXT WL Reflection.png"></a></center>
+<div class="coveBlock" style="padding-top: 70px;">
+		<center><h1 class="title-text">Cove White Light EXT</h1></center>
+		<center><a href="#/cove-wl-ext"><img class="cove-img" src="images/Cove/Moda Cove Ext/Cove EXT WL Reflection.png"></a></center>
 		
-				<center><a href="#/graze-wl-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
+				<center><a href="#/cove-wl-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More</a></center>
 
 <center>
 <div class="icon-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Product Guide/Moda_Graze_Exterior_White_Light_ELV_Product_Guide.pdf"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('coveext-wl-pd');" target="_blank" href="resources/Product Guide/Moda_Cove_Exterior_White_Light_ELV_Product_Guide.pdf"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
 	<span class="icon-grid-caption">Product Guide</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Specification/Moda_Graze_Exterior_White_Light_ELV_Specification.pdf" target="_blank"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Specification/Cove/Moda Cove Exterior/White Light/Moda_Cove_Exterior_White_Light_ELV_Specification.pdf" target="_blank"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-blk.svg">
 	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Installs/Moda_Graze_Exterior_ELV_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('coveext-wl-inst');" target="_blank" href="resources/Installs/Moda_Cove_Exterior_ELV_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
 	<span class="icon-grid-caption">Installs</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
 	<span class="icon-grid-caption">Brochure</span>
 	</div>
 	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-wl-ies');" data-toggle="modal" data-target="#cove-ext-wl-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
 	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-wl-rev');" data-toggle="modal" data-target="#cove-ext-wl-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
 	<span class="icon-grid-caption">Revit</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-wl-cad');" data-toggle="modal" data-target="#cove-ext-wl-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
 	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
@@ -64,42 +64,40 @@ ga('send', 'pageview');
 	</div>
 		</div>
 	</div>
-</center>
-
 </center>
 </div>
 
 <div class="coveBlock">
-		<center><h1 class="title-text">Graze Static Colors Exterior</h1></center>
+		<center><h1 class="title-text">Cove Static Colors EXT</h1></center>
 		<center><h1 class="sub-text"></h1></center>
 		<center>
-<div class="img-container"><a href="#/graze-sc-ext"><img class="cove-img" src="images/Cove/Moda Cove Color Ext/Cove EXT w reflections.png"></a></div>
+<div class="img-container"><a href="#/cove-sc-ext"><img class="cove-img" src="images/Cove/Moda Cove Color Ext/Cove EXT w reflections.png"></a></div>
 			
 </center>
-	<center><a href="#/graze-sc-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
+	<center><a href="#/cove-sc-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More</a></center>
 <center>
 <div class="icon-grid">
 <div class="row">
-	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Product Guide/Moda_Graze_Exterior_Color_ELV_Product_Guide.pdf"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('coveext-sc-pg');" target="_blank" href="resources/Product Guide/Moda_Cove_Exterior_Color_ELV_Product_Guide.pdf"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
 	<span class="icon-grid-caption">Product Guide</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Specification/Moda_Graze_Exterior_Color_ELV_Specification.pdf" target="_blank"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a href="resources/Specification/Cove/Moda Cove Exterior/Colors/Moda_Cove_Exterior_Color_ELV_Specification.pdf" target="_blank"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-blk.svg">
 	<span class="icon-grid-caption">Specification</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a target="_blank" href="resources/Installs/Moda_Graze_Exterior_ELV_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-sc-inst');" target="_blank" href="resources/Installs/Moda_Cove_Exterior_ELV_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
 	<span class="icon-grid-caption">Installs</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
 	<span class="icon-grid-caption">Brochure</span>
 	</div>
 	
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-sc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-sc-ies');" data-toggle="modal" data-target="#cove-ext-sc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
 	<span class="icon-grid-caption">IES</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-sc-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-sc-rev');" data-toggle="modal" data-target="#cove-ext-sc-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
 	<span class="icon-grid-caption">Revit</span></a>
 	</div>
-	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a data-toggle="modal" data-target="#graze-ext-sc-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-sc-cad');" data-toggle="modal" data-target="#cove-ext-sc-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
 	<span class="icon-grid-caption">CAD</span></a>
 	</div>
 	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
@@ -110,30 +108,85 @@ ga('send', 'pageview');
 </center>
 		</div>
 <div class="coveBlock">
-		<center><h1 class="title-text">Graze Color Changing Exterior</h1></center>
+		<center><h1 class="title-text">Cove Color Changing EXT</h1></center>
 		<center><h1 class="sub-text"></h1></center>
 		<center>
 
-<div class="img-container vidMob"><center><a href="#/graze-cc-ext"><video class="cove-img" autoplay loop>
+<div class="img-container vidMob"><center><a href="#/cove-cc-ext"><video class="cove-img" autoplay loop>
   <source src="images/RGB Videos/Cove_Graze RGB EXT White.mp4" type="video/mp4">
 </video></a>	
 		</center></div>
-<center><a href="#/graze-cc-ext"><img class="imgMob cove-img" src="images/Cove/Moda Cove Ext/Cove Ext Color Changing (Static).png"></a></center>
+<a href="#/cove-cc-ext"><img class="cove-img imgMob" src="images/Cove/Moda Cove Ext/Cove Ext Color Changing (Static).png"></a>
 </center>
-	<center><a href="#/graze-cc-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More ></a></center>
+	<center><a href="#/cove-cc-ext" ng-class="{ active: isActive('/cove')}" class="but">Learn More</a></center>
 <center>
-  <div grazeextcc-resource></div>
+<div class="icon-grid">
+<div class="row">
+	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-cc-pg');" data-toggle="modal" data-target="#cove-ext-cc-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+	<span class="icon-grid-caption">Product Guide</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-gry.svg">
+	<span class="icon-grid-caption">Specification</span>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('coveext-cc-inst');" target="_blank" href="resources/Installs/Moda_Cove_Exterior_DMX_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
+	<span class="icon-grid-caption">Brochure</span>
+	</div>
+	
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-cc-ies');" data-toggle="modal" data-target="#cove-ext-cc-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-cc-rev');" data-toggle="modal" data-target="#cove-ext-cc-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+	<span class="icon-grid-caption">Revit</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-cc-cad');" data-toggle="modal" data-target="#cove-ext-cc-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
+	<span class="icon-grid-caption">Compatibility</span>
+	</div>
+		</div>
+	</div>
 </center>
 		</div>
 
 <div class="coveBlock">
-		<center><h1 class="title-text">Graze Dynamic Whites Exterior</h1></center>
+		<center><h1 class="title-text">Cove Dynamic Whites EXT</h1></center>
 		<center><h1 class="sub-text"></h1></center>
-		<center><a href="#/graze-dw-ext"><img class="cove-img" src="images/Cove/Moda Cove DW Ext/Cove EXT w reflections.png"></a></center>
-	<center><a href="#/graze-dw-ext" class="but">Learn More ></a></center>
+		<center><a href="#/cove-dw-ext"><img class="cove-img" src="images/Cove/Moda Cove DW Ext/Cove EXT w reflections.png"></a></center>
+	<center><a href="#/cove-dw-ext" class="but">Learn More</a></center>
 <center>
-  <div grazeextdw-resource></div>
-
+<div class="icon-grid">
+<div class="row">
+	<div class="col-lg-1 col-lg-offset-2 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-dw-pg');" data-toggle="modal" data-target="#cove-ext-dw-pg-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-spec-sheet copy.svg">
+	<span class="icon-grid-caption">Product Guide</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-quick-spec-gry.svg">
+	<span class="icon-grid-caption">Specification</span>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="linkClick('coveext-dw-inst');" target="_blank" href="resources/Installs/Moda_Cove_Exterior_DMX_Install.pdf"><img class="icon-grid-icon" src="images/Icons/icon-install-blk.svg">
+	<span class="icon-grid-caption">Installs</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-brochure-gry.svg">
+	<span class="icon-grid-caption">Brochure</span>
+	</div>
+	
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-dw-ies');" data-toggle="modal" data-target="#cove-ext-dw-ies-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-ies-blk.svg">
+	<span class="icon-grid-caption">IES</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-cc-rev');" data-toggle="modal" data-target="#cove-ext-dw-rev-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-revit-blk.svg">
+	<span class="icon-grid-caption">Revit</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><a onClick="modalClick('coveext-dw-cad');" data-toggle="modal" data-target="#cove-ext-dw-cad-modal" data-dismiss="modal"><img class="icon-grid-icon" src="images/Icons/icon-cad-blk.svg">
+	<span class="icon-grid-caption">CAD</span></a>
+	</div>
+	<div class="col-lg-1 col-sm-3 col-xs-4 hovButtons"><img class="icon-grid-icon-dis" src="images/Icons/icon-compatibility-gry.svg">
+	<span class="icon-grid-caption">Compatibility</span>
+	</div>
+		</div>
+	</div>
 </center>
 		</div>
 <script src="js/accordian.js"></script>
