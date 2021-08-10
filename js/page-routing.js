@@ -42,7 +42,7 @@
           templateUrl:'cove-wl.html?1628270793',
         })
         .when('/cove-sc',{
-          templateUrl:'cove-sc.html?1628089999',
+          templateUrl:'cove-sc.html?1628606281',
         })
         .when('/cove-cc',{
           templateUrl:'cove-cc.html?1628523926',
@@ -100,22 +100,22 @@
               templateUrl:'mmg-dw.html?1628089999'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1628523926'
+        templateUrl:'graze.html?1628606281'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1628523926',
+          templateUrl:'graze-wl.html?1628606281',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1623164400',
         })
         .when('/graze-wl-2',{
-          templateUrl:'graze-wl-2.html?1628523926',
+          templateUrl:'graze-wl-2.html?1628606281',
         })
         .when('/graze-sc-2',{
-          templateUrl:'graze-sc-2.html?1628523926',
+          templateUrl:'graze-sc-2.html?1628606281',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1628523926',
+          templateUrl:'graze-sc.html?1628606281',
         })
         .when('/graze-cc',{
           templateUrl:'graze-cc.html?1623164400',
@@ -124,13 +124,13 @@
           templateUrl:'graze-dw.html?1623164400',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1628523926'
+                templateUrl:'graze-ext.html?1628606281'
             })
         .when('/graze-wl-ext',{
-          templateUrl:'graze-wl-ext.html?1628523926',
+          templateUrl:'graze-wl-ext.html?1628606281',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1628523926',
+          templateUrl:'graze-sc-ext.html?1628606281',
         })
         .when('/graze-cc-ext',{
           templateUrl:'graze-cc-ext.html?1623164400',
