@@ -616,7 +616,7 @@ app.directive('covedwModal', function() {
 //MINI COVE ================================
 app.directive('mmcwlModal', function() {
   return {
-    templateUrl: 'mmcwl-modal.html'
+    templateUrl: 'mmcwl-modal.html?1628624847'
   };
 });
 app.directive('mmcscModal', function() {
