@@ -51,13 +51,13 @@
           templateUrl:'cove-dw.html?1628523926',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1628270793'
+              templateUrl:'cove-ext.html?1628606281'
           })
         .when('/cove-wl-ext',{
-          templateUrl:'cove-wl-ext.html?1628270793'
+          templateUrl:'cove-wl-ext.html?1628606281'
         })
         .when('/cove-sc-ext',{
-          templateUrl:'cove-sc-ext.html?1628089999'
+          templateUrl:'cove-sc-ext.html?1628606281'
         })
         .when('/cove-cc-ext',{
           templateUrl:'cove-cc-ext.html?1628521182'
