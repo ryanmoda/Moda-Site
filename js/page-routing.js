@@ -33,7 +33,7 @@
             templateUrl:'nano.html?1628089999'
         })
           .when('/mini-cove',{
-              templateUrl:'mini-cove.html?1628089999'
+              templateUrl:'mini-cove.html?1628523966'
           })
     .when('/cove',{
               templateUrl:'moda-cove.html?1628523926'
@@ -67,7 +67,7 @@
         })
 
         .when('/mmc-wl',{
-          templateUrl:'mmc-wl.html?1628089999',
+          templateUrl:'mmc-wl.html?1628523926',
         })
         .when('/mmc-sc',{
           templateUrl:'mmc-sc.html?1628089999'
