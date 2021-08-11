@@ -130,7 +130,7 @@
           templateUrl:'graze-wl-ext.html?1628606281',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1628606281',
+          templateUrl:'graze-sc-ext.html?1628699849',
         })
         .when('/graze-cc-ext',{
           templateUrl:'graze-cc-ext.html?1623164400',
