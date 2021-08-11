@@ -463,10 +463,10 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1628708956'
+              templateUrl:'resources.html?1628708960'
           })
     .when('/re-graze',{
-              templateUrl:'graze-resources.html?1623164400'
+              templateUrl:'graze-resources.html?162870960'
           })
     .when('/re-flex',{
               templateUrl:'flex-resources.html?1623164400'
