@@ -4,8 +4,8 @@ IESNA:LM-63-2002
 [TESTLAB] American Independent Testing Lab
 [ISSUEDATE] 01/2019
 [MANUFAC] MODA LIGHT
-[LUMINAIRE] Moda Graze Exterior High Output Dynamic Cool 1FT 30x60 Optic
-[LAMP] 12 35K Die, 12 65K Die, 97 CRI
+[LUMINAIRE] Moda Graze Exterior High Output Dynamic White 1FT 30x60 Optic
+[LAMP] 12 22K Die, 12 65K Die, 97 CRI
 [_TOTALLUMINAIRELUMENS] 1125.5
 TILT=NONE
 1 -1 1 181 73 1 1 0.14 1 0.15
