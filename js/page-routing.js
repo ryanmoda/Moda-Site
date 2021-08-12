@@ -124,7 +124,7 @@
           templateUrl:'graze-dw.html?1623164400',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1628701509'
+                templateUrl:'graze-ext.html?1628796492'
             })
         .when('/graze-wl-ext',{
           templateUrl:'graze-wl-ext.html?1628606281',
@@ -133,7 +133,7 @@
           templateUrl:'graze-sc-ext.html?1628711715',
         })
         .when('/graze-cc-ext',{
-          templateUrl:'graze-cc-ext.html?1623164400',
+          templateUrl:'graze-cc-ext.html?1628796492',
         })
         .when('/graze-dw-ext',{
           templateUrl:'graze-dw-ext.html?1623164400',
