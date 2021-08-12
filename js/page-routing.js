@@ -42,7 +42,7 @@
           templateUrl:'cove-wl.html?1628270793',
         })
         .when('/cove-sc',{
-          templateUrl:'cove-sc.html?1628606281',
+          templateUrl:'cove-sc.html?1628782424',
         })
         .when('/cove-cc',{
           templateUrl:'cove-cc.html?1628523926',
@@ -51,13 +51,13 @@
           templateUrl:'cove-dw.html?1628523926',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1628606281'
+              templateUrl:'cove-ext.html?1628782424'
           })
         .when('/cove-wl-ext',{
           templateUrl:'cove-wl-ext.html?1628606281'
         })
         .when('/cove-sc-ext',{
-          templateUrl:'cove-sc-ext.html?1628606281'
+          templateUrl:'cove-sc-ext.html?1628782424'
         })
         .when('/cove-cc-ext',{
           templateUrl:'cove-cc-ext.html?1628521182'
@@ -463,7 +463,7 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1628711711'
+              templateUrl:'resources.html?1628782424'
           })
     .when('/re-graze',{
               templateUrl:'graze-resources.html?1628711711'
@@ -600,7 +600,7 @@ app.directive('covewlModal', function() {
 });
 app.directive('covescModal', function() {
   return {
-    templateUrl: 'covesc-modal.html'
+    templateUrl: 'covesc-modal.html?1628782424'
   };
 });
 app.directive('coveccModal', function() {
@@ -682,7 +682,7 @@ app.directive('covewlResource', function() {
 });
 app.directive('covescResource', function() {
   return {
-    templateUrl: 'Templates/cove-sc-resources.html'
+    templateUrl: 'Templates/cove-sc-resources.html?1628782424'
   };
 });
 app.directive('coveccResource', function() {
@@ -703,7 +703,7 @@ app.directive('coveextwlModal', function() {
 });
 app.directive('coveextscModal', function() {
   return {
-    templateUrl: 'coveextsc-modal.html'
+    templateUrl: 'coveextsc-modal.html?1628782424'
   };
 });
 app.directive('coveextccModal', function() {
@@ -723,7 +723,7 @@ app.directive('coveextwlResource', function() {
 });
 app.directive('coveextscResource', function() {
   return {
-    templateUrl: 'Templates/coveextsc-resources.html'
+    templateUrl: 'Templates/coveextsc-resources.html?1628782424'
   };
 });
 app.directive('coveextccResource', function() {
