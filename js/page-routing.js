@@ -103,7 +103,7 @@
         templateUrl:'graze.html?1628881780'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1628880279',
+          templateUrl:'graze-wl.html?1628885500',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1623164400',
@@ -780,7 +780,7 @@ app.directive('mmgdwResource', function() {
 //GRAZE INT =====================================
 app.directive('grazewlModal', function() {
   return {
-    templateUrl: 'grazewl-modal.html?1628875226'
+    templateUrl: 'grazewl-modal.html?1628885500'
   };
 });
 app.directive('grazescModal', function() {
