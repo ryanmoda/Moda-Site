@@ -795,7 +795,7 @@ app.directive('grazeccModal', function() {
 });
 app.directive('grazedwModal', function() {
   return {
-    templateUrl: 'grazedw-modal.html?1628869070'
+    templateUrl: 'grazedw-modal.html?1628869075'
   };
 });
 app.directive('grazewlResource', function() {
@@ -815,7 +815,7 @@ app.directive('grazeccResource', function() {
 });
 app.directive('grazedwResource', function() {
   return {
-    templateUrl: 'Templates/graze-dw-resources.html'
+    templateUrl: 'Templates/graze-dw-resources.html?1628869075'
   };
 });
 //GRAZE EXT =====================================
