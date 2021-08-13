@@ -3,7 +3,6 @@
 <link href="css/products.css" rel="stylesheet" type="text/css">
 <link href="css/resources.css" rel="stylesheet" type="text/css">
 <link href="css/readMore.css" rel="stylesheet" type="text/css">
-<!--<script src="js/scrollSpy.js"></script>-->
 
 <style>
 	#nav-graze {
@@ -36,20 +35,54 @@
 	.svgWidth {
 		max-width: 733px;
 	}
+	.feature-cont {
+		justify-items: center;
+		grid-template-columns: auto auto auto auto;
+		display: grid;
+	}
+	.slick-slide {
+		width: 530px;
+	}
+	.dwSlider {
+		width: 540px;
+	}
+	.v2 {
+		background-color: #fafafa;
+		flex: 1;
+		margin: 10px 10px;
+		padding: 50px 35px 0 35px;
+	}
+	.v2-container {
+		max-width: 1620px;
+		margin: 0 auto;
+		display: flex;
+	}
+	.grazer-container {
+		justify-content: center;
+	}
+
+	.slick-dotted.slick-slider {
+    margin-bottom: 0px; 
+}
+
+	@media (max-width: 1199px) {
+		.v2 {
+		background-color: #fafafa;
+		max-width: 900px;
+		min-height: 500px;
+		margin: 0 auto 10px auto;
+	}
+	.v2-container {
+		display: block;
+	}
+	.no-gutters-accs {
+		width: 100.7%;
+	}
+	}
 </style>
 <script>
 $(document).ready(function(){
-	$(this).scrollTop(0);
-var getUrlParameter = function getUrlParameter(sParam) {
-var sPageURL = window.location.href;
-sURLVariables = sPageURL.split('?');
-
-if (sURLVariables[1] == "pack") {
-		
-	$("#grazedw-pack-modal").modal('show');		
-	}
-};
-getUrlParameter('pack');
+    $(this).scrollTop(0);
 });
 ga('set', 'page', '/graze-dw.html');
 ga('send', 'pageview');
@@ -97,7 +130,7 @@ ga('send', 'pageview');
 	<center><img  class="cove-img cove-img-land" style="margin-top: 166px;" src="images/Cove/Moda Cove DW/cove-int-dw-1ft noshadow.png"></center>
 
 <center>
-	<div grazedw-resource></div>
+	<div grazedw-Resource></div>
 </center>
 				
 <div class="midContent readContent" style="margin-top: 50px;">
