@@ -67,7 +67,7 @@
         })
 
         .when('/mmc-wl',{
-          templateUrl:'mmc-wl.html?1628698022',
+          templateUrl:'mmc-wl.html?1628880279',
         })
         .when('/mmc-sc',{
           templateUrl:'mmc-sc.html?1628089999'
@@ -671,7 +671,7 @@ app.directive('mmcdwResource', function() {
 });
 app.directive('mncwlResource', function() {
   return {
-    templateUrl: 'Templates/mnc-wl-resources.html'
+    templateUrl: 'Templates/mnc-wl-resources.html?1628880279'
   };
 });
 //COVE INTERIOR =================================
