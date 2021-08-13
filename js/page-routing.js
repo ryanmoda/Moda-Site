@@ -836,7 +836,7 @@ app.directive('grazeextccModal', function() {
 });
 app.directive('grazeextdwModal', function() {
   return {
-    templateUrl: 'grazeextdw-modal.html?1628881779'
+    templateUrl: 'grazeextdw-modal.html?1628881995'
   };
 });
 app.directive('grazeextwlResource', function() {
