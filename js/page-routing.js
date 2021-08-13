@@ -121,7 +121,7 @@
           templateUrl:'graze-cc.html?1623164400',
         })
         .when('/graze-dw',{
-          templateUrl:'graze-dw.html?1628880279',
+          templateUrl:'graze-dw.html?1628881779',
         })
       .when('/graze-ext',{
                 templateUrl:'graze-ext.html?1628796492'
