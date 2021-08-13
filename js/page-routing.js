@@ -856,7 +856,7 @@ app.directive('grazeextccResource', function() {
 });
 app.directive('grazeextdwResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-dw-resources.html?1628875226'
+    templateUrl: 'Templates/grazeext-dw-resources.html?1628881995'
   };
 });
 //INT FLEX ================================
