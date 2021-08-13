@@ -836,7 +836,7 @@ app.directive('grazeextccModal', function() {
 });
 app.directive('grazeextdwModal', function() {
   return {
-    templateUrl: 'grazeextdw-modal.html?1628881995'
+    templateUrl: 'grazeextdw-modal.html?1628881996'
   };
 });
 app.directive('grazeextwlResource', function() {
@@ -856,7 +856,7 @@ app.directive('grazeextccResource', function() {
 });
 app.directive('grazeextdwResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-dw-resources.html?1628881995'
+    templateUrl: 'Templates/grazeext-dw-resources.html?1628881996'
   };
 });
 //INT FLEX ================================
