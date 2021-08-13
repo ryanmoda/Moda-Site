@@ -795,7 +795,7 @@ app.directive('grazeccModal', function() {
 });
 app.directive('grazedwModal', function() {
   return {
-    templateUrl: 'grazedw-modal.html'
+    templateUrl: 'grazedw-modal.html?1628869070'
   };
 });
 app.directive('grazewlResource', function() {
