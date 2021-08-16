@@ -36,7 +36,7 @@
               templateUrl:'mini-cove.html?1628523966'
           })
     .when('/cove',{
-              templateUrl:'moda-cove.html?1628523926'
+              templateUrl:'moda-cove.html?1629149369'
           })
         .when('/cove-wl',{
           templateUrl:'cove-wl.html?1628270793',
@@ -51,7 +51,7 @@
           templateUrl:'cove-dw.html?1628523926',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1629149368'
+              templateUrl:'cove-ext.html?1629149369'
           })
         .when('/cove-wl-ext',{
           templateUrl:'cove-wl-ext.html?1628606281'
@@ -60,7 +60,7 @@
           templateUrl:'cove-sc-ext.html?1628782424'
         })
         .when('/cove-cc-ext',{
-          templateUrl:'cove-cc-ext.html?1629149368'
+          templateUrl:'cove-cc-ext.html?1629149369'
         })
         .when('/cove-dw-ext',{
           templateUrl:'cove-dw-ext.html?1628089999'
@@ -73,7 +73,7 @@
           templateUrl:'mmc-sc.html?1628089999'
         })
         .when('/mmc-gd',{
-          templateUrl:'mmc-gd.html?1629149368'
+          templateUrl:'mmc-gd.html?1629149369'
         })
         .when('/mmc-cc',{
           templateUrl:'mmc-cc.html?1628089999'
@@ -605,7 +605,7 @@ app.directive('covescModal', function() {
 });
 app.directive('coveccModal', function() {
   return {
-    templateUrl: 'covecc-modal.html?1629149368'
+    templateUrl: 'covecc-modal.html?1629149369'
   };
 });
 app.directive('covedwModal', function() {
@@ -626,7 +626,7 @@ app.directive('mmcscModal', function() {
 });
 app.directive('mmcgdModal', function() {
   return {
-    templateUrl: 'mmcgd-modal.html?1629149368'
+    templateUrl: 'mmcgd-modal.html?1629149369'
   };
 });
 app.directive('mmcccModal', function() {
@@ -656,7 +656,7 @@ app.directive('mmcscResource', function() {
 });
 app.directive('mmcgdResource', function() {
   return {
-    templateUrl: 'Templates/mmc-gd-resources.html?1629149368'
+    templateUrl: 'Templates/mmc-gd-resources.html?1629149369'
   };
 });
 app.directive('mmcccResource', function() {
@@ -728,12 +728,12 @@ app.directive('coveextscResource', function() {
 });
 app.directive('coveextccResource', function() {
   return {
-    templateUrl: 'Templates/coveextcc-resources.html?1628875226'
+    templateUrl: 'Templates/coveextcc-resources.html?1628875227'
   };
 });
 app.directive('coveextdwResource', function() {
   return {
-    templateUrl: 'Templates/coveextdw-resources.html?1628875226'
+    templateUrl: 'Templates/coveextdw-resources.html?1628875227'
   };
 });
 //MINI GRAZE =====================================
