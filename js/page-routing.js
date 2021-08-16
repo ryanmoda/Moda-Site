@@ -51,7 +51,7 @@
           templateUrl:'cove-dw.html?1628523926',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1628782424'
+              templateUrl:'cove-ext.html?1629149368'
           })
         .when('/cove-wl-ext',{
           templateUrl:'cove-wl-ext.html?1628606281'
@@ -60,7 +60,7 @@
           templateUrl:'cove-sc-ext.html?1628782424'
         })
         .when('/cove-cc-ext',{
-          templateUrl:'cove-cc-ext.html?1628521182'
+          templateUrl:'cove-cc-ext.html?1629149368'
         })
         .when('/cove-dw-ext',{
           templateUrl:'cove-dw-ext.html?1628089999'
@@ -73,7 +73,7 @@
           templateUrl:'mmc-sc.html?1628089999'
         })
         .when('/mmc-gd',{
-          templateUrl:'mmc-gd.html?1628089999'
+          templateUrl:'mmc-gd.html?1629149368'
         })
         .when('/mmc-cc',{
           templateUrl:'mmc-cc.html?1628089999'
@@ -605,7 +605,7 @@ app.directive('covescModal', function() {
 });
 app.directive('coveccModal', function() {
   return {
-    templateUrl: 'covecc-modal.html'
+    templateUrl: 'covecc-modal.html?1629149368'
   };
 });
 app.directive('covedwModal', function() {
@@ -626,7 +626,7 @@ app.directive('mmcscModal', function() {
 });
 app.directive('mmcgdModal', function() {
   return {
-    templateUrl: 'mmcgd-modal.html'
+    templateUrl: 'mmcgd-modal.html?1629149368'
   };
 });
 app.directive('mmcccModal', function() {
@@ -656,7 +656,7 @@ app.directive('mmcscResource', function() {
 });
 app.directive('mmcgdResource', function() {
   return {
-    templateUrl: 'Templates/mmc-gd-resources.html'
+    templateUrl: 'Templates/mmc-gd-resources.html?1629149368'
   };
 });
 app.directive('mmcccResource', function() {
