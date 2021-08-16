@@ -170,10 +170,10 @@ body{
 #SSTHREECenterImg{
   
   max-width: 1000px;
-  top: 25vh;
+  top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
-  position: relative;
+  position: absolute;
 }
 
 
