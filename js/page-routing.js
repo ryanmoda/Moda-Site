@@ -73,7 +73,7 @@
           templateUrl:'mmc-sc.html?1628089999'
         })
         .when('/mmc-gd',{
-          templateUrl:'mmc-gd.html?1629149369'
+          templateUrl:'mmc-gd.html?1629216263'
         })
         .when('/mmc-cc',{
           templateUrl:'mmc-cc.html?1628089999'
@@ -463,7 +463,7 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1628782424'
+              templateUrl:'resources.html?1629216263'
           })
     .when('/re-graze',{
               templateUrl:'graze-resources.html?1628711711'
@@ -626,7 +626,7 @@ app.directive('mmcscModal', function() {
 });
 app.directive('mmcgdModal', function() {
   return {
-    templateUrl: 'mmcgd-modal.html?1629149369'
+    templateUrl: 'mmcgd-modal.html?162916263'
   };
 });
 app.directive('mmcccModal', function() {
