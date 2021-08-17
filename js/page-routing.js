@@ -463,7 +463,7 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1629216263'
+              templateUrl:'resources.html?16291496265'
           })
     .when('/re-graze',{
               templateUrl:'graze-resources.html?1628711711'
@@ -616,12 +616,12 @@ app.directive('covedwModal', function() {
 //MINI COVE ================================
 app.directive('mmcwlModal', function() {
   return {
-    templateUrl: 'mmcwl-modal.html'
+    templateUrl: 'mmcwl-modal.html?16291496265'
   };
 });
 app.directive('mmcscModal', function() {
   return {
-    templateUrl: 'mmcsc-modal.html'
+    templateUrl: 'mmcsc-modal.html?16291496265'
   };
 });
 app.directive('mmcgdModal', function() {
@@ -631,12 +631,12 @@ app.directive('mmcgdModal', function() {
 });
 app.directive('mmcccModal', function() {
   return {
-    templateUrl: 'mmccc-modal.html'
+    templateUrl: 'mmccc-modal.html?16291496265'
   };
 });
 app.directive('mmcdwModal', function() {
   return {
-    templateUrl: 'mmcdw-modal.html'
+    templateUrl: 'mmcdw-modal.html?16291496265'
   };
 });
 app.directive('mncwlModal', function() {
@@ -646,12 +646,12 @@ app.directive('mncwlModal', function() {
 });
 app.directive('mmcwlResource', function() {
   return {
-    templateUrl: 'Templates/mmc-wl-resources.html'
+    templateUrl: 'Templates/mmc-wl-resources.html?16291496265'
   };
 });
 app.directive('mmcscResource', function() {
   return {
-    templateUrl: 'Templates/mmc-sc-resources.html'
+    templateUrl: 'Templates/mmc-sc-resources.html?16291496265'
   };
 });
 app.directive('mmcgdResource', function() {
@@ -661,12 +661,12 @@ app.directive('mmcgdResource', function() {
 });
 app.directive('mmcccResource', function() {
   return {
-    templateUrl: 'Templates/mmc-cc-resources.html'
+    templateUrl: 'Templates/mmc-cc-resources.html?16291496265'
   };
 });
 app.directive('mmcdwResource', function() {
   return {
-    templateUrl: 'Templates/mmc-dw-resources.html'
+    templateUrl: 'Templates/mmc-dw-resources.html?16291496265'
   };
 });
 app.directive('mncwlResource', function() {
