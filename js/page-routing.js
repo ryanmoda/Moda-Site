@@ -600,12 +600,12 @@ app.directive('covewlModal', function() {
 });
 app.directive('covescModal', function() {
   return {
-    templateUrl: 'covesc-modal.html?16291496300'
+    templateUrl: 'covesc-modal.html?16291496305'
   };
 });
 app.directive('coveccModal', function() {
   return {
-    templateUrl: 'covecc-modal.html?16291496300'
+    templateUrl: 'covecc-modal.html?16291496305'
   };
 });
 app.directive('covedwModal', function() {
@@ -631,7 +631,7 @@ app.directive('mmcgdModal', function() {
 });
 app.directive('mmcccModal', function() {
   return {
-    templateUrl: 'mmccc-modal.html?16291496300'
+    templateUrl: 'mmccc-modal.html?16291496305'
   };
 });
 app.directive('mmcdwModal', function() {
@@ -677,22 +677,22 @@ app.directive('mncwlResource', function() {
 //COVE INTERIOR =================================
 app.directive('covewlResource', function() {
   return {
-    templateUrl: 'Templates/cove-wl-resources.html?16291496300'
+    templateUrl: 'Templates/cove-wl-resources.html?16291496305'
   };
 });
 app.directive('covescResource', function() {
   return {
-    templateUrl: 'Templates/cove-sc-resources.html?16291496300'
+    templateUrl: 'Templates/cove-sc-resources.html?16291496305'
   };
 });
 app.directive('coveccResource', function() {
   return {
-    templateUrl: 'Templates/cove-cc-resources.html?16291496300'
+    templateUrl: 'Templates/cove-cc-resources.html?16291496305'
   };
 });
 app.directive('covedwResource', function() {
   return {
-    templateUrl: 'Templates/cove-dw-resources.html?16291496300'
+    templateUrl: 'Templates/cove-dw-resources.html?16291496305'
   };
 });
 //COVE EXTERIOR ================================
