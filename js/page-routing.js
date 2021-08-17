@@ -463,7 +463,7 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?16291496265'
+              templateUrl:'resources.html?16291496300'
           })
     .when('/re-graze',{
               templateUrl:'graze-resources.html?1628711711'
@@ -595,48 +595,48 @@ app.directive('modaFooter', function() {
 });
 app.directive('covewlModal', function() {
   return {
-    templateUrl: 'covewl-modal.html'
+    templateUrl: 'covewl-modal.html?16291496300'
   };
 });
 app.directive('covescModal', function() {
   return {
-    templateUrl: 'covesc-modal.html?1628782500'
+    templateUrl: 'covesc-modal.html?16291496300'
   };
 });
 app.directive('coveccModal', function() {
   return {
-    templateUrl: 'covecc-modal.html?1629149369'
+    templateUrl: 'covecc-modal.html?16291496300'
   };
 });
 app.directive('covedwModal', function() {
   return {
-    templateUrl: 'covedw-modal.html'
+    templateUrl: 'covedw-modal.html?16291496300'
   };
 });
 //MINI COVE ================================
 app.directive('mmcwlModal', function() {
   return {
-    templateUrl: 'mmcwl-modal.html?16291496265'
+    templateUrl: 'mmcwl-modal.html?16291496300'
   };
 });
 app.directive('mmcscModal', function() {
   return {
-    templateUrl: 'mmcsc-modal.html?16291496265'
+    templateUrl: 'mmcsc-modal.html?16291496300'
   };
 });
 app.directive('mmcgdModal', function() {
   return {
-    templateUrl: 'mmcgd-modal.html?162916265'
+    templateUrl: 'mmcgd-modal.html?16291496300'
   };
 });
 app.directive('mmcccModal', function() {
   return {
-    templateUrl: 'mmccc-modal.html?16291496265'
+    templateUrl: 'mmccc-modal.html?16291496300'
   };
 });
 app.directive('mmcdwModal', function() {
   return {
-    templateUrl: 'mmcdw-modal.html?16291496265'
+    templateUrl: 'mmcdw-modal.html?16291496300'
   };
 });
 app.directive('mncwlModal', function() {
@@ -646,94 +646,94 @@ app.directive('mncwlModal', function() {
 });
 app.directive('mmcwlResource', function() {
   return {
-    templateUrl: 'Templates/mmc-wl-resources.html?16291496265'
+    templateUrl: 'Templates/mmc-wl-resources.html?16291496300'
   };
 });
 app.directive('mmcscResource', function() {
   return {
-    templateUrl: 'Templates/mmc-sc-resources.html?16291496265'
+    templateUrl: 'Templates/mmc-sc-resources.html?16291496300'
   };
 });
 app.directive('mmcgdResource', function() {
   return {
-    templateUrl: 'Templates/mmc-gd-resources.html?16291496265'
+    templateUrl: 'Templates/mmc-gd-resources.html?16291496300'
   };
 });
 app.directive('mmcccResource', function() {
   return {
-    templateUrl: 'Templates/mmc-cc-resources.html?16291496265'
+    templateUrl: 'Templates/mmc-cc-resources.html?16291496300'
   };
 });
 app.directive('mmcdwResource', function() {
   return {
-    templateUrl: 'Templates/mmc-dw-resources.html?16291496265'
+    templateUrl: 'Templates/mmc-dw-resources.html?16291496300'
   };
 });
 app.directive('mncwlResource', function() {
   return {
-    templateUrl: 'Templates/mnc-wl-resources.html?1628880279'
+    templateUrl: 'Templates/mnc-wl-resources.html?16291496300'
   };
 });
 //COVE INTERIOR =================================
 app.directive('covewlResource', function() {
   return {
-    templateUrl: 'Templates/cove-wl-resources.html'
+    templateUrl: 'Templates/cove-wl-resources.html?16291496300'
   };
 });
 app.directive('covescResource', function() {
   return {
-    templateUrl: 'Templates/cove-sc-resources.html?1628782500'
+    templateUrl: 'Templates/cove-sc-resources.html?16291496300'
   };
 });
 app.directive('coveccResource', function() {
   return {
-    templateUrl: 'Templates/cove-cc-resources.html'
+    templateUrl: 'Templates/cove-cc-resources.html?16291496300'
   };
 });
 app.directive('covedwResource', function() {
   return {
-    templateUrl: 'Templates/cove-dw-resources.html'
+    templateUrl: 'Templates/cove-dw-resources.html?16291496300'
   };
 });
 //COVE EXTERIOR ================================
 app.directive('coveextwlModal', function() {
   return {
-    templateUrl: 'coveextwl-modal.html'
+    templateUrl: 'coveextwl-modal.html?16291496300'
   };
 });
 app.directive('coveextscModal', function() {
   return {
-    templateUrl: 'coveextsc-modal.html?1628782500'
+    templateUrl: 'coveextsc-modal.html?16291496300'
   };
 });
 app.directive('coveextccModal', function() {
   return {
-    templateUrl: 'coveextcc-modal.html?1629210780'
+    templateUrl: 'coveextcc-modal.html?16291496300'
   };
 });
 app.directive('coveextdwModal', function() {
   return {
-    templateUrl: 'coveextdw-modal.html'
+    templateUrl: 'coveextdw-modal.html?16291496300'
   };
 });
 app.directive('coveextwlResource', function() {
   return {
-    templateUrl: 'Templates/coveextwl-resources.html'
+    templateUrl: 'Templates/coveextwl-resources.html?16291496300'
   };
 });
 app.directive('coveextscResource', function() {
   return {
-    templateUrl: 'Templates/coveextsc-resources.html?1628782500'
+    templateUrl: 'Templates/coveextsc-resources.html?16291496300'
   };
 });
 app.directive('coveextccResource', function() {
   return {
-    templateUrl: 'Templates/coveextcc-resources.html?1628875227'
+    templateUrl: 'Templates/coveextcc-resources.html?16291496300'
   };
 });
 app.directive('coveextdwResource', function() {
   return {
-    templateUrl: 'Templates/coveextdw-resources.html?1628875227'
+    templateUrl: 'Templates/coveextdw-resources.html?16291496300'
   };
 });
 //MINI GRAZE =====================================
