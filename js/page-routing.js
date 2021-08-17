@@ -626,7 +626,7 @@ app.directive('mmcscModal', function() {
 });
 app.directive('mmcgdModal', function() {
   return {
-    templateUrl: 'mmcgd-modal.html?162916263'
+    templateUrl: 'mmcgd-modal.html?162916265'
   };
 });
 app.directive('mmcccModal', function() {
@@ -656,7 +656,7 @@ app.directive('mmcscResource', function() {
 });
 app.directive('mmcgdResource', function() {
   return {
-    templateUrl: 'Templates/mmc-gd-resources.html?1629149369'
+    templateUrl: 'Templates/mmc-gd-resources.html?16291496265'
   };
 });
 app.directive('mmcccResource', function() {
