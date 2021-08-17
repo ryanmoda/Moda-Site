@@ -754,7 +754,7 @@ app.directive('mmggdModal', function() {
 });
 app.directive('mmgdwModal', function() {
   return {
-    templateUrl: 'mmgdw-modal.html?16291496315'
+    templateUrl: 'mmgdw-modal.html?16291496325'
   };
 });
 app.directive('mmgwlResource', function() {
@@ -774,7 +774,7 @@ app.directive('mmggdResource', function() {
 });
 app.directive('mmgdwResource', function() {
   return {
-    templateUrl: 'Templates/mmg-dw-resources.html?16291496315'
+    templateUrl: 'Templates/mmg-dw-resources.html?16291496325'
   };
 });
 //GRAZE INT =====================================
