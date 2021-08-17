@@ -739,7 +739,7 @@ app.directive('coveextdwResource', function() {
 //MINI GRAZE =====================================
 app.directive('mmgwlModal', function() {
   return {
-    templateUrl: 'mmgwl-modal.html?1629219238'
+    templateUrl: 'mmgwl-modal.html?1628875226'
   };
 });
 app.directive('mmgscModal', function() {
