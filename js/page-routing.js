@@ -780,7 +780,7 @@ app.directive('mmgdwResource', function() {
 //GRAZE INT =====================================
 app.directive('grazewlModal', function() {
   return {
-    templateUrl: 'grazewl-modal.html?16291496320'
+    templateUrl: 'grazewl-modal.html?16291496325'
   };
 });
 app.directive('grazescModal', function() {
@@ -800,7 +800,7 @@ app.directive('grazedwModal', function() {
 });
 app.directive('grazewlResource', function() {
   return {
-    templateUrl: 'Templates/graze-wl-resources.html?16291496320'
+    templateUrl: 'Templates/graze-wl-resources.html?16291496325'
   };
 });
 app.directive('grazescResource', function() {
