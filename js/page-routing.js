@@ -749,7 +749,7 @@ app.directive('mmgscModal', function() {
 });
 app.directive('mmggdModal', function() {
   return {
-    templateUrl: 'mmggd-modal.html?16291496310'
+    templateUrl: 'mmggd-modal.html?16291496315'
   };
 });
 app.directive('mmgdwModal', function() {
@@ -769,7 +769,7 @@ app.directive('mmgscResource', function() {
 });
 app.directive('mmggdResource', function() {
   return {
-    templateUrl: 'Templates/mmg-gd-resources.html?16291496310'
+    templateUrl: 'Templates/mmg-gd-resources.html?16291496315'
   };
 });
 app.directive('mmgdwResource', function() {
