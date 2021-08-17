@@ -708,7 +708,7 @@ app.directive('coveextscModal', function() {
 });
 app.directive('coveextccModal', function() {
   return {
-    templateUrl: 'coveextcc-modal.html'
+    templateUrl: 'coveextcc-modal.html?1629210778'
   };
 });
 app.directive('coveextdwModal', function() {
