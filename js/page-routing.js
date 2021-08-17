@@ -749,7 +749,7 @@ app.directive('mmgscModal', function() {
 });
 app.directive('mmggdModal', function() {
   return {
-    templateUrl: 'mmggd-modal.html?16291496300'
+    templateUrl: 'mmggd-modal.html?16291496310'
   };
 });
 app.directive('mmgdwModal', function() {
@@ -769,12 +769,12 @@ app.directive('mmgscResource', function() {
 });
 app.directive('mmggdResource', function() {
   return {
-    templateUrl: 'Templates/mmg-gd-resources.html?16291496300'
+    templateUrl: 'Templates/mmg-gd-resources.html?16291496310'
   };
 });
 app.directive('mmgdwResource', function() {
   return {
-    templateUrl: 'Templates/mmg-dw-resources.html?16291496300'
+    templateUrl: 'Templates/mmg-dw-resources.html?16291496310'
   };
 });
 //GRAZE INT =====================================
