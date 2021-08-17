@@ -82,7 +82,7 @@
           templateUrl:'mmc-dw.html?1628089999'
         })
     .when('/mini-graze',{
-              templateUrl:'mini-graze.html?16291496450'
+              templateUrl:'mini-graze.html?16291496555'
           })
       .when('/mmg-sc',{
               templateUrl:'mmg-sc.html?1628089999'
@@ -97,7 +97,7 @@
               templateUrl:'mmg-gd.html?1628089999'
           })
       .when('/mmg-dw',{
-              templateUrl:'mmg-dw.html?16291496550'
+              templateUrl:'mmg-dw.html?16291496555'
           })
       .when('/graze',{
         templateUrl:'graze.html?1628881780'
