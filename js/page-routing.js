@@ -23,7 +23,7 @@
   app.config(function ($routeProvider){
       $routeProvider
           .when('/',{
-              templateUrl:'homepage.html?1629134607'
+              templateUrl:'homepage.html?1629497788'
 
     })
     // .when('/test',{
@@ -82,7 +82,7 @@
           templateUrl:'mmc-dw.html?1628089999'
         })
     .when('/mini-graze',{
-              templateUrl:'mini-graze.html?16291496556'
+              templateUrl:'mini-graze.html?1629497788'
           })
       .when('/mmg-sc',{
               templateUrl:'mmg-sc.html?1628089999'
@@ -94,16 +94,16 @@
               templateUrl:'mmg-sc.html?1628089999'
           })
         .when('/mmg-gd',{
-              templateUrl:'mmg-gd.html?1628089999'
+              templateUrl:'mmg-gd.html?1629497788'
           })
       .when('/mmg-dw',{
               templateUrl:'mmg-dw.html?16291496556'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1628881780'
+        templateUrl:'graze.html?1629497788'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1628885500',
+          templateUrl:'graze-wl.html?1629497788',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1623164400',
@@ -115,28 +115,28 @@
           templateUrl:'graze-sc-2.html?1628606355',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1628711711',
+          templateUrl:'graze-sc.html?1629497788',
         })
         .when('/graze-cc',{
-          templateUrl:'graze-cc.html?1623164400',
+          templateUrl:'graze-cc.html?1629497788',
         })
         .when('/graze-dw',{
-          templateUrl:'graze-dw.html?1628881780',
+          templateUrl:'graze-dw.html?1629497788',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1628885500'
+                templateUrl:'graze-ext.html?1629497788'
             })
         .when('/graze-wl-ext',{
           templateUrl:'graze-wl-ext.html?1628606281',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1628711715',
+          templateUrl:'graze-sc-ext.html?1629497788',
         })
         .when('/graze-cc-ext',{
-          templateUrl:'graze-cc-ext.html?1628796492',
+          templateUrl:'graze-cc-ext.html?1629497788',
         })
         .when('/graze-dw-ext',{
-          templateUrl:'graze-dw-ext.html?1628885500',
+          templateUrl:'graze-dw-ext.html?1629497788',
         })
       .when('/int-flex',{
         templateUrl:'int-flex.html?1623164400'
@@ -463,10 +463,10 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?16291496300'
+              templateUrl:'resources.html?1629497788'
           })
     .when('/re-graze',{
-              templateUrl:'graze-resources.html?1628711711'
+              templateUrl:'graze-resources.html?1629497788'
           })
     .when('/re-flex',{
               templateUrl:'flex-resources.html?1623164400'
