@@ -63,7 +63,7 @@
           templateUrl:'cove-cc-ext.html?1629149369'
         })
         .when('/cove-dw-ext',{
-          templateUrl:'cove-dw-ext.html?1629729575'
+          templateUrl:'cove-dw-ext.html?1629729580'
         })
 
         .when('/mmc-wl',{
