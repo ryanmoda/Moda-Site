@@ -36,7 +36,7 @@
               templateUrl:'mini-cove.html?1628523966'
           })
     .when('/cove',{
-              templateUrl:'moda-cove.html?1629149369'
+              templateUrl:'moda-cove.html?1629729572'
           })
         .when('/cove-wl',{
           templateUrl:'cove-wl.html?1628270793',
@@ -63,7 +63,7 @@
           templateUrl:'cove-cc-ext.html?1629149369'
         })
         .when('/cove-dw-ext',{
-          templateUrl:'cove-dw-ext.html?1628089999'
+          templateUrl:'cove-dw-ext.html?1629729572'
         })
 
         .when('/mmc-wl',{
@@ -100,7 +100,7 @@
               templateUrl:'mmg-dw.html?16291496556'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1629497788'
+        templateUrl:'graze.html?1629729572'
       })
       .when('/graze-wl',{
           templateUrl:'graze-wl.html?1629497788',
@@ -118,7 +118,7 @@
           templateUrl:'graze-sc.html?1629497788',
         })
         .when('/graze-cc',{
-          templateUrl:'graze-cc.html?1629497788',
+          templateUrl:'graze-cc.html?1629729572',
         })
         .when('/graze-dw',{
           templateUrl:'graze-dw.html?1629497788',
@@ -463,10 +463,10 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1629497788'
+              templateUrl:'resources.html?1629729572'
           })
     .when('/re-graze',{
-              templateUrl:'graze-resources.html?1629497788'
+              templateUrl:'graze-resources.html?1629729572'
           })
     .when('/re-flex',{
               templateUrl:'flex-resources.html?1623164400'
