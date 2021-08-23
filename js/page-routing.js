@@ -103,7 +103,7 @@
         templateUrl:'graze.html?1629729572'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1629729572',
+          templateUrl:'graze-wl.html?1629729650',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1623164400',
