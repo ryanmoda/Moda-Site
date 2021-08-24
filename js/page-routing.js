@@ -100,7 +100,7 @@
               templateUrl:'mmg-dw.html?16291496556'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1629729572'
+        templateUrl:'graze.html?1629845237'
       })
       .when('/graze-wl',{
           templateUrl:'graze-wl.html?1629729650',
@@ -115,7 +115,7 @@
           templateUrl:'graze-sc-2.html?1628606355',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1629497788',
+          templateUrl:'graze-sc.html?1629845237',
         })
         .when('/graze-cc',{
           templateUrl:'graze-cc.html?1629729572',
@@ -124,13 +124,13 @@
           templateUrl:'graze-dw.html?1629497788',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1629497788'
+                templateUrl:'graze-ext.html?1629845237'
             })
         .when('/graze-wl-ext',{
           templateUrl:'graze-wl-ext.html?1629729572',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1629497788',
+          templateUrl:'graze-sc-ext.html?1629845237',
         })
         .when('/graze-cc-ext',{
           templateUrl:'graze-cc-ext.html?1629497788',
@@ -463,10 +463,10 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1629729572'
+              templateUrl:'resources.html?1629845237'
           })
     .when('/re-graze',{
-              templateUrl:'graze-resources.html?1629729572'
+              templateUrl:'graze-resources.html?1629845237'
           })
     .when('/re-flex',{
               templateUrl:'flex-resources.html?1623164400'
@@ -785,7 +785,7 @@ app.directive('grazewlModal', function() {
 });
 app.directive('grazescModal', function() {
   return {
-    templateUrl: 'grazesc-modal.html?16291496315'
+    templateUrl: 'grazesc-modal.html?1629845237'
   };
 });
 app.directive('grazeccModal', function() {
@@ -805,7 +805,7 @@ app.directive('grazewlResource', function() {
 });
 app.directive('grazescResource', function() {
   return {
-    templateUrl: 'Templates/graze-sc-resources.html?16291496315'
+    templateUrl: 'Templates/graze-sc-resources.html?1629845237'
   };
 });
 app.directive('grazeccResource', function() {
@@ -826,7 +826,7 @@ app.directive('grazeextwlModal', function() {
 });
 app.directive('grazeextscModal', function() {
   return {
-    templateUrl: 'grazeextsc-modal.html?16291496315'
+    templateUrl: 'grazeextsc-modal.html?1629845237'
   };
 });
 app.directive('grazeextccModal', function() {
@@ -846,7 +846,7 @@ app.directive('grazeextwlResource', function() {
 });
 app.directive('grazeextscResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-sc-resources.html?16291496315'
+    templateUrl: 'Templates/grazeext-sc-resources.html?1629845237'
   };
 });
 app.directive('grazeextccResource', function() {
