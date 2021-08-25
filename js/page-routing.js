@@ -769,7 +769,7 @@ app.directive('mmgscResource', function() {
 });
 app.directive('mmggdResource', function() {
   return {
-    templateUrl: 'Templates/mmg-gd-resources.html?16291496315'
+    templateUrl: 'Templates/mmg-gd-resources.html?16291496400'
   };
 });
 app.directive('mmgdwResource', function() {
