@@ -851,7 +851,7 @@ app.directive('grazeextscResource', function() {
 });
 app.directive('grazeextccResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-cc-resources.html?16291496315'
+    templateUrl: 'Templates/grazeext-cc-resources.html?1630513204'
   };
 });
 app.directive('grazeextdwResource', function() {
