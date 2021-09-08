@@ -67,10 +67,10 @@
         })
 
         .when('/mmc-wl',{
-          templateUrl:'mmc-wl.html?1628880279',
+          templateUrl:'mmc-wl.html?1631120397',
         })
         .when('/mmc-sc',{
-          templateUrl:'mmc-sc.html?1628089999'
+          templateUrl:'mmc-sc.html?1631120397'
         })
         .when('/mmc-gd',{
           templateUrl:'mmc-gd.html?1629216263'
@@ -88,10 +88,10 @@
               templateUrl:'mmg-sc.html?1628089999'
           })
       .when('/mmg-wl',{
-              templateUrl:'mmg-wl.html?1628089999'
+              templateUrl:'mmg-wl.html?1631120397'
           })
       .when('/mmg-sc',{
-              templateUrl:'mmg-sc.html?1628089999'
+              templateUrl:'mmg-sc.html?1631120397'
           })
         .when('/mmg-gd',{
               templateUrl:'mmg-gd.html?1629928366'
