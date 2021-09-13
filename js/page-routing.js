@@ -330,8 +330,8 @@
     .when('/projects',{
               templateUrl:'projects.html?1631549640'
           })
-          .when('/michigan-legacy',{
-            templateUrl:'michigan-legacy.html?1631549640'
+    .when('/michigan-legacy',{
+            templateUrl:'michigan-legacy.html?1631549645'
       })
           .when('/via-rail-station',{
             templateUrl:'via-rail-station.html?1623164400'
