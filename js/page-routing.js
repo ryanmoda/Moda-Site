@@ -328,9 +328,12 @@
               templateUrl:'about.html?1623164400'
           })
     .when('/projects',{
-              templateUrl:'projects.html?1628089999'
+              templateUrl:'projects.html?1631549640'
           })
-      .when('/via-rail-station',{
+          .when('/michigan-legacy',{
+            templateUrl:'michigan-legacy.html?1631549640'
+      })
+          .when('/via-rail-station',{
             templateUrl:'via-rail-station.html?1623164400'
       })
       .when('/park-house',{
