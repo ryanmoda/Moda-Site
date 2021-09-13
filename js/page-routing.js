@@ -328,10 +328,10 @@
               templateUrl:'about.html?1623164400'
           })
     .when('/projects',{
-              templateUrl:'projects.html?1631549640'
+              templateUrl:'projects.html?1631549665'
           })
     .when('/michigan-legacy',{
-            templateUrl:'michigan-legacy.html?1631549655'
+            templateUrl:'michigan-legacy.html?1631549665'
       })
           .when('/via-rail-station',{
             templateUrl:'via-rail-station.html?1623164400'
