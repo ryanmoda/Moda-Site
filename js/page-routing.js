@@ -526,10 +526,10 @@
               templateUrl:'reps.html?1630338860'
           })
     .when('/news',{
-              templateUrl:'news.html?1623164400'
+              templateUrl:'news.html?1631649036'
           })
     .when('/news-2',{
-              templateUrl:'news-2.html?1623164400'
+              templateUrl:'news-2.html?1631649036'
           })
     .when('/awards',{
               templateUrl:'awards.html?1623164400'
