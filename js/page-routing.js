@@ -526,7 +526,7 @@
               templateUrl:'reps.html?1630338860'
           })
     .when('/news',{
-              templateUrl:'news.html?1631649090'
+              templateUrl:'news.html?1631649095'
           })
     .when('/news-2',{
               templateUrl:'news-2.html?1631649036'
