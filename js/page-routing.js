@@ -23,7 +23,7 @@
   app.config(function ($routeProvider){
       $routeProvider
           .when('/',{
-              templateUrl:'homepage.html?1630092777'
+              templateUrl:'homepage.html?1632324965'
 
     })
     // .when('/test',{
@@ -544,29 +544,26 @@
       templateUrl:'contact-us.html?1623164400'
     })
     .when('/careers',{
-              templateUrl:'careers.html?1623164400'
+              templateUrl:'careers.html?1632324965'
     })
     .when('/job-description',{
-              templateUrl:'job-description2.html?1618426800'
+              templateUrl:'job-description2.html?1632324965'
     })
     .when('/job-listings',{
-              templateUrl:'job-listings.html?1619190000'
+              templateUrl:'job-listings.html?1632324965'
     })			
     .when('/careers',{
-      templateUrl:'careers.html?1626384776'
+      templateUrl:'careers.html?1632324965'
     })
     .when('/job-description',{
-      templateUrl:'job-description-Project-Manager.html?1626384776'
+      templateUrl:'job-description-Project-Manager.html?1632324965'
     })          
     .when('/job-description',{
-      templateUrl:'job-description-Quotation-Specialist.html?1626384776'
+      templateUrl:'job-description-Quotation-Specialist.html?1632324965'
     })          
     .when('/job-description',{
-      templateUrl:'job-description2.html?1626384776'
+      templateUrl:'job-description2.html?1632324965'
     })          
-    .when('/job-listings',{
-     templateUrl:'job-listings-4.html?1626386000'
-    })
     .when('/all-products',{
               templateUrl:'all-products.html?1623164400'
           })
