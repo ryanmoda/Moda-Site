@@ -550,7 +550,7 @@
               templateUrl:'job-description2.html?1632324985'
     })
     .when('/job-listings',{
-              templateUrl:'job-listings.html?1632324985'
+              templateUrl:'job-listings.html?1632324990'
     })			
     .when('/careers',{
       templateUrl:'careers.html?1632324985'
