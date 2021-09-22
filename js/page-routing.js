@@ -547,23 +547,14 @@
               templateUrl:'careers.html?1632324985'
     })
     .when('/job-description',{
-              templateUrl:'job-description2.html?1632324985'
+              templateUrl:'job-description2.html?1632324998'
     })
     .when('/job-listings',{
-              templateUrl:'job-listings.html?1632324996'
+              templateUrl:'job-listings.html?1632324997'
     })			
     .when('/careers',{
       templateUrl:'careers.html?1632324985'
     })
-    .when('/job-description',{
-      templateUrl:'job-description-Project-Manager.html?1632324985'
-    })          
-    .when('/job-description',{
-      templateUrl:'job-description-Quotation-Specialist.html?1632324985'
-    })          
-    .when('/job-description',{
-      templateUrl:'job-description2.html?1632324985'
-    })          
     .when('/all-products',{
               templateUrl:'all-products.html?1623164400'
           })
@@ -590,7 +581,7 @@
   });
 app.directive('modaFooter', function() {
   return {
-    templateUrl: 'footer.html?1632324985'
+    templateUrl: 'footer.html?1632324997'
   };
 });
 app.directive('covewlModal', function() {
