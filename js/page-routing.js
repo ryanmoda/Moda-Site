@@ -100,43 +100,43 @@
               templateUrl:'mmg-dw.html?1631889685'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1632854638'
+        templateUrl:'graze.html?1631889685'
       })
       .when('/graze-wl',{
-          templateUrl:'graze-wl.html?1632854638',
+          templateUrl:'graze-wl.html?1631889685',
         })
         .when('/graze-test',{
           templateUrl:'graze-dw-2.html?1631889685',
         })
         .when('/graze-wl-2',{
-          templateUrl:'graze-wl-2.html?1632854638',
+          templateUrl:'graze-wl-2.html?1631889685',
         })
         .when('/graze-sc-2',{
-          templateUrl:'graze-sc-2.html?1632854638',
+          templateUrl:'graze-sc-2.html?1631889685',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1632854638',
+          templateUrl:'graze-sc.html?1631889685',
         })
         .when('/graze-cc',{
-          templateUrl:'graze-cc.html?1632854638',
+          templateUrl:'graze-cc.html?1631889685',
         })
         .when('/graze-dw',{
-          templateUrl:'graze-dw.html?1632854638',
+          templateUrl:'graze-dw.html?1631889685',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1632854638'
+                templateUrl:'graze-ext.html?1631889685'
             })
         .when('/graze-wl-ext',{
-          templateUrl:'graze-wl-ext.html?1632854638',
+          templateUrl:'graze-wl-ext.html?1631889685',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1632854638',
+          templateUrl:'graze-sc-ext.html?1631889685',
         })
         .when('/graze-cc-ext',{
-          templateUrl:'graze-cc-ext.html?1632854638',
+          templateUrl:'graze-cc-ext.html?1631889685',
         })
         .when('/graze-dw-ext',{
-          templateUrl:'graze-dw-ext.html?1632854638',
+          templateUrl:'graze-dw-ext.html?1631889685',
         })
       .when('/int-flex',{
         templateUrl:'int-flex.html?1623164400'
@@ -586,22 +586,22 @@ app.directive('modaFooter', function() {
 });
 app.directive('covewlModal', function() {
   return {
-    templateUrl: 'covewl-modal.html?1632854638'
+    templateUrl: 'covewl-modal.html?1631889685'
   };
 });
 app.directive('covescModal', function() {
   return {
-    templateUrl: 'covesc-modal.html?1632854638'
+    templateUrl: 'covesc-modal.html?1631889685'
   };
 });
 app.directive('coveccModal', function() {
   return {
-    templateUrl: 'covecc-modal.html?1632854638'
+    templateUrl: 'covecc-modal.html?1631889685'
   };
 });
 app.directive('covedwModal', function() {
   return {
-    templateUrl: 'covedw-modal.html?1632854638'
+    templateUrl: 'covedw-modal.html?1631889685'
   };
 });
 //MINI COVE ================================
@@ -771,83 +771,83 @@ app.directive('mmgdwResource', function() {
 //GRAZE INT =====================================
 app.directive('grazewlModal', function() {
   return {
-    templateUrl: 'grazewl-modal.html?1632854638'
+    templateUrl: 'grazewl-modal.html?1631889685'
   };
 });
 app.directive('grazescModal', function() {
   return {
-    templateUrl: 'grazesc-modal.html?1632854638'
+    templateUrl: 'grazesc-modal.html?1631889685'
   };
 });
 app.directive('grazeccModal', function() {
   return {
-    templateUrl: 'grazecc-modal.html?1632854638'
+    templateUrl: 'grazecc-modal.html?1631889685'
   };
 });
 app.directive('grazedwModal', function() {
   return {
-    templateUrl: 'grazedw-modal.html?1632854638'
+    templateUrl: 'grazedw-modal.html?1631889685'
   };
 });
 app.directive('grazewlResource', function() {
   return {
-    templateUrl: 'Templates/graze-wl-resources.html?1632854638'
+    templateUrl: 'Templates/graze-wl-resources.html?1631889685'
   };
 });
 app.directive('grazescResource', function() {
   return {
-    templateUrl: 'Templates/graze-sc-resources.html?1632854638'
+    templateUrl: 'Templates/graze-sc-resources.html?1631889685'
   };
 });
 app.directive('grazeccResource', function() {
   return {
-    templateUrl: 'Templates/graze-cc-resources.html?1632854638'
+    templateUrl: 'Templates/graze-cc-resources.html?1631889685'
   };
 });
 app.directive('grazedwResource', function() {
   return {
-    templateUrl: 'Templates/graze-dw-resources.html?1632854638'
+    templateUrl: 'Templates/graze-dw-resources.html?1631889685'
   };
 });
 //GRAZE EXT =====================================
 app.directive('grazeextwlModal', function() {
   return {
-    templateUrl: 'grazeextwl-modal.html?1632854638'
+    templateUrl: 'grazeextwl-modal.html?1631889685'
   };
 });
 app.directive('grazeextscModal', function() {
   return {
-    templateUrl: 'grazeextsc-modal.html?1632854638'
+    templateUrl: 'grazeextsc-modal.html?1631889685'
   };
 });
 app.directive('grazeextccModal', function() {
   return {
-    templateUrl: 'grazeextcc-modal.html?1632854638'
+    templateUrl: 'grazeextcc-modal.html?1631889685'
   };
 });
 app.directive('grazeextdwModal', function() {
   return {
-    templateUrl: 'grazeextdw-modal.html?1632854638'
+    templateUrl: 'grazeextdw-modal.html?1631889685'
   };
 });
 app.directive('grazeextwlResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-wl-resources.html?1632854638'
+    templateUrl: 'Templates/grazeext-wl-resources.html?1631889685'
   };
 });
 app.directive('grazeextscResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-sc-resources.html?1632854638'
+    templateUrl: 'Templates/grazeext-sc-resources.html?1631889685'
   };
 });
 app.directive('grazeextccResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-cc-resources.html?1632854638'
+    templateUrl: 'Templates/grazeext-cc-resources.html?1631889685'
   };
 });
 app.directive('grazeextdwResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-dw-resources.html?1632854638'
+    templateUrl: 'Templates/grazeext-dw-resources.html?1631889685'
   };
 });
 //INT FLEX ================================
