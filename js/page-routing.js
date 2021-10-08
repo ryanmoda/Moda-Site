@@ -289,7 +289,7 @@
               templateUrl:'24v.html?1623164400'
           })
     .when('/controls',{
-              templateUrl:'controls.html?1623164400'
+              templateUrl:'controls.html?1633727500'
           })
     .when('/converters',{
               templateUrl:'converters.html?1623164400'
@@ -316,7 +316,7 @@
               //templateUrl:'dmx-accs.html?1623164400'
           //})
     .when('/accessories',{
-              templateUrl:'accessories.html?1623164400'
+              templateUrl:'accessories.html?1633727500'
           })
         //.when('/dmx-hub',{
         //	templateUrl:'dmx-wiring-hub.html?1623164400'
@@ -484,7 +484,7 @@
               templateUrl:'power-resources.html?1623164400'
           })
     .when('/re-controls',{
-              templateUrl:'controls-resources.html?1623164400'
+              templateUrl:'controls-resources.html?1633727500'
           })
     .when('/legacy',{
               templateUrl:'legacy.html?1623164400'
