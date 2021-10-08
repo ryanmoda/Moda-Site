@@ -484,7 +484,7 @@
               templateUrl:'power-resources.html?1623164400'
           })
     .when('/re-controls',{
-              templateUrl:'controls-resources.html?1633727550'
+              templateUrl:'controls-resources.html?1633727555'
           })
     .when('/legacy',{
               templateUrl:'legacy.html?1623164400'
