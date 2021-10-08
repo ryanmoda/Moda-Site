@@ -36,7 +36,7 @@
               templateUrl:'mini-cove.html?1631889685'
           })
     .when('/cove',{
-              templateUrl:'moda-cove.html?1631889685'
+              templateUrl:'moda-cove.html?1633727227'
           })
         .when('/cove-wl',{
           templateUrl:'cove-wl.html?1631889685',
@@ -45,13 +45,13 @@
           templateUrl:'cove-sc.html?1631889685',
         })
         .when('/cove-cc',{
-          templateUrl:'cove-cc.html?1631889685',
+          templateUrl:'cove-cc.html?1633727227',
         })
         .when('/cove-dw',{
           templateUrl:'cove-dw.html?1631889685',
         })
     .when('/cove-ext',{
-              templateUrl:'cove-ext.html?1631889685'
+              templateUrl:'cove-ext.html?1633727227'
           })
         .when('/cove-wl-ext',{
           templateUrl:'cove-wl-ext.html?1631889685'
@@ -60,7 +60,7 @@
           templateUrl:'cove-sc-ext.html?1631889685'
         })
         .when('/cove-cc-ext',{
-          templateUrl:'cove-cc-ext.html?1631889685'
+          templateUrl:'cove-cc-ext.html?1633727227'
         })
         .when('/cove-dw-ext',{
           templateUrl:'cove-dw-ext.html?1631889685'
@@ -100,7 +100,7 @@
               templateUrl:'mmg-dw.html?1631889685'
           })
       .when('/graze',{
-        templateUrl:'graze.html?1632854700'
+        templateUrl:'graze.html?1633727227'
       })
       .when('/graze-wl',{
           templateUrl:'graze-wl.html?1632854700',
@@ -118,13 +118,13 @@
           templateUrl:'graze-sc.html?1632854638',
         })
         .when('/graze-cc',{
-          templateUrl:'graze-cc.html?1632854638',
+          templateUrl:'graze-cc.html?1633727227',
         })
         .when('/graze-dw',{
           templateUrl:'graze-dw.html?1632854638',
         })
       .when('/graze-ext',{
-                templateUrl:'graze-ext.html?1632854638'
+                templateUrl:'graze-ext.html?1633727227'
             })
         .when('/graze-wl-ext',{
           templateUrl:'graze-wl-ext.html?1632854638',
@@ -133,7 +133,7 @@
           templateUrl:'graze-sc-ext.html?1632854638',
         })
         .when('/graze-cc-ext',{
-          templateUrl:'graze-cc-ext.html?1632854638',
+          templateUrl:'graze-cc-ext.html?1633727227',
         })
         .when('/graze-dw-ext',{
           templateUrl:'graze-dw-ext.html?1632854638',
