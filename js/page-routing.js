@@ -301,16 +301,16 @@
           templateUrl:'kandi-touch.html?1628089999'
         })
         .when('/tpc',{
-          templateUrl:'tpc.html?1623164400'
+          templateUrl:'tpc.html?1633727550'
         })
         .when('/lpc',{
-          templateUrl:'lpc.html?1623164400'
+          templateUrl:'lpc.html?1633727550'
         })
         .when('/vlc',{
-          templateUrl:'vlc.html?1623164400'
+          templateUrl:'vlc.html?1633727550'
         })
         .when('/lpcx',{
-          templateUrl:'lpcx.html?1623164400'
+          templateUrl:'lpcx.html?1633727550'
         })
   //	.when('/dmx-accs',{
               //templateUrl:'dmx-accs.html?1623164400'
@@ -484,7 +484,7 @@
               templateUrl:'power-resources.html?1623164400'
           })
     .when('/re-controls',{
-              templateUrl:'controls-resources.html?1633727500'
+              templateUrl:'controls-resources.html?1633727550'
           })
     .when('/legacy',{
               templateUrl:'legacy.html?1623164400'
