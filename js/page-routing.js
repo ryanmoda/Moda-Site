@@ -812,7 +812,7 @@ app.directive('grazedwResource', function() {
 //GRAZE EXT =====================================
 app.directive('grazeextwlModal', function() {
   return {
-    templateUrl: 'grazeextwl-modal.html?1633963950'
+    templateUrl: 'grazeextwl-modal.html?1633963955'
   };
 });
 app.directive('grazeextscModal', function() {
