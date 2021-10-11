@@ -771,7 +771,7 @@ app.directive('mmgdwResource', function() {
 //GRAZE INT =====================================
 app.directive('grazewlModal', function() {
   return {
-    templateUrl: 'grazewl-modal.html?1633963949'
+    templateUrl: 'grazewl-modal.html?1633963950'
   };
 });
 app.directive('grazescModal', function() {
