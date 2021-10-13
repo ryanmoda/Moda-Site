@@ -115,7 +115,7 @@
           templateUrl:'graze-sc-2.html?1632854638',
         })
         .when('/graze-sc',{
-          templateUrl:'graze-sc.html?1632854638',
+          templateUrl:'graze-sc.html?1634144655',
         })
         .when('/graze-cc',{
           templateUrl:'graze-cc.html?1633727300',
@@ -130,7 +130,7 @@
           templateUrl:'graze-wl-ext.html?1633963960',
         })
         .when('/graze-sc-ext',{
-          templateUrl:'graze-sc-ext.html?1632854638',
+          templateUrl:'graze-sc-ext.html?1634144655',
         })
         .when('/graze-cc-ext',{
           templateUrl:'graze-cc-ext.html?1633727300',
@@ -796,7 +796,7 @@ app.directive('grazewlResource', function() {
 });
 app.directive('grazescResource', function() {
   return {
-    templateUrl: 'Templates/graze-sc-resources.html?1632854638'
+    templateUrl: 'Templates/graze-sc-resources.html?1634144655'
   };
 });
 app.directive('grazeccResource', function() {
@@ -837,7 +837,7 @@ app.directive('grazeextwlResource', function() {
 });
 app.directive('grazeextscResource', function() {
   return {
-    templateUrl: 'Templates/grazeext-sc-resources.html?1632854638'
+    templateUrl: 'Templates/grazeext-sc-resources.html?1634144655'
   };
 });
 app.directive('grazeextccResource', function() {
