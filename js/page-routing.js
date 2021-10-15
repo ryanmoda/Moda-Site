@@ -73,7 +73,7 @@
           templateUrl:'mmc-sc.html?1631889685'
         })
         .when('/mmc-gd',{
-          templateUrl:'mmc-gd.html?1631889685'
+          templateUrl:'mmc-gd.html?164308029'
         })
         .when('/mmc-cc',{
           templateUrl:'mmc-cc.html?1631889685'
@@ -94,7 +94,7 @@
               templateUrl:'mmg-sc.html?1631889685'
           })
         .when('/mmg-gd',{
-              templateUrl:'mmg-gd.html?1631889685'
+              templateUrl:'mmg-gd.html?164308029'
           })
       .when('/mmg-dw',{
               templateUrl:'mmg-dw.html?1631889685'
