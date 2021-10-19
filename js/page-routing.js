@@ -556,7 +556,7 @@
       templateUrl:'careers.html?1632324985'
     })
     .when('/all-products',{
-              templateUrl:'all-products.html?1623164400'
+              templateUrl:'all-products.html?1634683592'
           })
     //.when('/all-products2',{
      //         templateUrl:'all-products2.html'
