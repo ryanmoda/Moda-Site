@@ -292,7 +292,7 @@
               templateUrl:'controls.html?1633727500'
           })
     .when('/converters',{
-              templateUrl:'converters.html?1634681572'
+              templateUrl:'converters.html?1634681577'
           })
     //.when('/dmx-cntrl',{
               //templateUrl:'dmx-cntrl.html?1623164400'
