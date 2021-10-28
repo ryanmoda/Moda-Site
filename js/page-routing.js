@@ -139,10 +139,10 @@
           templateUrl:'graze-dw-ext.html?1634752046',
         })
       .when('/int-flex',{
-        templateUrl:'int-flex.html?1623164400'
+        templateUrl:'int-flex.html?1635454939'
       })
           .when('/int-eco-wl',{
-          templateUrl:'int-eco-wl.html?1623164400'
+          templateUrl:'int-eco-wl.html?1635454939'
         })
         .when('/int-star',{
           templateUrl:'int-starflex-wl.html?1623164400'
@@ -472,7 +472,7 @@
               templateUrl:'graze-resources.html?1629498000'
           })
     .when('/re-flex',{
-              templateUrl:'flex-resources.html?1623164400'
+              templateUrl:'flex-resources.html?1635454939'
           })
     .when('/re-neon',{
               templateUrl:'neon-resources.html?1623164400'
@@ -853,7 +853,7 @@ app.directive('grazeextdwResource', function() {
 //INT FLEX ================================
 app.directive('intflexwlModal', function() {
   return {
-    templateUrl: 'intflexwl-modal.html?1631889685'
+    templateUrl: 'intflexwl-modal.html?1635454939'
   };
 });
 app.directive('intflexscModal', function() {
