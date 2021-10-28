@@ -745,7 +745,7 @@ app.directive('mmggdModal', function() {
 });
 app.directive('mmgdwModal', function() {
   return {
-    templateUrl: 'mmgdw-modal.html?1631890050'
+    templateUrl: 'mmgdw-modal.html?1631890055'
   };
 });
 app.directive('mmgwlResource', function() {
