@@ -289,10 +289,10 @@
               templateUrl:'24v.html?1623164400'
           })
     .when('/controls',{
-              templateUrl:'controls.html?1635783645'
+              templateUrl:'controls.html?1635783650'
           })
     .when('/converters',{
-              templateUrl:'converters.html?1635783645'
+              templateUrl:'converters.html?1635783650'
           })
     //.when('/dmx-cntrl',{
               //templateUrl:'dmx-cntrl.html?1623164400'
@@ -316,7 +316,7 @@
               //templateUrl:'dmx-accs.html?1623164400'
           //})
     .when('/accessories',{
-              templateUrl:'accessories.html?1633727500'
+              templateUrl:'accessories.html?1635783650'
           })
         //.when('/dmx-hub',{
         //	templateUrl:'dmx-wiring-hub.html?1623164400'
@@ -478,16 +478,16 @@
               templateUrl:'neon-resources.html?1623164400'
           })
     .when('/re-xtrus',{
-              templateUrl:'xtrus-resources.html?1623164400'
+              templateUrl:'xtrus-resources.html?1635783650'
           })
     .when('/re-power',{
-              templateUrl:'power-resources.html?1623164400'
+              templateUrl:'power-resources.html?1635783650'
           })
     .when('/re-controls',{
-              templateUrl:'controls-resources.html?1635783645'
+              templateUrl:'controls-resources.html?1635783650'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635783645'
+              templateUrl:'legacy.html?1635783650'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
@@ -556,7 +556,7 @@
       templateUrl:'careers.html?1632324985'
     })
     .when('/all-products',{
-              templateUrl:'all-products.html?1634683592'
+              templateUrl:'all-products.html?1635783650'
           })
     //.when('/all-products2',{
      //         templateUrl:'all-products2.html'
