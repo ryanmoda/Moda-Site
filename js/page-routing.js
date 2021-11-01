@@ -289,10 +289,10 @@
               templateUrl:'24v.html?1623164400'
           })
     .when('/controls',{
-              templateUrl:'controls.html?1635783632'
+              templateUrl:'controls.html?1635783645'
           })
     .when('/converters',{
-              templateUrl:'converters.html?1635783632'
+              templateUrl:'converters.html?1635783645'
           })
     //.when('/dmx-cntrl',{
               //templateUrl:'dmx-cntrl.html?1623164400'
@@ -484,10 +484,10 @@
               templateUrl:'power-resources.html?1623164400'
           })
     .when('/re-controls',{
-              templateUrl:'controls-resources.html?1635783632'
+              templateUrl:'controls-resources.html?1635783645'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635783632'
+              templateUrl:'legacy.html?1635783645'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
