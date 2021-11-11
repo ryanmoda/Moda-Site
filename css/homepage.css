@@ -157,11 +157,11 @@ body{
 
 
 #qs-HomeSS{
-  position: relative;
-  z-index: 21;
-  width: 30%;
+  max-width: 1000px;
   top: 20vh;
-  left: 0;
+  width: 100%;
+  transform: translate(-50%, 0);
+  position: absolute;
 }
 
 
@@ -196,19 +196,20 @@ body{
   transform: translate(-50%,0);
 }
 */
-
+/*
 #blade{
 
   max-width: 650px;
 }
-
+*/
 
 #SSFOURCenterImg{
   
+  max-width: 1000px;
   top: 20vh;
-  left: 10vw;
-  max-width: 650px;
   width: 100%;
+  transform: translate(-50%, 0);
+  position: absolute;
   
 }
 
@@ -449,7 +450,7 @@ body{
 /*
 */
 
-
+/*
 @media (max-width: 1024px) {
   #SSTWOCenterImg{
     
@@ -463,13 +464,15 @@ body{
   #honeycomb{ width: 62vw; top: -150px; }
   #louvres3{ width: 33vw; }
 }
-
+*/
+/*
 @media (max-height: 1000px) and (min-height: 800px ) {
   
   #SSTWOCenterImg{
     
     width: 300vw;
   }
+  */
   /*
   #SSTHREECenterImg1{width: 60vw;}
   .SSTWOCenterImg{width: 75vw;}
@@ -495,12 +498,12 @@ body{
     width: 100%;
   }
   .slideshow li:nth-child(2) span #SSTWOCenterImg{
-    width: 190vw;
+    width: 100%;
    
   }
 
   .slideshow li:nth-child(2) span #qs-HomeSS{
-    width: 85%;
+    width: 100%;
   }
   
   .slideshow li:nth-child(3) span img{
@@ -508,7 +511,7 @@ body{
   }
 
   .slideshow li:nth-child(4) span img{
-    width: 80% !important;
+    width: 100% !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
