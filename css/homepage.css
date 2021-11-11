@@ -147,11 +147,11 @@ body{
 
 
 #SSTWOCenterImg{
-  opacity: .6;
+  max-width: 1000px;
+  top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
-  z-index: 20;
 }
 
 
