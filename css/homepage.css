@@ -215,10 +215,11 @@ body{
 
 #SSFOURCenterImg2{
   
-  left: 10vw;
-  width: 100%;
-  max-width: 650px;
+  max-width: 1000px;
   top: 20vh;
+  width: 100%;
+  transform: translate(-50%, 0);
+  position: absolute;
   
   
 }
