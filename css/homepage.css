@@ -136,7 +136,7 @@ body{
 
 #SSONECenterImg{
   max-width: 1000px;
-  top: 25vh;
+  top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
@@ -160,7 +160,7 @@ body{
   position: relative;
   z-index: 21;
   width: 30%;
-  top: 35vh;
+  top: 20vh;
   left: 0;
 }
 
@@ -206,9 +206,9 @@ body{
 #SSFOURCenterImg{
   
   top: 20vh;
-  left: 5vw;
+  left: 10vw;
   max-width: 650px;
-  
+  width: 100%;
   
 }
 
