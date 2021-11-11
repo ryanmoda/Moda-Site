@@ -23,7 +23,7 @@
   app.config(function ($routeProvider){
       $routeProvider
           .when('/',{
-              templateUrl:'homepage.html?1632324965'
+              templateUrl:'homepage.html?1636669255'
 
     })
     // .when('/test',{
