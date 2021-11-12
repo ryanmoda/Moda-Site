@@ -91,8 +91,8 @@ body{
 
 
 .slideshow li span  {
-	width: 100vw;
-	height: 100vh;
+	width: 200vw;
+	height: 200vh;
 	position: absolute;
 	top: 0px;
 	left: 0px;
