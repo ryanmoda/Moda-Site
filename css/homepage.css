@@ -91,17 +91,17 @@ body{
 
 
 .slideshow li span  {
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    color: transparent;
-    background-position: 50% 50%;
-    background-repeat: none;
-    opacity: 0;
-    z-index: -40;
-    animation: imageAnimation 20s infinite 0s;
+	width: 100vw;
+	height: 10000px;
+	position: absolute;
+	top: -319px;
+	left: -297px;
+	color: transparent;
+	background-position: 50% 50%;
+	background-repeat: none;
+	opacity: 0;
+	z-index: -40;
+	animation: imageAnimation 20s infinite 0s;
 }
 
 
