@@ -148,7 +148,7 @@ body{
 
 #SSTWOCenterImg{
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
@@ -158,7 +158,7 @@ body{
 
 #qs-HomeSS{
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
@@ -170,7 +170,7 @@ body{
 #SSTHREECenterImg{
   
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
@@ -206,7 +206,7 @@ body{
 #SSFOURCenterImg{
   
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
@@ -217,7 +217,7 @@ body{
 #SSFOURCenterImg2{
   
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
   position: absolute;
