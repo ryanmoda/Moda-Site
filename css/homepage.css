@@ -136,10 +136,10 @@ body{
 
 #SSONECenterImg{
   width: fit-content;
-  top: 20vh;
+  top: auto;
   width: 100%;
   transform: translate(-50%, 0);
-  position: relative;
+  position: absolute;
   
 }
 
