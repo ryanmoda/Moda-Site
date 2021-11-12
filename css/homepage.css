@@ -92,10 +92,10 @@ body{
 
 .slideshow li span  {
 	width: 100vw;
-	height: 10000px;
+	height: 100vh;
 	position: absolute;
-	top: -319px;
-	left: -297px;
+	top: 0px;
+	left: 0px;
 	color: transparent;
 	background-position: 50% 50%;
 	background-repeat: none;
