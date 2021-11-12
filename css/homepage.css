@@ -147,7 +147,7 @@ body{
 
 
 #SSTWOCenterImg{
-  max-width: 1000px;
+  width: fit-content;
   top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
@@ -157,7 +157,7 @@ body{
 
 
 #qs-HomeSS{
-  max-width: 1000px;
+  width: fit-content;
   top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
@@ -169,7 +169,7 @@ body{
 
 #SSTHREECenterImg{
   
-  max-width: 1000px;
+  width: fit-content;
   top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
@@ -205,7 +205,7 @@ body{
 
 #SSFOURCenterImg{
   
-  max-width: 1000px;
+  width: fit-content;
   top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
@@ -216,7 +216,7 @@ body{
 
 #SSFOURCenterImg2{
   
-  max-width: 1000px;
+  width: fit-content;
   top: 20vh;
   width: 100%;
   transform: translate(-50%, 0);
