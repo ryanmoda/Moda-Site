@@ -139,7 +139,7 @@
           templateUrl:'graze-dw-ext.html?1634752046',
         })
       .when('/int-flex',{
-        templateUrl:'int-flex.html?1635454939'
+        templateUrl:'int-flex.html?1635454945'
       })
           .when('/int-eco-wl',{
           templateUrl:'int-eco-wl.html?1635454939'
@@ -169,13 +169,13 @@
           templateUrl:'int-super-fusion.html?1623164400'
         })
         .when('/int-edge',{
-          templateUrl:'int-edge.html?1623164400'
+          templateUrl:'int-edge.html?1623164445'
         })
         .when('/int-edge-rgb',{
-          templateUrl:'int-edge-rgb.html?1623164400'
+          templateUrl:'int-edge-rgb.html?1623164445'
         })
         .when('/int-flat-sc',{
-          templateUrl:'int-flat-sc.html?1623164400'
+          templateUrl:'int-flat-sc.html?1623164445'
         })
         .when('/int-flat-cc',{
           templateUrl:'int-flat-cc.html?1623164400'
@@ -199,13 +199,13 @@
           templateUrl:'int-x-flex.html?1623164400'
         })
       .when('/ext-flex',{
-        templateUrl:'ext-flex.html?1623164400'
+        templateUrl:'ext-flex.html?1623164445'
       })
         .when('/ext-linear-wl',{
-        templateUrl:'ext-linear-wl.html?1623164400'
+        templateUrl:'ext-linear-wl.html?1623164445'
         })
         .when('/ext-linear-sc',{
-        templateUrl:'ext-linear-sc.html?1623164400'
+        templateUrl:'ext-linear-sc.html?1623164445'
         })
         .when('/ext-aqua-wl',{
         templateUrl:'ext-aqua-wl.html?1623164400'
