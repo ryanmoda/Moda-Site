@@ -139,7 +139,7 @@
           templateUrl:'graze-dw-ext.html?1634752046',
         })
       .when('/int-flex',{
-        templateUrl:'int-flex.html?1635454945'
+        templateUrl:'int-flex.html?1635454955'
       })
           .when('/int-eco-wl',{
           templateUrl:'int-eco-wl.html?1635454939'
@@ -199,7 +199,7 @@
           templateUrl:'int-x-flex.html?1623164400'
         })
       .when('/ext-flex',{
-        templateUrl:'ext-flex.html?1623164445'
+        templateUrl:'ext-flex.html?1623164455'
       })
         .when('/ext-linear-wl',{
         templateUrl:'ext-linear-wl.html?1623164445'
@@ -487,7 +487,7 @@
               templateUrl:'controls-resources.html?1635783650'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635784087'
+              templateUrl:'legacy.html?1635784088'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
@@ -556,7 +556,7 @@
       templateUrl:'careers.html?1632324985'
     })
     .when('/all-products',{
-              templateUrl:'all-products.html?1635783650'
+              templateUrl:'all-products.html?1635783655'
           })
     //.when('/all-products2',{
      //         templateUrl:'all-products2.html'
