@@ -487,7 +487,7 @@
               templateUrl:'controls-resources.html?1635783650'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635783675'
+              templateUrl:'legacy.html?1635783680'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
@@ -853,7 +853,7 @@ app.directive('grazeextdwResource', function() {
 //INT FLEX ================================
 app.directive('intflexwlModal', function() {
   return {
-    templateUrl: 'intflexwl-modal.html?1635454939'
+    templateUrl: 'intflexwl-modal.html?1635455000'
   };
 });
 app.directive('intflexscModal', function() {
