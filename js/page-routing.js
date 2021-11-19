@@ -190,10 +190,10 @@
           templateUrl:'int-superflex-sc.html?1623164400'
         })
         .when('/int-superflex',{
-          templateUrl:'int-superflex.html?1623164400'
+          templateUrl:'int-superflex.html?1623164450'
         })
         .when('/int-superflex-ho',{
-          templateUrl:'int-superflex-ho.html?1623164400'
+          templateUrl:'int-superflex-ho.html?1623164450'
         })
         .when('/int-x-flex',{
           templateUrl:'int-x-flex.html?1623164400'
@@ -487,7 +487,7 @@
               templateUrl:'controls-resources.html?1635783650'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635783655'
+              templateUrl:'legacy.html?1635783675'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
