@@ -487,7 +487,7 @@
               templateUrl:'controls-resources.html?1635783650'
           })
     .when('/legacy',{
-              templateUrl:'legacy.html?1635784065'
+              templateUrl:'legacy.html?1635784075'
           })
       .when('/leg-ecove-wl',{
       templateUrl:'leg-ecove-wl.html?1623164400'
