@@ -874,7 +874,7 @@ app.directive('extflexwlModal', function() {
 });
 app.directive('extflexscModal', function() {
   return {
-    templateUrl: 'extflexsc-modal.html?1631889685'
+    templateUrl: 'extflexsc-modal.html?1631889690'
   };
 });
 app.directive('extflexccModal', function() {
