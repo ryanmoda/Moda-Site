@@ -139,7 +139,7 @@
           templateUrl:'graze-dw-ext.html?1634752046',
         })
       .when('/int-flex',{
-        templateUrl:'int-flex.html?1635454955'
+        templateUrl:'int-flex.html?1635454965'
       })
           .when('/int-eco-wl',{
           templateUrl:'int-eco-wl.html?1635454939'
@@ -199,7 +199,7 @@
           templateUrl:'int-x-flex.html?1623164400'
         })
       .when('/ext-flex',{
-        templateUrl:'ext-flex.html?1623164455'
+        templateUrl:'ext-flex.html?1623164465'
       })
         .when('/ext-linear-wl',{
         templateUrl:'ext-linear-wl.html?1623164445'
