@@ -466,7 +466,7 @@
               templateUrl:'bitexco-tower.html?1623164400'
             })
     .when('/resources',{
-              templateUrl:'resources.html?1629845237'
+              templateUrl:'resources.html?1629845500'
           })
     .when('/re-graze',{
               templateUrl:'graze-resources.html?1629498000'
