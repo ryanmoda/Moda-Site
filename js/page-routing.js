@@ -541,7 +541,7 @@
               templateUrl:'events.html?1623164400'
           })
     .when('/contact-us',{
-      templateUrl:'contact-us.html?1623164400'
+      templateUrl:'contact-us.html?1623165500'
     })
     .when('/careers',{
               templateUrl:'careers.html?1632325000'
