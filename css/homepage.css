@@ -100,7 +100,7 @@ body{
 	background-position: 50% 50%;
 	background-repeat: none;
 	opacity: 0;
-	z-index: 5;
+	z-index: -40;
 	animation: imageAnimation 20s infinite 0s;
 }
 
